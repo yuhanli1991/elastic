@@ -28,6 +28,7 @@ import org.elasticsearch.search.SearchHit;
 
 
 public class EsClient { 
+	final static int TIME_VALUE =20000;
 	public List<List<String>> getSnippet(String node, String logType, String from, String to, String clusterName, String host, int port, String index) throws UnknownHostException {
 		System.out.println("Starting to connect " + host + ":" + port + "   Index: " + index);
 		List<List<String>> ret = new LinkedList<List<String>>();
@@ -48,7 +49,7 @@ public class EsClient {
 			SearchResponse response = client.prepareSearch(index)
 			        .setTypes("logs")
 			        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
-			        .setScroll(new TimeValue(10000))
+			        .setScroll(new TimeValue(TIME_VALUE))
 			        .setQuery(qb)                 // Query
 			        .setPostFilter(QueryBuilders.rangeQuery("@timestamp").from(from).to(to))     // Filter
 			        .setFrom(0).setSize(10000)
@@ -109,7 +110,7 @@ public class EsClient {
 //					}
 					
 			    }
-				response = client.prepareSearchScroll(response.getScrollId()).setScroll(new TimeValue(10000)).execute().actionGet();
+				response = client.prepareSearchScroll(response.getScrollId()).setScroll(new TimeValue(TIME_VALUE)).execute().actionGet();
 			} while(hits.length != 0); // Zero hits mark the end of the scroll and the while loop.
 			
 			client.close();
