@@ -630,6 +630,7 @@ public class Snippet {
 		int score = -1;
 		for (int i = 0; i < snippet.size(); i ++){
 			String line = snippet.get(i);
+			System.out.println(line);
 			if (Pattern.matches("\\s+", line))			//处理空行
 				continue;						
 			//没有时间戳
