@@ -96,9 +96,9 @@ public class Snippet {
 			}
 		}
 		String comp = line.substring(0, tail);
-//		if (!hasQuote ){
-//			return compCorrect(comp);
-//		}
+		if (!hasQuote ){
+			return compCorrect(comp);
+		}
 		return hasQuote ? e.cutLine(comp)[0] :comp;
 	}
 	
@@ -632,6 +632,8 @@ public class Snippet {
 		int score = -1;
 		for (int i = 0; i < snippet.size(); i ++){
 			String line = snippet.get(i);
+			if (line.length() > 2000)
+				continue;
 			if (Pattern.matches("\\s+", line))			//处理空行
 				continue;						
 			//没有时间戳
