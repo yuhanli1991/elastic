@@ -81,24 +81,24 @@ public class Snippet {
 		boolean hasQuote = false;
 		extract e = new extract();
 		int tail = line.length();
-		if (Pattern.matches("^[A-Za-z]{3,}:[0-9]{2,}: .*", line)) {
-			String first = line.split("\\s+")[1];
-			return first.split(":")[0];
-			
-		}
-		else 
-			for (int i = 0; i < line.length(); i ++) {
-				if (line.charAt(i) == '[' || line.charAt(i) == '(')
-					hasQuote = true;
-				if (line.charAt(i) == ':' || line.charAt(i) == ' ') {
-					tail = i;
-					break;
-				}
+//		if (Pattern.matches("^[A-Za-z]{3,}:[0-9]{2,}: .*", line)) {
+//			String first = line.split("\\s+")[1];
+//			return first.split(":")[0];
+//			
+//		}
+//		else 
+		for (int i = 0; i < line.length(); i ++) {
+			if (line.charAt(i) == '[' || line.charAt(i) == '(')
+				hasQuote = true;
+			if (line.charAt(i) == ':' || line.charAt(i) == ' ') {
+				tail = i;
+				break;
 			}
-		String comp = line.substring(0, tail);
-		if (!hasQuote ){
-			return compCorrect(comp);
 		}
+		String comp = line.substring(0, tail);
+//		if (!hasQuote ){
+//			return compCorrect(comp);
+//		}
 		return hasQuote ? e.cutLine(comp)[0] :comp;
 	}
 	
@@ -216,7 +216,7 @@ public class Snippet {
 			//comp = s[0] + "\\S+" + s[s.length - 1];
 			comp = s[0] + "\\S+";
 		}
-		else if (Pattern.matches(".*:[0-9]+:", comp)) {
+		else if (Pattern.matches("\\S+:[0-9]+:", comp)) {
 			String[] s = comp.split(":");
 			comp = s[0] + ":" + "\\S+";
 		}
@@ -628,7 +628,7 @@ public class Snippet {
 		System.out.println("Snippet size:  " + snippet.size());
 		
 		int score = -1;
-		for (int i = snippet.size() - 1; i >= 0; i --){
+		for (int i = 0; i < snippet.size(); i ++){
 			String line = snippet.get(i);
 			if (Pattern.matches("\\s+", line))			//处理空行
 				continue;						
