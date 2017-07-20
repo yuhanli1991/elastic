@@ -458,7 +458,7 @@ public class Snippet {
 	}
 	
 	public static boolean isMatchedNoStamp (String template, String line, String logType) {
-		String NoStamp = "^\\s*\\S*\\s*";
+		String NoStamp = "";
 		if (Pattern.matches(NoStamp + template + "\\s*", line))
 			return true;
 		return false;
