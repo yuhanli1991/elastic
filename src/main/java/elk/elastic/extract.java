@@ -859,7 +859,7 @@ public class extract {
 		Set<String> hashset = new HashSet<String>();
 		List<String> ret = new LinkedList<String>();
 		for (String line : logList) {
-			if (!hashset.contains(line) && !Character.isDigit(line.charAt(0))){
+			if (!hashset.contains(line) && Character.isLetter(line.charAt(0))){
 				hashset.add(line);
 				ret.add(line);
 			}
