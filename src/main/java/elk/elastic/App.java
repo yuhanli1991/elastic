@@ -52,7 +52,7 @@ public class App
 			for (String score : scores) {
 				scoreSet.add(Integer.valueOf(score));
 			}
-			String[] logFiles = args[4].split(":");
+//			String[] logFiles = args[4].split(":");
 			List<String> list = e.diagCluster(
 					args[8],
 					args[2],

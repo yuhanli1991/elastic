@@ -902,8 +902,8 @@ public class extract {
 		List<List<String>> snippet;
 		try {
 			snippet = ec.getSnippet(node, logType, from, to, "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, "test3*");
-			//return Snippet.scoreLog(judge.getScore(), snippet.get(0), logType, templatesFile, scoreSet, snippet.get(1));
-			return Snippet.scoreLog(judge.getScore(), snippet.get(1), logType, templatesFile, scoreSet);
+			return Snippet.scoreLog(judge.getScore(), snippet.get(0), logType, templatesFile, scoreSet, snippet.get(1));
+			//return Snippet.scoreLog(judge.getScore(), snippet.get(1), logType, templatesFile, scoreSet);
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
