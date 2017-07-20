@@ -899,11 +899,11 @@ public class extract {
 		return Snippet.filter(templatesFile, Snippet.getSnippet(logFile, from, to), logType);
 	}
 	
-	public List<String> diagCluster(String node, String logType, String from, String to, Set<Integer> scoreSet) {
+	public List<String> diagCluster(String node, String logType, String from, String to, Set<Integer> scoreSet, String index) {
 		EsClient ec = new EsClient();
 		List<List<String>> snippet;
 		try {
-			snippet = ec.getSnippet(node, logType, from, to, "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, "test3*");
+			snippet = ec.getSnippet(node, logType, from, to, "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
 			return Snippet.scoreLog(judge.getScore(), snippet.get(0), logType, templatesFile, scoreSet, snippet.get(1));
 			//return Snippet.scoreLog(judge.getScore(), snippet.get(1), logType, templatesFile, scoreSet);
 		} catch (UnknownHostException e) {

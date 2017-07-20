@@ -21,6 +21,7 @@ public class App
 	 * args6:end
 	 * args7:scoreSet
 	 * args8:node
+	 * args9: index
 	 */
 	
     public static void main( String[] args )
@@ -32,7 +33,7 @@ public class App
 			EsClient ec = new EsClient();
 			List<List<String>> snippet;
 			try {
-				snippet = ec.getSnippet(args[8], args[2], args[5], args[6], "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, "test3*");
+				snippet = ec.getSnippet(args[8], args[2], args[5], args[6], "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, args[9]);
 				List<String> content = snippet.get(0);
 				content = e.removeDupList(content);
 				Collections.sort(content);
@@ -58,7 +59,8 @@ public class App
 					args[2],
 					args[5], 
 					args[6],
-					scoreSet
+					scoreSet,
+					args[9]
 					);
 			
 			System.out.println("####### Begin ########");
