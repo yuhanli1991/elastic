@@ -864,7 +864,9 @@ public class extract {
 				ret.add(line);
 			}
 		}
-		return ret;
+		
+		
+		return new ArrayList<String>(ret);
 	}
 	
 	
