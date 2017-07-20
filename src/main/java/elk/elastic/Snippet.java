@@ -622,33 +622,22 @@ public class Snippet {
 	
 	
 	public static List<String> scoreLog(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile, Set<Integer> scoreSet, List<String> messageList) {
-		List<String> ret = new ArrayList<String>();
+		List<String> ret = new LinkedList<String>();
 		Map<String, List<String>> map = mapComponent(templateFile);
 		boolean has = true;
+		
+		
 		System.out.println("Snippet size:  " + snippet.size());
 		
 		int score = -1;
 		for (int i = 0; i < snippet.size(); i ++){
 			String line = snippet.get(i);
-			System.out.println(line);
 			if (Pattern.matches("\\s+", line))			//处理空行
 				continue;						
 			//没有时间戳
 			if (Character.isLetter(line.charAt(0))) {		//以字母开头的行
 				String comp = getCompPrefix(line);
 				
-				
-				if (comp.length() > 0 && !Pattern.matches("^[A-Za-z\\(].*", comp)){
-					//ret.add(line + " " + -1);
-					continue;
-				}
-				
-				/////
-				//不处理空comp
-				if (has && comp.length() == 0) {
-					//ret.add(line + " " + -1);
-					continue;
-				}
 				if (Pattern.matches("^[A-Z_]+=.+", comp))
 					comp = comp.split("=")[0] + "=" + "\\S+";
 				

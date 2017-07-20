@@ -58,7 +58,6 @@ public class EsClient {
 			
 			// on shutdown
 			
-			
 			int sum = 0;
 			SearchHit[] hits = new SearchHit[0];
 			Map<String, Object> source;
@@ -114,9 +113,14 @@ public class EsClient {
 			} while(hits.length != 0); // Zero hits mark the end of the scroll and the while loop.
 			
 			client.close();
-			ret.add(contentList);
-			ret.add(messageList);
-			System.out.println("Completed logs search, get " + messageList.size() + "lines");
+			
+			List<String> snippetArray = new ArrayList<String>(contentList);
+			List<String> messageArray = new ArrayList<String>(messageList);
+			
+			
+			ret.add(snippetArray);
+			ret.add(messageArray);
+			System.out.println("Completed logs search, get " + messageArray.size() + " lines");
 			return ret;
 		}
 		catch(NullPointerException e){
