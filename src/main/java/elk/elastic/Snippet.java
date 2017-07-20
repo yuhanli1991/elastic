@@ -624,7 +624,7 @@ public class Snippet {
 	public static List<String> scoreLog(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile, Set<Integer> scoreSet, List<String> messageList) {
 		List<String> ret = new ArrayList<String>();
 		Map<String, List<String>> map = mapComponent(templateFile);
-		
+		boolean has = true;
 		System.out.println("Snippet size:  " + snippet.size());
 		
 		int score = -1;
@@ -634,8 +634,26 @@ public class Snippet {
 			if (Pattern.matches("\\s+", line))			//处理空行
 				continue;						
 			//没有时间戳
-			if (Character.isLetter(line.trim().charAt(0))) {		//以字母开头的行
-				String comp = getCompPrefix(line.trim());
+			if (Character.isLetter(line.charAt(0))) {		//以字母开头的行
+				String comp = getCompPrefix(line);
+				
+				
+				if (comp.length() > 0 && !Pattern.matches("^[A-Za-z\\(].*", comp)){
+					//ret.add(line + " " + -1);
+					continue;
+				}
+				
+				/////
+				//不处理空comp
+				if (has && comp.length() == 0) {
+					//ret.add(line + " " + -1);
+					continue;
+				}
+				if (Pattern.matches("^[A-Z_]+=.+", comp))
+					comp = comp.split("=")[0] + "=" + "\\S+";
+				
+				
+				
 				score = searchAndScore(map, jsonMap, comp, line, logType, scoreSet, false);
 				if (score != -1)
 					ret.add(messageList.get(i) + " " + score);
