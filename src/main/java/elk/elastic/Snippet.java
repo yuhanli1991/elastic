@@ -88,10 +88,11 @@ public class Snippet {
 //		}
 //		else 
 		for (int i = 0; i < line.length(); i ++) {
-			if (line.charAt(i) == '[' || line.charAt(i) == '(')
+			if (line.charAt(i) == '[' || line.charAt(i) == '(' || line.charAt(i) == '\'')
 				hasQuote = true;
 			if (line.charAt(i) == ':' || line.charAt(i) == ' ') {
-				tail = i;
+				if (!hasQuote)
+					tail = i;
 				break;
 			}
 		}
@@ -621,6 +622,22 @@ public class Snippet {
 //	}
 	
 	
+	public static boolean isStrangeLine(String line) {
+		List<String> StrangeList = new ArrayList<String>();
+		StrangeList.add("xEE");
+		StrangeList.add("Agent' ");
+		
+		
+		
+		for (String l : StrangeList) {
+			if (line.contains(l)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	
 	public static List<String> scoreLog(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile, Set<Integer> scoreSet, List<String> messageList) {
 		List<String> ret = new LinkedList<String>();
 		Map<String, List<String>> map = mapComponent(templateFile);
@@ -647,7 +664,8 @@ public class Snippet {
 				
 				score = searchAndScore(map, jsonMap, comp, line, logType, scoreSet, false);
 				if (score != -1)
-					ret.add(messageList.get(i) + " " + score);
+					if (!isStrangeLine(line))
+						ret.add(messageList.get(i) + " " + score);
 			}
 			else {											//不以字母开头的，直接作为噪声处理，抛弃
 				//ret.add(line + " " + -1);
