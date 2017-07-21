@@ -24,6 +24,7 @@ import org.elasticsearch.action.search.SearchType;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.query.QueryBuilders.*;
 import org.elasticsearch.search.SearchHit;
+import org.elasticsearch.search.sort.SortOrder;
 
 
 
@@ -44,6 +45,7 @@ public class EsClient {
 				.must(termQuery("host", node))
 //				.must(regexpQuery("path", ".*" + logType + ".*"));
 				.must(termQuery("log_type", logType));
+		 
 
 		try {
 			SearchResponse response = client.prepareSearch(index)
@@ -52,6 +54,7 @@ public class EsClient {
 			        .setScroll(new TimeValue(TIME_VALUE))
 			        .setQuery(qb)                 // Query
 			        .setPostFilter(QueryBuilders.rangeQuery("@timestamp").from(from).to(to))     // Filter
+			        .addSort("@timestamp", SortOrder.fromString("asc"))
 			        .setFrom(0).setSize(10000)
 			        .setFetchSource(true)
 			        .get();
