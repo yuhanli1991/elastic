@@ -326,9 +326,11 @@ public class extract {
 	
 	private String replaceQuote (String word) {
 		StringBuffer sb = new StringBuffer(word);
-		for (int i = 1; i < word.length(); i ++ ) {
+		for (int i = 0; i < word.length(); i ++ ) {
 			char c = sb.charAt(i);
-			char pre = sb.charAt(i - 1);
+			char pre = ' ';
+			if (i > 0)
+				pre = sb.charAt(i - 1);
 			if ((c == ')' || c == '}' || c == ']') && pre != '\\') {
 				sb.setCharAt(i, '.');
 			}
