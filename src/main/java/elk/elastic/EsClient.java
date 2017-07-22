@@ -29,7 +29,7 @@ import org.elasticsearch.search.sort.SortOrder;
 
 
 public class EsClient { 
-	final static int TIME_VALUE =20000;
+	final static int TIME_VALUE =50000;
 	public List<List<String>> getSnippet(String node, String logType, String from, String to, String clusterName, String host, int port, String index) throws UnknownHostException {
 		System.out.println("Starting to connect " + host + ":" + port + "   Index: " + index);
 		List<List<String>> ret = new LinkedList<List<String>>();
