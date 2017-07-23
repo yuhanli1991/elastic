@@ -628,8 +628,8 @@ public class Snippet {
 		List<String> StrangeList = new ArrayList<String>();
 		StrangeList.add("xEE");
 		StrangeList.add("Agent' ");
-		StrangeList.add("\\u0002");
-		StrangeList.add("\\u0001");
+		StrangeList.add("\u0002");
+		StrangeList.add("\u0001");
 		
 		
 		for (String l : StrangeList) {
