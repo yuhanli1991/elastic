@@ -623,6 +623,8 @@ public class Snippet {
 	
 	
 	public static boolean isStrangeLine(String line) {
+		if (line.length() > 2000)
+			return false;
 		List<String> StrangeList = new ArrayList<String>();
 		StrangeList.add("xEE");
 		StrangeList.add("Agent' ");
