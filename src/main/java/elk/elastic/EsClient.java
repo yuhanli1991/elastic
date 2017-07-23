@@ -52,7 +52,7 @@ public class EsClient {
 		BoolQueryBuilder o = boolQuery().must(termQuery("log_type", logType));
 		
 		for (String n : node) {
-			o.must(termQuery("host", n));
+			o.should(termQuery("host", n));
 		}
 		org.elasticsearch.index.query.QueryBuilder qb = (org.elasticsearch.index.query.QueryBuilder) o;
 		
