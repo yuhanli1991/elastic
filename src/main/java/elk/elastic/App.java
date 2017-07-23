@@ -29,7 +29,6 @@ public class App
     	
     	String[] nodes = args[8].split(",");
     	extract e = new extract(args[0], args[1], args[2]);
-    	System.out.println("here");
 		if (args[3].equals("addtmp")) {
 			EsClient ec = new EsClient();
 			List<List<String>> snippet;

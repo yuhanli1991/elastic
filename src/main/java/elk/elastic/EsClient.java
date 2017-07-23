@@ -44,17 +44,17 @@ public class EsClient {
 		        .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName(host), port));
 		
 		
-		org.elasticsearch.index.query.QueryBuilder qb = (org.elasticsearch.index.query.QueryBuilder)boolQuery()
-				.must(termQuery("host", node))
-//				.must(regexpQuery("path", ".*" + logType + ".*"));
-				.must(termQuery("log_type", logType));
+//		org.elasticsearch.index.query.QueryBuilder qb = (org.elasticsearch.index.query.QueryBuilder)boolQuery()
+//				.must(termQuery("host", node))
+////				.must(regexpQuery("path", ".*" + logType + ".*"));
+//				.must(termQuery("log_type", logType));
 		
-//		BoolQueryBuilder o = boolQuery().must(termQuery("log_type", logType)).must(termQuery("host", node[0]));
-//		
-////		for (String n : node) {
-////			o.must(termQuery("host", n));
-////		}
-//		org.elasticsearch.index.query.QueryBuilder qb = (org.elasticsearch.index.query.QueryBuilder) o;
+		BoolQueryBuilder o = boolQuery().must(termQuery("log_type", logType));
+		
+		for (String n : node) {
+			o.must(termQuery("host", n));
+		}
+		org.elasticsearch.index.query.QueryBuilder qb = (org.elasticsearch.index.query.QueryBuilder) o;
 		
 
 		try {
