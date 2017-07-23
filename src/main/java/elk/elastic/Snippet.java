@@ -96,11 +96,18 @@ public class Snippet {
 				break;
 			}
 		}
+		String cutComp = "";
 		String comp = line.substring(0, tail);
 		if (!hasQuote ){
 			return compCorrect(comp);
 		}
-		return hasQuote ? e.cutLine(comp)[0] :comp;
+		else {
+			cutComp = e.cutLine(comp)[0];
+			if (cutComp.charAt(cutComp.length() - 1) == ':')
+				cutComp = cutComp.substring(0, cutComp.length() - 1);
+			return cutComp;
+		}
+		
 	}
 	
 	public static String getCompPrefixForMap (String line) {

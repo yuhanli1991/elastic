@@ -7,6 +7,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.regex.Pattern;
 
 
 public class App 
@@ -26,6 +27,9 @@ public class App
 	
     public static void main( String[] args )
     {
+    	System.out.println(Snippet.getCompPrefix("clssgmCopyoutMemberInfo(): packed memberNo(0) grock(#CLSS_CONFIG_LOCK) nodeNum(1) privateDataSize(0) publicDataSize(0) 0x0, dead 0, dereg 0, orphan 0"));
+    	System.out.println(Snippet.getCompPrefixForMap("clssgmCopyoutMemberInfo\\(.*\\): packed memberNo\\(.*\\) grock\\(.*\\) nodeNum\\(.*\\) privateDataSize\\(.*\\) publicDataSize\\(.*\\) \\S+ \\S+ \\S+ dereg \\S+ orphan \\S+"));
+
     	
     	String[] nodes = args[8].split(",");
     	extract e = new extract(args[0], args[1], args[2]);
