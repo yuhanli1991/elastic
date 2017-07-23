@@ -27,13 +27,15 @@ public class App
     public static void main( String[] args )
     {
     	
-    	
+    	String[] nodes = args[8].split(",");
     	extract e = new extract(args[0], args[1], args[2]);
+    	System.out.println("here");
 		if (args[3].equals("addtmp")) {
 			EsClient ec = new EsClient();
 			List<List<String>> snippet;
+			
 			try {
-				snippet = ec.getSnippet(args[8], args[2], args[5], args[6], "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, args[9]);
+				snippet = ec.getSnippet(nodes, args[2], args[5], args[6], "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, args[9]);
 				List<String> content = snippet.get(0);
 				content = e.removeDupList(content);
 				Collections.sort(content);
@@ -54,8 +56,9 @@ public class App
 				scoreSet.add(Integer.valueOf(score));
 			}
 //			String[] logFiles = args[4].split(":");
+			
 			List<String> list = e.diagCluster(
-					args[8],
+					nodes,
 					args[2],
 					args[5], 
 					args[6],
