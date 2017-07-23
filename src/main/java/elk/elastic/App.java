@@ -27,8 +27,8 @@ public class App
 	
     public static void main( String[] args )
     {
-    	System.out.println(Snippet.getCompPrefix("clssgmCopyoutMemberInfo(): packed memberNo(0) grock(#CLSS_CONFIG_LOCK) nodeNum(1) privateDataSize(0) publicDataSize(0) 0x0, dead 0, dereg 0, orphan 0"));
-    	System.out.println(Snippet.getCompPrefixForMap("clssgmCopyoutMemberInfo\\(.*\\): packed memberNo\\(.*\\) grock\\(.*\\) nodeNum\\(.*\\) privateDataSize\\(.*\\) publicDataSize\\(.*\\) \\S+ \\S+ \\S+ dereg \\S+ orphan \\S+"));
+//    	System.out.println(Snippet.getCompPrefix("clssgmCopyoutMemberInfo(): packed memberNo(0) grock(#CLSS_CONFIG_LOCK) nodeNum(1) privateDataSize(0) publicDataSize(0) 0x0, dead 0, dereg 0, orphan 0"));
+//    	System.out.println(Snippet.getCompPrefixForMap("clssgmCopyoutMemberInfo\\(.*\\): packed memberNo\\(.*\\) grock\\(.*\\) nodeNum\\(.*\\) privateDataSize\\(.*\\) publicDataSize\\(.*\\) \\S+ \\S+ \\S+ dereg \\S+ orphan \\S+"));
 
     	
     	String[] nodes = args[8].split(",");
