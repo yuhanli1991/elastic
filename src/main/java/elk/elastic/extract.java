@@ -524,6 +524,8 @@ public class extract {
 		List<String> sip = new ArrayList<String>();
 		
 		for (int i = 1; i < loglist.size(); i ++){
+			if (Snippet.isStrangeLine(loglist.get(i - 1)))
+				continue;
 			sip.add(loglist.get(i - 1));
 			if (!compareLines(loglist.get(i - 1), loglist.get(i))){
 //				System.out.println(loglist.get(i));
@@ -532,7 +534,8 @@ public class extract {
 				sip = new ArrayList<String>();
 			}
 		}
-		sip.add(loglist.get(loglist.size() - 1));
+		if (!Snippet.isStrangeLine(loglist.get(loglist.size() - 1)))
+			sip.add(loglist.get(loglist.size() - 1));
 		tmpCollection.add(extrTmp(sip));
 		return tmpCollection;
 	}
