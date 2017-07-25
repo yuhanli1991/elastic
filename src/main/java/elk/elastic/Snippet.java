@@ -659,7 +659,7 @@ public class Snippet {
 		int score = -1;
 		for (int i = 0; i < snippet.size(); i ++){
 			String line = snippet.get(i);
-			if (line.length() > 2000)
+			if (line.length() > 2000 || line.isEmpty())	//long line or empty line
 				continue;
 			if (Pattern.matches("\\s+", line))			//处理空行
 				continue;						

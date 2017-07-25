@@ -864,7 +864,7 @@ public class extract {
 		Set<String> hashset = new HashSet<String>();
 		List<String> ret = new LinkedList<String>();
 		for (String line : logList) {
-			if (!hashset.contains(line) && Character.isLetter(line.charAt(0)) && !Snippet.isStrangeLine(line)){
+			if (!line.isEmpty() && !hashset.contains(line) && Character.isLetter(line.charAt(0)) && !Snippet.isStrangeLine(line)){
 				hashset.add(line);
 				ret.add(line);
 			}
