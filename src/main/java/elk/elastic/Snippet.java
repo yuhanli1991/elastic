@@ -228,6 +228,11 @@ public class Snippet {
 			String[] s = comp.split(":");
 			comp = s[0] + ":" + "\\S+";
 		}
+		else if (Pattern.matches("Time:[0-9]{2}/[0-9]{2}/[0-9]{4}", comp)) {
+			String[] s = comp.split(":");
+			comp = s[0] + ":" + "\\S+";
+		}
+		
 		return comp;
 	}
 	
