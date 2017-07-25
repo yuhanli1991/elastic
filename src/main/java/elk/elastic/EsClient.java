@@ -79,7 +79,13 @@ public class EsClient {
 //				System.out.println(sum += hits.length);
 				for (SearchHit hit : hits) {
 					source = hit.getSourceAsMap();
-					Object content = source.get("content");
+					Object content = "";
+					if (source.containsKey("content")) {
+						 content = source.get("content");
+					}
+					else {
+						content = " ";
+					}
 					Object message = source.get("message");
 					if (source.containsKey("tags") && ((List<String>)source.get("tags")).get(0).equals("multiline")){
 						//System.out.println(content.getClass());
@@ -98,8 +104,8 @@ public class EsClient {
 							}
 						}
 						else {
-							if (content == null)
-								System.out.println(message);
+//							if (content == null)
+//								System.out.println(message);
 							
 							contentList.add((String)content);
 							if (message instanceof java.util.ArrayList<?>)
