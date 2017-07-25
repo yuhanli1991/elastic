@@ -1,0 +1,9 @@
+COMP \[%{WORD}(${INT})\]%{DATA}:
+SENTENCE_TO_END .*$
+RESOURCE (\[ %{DATA:resource}\])?
+ACTION (\{%{DATA:action}\})?
+MESSID %{WORD}-%{INT}
+ONLINE .*
+IGNORE ^[^A-Za-z].*
+QUTO \[\S+\]
+BRACKETQUOT \(:\S+:\)
