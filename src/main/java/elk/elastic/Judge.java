@@ -21,7 +21,7 @@ public class Judge {
 		int score = -1;
 		Map<String, Integer> jo = new HashMap<String, Integer>();
 		for (String line : list){
-			if (line.charAt(line.length() - 2) == '-' && line.charAt(line.length() - 3) == '-' && Character.isDigit(line.charAt(line.length() - 1))) {
+			if (line.length() > 1 && line.charAt(line.length() - 2) == '-' && line.charAt(line.length() - 3) == '-' && Character.isDigit(line.charAt(line.length() - 1))) {
 				score = Integer.valueOf(Character.toString(line.charAt(line.length() - 1)));
 				try {
 					jo.put(line.substring(0, line.length() - 3), score);
