@@ -193,7 +193,8 @@ public class extract {
 	
 	private boolean containsSpace (String[] wordList) {
 		for (String s : wordList) {
-			if (s.equals(" "))
+			//if (s.equals(" "))
+			if (Pattern.matches("^\\s+$", s))
 				return true;
 		}
 		return false;
