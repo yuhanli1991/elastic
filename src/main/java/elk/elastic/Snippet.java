@@ -88,7 +88,7 @@ public class Snippet {
 //		}
 //		else 
 		for (int i = 0; i < line.length(); i ++) {
-			if (line.charAt(i) == '[' || line.charAt(i) == '(' || line.charAt(i) == '\'')
+			if (line.charAt(i) == '[' || line.charAt(i) == '(' || line.charAt(i) == '\'' || line.charAt(i) == '{' || line.charAt(i) == '"')
 				hasQuote = true;
 			if (line.charAt(i) == ':' || line.charAt(i) == ' ') {
 				if (!hasQuote)
@@ -231,6 +231,10 @@ public class Snippet {
 		else if (Pattern.matches("Time:[0-9]{2}/[0-9]{2}/[0-9]{4}", comp)) {
 			String[] s = comp.split(":");
 			comp = s[0] + ":" + "\\S+";
+		}
+		else if (Pattern.matches("^[A-Z_]+=.+", comp)) {
+			return comp.split("=")[0] + "=" +  "\\S+";
+			
 		}
 		
 		return comp;

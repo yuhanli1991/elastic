@@ -213,7 +213,7 @@ public class extract {
 					|| Pattern.matches("^eth[0-9]+", word)
 					|| Pattern.matches("^[0-9:]+Pid", word)
 					|| Pattern.matches("^\\.?[A-Z0-9]+[A-Z0-9\\-_\\.#]+,?:?", word)					//处理CLSN.AQPROC.MASTER,
-					|| Pattern.matches("^\\s*([a-zA-Z_]+[:=])?(0x)?[0-9a-f]+,?:?", word)						//处理十六进制数
+					|| Pattern.matches("^([a-zA-Z_]+[:=])?(0x)?[0-9a-f]+,?:?", word)						//处理十六进制数
 					|| Pattern.matches("^[0-9a-z][a-z0-9_]+-([0-9a-z][0-9a-z_]+-)+[0-9a-z][0-9a-z_]+[:,]?", word)
 					|| (word.length() > 1 && Pattern.matches("^[0-9\\.,:]+", word))							//处理类似于ip地址的词语
 					|| Pattern.matches("[0-9a-zA-Z\\.\\-]+![0-9a-zA-Z\\.\\-]+:?", word)						//处理c4.5!ORDERk7.MESSAGEt63.CRS-6016:
@@ -356,15 +356,6 @@ public class extract {
 		//处理第一个word是res的情况
 		ret[0] = Snippet.compCorrect(ret[0]);
 		
-		//处理长度为1的行
-		if (chlist[0].length == 1) {
-			if (Pattern.matches("^[A-Z_]+=.+", ret[0])) {
-				return ret[0].split("=")[0] + "=" +  "\\S+";
-				
-			}
-			else
-				return ret[0];
-		}
 //		if (chlist[0].length == 1)
 //			return chlist[0][0];
 		
