@@ -100,7 +100,7 @@ public class EsClient {
 //							}
 							for (int i = 0; i < cl.size(); i ++) {
 								contentList.add(cl.get(i));
-								messageList.add(ml.get(i));
+								messageList.add(ml.get(ml.size() - cl.size() + i));
 							}
 						}
 						else {
