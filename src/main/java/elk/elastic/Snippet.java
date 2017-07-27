@@ -431,7 +431,7 @@ public class Snippet {
 				return scoreSet.contains(score) ? score : -1;
 			}
 			catch (Exception e1){
-				System.out.println(comp);
+				System.out.println(temp);
 				e1.printStackTrace();
 				return -1;
 			}
