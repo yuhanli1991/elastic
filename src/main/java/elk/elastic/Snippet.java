@@ -187,8 +187,11 @@ public class Snippet {
 //			}
 //		}
 		
-		if (map.containsKey(comp))
-			for (String template : map.get(comp)) {
+		if (map.containsKey(comp)) {
+			//for (String template : map.get(comp)) {
+			List<String> tli = map.get(comp);
+			for (int i = tli.size() - 1; i >= 0; i --) {
+				String template = tli.get(i);
 				if (hasStamp) {
 					if (isMatched (template, line, logType))
 						return template;
@@ -198,6 +201,7 @@ public class Snippet {
 						return template;
 				}
 			}
+		}
 		return "";
 	}
 	
