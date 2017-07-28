@@ -481,10 +481,10 @@ public class Snippet {
 	public static boolean isMatchedNoStamp (String template, String line, String logType) {
 		String NoStamp = "";
 		String lineNoTab = line;
-//		if (line.contains("\\t")) {
-//			System.out.println(line);
-//			lineNoTab = line.replace("\\t", "tb");
-//		}
+		if (line.contains("\t")) {
+			System.out.println(line);
+			lineNoTab = line.replace("\t", "tb");
+		}
 		
 		if (Pattern.matches(NoStamp + template + "\\s*", lineNoTab))
 			return true;
@@ -688,12 +688,6 @@ public class Snippet {
 				
 				if (Pattern.matches("^[A-Z_]+=.+", comp))
 					comp = comp.split("=")[0] + "=" + "\\S+";
-				
-				
-				if (line.contains("\\t")) {
-					System.out.println(line);
-					line = line.replace("\\t", "tb");
-				}
 				
 				score = searchAndScore(map, jsonMap, comp, line, logType, scoreSet, false);
 				if (score != -1)
