@@ -482,6 +482,7 @@ public class Snippet {
 		String NoStamp = "";
 		String lineNoTab = line;
 		if (line.contains("\\t")) {
+			System.out.println(line);
 			lineNoTab = line.replace("\\t", "tb");
 		}
 		
