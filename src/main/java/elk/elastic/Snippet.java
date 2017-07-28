@@ -487,9 +487,10 @@ public class Snippet {
 		String lineNoTab = line;
 		if (line.contains("\t")) {
 			lineNoTab = line.replace("\t", "tb");
+			if (Pattern.matches(NoStamp + template + "\\s*", lineNoTab) || Pattern.matches(NoStamp + template + "\\s*", line))
+				return true;
 		}
-		
-		if (Pattern.matches(NoStamp + template + "\\s*", lineNoTab))
+		else if (Pattern.matches(NoStamp + template + "\\s*", line))
 			return true;
 		return false;
 	}
