@@ -468,6 +468,10 @@ public class Snippet {
 			component = ".*";			//!!!如果指定无效，则使用通配符
 		
 		
+		if (line.contains("\t")) {
+			line = line.replace("\t", "tb");
+		}
+		
 		//////////////////////
 		
 		if (Pattern.matches(timestamp + component + template + "\\s*", line))
@@ -482,7 +486,6 @@ public class Snippet {
 		String NoStamp = "";
 		String lineNoTab = line;
 		if (line.contains("\t")) {
-			System.out.println(line);
 			lineNoTab = line.replace("\t", "tb");
 		}
 		
