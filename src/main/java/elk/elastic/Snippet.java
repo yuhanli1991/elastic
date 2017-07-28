@@ -480,7 +480,7 @@ public class Snippet {
 	
 	public static boolean isMatchedNoStamp (String template, String line, String logType) {
 		String NoStamp = "";
-		String lineNoTab = "";
+		String lineNoTab = line;
 		if (line.contains("\\t")) {
 			lineNoTab = line.replace("\\t", "tb");
 		}
