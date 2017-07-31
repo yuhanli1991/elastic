@@ -562,6 +562,7 @@ public class extract {
 		templates = partition(templates);
 		Collections.sort(templates, comparator);
 		templates = partition(templates);
+		Collections.sort(templates, comparator);
 		
 		return templates;
 		
