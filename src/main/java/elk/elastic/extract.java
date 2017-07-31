@@ -541,29 +541,24 @@ public class extract {
 	
 	private List<String> doublePartition (List<String> templates){
 		
-		Collections.sort(templates, new Comparator<String>() {
-			public int compare(String a, String b){
-				int i = a.compareTo(b);
-				if (i > 0)
-					return 1;
-				else if (i < 0)
-					return -1;
-				else 
-					return 0;
+		Comparator<String> comparator = new Comparator<String>() {
+			public int compare(String s1, String s2) {
+				for (int i = 0; i < Math.min(s1.length(), s2.length()); i ++) {
+					char c1 = s1.charAt(i);
+					char c2 = s2.charAt(i);
+					if (c1 == '\\' && c2 != '\\')  return 1;
+					else if (c1 != '\\' && c2 == '\\') return -1;
+					else if (c1 > c2) return 1;
+					else if (c1 < c2) return -1;
+				}
+				return 0;
 			}
-		});
+		};
+		
+		
+		Collections.sort(templates, comparator);
 		templates = partition(templates);
-		Collections.sort(templates, new Comparator<String>() {
-			public int compare(String a, String b){
-				int i = a.compareTo(b);
-				if (i > 0)
-					return 1;
-				else if (i < 0)
-					return -1;
-				else 
-					return 0;
-			}
-		});
+		Collections.sort(templates, comparator);
 		templates = partition(templates);
 		
 		return templates;
