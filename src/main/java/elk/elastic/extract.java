@@ -548,8 +548,8 @@ public class extract {
 					char c2 = s2.charAt(i);
 					if (c1 == '\\' && c2 != '\\')  return -1;
 					else if (c1 != '\\' && c2 == '\\') return 1;
-					else if (c1 > c2) return -1;
-					else if (c1 < c2) return 1;
+					else if (c1 > c2) return 1;
+					else if (c1 < c2) return -1;
 				}
 				if (s1.length() > s2.length()) return -1;
 				else if (s1.length() < s2.length()) return 1;
