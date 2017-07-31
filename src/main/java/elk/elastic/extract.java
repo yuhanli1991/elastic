@@ -546,12 +546,14 @@ public class extract {
 				for (int i = 0; i < Math.min(s1.length(), s2.length()); i ++) {
 					char c1 = s1.charAt(i);
 					char c2 = s2.charAt(i);
-					if (c1 == '\\' && c2 != '\\')  return 1;
-					else if (c1 != '\\' && c2 == '\\') return -1;
-					else if (c1 > c2) return 1;
-					else if (c1 < c2) return -1;
+					if (c1 == '\\' && c2 != '\\')  return -1;
+					else if (c1 != '\\' && c2 == '\\') return 1;
+					else if (c1 > c2) return -1;
+					else if (c1 < c2) return 1;
 				}
-				return 0;
+				if (s1.length() > s2.length()) return -1;
+				else if (s1.length() < s2.length()) return 1;
+				else return 0;
 			}
 		};
 		
