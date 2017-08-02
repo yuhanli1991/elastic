@@ -39,9 +39,10 @@ public class Judge {
 				for (int i = line.length() - 1; i >= 0; i --) {
 					if (!Character.isDigit(line.charAt(i))) {
 						tail = i - 1;
+						break;
 					}
 				}
-				System.out.println(line);
+//				System.out.println(line);
 				String content = line.substring(0, tail);
 				score = Integer.valueOf(line.substring(tail + 2, line.length()));
 				
