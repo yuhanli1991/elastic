@@ -41,6 +41,7 @@ public class Judge {
 						tail = i - 1;
 					}
 				}
+				System.out.println(line);
 				String content = line.substring(0, tail);
 				score = Integer.valueOf(line.substring(tail + 2, line.length()));
 				
