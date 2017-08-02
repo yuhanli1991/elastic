@@ -35,7 +35,7 @@ public class Judge {
 //				else
 //					content = sp[0];
 //				score = Integer.valueOf(sp[sp.length - 1]);
-				int tail = -1;
+				int tail = -2;
 				for (int i = line.length() - 1; i >= 0; i --) {
 					if (!Character.isDigit(line.charAt(i))) {
 						tail = i - 1;
