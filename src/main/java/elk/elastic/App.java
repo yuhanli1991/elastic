@@ -6,6 +6,7 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
 
@@ -16,7 +17,7 @@ public class App
 	 * args0:templateFile,
 	 * args1:templateScore,
 	 * args2:logtype: 
-	 * args3:addtemp/scorelog
+	 * args3:addtemp/scorelog/appearance
 	 * args4:rawLog/log for filter
 	 * args5:start
 	 * args6:end
@@ -79,6 +80,21 @@ public class App
 			}
 			System.out.println("####### End ########");
 			System.out.println(list.size() + " lines left.");
+		}
+		else if (args[3].equals("appearance")) {
+			
+//			String[] logFiles = args[4].split(":");
+			
+			Map<String, Integer> appearance = e.GetAppearance(
+					nodes,
+					args[2],
+					args[5], 
+					args[6],
+					args[9]
+					);
+			for (String temp : appearance.keySet()){
+				System.out.println(temp + " ~~ " + appearance.get(temp));
+			}
 		}
 		
 		

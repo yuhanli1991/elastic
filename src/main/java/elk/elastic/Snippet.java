@@ -453,6 +453,16 @@ public class Snippet {
 		}
 	}
 	
+	public static void searchAndSum (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, Map<String, Integer> appearance){
+		String temp = mapMatchTemplate(map, comp, line, logType, false);
+		
+		if (temp != "") {
+			if (appearance.containsKey(temp)) appearance.put(temp, appearance.get(temp) + 1);
+			else appearance.put(temp, 1);
+		}
+		
+	}
+	
 	public static boolean isMatched (String template, String line, String logType) {
 		String timestamp = 
 				"^[0-9]{4}-[0-9]{2}-[0-9]{2}[ T][0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}";
@@ -786,6 +796,26 @@ public class Snippet {
 			}
 		}
 		return ret;
+	}
+	
+	public static Map<String, Integer> getAppearance(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile) {
+		Map<String, Integer> appearance = new HashMap<String, Integer>();
+		Map<String, List<String>> map = mapComponent(templateFile);
+		for (int i = 0; i < snippet.size(); i ++) {
+			String line = snippet.get(i);
+			if (line.length() > 2000 || line.isEmpty())	//long line or empty line
+				continue;
+			if (Pattern.matches("\\s+", line))			//处理空行
+				continue;
+			if (Character.isLetter(line.charAt(0))) {		//以字母开头的行
+				String comp = getCompPrefix(line);
+				
+				if (Pattern.matches("^[A-Z_]+=.+", comp))
+					comp = comp.split("=")[0] + "=" + "\\S+";
+				searchAndSum(map, jsonMap, comp, line, logType, appearance);
+			}
+		}
+		return appearance;
 	}
 	
 	

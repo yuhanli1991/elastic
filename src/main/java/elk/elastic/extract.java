@@ -943,6 +943,24 @@ public class extract {
 		return sip;
 	}
 	
+	public Map<String, Integer> GetAppearance (String[] node, String logType, String from, String to, String index) {
+		EsClient ec = new EsClient();
+		List<List<String>> snippet;
+		try {
+			snippet = ec.getSnippet(node, logType, from, to, "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
+			
+			Map<String, Integer> ret = Snippet.getAppearance(judge.getScore(), snippet.get(0), logType, templatesFile);
+//			Collections.sort(ret);
+			return ret;
+			//return Snippet.scoreLog(judge.getScore(), snippet.get(1), logType, templatesFile, scoreSet);
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return null;
+		}
+	}
+	
+	
 //	public static void writeJSON(String file, JSONObject jo){
 //		List<String> input = new ArrayList<String>();
 //		input.add(jo.toString());
