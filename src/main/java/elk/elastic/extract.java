@@ -960,6 +960,42 @@ public class extract {
 		}
 	}
 	
+	public Map<String, List<Integer>> GetAppearance (String[] node, String logType, String[] path, String index) {
+		EsClient ec = new EsClient();
+		Map<String, List<Integer>> ret = new HashMap<String, List<Integer>>();
+		
+		List<List<String>> snippet;
+		for (int i = 0; i < path.length; i ++) {
+			String p = path[i];
+			try {
+				snippet = ec.getSnippet(node, logType, p, "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
+				
+				Map<String, Integer> map = Snippet.getAppearance(judge.getScore(), snippet.get(0), logType, templatesFile);
+				
+				for (String key : map.keySet()) {
+					if (!ret.containsKey(key)){
+						List<Integer> l = new LinkedList<Integer>();
+						l.add(map.get(key));
+						ret.put(key, l);
+					}
+					else {
+						ret.get(key).add(map.get(key));
+					}
+				}
+				
+				
+	//			Collections.sort(ret);
+				return ret;
+				//return Snippet.scoreLog(judge.getScore(), snippet.get(1), logType, templatesFile, scoreSet);
+			} catch (UnknownHostException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				return null;
+			}
+		}
+		return null;
+	}
+	
 	
 //	public static void writeJSON(String file, JSONObject jo){
 //		List<String> input = new ArrayList<String>();

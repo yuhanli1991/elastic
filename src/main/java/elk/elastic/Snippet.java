@@ -463,6 +463,7 @@ public class Snippet {
 		
 	}
 	
+	
 	public static boolean isMatched (String template, String line, String logType) {
 		String timestamp = 
 				"^[0-9]{4}-[0-9]{2}-[0-9]{2}[ T][0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}";
@@ -817,7 +818,6 @@ public class Snippet {
 		}
 		return appearance;
 	}
-	
 	
 	// Too ugly to deal with multiple space line
 //	private static String multiSpace(String line){

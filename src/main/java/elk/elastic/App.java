@@ -96,6 +96,21 @@ public class App
 				System.out.println(temp + " ~~ " + appearance.get(temp));
 			}
 		}
+		else if (args[3].equals("buildMatrix")) {
+			String[] pathes = args[4].split(",");
+			Map<String, List<Integer>> appearance = e.GetAppearance(
+					nodes,
+					args[2],
+					pathes,
+					args[9]
+					);
+			for (String temp : appearance.keySet()){
+				System.out.print(temp + " ~~ ");
+				for (int app : appearance.get(temp)) {
+					System.out.println(app + " - ");
+				}
+			}
+		}
 		
 		
 		
