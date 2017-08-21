@@ -165,10 +165,10 @@ public class EsClient {
 		        .addTransportAddress(new InetSocketTransportAddress(InetAddress.getByName(host), port));
 		
 		org.elasticsearch.index.query.QueryBuilder qb = (org.elasticsearch.index.query.QueryBuilder)boolQuery()
-				.must(termQuery("host", node[0]))
+				.must(matchQuery("host", node[0]))
 //				.must(regexpQuery("path", ".*" + logType + ".*"));
-				.must(termQuery("log_type", logType))
-				.must(matchQuery("path", "*log//." + path));
+				.must(matchQuery("log_type", logType))
+				.must(matchQuery("path", "*" + path));
 		
 		try {
 			SearchResponse response = client.prepareSearch(index)
