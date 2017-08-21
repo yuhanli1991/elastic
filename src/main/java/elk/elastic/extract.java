@@ -979,7 +979,9 @@ public class extract {
 						ret.put(key, l);
 					}
 					else {
-						ret.get(key).add(map.get(key));
+						List<Integer> l = ret.get(key);
+						l.add(map.get(key));
+						ret.put(key, l);
 					}
 				}
 				
