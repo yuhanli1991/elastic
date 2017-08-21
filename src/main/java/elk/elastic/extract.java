@@ -967,7 +967,6 @@ public class extract {
 		List<List<String>> snippet;
 		for (int i = 0; i < path.length; i ++) {
 			String p = path[i];
-			System.out.println(p);
 			try {
 				snippet = ec.getSnippet(node, logType, p, "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
 				
@@ -988,15 +987,13 @@ public class extract {
 				
 				
 	//			Collections.sort(ret);
-				return ret;
 				//return Snippet.scoreLog(judge.getScore(), snippet.get(1), logType, templatesFile, scoreSet);
 			} catch (UnknownHostException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-				return null;
 			}
 		}
-		return null;
+		return ret;
 	}
 	
 	
