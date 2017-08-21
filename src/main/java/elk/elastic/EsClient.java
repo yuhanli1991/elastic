@@ -168,7 +168,7 @@ public class EsClient {
 				.must(termQuery("host", node[0]))
 //				.must(regexpQuery("path", ".*" + logType + ".*"));
 				.must(termQuery("log_type", logType))
-				.must(termQuery("path", path));
+				.must(matchQuery("path", "*log//." + path));
 		
 		try {
 			SearchResponse response = client.prepareSearch(index)
