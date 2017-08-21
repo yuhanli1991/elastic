@@ -107,8 +107,9 @@ public class App
 			for (String temp : appearance.keySet()){
 				System.out.print(temp + " ~~ ");
 				for (int app : appearance.get(temp)) {
-					System.out.println(app + " - ");
+					System.out.print(app + " - ");
 				}
+				System.out.println("");
 			}
 		}
 		

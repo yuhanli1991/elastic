@@ -963,6 +963,11 @@ public class extract {
 	public Map<String, List<Integer>> GetAppearance (String[] node, String logType, String[] path, String index) {
 		EsClient ec = new EsClient();
 		Map<String, List<Integer>> ret = new HashMap<String, List<Integer>>();
+		List<String> templates = readFile(templatesFile);
+		for (String t : templates) {
+			ret.put(t, new LinkedList<Integer>());
+		}
+		
 		
 		List<List<String>> snippet;
 		for (int i = 0; i < path.length; i ++) {
@@ -973,16 +978,10 @@ public class extract {
 				Map<String, Integer> map = Snippet.getAppearance(judge.getScore(), snippet.get(0), logType, templatesFile);
 				
 				for (String key : map.keySet()) {
-					if (!ret.containsKey(key)){
-						List<Integer> l = new LinkedList<Integer>();
-						l.add(map.get(key));
-						ret.put(key, l);
-					}
-					else {
-						List<Integer> l = ret.get(key);
-						l.add(map.get(key));
-						ret.put(key, l);
-					}
+					List<Integer> l = ret.get(key);
+					l.add(map.get(key));
+					ret.put(key, l);
+					
 				}
 				
 				
