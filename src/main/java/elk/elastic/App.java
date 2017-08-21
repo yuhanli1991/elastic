@@ -98,11 +98,6 @@ public class App
 		}
 		else if (args[3].equals("buildMatrix")) {
 			String[] pathes = args[4].split(",");
-			
-			for (String s : args){
-				System.out.println(s);
-			}
-			
 			Map<String, List<Integer>> appearance = e.GetAppearance(
 					nodes,
 					args[2],
