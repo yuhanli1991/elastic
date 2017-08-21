@@ -977,11 +977,20 @@ public class extract {
 				
 				Map<String, Integer> map = Snippet.getAppearance(judge.getScore(), snippet.get(0), logType, templatesFile);
 				
-				for (String key : map.keySet()) {
+//				for (String key : map.keySet()) {
+//					List<Integer> l = ret.get(key);
+//					l.add(map.get(key));
+//					ret.put(key, l);
+//				}
+				for (String key : ret.keySet()) {
 					List<Integer> l = ret.get(key);
-					l.add(map.get(key));
+					if (map.containsKey(key)) {
+						l.add(map.get(key));
+					}
+					else {
+						l.add(0);
+					}
 					ret.put(key, l);
-					
 				}
 				
 				
@@ -992,6 +1001,7 @@ public class extract {
 				e.printStackTrace();
 			}
 		}
+		
 		return ret;
 	}
 	
