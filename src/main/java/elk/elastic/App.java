@@ -28,7 +28,7 @@ public class App
 	
     public static void main( String[] args )
     {
-//    	System.out.println(Snippet.getCompPrefix("clssgmCopyoutMemberInfo(): packed memberNo(0) grock(#CLSS_CONFIG_LOCK) nodeNum(1) privateDataSize(0) publicDataSize(0) 0x0, dead 0, dereg 0, orphan 0"));
+//    	System.out.println(Pattern.matches("idef=\\S+", "idef=\"eth0\"/10.208.144.0:public"));
 //    	System.out.println(Snippet.getCompPrefixForMap("clssgmCopyoutMemberInfo\\(.*\\): packed memberNo\\(.*\\) grock\\(.*\\) nodeNum\\(.*\\) privateDataSize\\(.*\\) publicDataSize\\(.*\\) \\S+ \\S+ \\S+ dereg \\S+ orphan \\S+"));
     	
 //    	extract e = new extract();
@@ -63,7 +63,6 @@ public class App
 			for (String score : scores) {
 				scoreSet.add(Integer.valueOf(score));
 			}
-//			String[] logFiles = args[4].split(":");
 			
 			List<String> list = e.diagCluster(
 					nodes,
@@ -83,7 +82,6 @@ public class App
 		}
 		else if (args[3].equals("appearance")) {
 			
-//			String[] logFiles = args[4].split(":");
 			
 			Map<String, Integer> appearance = e.GetAppearance(
 					nodes,

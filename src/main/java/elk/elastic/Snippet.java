@@ -739,8 +739,10 @@ public class Snippet {
 				if (Character.isLetter(line.trim().charAt(0))) {		//以字母开头的行
 					String comp = getCompPrefix(line.trim());
 					score = searchAndScore(map, jsonMap, comp, line, logType, scoreSet, false);
-					if (score != -1)
+					if (score != -1) {
 						ret.add(line + " " + score);
+						System.out.println(comp);
+					}
 				}
 				else {											//不以字母开头的，直接作为噪声处理，抛弃
 					//ret.add(line + " " + -1);
