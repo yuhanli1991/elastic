@@ -709,7 +709,7 @@ public class Snippet {
 			if (Character.isLetter(line.charAt(0))) {		//以字母开头的行
 				String comp = getCompPrefix(line);
 				
-				if (Pattern.matches("^[A-Z_]+=.+", comp))
+				if (Pattern.matches("^[A-Za-z_]+=.+", comp))
 					comp = comp.split("=")[0] + "=" + "\\S+";
 				
 				score = searchAndScore(map, jsonMap, comp, line, logType, scoreSet, false);
@@ -741,7 +741,7 @@ public class Snippet {
 					score = searchAndScore(map, jsonMap, comp, line, logType, scoreSet, false);
 					if (score != -1) {
 						ret.add(line + " " + score);
-						System.out.println(comp);
+						
 					}
 				}
 				else {											//不以字母开头的，直接作为噪声处理，抛弃
