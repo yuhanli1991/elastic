@@ -244,7 +244,7 @@ public class Snippet {
 			String[] s = comp.split(":");
 			comp = s[0] + ":" + "\\S+";
 		}
-		else if (Pattern.matches("^[A-Z_]+=.+", comp)) {
+		else if (Pattern.matches("^[A-Za-z_]+=.+", comp)) {
 			return comp.split("=")[0] + "=" +  "\\S+";
 			
 		}
