@@ -22,6 +22,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/yuhanli/Documents/workspace/elastic/ojdbc6_g.jar"/>
+	<classpathentry kind="lib" path="H:/elastic/ojdbc6_g.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
