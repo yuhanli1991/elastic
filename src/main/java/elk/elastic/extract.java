@@ -219,7 +219,8 @@ public class extract {
 					|| (word.length() > 1 && Pattern.matches("^[0-9\\.,:]+", word))							//处理类似于ip地址的词语
 					|| Pattern.matches("[0-9a-zA-Z\\.\\-]+![0-9a-zA-Z\\.\\-]+:?", word)						//处理c4.5!ORDERk7.MESSAGEt63.CRS-6016:
 					|| Pattern.matches("\\S*ora\\.([A-Za-z0-9_\\.]+\\.)?[A-Za-z0-9_]+\\S*", word)			//处理带有resource的词汇
-					|| Pattern.matches("\\.(ASM|APX)[0-9]+:\\.(ASM|APX):\\S+", word)						//.ASM4:.ASM:rwsba-ext
+					|| Pattern.matches("\\.ASM[0-9]+:\\.ASM:\\S+", word)						//.ASM4:.ASM:rwsba-ext
+					|| Pattern.matches("\\.APX[0-9]+:\\.APX:\\S+", word)
 					|| Pattern.matches("\\S+:orcl:\\S+", word)												//orcl4:orcl:rwsba-cluster
 					|| Pattern.matches("[0-9\\.]+\\-[0-9\\.]+el[0-9]+uek\\.\\S+", word)
 					|| (word.length() > 3 && word.substring(0, 3).equals("rws"))) {
