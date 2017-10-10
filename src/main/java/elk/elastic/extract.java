@@ -222,6 +222,7 @@ public class extract {
 					|| Pattern.matches("\\.ASM[0-9]+:\\.ASM:\\S+", word)						//.ASM4:.ASM:rwsba-ext
 					|| Pattern.matches("\\.APX[0-9]+:\\.APX:\\S+", word)
 					|| Pattern.matches("\\S+:orcl:\\S+", word)												//orcl4:orcl:rwsba-cluster
+					
 					|| Pattern.matches("[0-9\\.]+\\-[0-9\\.]+el[0-9]+uek\\.\\S+", word)
 					|| (word.length() > 3 && word.substring(0, 3).equals("rws"))) {
 				return true;
