@@ -222,7 +222,6 @@ public class extract {
 					|| Pattern.matches("\\.ASM[0-9]+:\\.ASM:\\S+", word)						//.ASM4:.ASM:rwsba-ext
 					|| Pattern.matches("\\.APX[0-9]+:\\.APX:\\S+", word)
 					|| Pattern.matches("\\S+:orcl:\\S+", word)												//orcl4:orcl:rwsba-cluster
-					
 					|| Pattern.matches("[0-9\\.]+\\-[0-9\\.]+el[0-9]+uek\\.\\S+", word)
 					|| (word.length() > 3 && word.substring(0, 3).equals("rws"))) {
 				return true;
@@ -551,6 +550,8 @@ public class extract {
 				for (int i = 0; i < Math.min(s1.length(), s2.length()); i ++) {
 					char c1 = s1.charAt(i);
 					char c2 = s2.charAt(i);
+					if (c1 == '.' && s1.length() > i && s1.charAt(i + 1) == '*') return -1;
+					if (c2 == '.' && s2.length() > i && s2.charAt(i + 1) == '*') return 1;
 					if (c1 == '\\' && c2 != '\\')  return -1;
 					else if (c1 != '\\' && c2 == '\\') return 1;
 					else if (c1 > c2) return 1;
