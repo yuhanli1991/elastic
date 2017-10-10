@@ -568,16 +568,18 @@ public class extract {
 		
 		Comparator<String> comparatorEnd = new Comparator<String>() {
 			public int compare(String s1, String s2) {
+				if (isDotStar(s1.substring(s1.length() - 2, s1.length())) && !isDotStar(s2.substring(s2.length() - 2, s2.length()))) return -1;
+				else if (!isDotStar(s1.substring(s1.length() - 2, s1.length())) && isDotStar(s2.substring(s2.length() - 2, s2.length()))) return 1;
 				for (int i = 0; i < Math.min(s1.length(), s2.length()); i ++) {
 					char c1 = s1.charAt(i);
 					char c2 = s2.charAt(i);
-					if (s1.length() > i + 1 && isDotStar(s1.substring(i, i + 2)) && !(s2.length() > i + 1 && isDotStar(s2.substring(i, i + 2)))) {
-						return 1;
-					}
-					else if (!(s1.length() > i + 1 && isDotStar(s1.substring(i, i + 2))) && !(s2.length() > i + 1 && isDotStar(s2.substring(i, i + 2)))) {
-						return -1;
-					}
-					else if (c1 == '\\' && c2 != '\\')  return -1;
+//					if (s1.length() > i + 1 && isDotStar(s1.substring(i, i + 2)) && !(s2.length() > i + 1 && isDotStar(s2.substring(i, i + 2)))) {
+//						return -1;
+//					}
+//					else if (!(s1.length() > i + 1 && isDotStar(s1.substring(i, i + 2))) && !(s2.length() > i + 1 && isDotStar(s2.substring(i, i + 2)))) {
+//						return 1;
+//					}
+					if (c1 == '\\' && c2 != '\\')  return -1;
 					else if (c1 != '\\' && c2 == '\\') return 1;
 					else if (c1 > c2) return 1;
 					else if (c1 < c2) return -1;
