@@ -572,10 +572,10 @@ public class extract {
 					char c1 = s1.charAt(i);
 					char c2 = s2.charAt(i);
 					if (s1.length() > i + 1 && isDotStar(s1.substring(i, i + 2)) && !(s2.length() > i + 1 && isDotStar(s2.substring(i, i + 2)))) {
-						return -1;
+						return 1;
 					}
 					else if (!(s1.length() > i + 1 && isDotStar(s1.substring(i, i + 2))) && !(s2.length() > i + 1 && isDotStar(s2.substring(i, i + 2)))) {
-						return 1;
+						return -1;
 					}
 					else if (c1 == '\\' && c2 != '\\')  return -1;
 					else if (c1 != '\\' && c2 == '\\') return 1;
