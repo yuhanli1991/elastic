@@ -66,4 +66,13 @@ public class Judge {
 		}
 		return jo;
 	}
+	
+	public Map<String, Integer> getTmpNum() {
+		List<String> list = extract.readFile(templateFile);
+		Map<String, Integer> jo = new HashMap<String, Integer>();
+		for (int i = 0; i < list.size(); i ++) {
+			jo.put(list.get(i), i);
+		}
+		return jo;
+	}
 }

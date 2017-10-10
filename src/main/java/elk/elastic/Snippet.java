@@ -448,8 +448,28 @@ public class Snippet {
 				return -1;
 			}
 		}
-		else {					//没有匹配到，打分defaultScore
+		else {
 			return defaultScore;
+		}
+	}
+	
+	public static int searchAndLoc (Map<String, List<String>> map, Map<String, Integer> tmpNum, String comp, String line, String logType, boolean hasStamp) {
+		String temp = mapMatchTemplate(map, comp, line, logType, hasStamp);
+		
+		
+		if (temp != "") {
+			try {
+				int loc = tmpNum.get(temp);
+				return loc;
+			}
+			catch (Exception e1){
+				System.out.println(temp);
+				e1.printStackTrace();
+				return -1;
+			}
+		}
+		else {					
+			throw new java.lang.RuntimeException("Log line: '" + line + "' doesn't belong to any template in template file.");
 		}
 	}
 	
@@ -819,6 +839,39 @@ public class Snippet {
 			}
 		}
 		return appearance;
+	}
+	
+	public static int[][] getMatArray(Map<String, Integer> tmpNum, Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile) {
+		int tmpLen = extract.readFile(templateFile).size();
+		int[][] retMat = new int[tmpLen][tmpLen];
+		int[] tmpArray = new int[tmpLen];
+		Map<String, List<String>> map = mapComponent(templateFile);
+		for (int i = 0; i < snippet.size(); i ++) {
+			String line = snippet.get(i);
+			if (line.length() > 2000 || line.isEmpty())	//long line or empty line
+				continue;
+			if (Pattern.matches("\\s+", line))			//处理空行
+				continue;
+			if (Character.isLetter(line.charAt(0))) {		//以字母开头的行
+				String comp = getCompPrefix(line);
+				
+				if (Pattern.matches("^[A-Z_]+=.+", comp))
+					comp = comp.split("=")[0] + "=" + "\\S+";
+				int loc = searchAndLoc(map, tmpNum, comp, line, logType, false);
+				if (tmpArray[loc] == 0)
+					tmpArray[loc] = i + 1;
+			}
+			
+		}
+		for (int i = 0; i < tmpLen; i ++) {
+			for (int j = 0; j < tmpLen; j ++) {
+				if (tmpArray[i] != 0 && tmpArray[j] != 0)
+					retMat[i][j] = tmpArray[i] - tmpArray[j];
+				else 
+					retMat[i][j] = 0;
+			}
+		}
+		return retMat;
 	}
 	
 	// Too ugly to deal with multiple space line
