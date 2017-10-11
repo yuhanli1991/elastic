@@ -2,13 +2,14 @@ package elk.elastic;
 
 import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.regex.Pattern;
+import net.sf.json.JSONArray; 
 
 
 public class App 
@@ -112,13 +113,17 @@ public class App
 		}
 		else if (args[3].equals("MatforEveryFile")) {
 			int[][][] ret = e.getMatforEveryFile(nodes, args[2], args[9]);
-			for (int i = 0; i < ret.length; i ++) {
-				for (int j = 0; j < ret[0].length; j ++) {
-					for (int k = 0; k < ret[0][0].length; k ++) {
-						System.out.print(ret[i][j][k]);
-					}
-				}
-			}
+//			for (int i = 0; i < ret.length; i ++) {
+//				for (int j = 0; j < ret[0].length; j ++) {
+//					for (int k = 0; k < ret[0][0].length; k ++) {
+//						System.out.print(ret[i][j][k] + ",");
+//					}
+//				}
+//			}
+			JSONArray jsonArray = JSONArray.fromObject(ret);
+			List<String> ls = new ArrayList<String>();
+			ls.add(jsonArray.toString());
+			extract.writeFile(".//log//matForEveryFile.json", ls);
 		}
 		
 		

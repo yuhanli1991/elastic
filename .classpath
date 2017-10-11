@@ -24,5 +24,11 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/Users/yuhanli/Documents/workspace/elastic/ojdbc6_g.jar"/>
+	<classpathentry kind="lib" path="/Users/yuhanli/Documents/workspace/elastic/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="/Users/yuhanli/Documents/workspace/elastic/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/yuhanli/Documents/workspace/elastic/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/yuhanli/Documents/workspace/elastic/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/yuhanli/Documents/workspace/elastic/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="/Users/yuhanli/Documents/workspace/elastic/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
