@@ -35,7 +35,7 @@ public class App
 //    	extract e = new extract();
 //    	System.out.println(e.cutLine("Start Date               ")[2]);
     	
-    	
+    	JSONArray jsonA = new JSONArray();
     	
     	String[] nodes = args[8].split(",");
     	extract e = new extract(args[0], args[1], args[2]);
