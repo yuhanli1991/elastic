@@ -71,7 +71,22 @@ public class Judge {
 		List<String> list = extract.readFile(templateFile);
 		Map<String, Integer> jo = new HashMap<String, Integer>();
 		for (int i = 0; i < list.size(); i ++) {
-			jo.put(list.get(i), i);
+			String line = list.get(i);
+			if (Pattern.matches("^.*--[0-9]+$", line)) {
+				int tail = -2;
+				for (int j = line.length() - 1; j >= 0; j --) {
+					if (!Character.isDigit(line.charAt(j))) {
+						tail = j - 1;
+						break;
+					}
+				}
+//				System.out.println(line);
+				String content = line.substring(0, tail);
+				jo.put(content, i);
+			}
+			else
+				jo.put(line, i);
+			
 		}
 		return jo;
 	}
