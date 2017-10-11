@@ -110,6 +110,16 @@ public class App
 				System.out.println("");
 			}
 		}
+		else if (args[3].equals("MatforEveryFile")) {
+			int[][][] ret = e.getMatforEveryFile(nodes, args[2], args[9]);
+			for (int i = 0; i < ret.length; i ++) {
+				for (int j = 0; j < ret[0].length; j ++) {
+					for (int k = 0; k < ret[0][0].length; k ++) {
+						System.out.print(ret[i][j][k]);
+					}
+				}
+			}
+		}
 		
 		
 		

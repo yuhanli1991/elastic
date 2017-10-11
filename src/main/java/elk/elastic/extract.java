@@ -1042,7 +1042,24 @@ public class extract {
 		return ret;
 	}
 	
-	
+	public int[][][] getMatforEveryFile (String[] node, String logType, String index) {
+		EsClient ec = new EsClient();
+		int tmpLen = extract.readFile(templatesFile).size();
+		int[][][] ret = new int[216][tmpLen][tmpLen];
+		List<List<String>> snippet;
+		
+		for (int i = 1; i <= 216; i ++) {
+			try {
+				snippet = ec.getSnippet(node, logType, Integer.toString(i), "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
+				ret[i - 1] = Snippet.getMatArray(judge.getTmpNum(), judge.getScore(), snippet.get(0), logType, templatesFile);
+			}
+			catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			}
+		}
+		return ret;
+	}
 	
 //	public static void writeJSON(String file, JSONObject jo){
 //		List<String> input = new ArrayList<String>();
