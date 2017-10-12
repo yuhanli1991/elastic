@@ -1061,6 +1061,21 @@ public class extract {
 		return ret;
 	}
 	
+	public void replaceRawAsTmp (String[] node, String logType, String index) {
+		EsClient ec = new EsClient();
+		List<List<String>> snippet;
+		for (int i = 1; i <= 216; i ++) {
+			try {
+				snippet = ec.getSnippet(node, logType, Integer.toString(i), "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
+				writeFile(".//templatedLogs//" + Integer.toString(i), Snippet.getGeneralList(judge.getScore(), snippet.get(0), logType, templatesFile));
+			}
+			catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			}
+		}
+	}
+	
 //	public static void writeJSON(String file, JSONObject jo){
 //		List<String> input = new ArrayList<String>();
 //		input.add(jo.toString());

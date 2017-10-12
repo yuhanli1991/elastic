@@ -473,6 +473,16 @@ public class Snippet {
 		}
 	}
 	
+	public static String searchAndTmp (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, boolean hasStamp){
+		String temp = mapMatchTemplate(map, comp, line, logType, hasStamp);
+		if (temp != "") {
+			return temp;
+		}
+		else {
+			throw new java.lang.RuntimeException("Log line: '" + line + "' doesn't belong to any template in template file.");
+		}
+	}
+	
 	public static void searchAndSum (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, Map<String, Integer> appearance){
 		String temp = mapMatchTemplate(map, comp, line, logType, false);
 		
@@ -872,6 +882,27 @@ public class Snippet {
 			}
 		}
 		return retMat;
+	}
+	
+	public static List<String> getGeneralList(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile) {
+		List<String> ret = new LinkedList<String>();
+		Map<String, List<String>> map = mapComponent(templateFile);
+		for (int i = 0; i < snippet.size(); i ++) {
+			String line = snippet.get(i);
+			if (line.length() > 2000 || line.isEmpty())	//long line or empty line
+				continue;
+			if (Pattern.matches("\\s+", line))			//处理空行
+				continue;
+			if (Character.isLetter(line.charAt(0))) {		//以字母开头的行
+				String comp = getCompPrefix(line);
+				
+				if (Pattern.matches("^[A-Z_]+=.+", comp))
+					comp = comp.split("=")[0] + "=" + "\\S+";
+				ret.add(searchAndTmp(map, jsonMap, comp, line, logType, false));
+			}
+			
+		}
+		return ret;
 	}
 	
 	// Too ugly to deal with multiple space line

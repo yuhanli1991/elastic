@@ -125,6 +125,10 @@ public class App
 			ls.add(jsonArray.toString());
 			extract.writeFile(".//log//matForEveryFile.json", ls);
 		}
+		else if (args[3].equals("replaceRawAsTmp")) {
+			e.replaceRawAsTmp(nodes, args[2], args[9]);
+			
+		}
 		
 		
 		
