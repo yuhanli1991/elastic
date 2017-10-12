@@ -176,6 +176,7 @@ public class EsClient {
 			        .setSearchType(SearchType.DFS_QUERY_THEN_FETCH)
 			        .setScroll(new TimeValue(TIME_VALUE))
 			        .setQuery(qb)                 // Query
+			        .addSort("@timestamp", SortOrder.fromString("asc"))
 			        .setFrom(0).setSize(10000)
 			        .setFetchSource(true)
 			        .get();
