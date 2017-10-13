@@ -1,0 +1,5 @@
+asm agent .//. \{.*\} ./
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+

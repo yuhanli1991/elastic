@@ -1,0 +1,30 @@
+afdb_scandisk: \S+
+afdb_getdiscstr: \S+
+afdb_getdiscstr: \S+
+No label in disk \S+
+No label in disk \S+
+Scan count \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+afdb_scandisk: \S+
+afdb_scandisk: \S+
+afdb_scandisk: \S+
+afdb_getdiscstr: \S+
+afdb_getdiscstr: \S+
+No label in disk \S+
+No label in disk \S+
+Scan count \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+Scanned disk \S+
+afdb_scandisk: \S+
+afdb_scandisk: \S+

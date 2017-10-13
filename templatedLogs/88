@@ -1,0 +1,4235 @@
+MEMORY_TARGET defaulting to \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+ksxp_exafusion_enabled_dcf: \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+node \S+ does not exist. \S+ = \S+
+Starting \S+ instance \(.*\) \(.*\)
+CLI notifier \S+ \S+
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Expected per process system memlock \(.*\) limit to lock
+SHARED \S+ \S+ \(.*\) into memory: \S+
+Available system pagesizes:
+Supported system pagesize\(.*\):
+Reason for not supporting certain system pagesizes:
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+Per process system memlock \(.*\) limit = \S+
+LICENSE_MAX_SESSION = \S+
+LICENSE_SESSIONS_WARNING = \S+
+Initial number of \S+ is \S+
+Number of processor \S+ in the system is \S+
+Number of processor \S+ in the system is \S+
+Shared memory segment for instance monitoring created
+Using \S+ parameter default value as \S+
+Autotune of undo retention is turned on.
+LICENSE_MAX_USERS = \S+
+SYS auditing is enabled
+NOTE: remote asm mode is \S+ \(.*\)
+NOTE: Cluster configuration type = \S+ \[.*\]
+NUMA system with \S+ nodes detected
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+ORACLE_HOME: \s*\S+
+System name:	Linux
+Node \S+
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Machine:	x86_64
+Using parameter settings in server-side \S+ \S+
+System parameters with non-default values:
+large_pool_size          = \S+
+remote_login_passwordfile= ".*"
+asm_power_limit          = \S+
+NOTE: remote asm mode is \S+ \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+IP: \S+ Subnet: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC Available Transports: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC \S+ \S+
+KSXP: \S+ \S+ \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+IPC Vendor \S+ proto \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+NOTE: PatchLevel of this instance \S+
+Starting background process \S+
+PMON started with \S+ \S+ \S+
+Starting background process \S+
+CLMN started with \S+ \S+ \S+
+Starting background process \S+
+PSP0 started with \S+ \S+ \S+
+Starting background process \S+
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+Starting background process \S+
+VKTM running at \(.*\)millisec precision with \S+ quantum \(.*\)ms
+GEN0 started with \S+ \S+ \S+
+Starting background process \S+
+MMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIAG started with \S+ \S+ \S+
+Starting background process \S+
+PING started with \S+ \S+ \S+
+Starting background process \S+
+PMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIA0 started with \S+ \S+ \S+
+Starting background process \S+
+LMON started with \S+ \S+ \S+
+Starting background process \S+
+LMD0 started with \S+ \S+ \S+
+Starting background process \S+
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+Load Monitor used for high load check
+New Low - High Load Threshold Range = \[.*\]
+LMHB started with \S+ \S+ \S+
+Starting background process \S+
+LCK1 started with \S+ \S+ \S+
+Starting background process \S+
+DBW0 started with \S+ \S+ \S+
+Starting background process \S+
+LGWR started with \S+ \S+ \S+
+Starting background process \S+
+CKPT started with \S+ \S+ \S+
+Starting background process \S+
+SMON started with \S+ \S+ \S+
+Starting background process \S+
+LREG started with \S+ \S+ \S+
+Starting background process \S+
+PXMN started with \S+ \S+ \S+
+Starting background process \S+
+RBAL started with \S+ \S+ \S+
+Starting background process \S+
+GMON started with \S+ \S+ \S+
+Starting background process \S+
+MMON started with \S+ \S+ \S+
+Starting background process \S+
+MMNL started with \S+ \S+ \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+allocate domain \S+ valid . \S+
+Attached to domain \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+ASM instance
+List of instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Starting background process \S+
+LCK0 started with \S+ \S+ \S+
+NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
+ORACLE_BASE from environment = \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: Diskgroup used for \S+ \S+ \S+
+DATA
+Diskgroup with \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ expansion required for disk group \S+
+Using default \S+ of \S+ \S+
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: setting \S+ start \S+ for group \S+ thread \S+ to \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+ORACLE_BASE value has been saved for future startups
+asm agent call crs .//. \{.*\} ./
+NOTE: diskgroup resource \S+ is \S+
+KSXPPING: \S+ selected for Ping
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: detected orphaned client id \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+allocate domain \S+ valid . \S+
+freeing rdom \S+
+Received detach msg from inst \S+ for dom \S+
+allocate domain \S+ valid . \S+
+instance \S+ validates domain \S+
+asm agent .//. \{.*\} ./
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ expansion required for disk group \S+
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: setting \S+ start \S+ for group \S+ thread \S+ to \S+
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+asm agent .//. \{.*\} ./
+NOTE: Voting File refresh pending for group \S+ \(.*\)
+NOTE: Voting File refresh pending for group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: No voting file found on diskgroup \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: detected orphaned client id \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+Starting background process \S+
+ASMB started with \S+ \S+ \S+
+NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
+NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: will remove stale ownerid \S+ for client .* \(.*\)
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: found stale ownerid \S+ for client \S+
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: \S+ client \S+ disconnected unexpectedly.
+NOTE: check client alert log.
+NOTE: Trace records dumped in trace file \S+
+NOTE: cleaned up \S+ client \S+ connection state \(.*\)
+NOTE: detected orphaned client id \S+
+Received detach msg from inst \S+ for dom \S+
+Received detach msg from inst \S+ for dom \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: client \S+ no longer has group \S+ \(.*\) mounted
+NOTE: \S+ process exiting due to \S+ instance shutdown \(.*\)
+NOTE: \S+ clearing idle groups before exit
+Shutting down instance \(.*\) \(.*\)
+Shutting down instance: further logons disabled
+Stopping background process \S+
+NOTE: client \S+ .*
+Stopping background process \S+
+License high water mark = \S+
+asm agent .//. \{.*\} ./
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: \S+ doing \S+ dismount of group \S+ \(.*\) thread \S+
+NOTE: \S+ closing thread \S+ of diskgroup \S+ \(.*\) at \S+ \S+
+NOTE: \S+ released recovery enqueue for thread \S+ group \S+ \(.*\)
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+NOTE: cache dismounted group \S+ \(.*\)
+NOTE: detached from domain \S+
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+SUCCESS: diskgroup \S+ was \S+
+NOTE: cache deleting context for group \S+ \S+
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: \S+ doing \S+ dismount of group \S+ \(.*\) thread \S+
+NOTE: \S+ closing thread \S+ of diskgroup \S+ \(.*\) at \S+ \S+
+NOTE: \S+ released recovery enqueue for thread \S+ group \S+ \(.*\)
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+NOTE: detached from domain \S+
+NOTE: cache dismounted group \S+ \(.*\)
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+asm agent .//. \{.*\} ./
+Shutting down archive processes
+Archiving is disabled
+SUCCESS: diskgroup \S+ was \S+
+NOTE: cache deleting context for group \S+ \S+
+Shutting down archive processes
+Stopping background process \S+
+Archiving is disabled
+freeing rdom \S+
+freeing rdom \S+
+freeing rdom \S+
+Instance shutdown complete \(.*\)
+MEMORY_TARGET defaulting to \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+ksxp_exafusion_enabled_dcf: \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+node \S+ does not exist. \S+ = \S+
+Starting \S+ instance \(.*\) \(.*\)
+CLI notifier \S+ \S+
+Expected per process system memlock \(.*\) limit to lock
+SHARED \S+ \S+ \(.*\) into memory: \S+
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Per process system memlock \(.*\) limit = \S+
+Available system pagesizes:
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+Supported system pagesize\(.*\):
+Reason for not supporting certain system pagesizes:
+LICENSE_MAX_SESSION = \S+
+LICENSE_SESSIONS_WARNING = \S+
+Initial number of \S+ is \S+
+Number of processor \S+ in the system is \S+
+Number of processor \S+ in the system is \S+
+Using \S+ parameter default value as \S+
+Autotune of undo retention is turned on.
+LICENSE_MAX_USERS = \S+
+SYS auditing is enabled
+NOTE: remote asm mode is \S+ \(.*\)
+NOTE: Cluster configuration type = \S+ \[.*\]
+NUMA system with \S+ nodes detected
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+ORACLE_HOME: \s*\S+
+System name:	Linux
+Node \S+
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Machine:	x86_64
+Using parameter settings in server-side \S+ \S+
+System parameters with non-default values:
+large_pool_size          = \S+
+remote_login_passwordfile= ".*"
+asm_diskgroups           = ".*"
+asm_power_limit          = \S+
+NOTE: remote asm mode is \S+ \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+IP: \S+ Subnet: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC Available Transports: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC \S+ \S+
+KSXP: \S+ \S+ \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+IPC Vendor \S+ proto \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+NOTE: PatchLevel of this instance \S+
+Starting background process \S+
+PMON started with \S+ \S+ \S+
+Starting background process \S+
+CLMN started with \S+ \S+ \S+
+Starting background process \S+
+PSP0 started with \S+ \S+ \S+
+Starting background process \S+
+Starting background process \S+
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+VKTM running at \(.*\)millisec precision with \S+ quantum \(.*\)ms
+GEN0 started with \S+ \S+ \S+
+Starting background process \S+
+MMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIAG started with \S+ \S+ \S+
+Starting background process \S+
+PING started with \S+ \S+ \S+
+Starting background process \S+
+PMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIA0 started with \S+ \S+ \S+
+Starting background process \S+
+LMON started with \S+ \S+ \S+
+Starting background process \S+
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+LMD0 started with \S+ \S+ \S+
+Starting background process \S+
+Load Monitor used for high load check
+New Low - High Load Threshold Range = \[.*\]
+LMHB started with \S+ \S+ \S+
+Starting background process \S+
+LCK1 started with \S+ \S+ \S+
+Starting background process \S+
+DBW0 started with \S+ \S+ \S+
+Starting background process \S+
+LGWR started with \S+ \S+ \S+
+Starting background process \S+
+CKPT started with \S+ \S+ \S+
+Starting background process \S+
+Starting background process \S+
+SMON started with \S+ \S+ \S+
+LREG started with \S+ \S+ \S+
+Starting background process \S+
+PXMN started with \S+ \S+ \S+
+Starting background process \S+
+RBAL started with \S+ \S+ \S+
+Starting background process \S+
+GMON started with \S+ \S+ \S+
+Starting background process \S+
+MMON started with \S+ \S+ \S+
+Starting background process \S+
+MMNL started with \S+ \S+ \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+allocate domain \S+ valid . \S+
+Attached to domain \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+ASM instance
+List of instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Starting background process \S+
+LCK0 started with \S+ \S+ \S+
+NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
+ORACLE_BASE from environment = \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: Diskgroup used for \S+ \S+ \S+
+DATA
+Diskgroup with \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: Diskgroups listed in \S+ are
+TMPDG
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: diskgroup resource \S+ is \S+
+Using default \S+ of \S+ \S+
+NOTE: diskgroup resource \S+ is \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+KSXPPING: \S+ selected for Ping
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: membership refresh pending for group \S+ \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: membership refresh pending for group \S+ \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: membership refresh pending for group \S+ \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Starting background process \S+
+ASMB started with \S+ \S+ \S+
+NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
+NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: client \S+ no longer has group \S+ \(.*\) mounted
+NOTE: membership refresh pending for group \S+ \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: membership refresh pending for group \S+ \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: \S+ process exiting due to lack of \S+ file activity for \S+ seconds
+NOTE: \S+ clearing idle groups before exit
+NOTE: client \S+ .*
+System state dump requested by \(.*\), summary=\[.*\].
+System State dumped to trace file \S+
+NOTE: detected orphaned client id \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+Received detach msg from inst \S+ for dom \S+
+Received detach msg from inst \S+ for dom \S+
+Shutting down instance \(.*\) \(.*\)
+Shutting down instance: further logons disabled
+Stopping background process \S+
+Stopping background process \S+
+License high water mark = \S+
+asm agent .//. \{.*\} ./
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: \S+ doing \S+ dismount of group \S+ \(.*\) thread \S+
+NOTE: \S+ closing thread \S+ of diskgroup \S+ \(.*\) at \S+ \S+
+NOTE: \S+ released recovery enqueue for thread \S+ group \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+NOTE: detached from domain \S+
+NOTE: cache dismounted group \S+ \(.*\)
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+SUCCESS: diskgroup \S+ was \S+
+NOTE: cache deleting context for group \S+ \S+
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: \S+ doing \S+ dismount of group \S+ \(.*\) thread \S+
+NOTE: \S+ closing thread \S+ of diskgroup \S+ \(.*\) at \S+ \S+
+NOTE: \S+ released recovery enqueue for thread \S+ group \S+ \(.*\)
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+NOTE: detached from domain \S+
+NOTE: cache dismounted group \S+ \(.*\)
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+asm agent .//. \{.*\} ./
+Shutting down archive processes
+Archiving is disabled
+SUCCESS: diskgroup \S+ was \S+
+NOTE: cache deleting context for group \S+ \S+
+Shutting down archive processes
+Stopping background process \S+
+Archiving is disabled
+freeing rdom \S+
+freeing rdom \S+
+freeing rdom \S+
+Instance shutdown complete \(.*\)
+MEMORY_TARGET defaulting to \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+ksxp_exafusion_enabled_dcf: \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+node \S+ does not exist. \S+ = \S+
+Starting \S+ instance \(.*\) \(.*\)
+CLI notifier \S+ \S+
+Per process system memlock \(.*\) limit = \S+
+Expected per process system memlock \(.*\) limit to lock
+SHARED \S+ \S+ \(.*\) into memory: \S+
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Reason for not supporting certain system pagesizes:
+Available system pagesizes:
+Supported system pagesize\(.*\):
+LICENSE_MAX_SESSION = \S+
+LICENSE_SESSIONS_WARNING = \S+
+Initial number of \S+ is \S+
+Number of processor \S+ in the system is \S+
+Number of processor \S+ in the system is \S+
+Using \S+ parameter default value as \S+
+Autotune of undo retention is turned on.
+LICENSE_MAX_USERS = \S+
+SYS auditing is enabled
+NOTE: remote asm mode is \S+ \(.*\)
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+NOTE: Cluster configuration type = \S+ \[.*\]
+NUMA system with \S+ nodes detected
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+ORACLE_HOME: \s*\S+
+System name:	Linux
+Node \S+
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Machine:	x86_64
+Using parameter settings in server-side \S+ \S+
+System parameters with non-default values:
+large_pool_size          = \S+
+remote_login_passwordfile= ".*"
+asm_diskgroups           = ".*"
+asm_power_limit          = \S+
+NOTE: remote asm mode is \S+ \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+IP: \S+ Subnet: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC Available Transports: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC \S+ \S+
+KSXP: \S+ \S+ \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+IPC Vendor \S+ proto \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+NOTE: PatchLevel of this instance \S+
+Starting background process \S+
+PMON started with \S+ \S+ \S+
+Starting background process \S+
+CLMN started with \S+ \S+ \S+
+Starting background process \S+
+PSP0 started with \S+ \S+ \S+
+Starting background process \S+
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+Starting background process \S+
+VKTM running at \(.*\)millisec precision with \S+ quantum \(.*\)ms
+GEN0 started with \S+ \S+ \S+
+Starting background process \S+
+MMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIAG started with \S+ \S+ \S+
+Starting background process \S+
+PING started with \S+ \S+ \S+
+Starting background process \S+
+PMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIA0 started with \S+ \S+ \S+
+Starting background process \S+
+LMON started with \S+ \S+ \S+
+Starting background process \S+
+LMD0 started with \S+ \S+ \S+
+Starting background process \S+
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+Load Monitor used for high load check
+New Low - High Load Threshold Range = \[.*\]
+LMHB started with \S+ \S+ \S+
+Starting background process \S+
+LCK1 started with \S+ \S+ \S+
+Starting background process \S+
+DBW0 started with \S+ \S+ \S+
+Starting background process \S+
+LGWR started with \S+ \S+ \S+
+Starting background process \S+
+CKPT started with \S+ \S+ \S+
+Starting background process \S+
+SMON started with \S+ \S+ \S+
+Starting background process \S+
+LREG started with \S+ \S+ \S+
+Starting background process \S+
+PXMN started with \S+ \S+ \S+
+Starting background process \S+
+RBAL started with \S+ \S+ \S+
+Starting background process \S+
+GMON started with \S+ \S+ \S+
+Starting background process \S+
+MMON started with \S+ \S+ \S+
+Starting background process \S+
+MMNL started with \S+ \S+ \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+allocate domain \S+ valid . \S+
+Attached to domain \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+ASM instance
+List of instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Starting background process \S+
+LCK0 started with \S+ \S+ \S+
+NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
+ORACLE_BASE from environment = \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: Diskgroup used for \S+ \S+ \S+
+DATA
+Diskgroup with \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: Diskgroups listed in \S+ are
+TMPDG
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+Errors in file \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:AFD:DATA1
+incarnation:\S+ \S+ result:'.*'
+subsys:\S+ \S+ \S+ \S+ \S+
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: dbwr not being msg.*
+NOTE: \S+ not being messaged to dismount
+NOTE: cache dismounted group \S+ \(.*\)
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: cache deleting context for group \S+ \S+
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+ERROR: diskgroup \S+ was not \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+WARNING: Disk Group \S+ containing spfile for this instance is not mounted
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+ORA-15032: not all alterations performed
+ORA-15040: diskgroup is incomplete
+ORA-15042: \S+ disk ".*" is missing from group number ".*"
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-27061: waiting for async I/Os failed
+Linux-x86_64 Error: \S+ Input/output error
+Additional information: \S+
+Additional information: \S+
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-15186: \S+ error function = \[.*\],  err
+asm agent call crs .//. \{.*\} ./
+NOTE: diskgroup resource \S+ is \S+
+ASM Health Checker found \S+ new failures
+Using default \S+ of \S+ \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+KSXPPING: \S+ selected for Ping
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Errors in file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-06512: at line \S+
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+NOTE: detected orphaned client id \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+asm agent .//. \{.*\} ./
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+Errors in file \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:AFD:DATA1
+incarnation:\S+ \S+ result:'.*'
+subsys:\S+ \S+ \S+ \S+ \S+
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: dbwr not being msg.*
+NOTE: \S+ not being messaged to dismount
+NOTE: cache dismounted group \S+ \(.*\)
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: cache deleting context for group \S+ \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+ERROR: diskgroup \S+ was not \S+
+WARNING: Disk Group \S+ containing spfile for this instance is not mounted
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+ORA-15032: not all alterations performed
+ORA-15040: diskgroup is incomplete
+ORA-15042: \S+ disk ".*" is missing from group number ".*"
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-27061: waiting for async I/Os failed
+Linux-x86_64 Error: \S+ Input/output error
+Additional information: \S+
+Additional information: \S+
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-15186: \S+ error function = \[.*\],  err
+asm agent .//. \{.*\} ./
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+ASM Health Checker found \S+ new failures
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+asm agent .//. \{.*\} ./
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+Errors in file \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:AFD:DATA1
+incarnation:\S+ \S+ result:'.*'
+subsys:\S+ \S+ \S+ \S+ \S+
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: dbwr not being msg.*
+NOTE: \S+ not being messaged to dismount
+NOTE: cache dismounted group \S+ \(.*\)
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: cache deleting context for group \S+ \S+
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+ERROR: diskgroup \S+ was not \S+
+WARNING: Disk Group \S+ containing spfile for this instance is not mounted
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+ORA-15032: not all alterations performed
+ORA-15040: diskgroup is incomplete
+ORA-15042: \S+ disk ".*" is missing from group number ".*"
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-27061: waiting for async I/Os failed
+Linux-x86_64 Error: \S+ Input/output error
+Additional information: \S+
+Additional information: \S+
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-15186: \S+ error function = \[.*\],  err
+asm agent .//. \{.*\} ./
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+ASM Health Checker found \S+ new failures
+asm agent .//. \{.*\} ./
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+Errors in file \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:AFD:DATA1
+incarnation:\S+ \S+ result:'.*'
+subsys:\S+ \S+ \S+ \S+ \S+
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: dbwr not being msg.*
+NOTE: \S+ not being messaged to dismount
+NOTE: cache dismounted group \S+ \(.*\)
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: cache deleting context for group \S+ \S+
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+ERROR: diskgroup \S+ was not \S+
+WARNING: Disk Group \S+ containing spfile for this instance is not mounted
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+ORA-15032: not all alterations performed
+ORA-15040: diskgroup is incomplete
+ORA-15042: \S+ disk ".*" is missing from group number ".*"
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-27061: waiting for async I/Os failed
+Linux-x86_64 Error: \S+ Input/output error
+Additional information: \S+
+Additional information: \S+
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-15186: \S+ error function = \[.*\],  err
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+asm agent .//. \{.*\} ./
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+ASM Health Checker found \S+ new failures
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Errors in file \S+
+ORA-15090: handle \S+ is not \S+ valid descriptor
+NOTE: client \S+ .*
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+freeing rdom \S+
+Received detach msg from inst \S+ for dom \S+
+Received detach msg from inst \S+ for dom \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+NOTE: timeout \(.*\) expired for orphan ownerid \S+ for client \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+

@@ -1,0 +1,2232 @@
+MEMORY_TARGET defaulting to \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+ksxp_exafusion_enabled_dcf: \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+node \S+ does not exist. \S+ = \S+
+SZAUD: Cluster class retrieved from \S+ is \[.*\]. thus skipping setting audit syslog level
+Starting \S+ instance \(.*\) \(.*\)
+CLI notifier \S+ \S+
+Per process system memlock \(.*\) limit = \S+
+Expected per process system memlock \(.*\) limit to lock
+SHARED \S+ \S+ \(.*\) into memory: \S+
+Available system pagesizes:
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Supported system pagesize\(.*\):
+LICENSE_MAX_SESSION = \S+
+LICENSE_SESSIONS_WARNING = \S+
+Initial number of \S+ is \S+
+Number of processor \S+ in the system is \S+
+Number of processor \S+ in the system is \S+
+Shared memory segment for instance monitoring created
+Using \S+ parameter default value as \S+
+Autotune of undo retention is turned on.
+LICENSE_MAX_USERS = \S+
+SYS auditing is enabled
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+Reason for not supporting certain system pagesizes:
+NOTE: remote asm mode is \S+ \(.*\)
+NOTE: Cluster configuration type = \S+ \[.*\]
+NUMA system with \S+ nodes detected
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+ORACLE_HOME: \s*\S+
+System name:	Linux
+Node \S+
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Machine:	x86_64
+Using parameter settings in server-side \S+ \S+
+System parameters with non-default values:
+large_pool_size          = \S+
+remote_login_passwordfile= ".*"
+asm_power_limit          = \S+
+NOTE: remote asm mode is \S+ \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+IP: \S+ Subnet: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC Available Transports: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC \S+ \S+
+KSXP: \S+ \S+ \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+IPC Vendor \S+ proto \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+NOTE: PatchLevel of this instance \S+
+Starting background process \S+
+PMON started with \S+ \S+ \S+
+Starting background process \S+
+CLMN started with \S+ \S+ \S+
+Starting background process \S+
+PSP0 started with \S+ \S+ \S+
+Starting background process \S+
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+Starting background process \S+
+VKTM running at \(.*\) precision
+GEN0 started with \S+ \S+ \S+
+Starting background process \S+
+MMAN started with \S+ \S+ \S+
+Starting background process \S+
+GEN1 started with \S+ \S+ \S+
+Starting background process \S+
+DIAG started with \S+ \S+ \S+
+Starting background process \S+
+PING started with \S+ \S+ \S+
+Starting background process \S+
+PMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIA0 started with \S+ \S+ \S+
+Starting background process \S+
+Starting background process \S+
+LMON started with \S+ \S+ \S+
+LMD0 started with \S+ \S+ \S+
+Starting background process \S+
+Load Monitor used for high load check
+New Low - High Load Threshold Range = \[.*\]
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+LMHB started with \S+ \S+ \S+
+Starting background process \S+
+LCK1 started with \S+ \S+ \S+
+Starting background process \S+
+DBW0 started with \S+ \S+ \S+
+Starting background process \S+
+LGWR started with \S+ \S+ \S+
+Starting background process \S+
+CKPT started with \S+ \S+ \S+
+Starting background process \S+
+SMON started with \S+ \S+ \S+
+Starting background process \S+
+LREG started with \S+ \S+ \S+
+Starting background process \S+
+PXMN started with \S+ \S+ \S+
+Starting background process \S+
+RBAL started with \S+ \S+ \S+
+Starting background process \S+
+GMON started with \S+ \S+ \S+
+Starting background process \S+
+MMON started with \S+ \S+ \S+
+Starting background process \S+
+MMNL started with \S+ \S+ \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+allocate domain \S+ valid . \S+
+Attached to domain \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+ASM instance
+List of instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Starting background process \S+
+LCK0 started with \S+ \S+ \S+
+ORACLE_BASE from environment = \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: Diskgroup used for \S+ \S+ \S+
+DATA
+Diskgroup with \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ expansion required for disk group \S+
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: setting \S+ start \S+ for group \S+ thread \S+ to \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+ORACLE_BASE value has been saved for future startups
+asm agent call crs .//. \{.*\} ./
+NOTE: diskgroup resource \S+ is \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Starting background process \S+
+ASMB started with \S+ \S+ \S+
+NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
+NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+KSXPPING: \S+ selected for Ping
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
+SUCCESS: \S+ enlarged for group \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
+SUCCESS: \S+ enlarged for group \S+ \(.*\)
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: registering \S+ \[.*\] for client \S+ \S+ ospid \S+
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: detected orphaned client id \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Received detach msg from inst \S+ for dom \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: detected orphaned client id \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: detected orphaned client id \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+Received detach msg from inst \S+ for dom \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: detected orphaned client id \S+
+ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \S+ mounted group \S+ \(.*\)
+Received detach msg from inst \S+ for dom \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: \S+ client \S+ disconnected unexpectedly.
+NOTE: check client alert log.
+NOTE: Trace records dumped in trace file \S+
+NOTE: cleaned up \S+ client \S+ connection state \(.*\)
+NOTE: detected orphaned client id \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: client \S+ .*
+NOTE: \S+ client \S+ disconnected unexpectedly.
+NOTE: check client alert log.
+NOTE: Trace records dumped in trace file \S+
+NOTE: cleaned up \S+ client \S+ connection state \(.*\)
+NOTE: detected orphaned client id \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: client \S+ .*
+NOTE: client \S+ no longer has group \S+ \(.*\) mounted
+NOTE: \S+ process exiting due to \S+ instance shutdown \(.*\)
+NOTE: \S+ clearing idle groups before exit
+NOTE: client \S+ .*
+Shutting down instance \(.*\) \(.*\)
+Shutting down instance: further logons disabled
+Stopping background process \S+
+Stopping background process \S+
+License high water mark = \S+
+asm agent .//. \{.*\} ./
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: \S+ doing \S+ dismount of group \S+ \(.*\) thread \S+
+NOTE: \S+ closing thread \S+ of diskgroup \S+ \(.*\) at \S+ \S+
+NOTE: \S+ released recovery enqueue for thread \S+ group \S+ \(.*\)
+freeing rdom \S+
+NOTE: detached from domain \S+
+NOTE: cache dismounted group \S+ \(.*\)
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+asm agent .//. \{.*\} ./
+Shutting down archive processes
+Archiving is disabled
+SUCCESS: diskgroup \S+ was \S+
+NOTE: cache deleting context for group \S+ \S+
+Stopping background process \S+
+Shutting down archive processes
+Archiving is disabled
+freeing rdom \S+
+Instance shutdown complete \(.*\)
+MEMORY_TARGET defaulting to \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+ksxp_exafusion_enabled_dcf: \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+node \S+ does not exist. \S+ = \S+
+SZAUD: Cluster class retrieved from \S+ is \[.*\]. thus skipping setting audit syslog level
+Starting \S+ instance \(.*\) \(.*\)
+CLI notifier \S+ \S+
+Expected per process system memlock \(.*\) limit to lock
+SHARED \S+ \S+ \(.*\) into memory: \S+
+Available system pagesizes:
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Per process system memlock \(.*\) limit = \S+
+Supported system pagesize\(.*\):
+LICENSE_MAX_SESSION = \S+
+LICENSE_SESSIONS_WARNING = \S+
+Initial number of \S+ is \S+
+Number of processor \S+ in the system is \S+
+Number of processor \S+ in the system is \S+
+Using \S+ parameter default value as \S+
+Autotune of undo retention is turned on.
+LICENSE_MAX_USERS = \S+
+SYS auditing is enabled
+Reason for not supporting certain system pagesizes:
+NOTE: remote asm mode is \S+ \(.*\)
+NOTE: Cluster configuration type = \S+ \[.*\]
+NUMA system with \S+ nodes detected
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+ORACLE_HOME: \s*\S+
+System name:	Linux
+Node \S+
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Machine:	x86_64
+Using parameter settings in server-side \S+ \S+
+System parameters with non-default values:
+large_pool_size          = \S+
+remote_login_passwordfile= ".*"
+asm_power_limit          = \S+
+NOTE: remote asm mode is \S+ \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+IP: \S+ Subnet: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC Available Transports: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC \S+ \S+
+KSXP: \S+ \S+ \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+IPC Vendor \S+ proto \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+NOTE: PatchLevel of this instance \S+
+Starting background process \S+
+PMON started with \S+ \S+ \S+
+Starting background process \S+
+CLMN started with \S+ \S+ \S+
+Starting background process \S+
+PSP0 started with \S+ \S+ \S+
+Starting background process \S+
+Starting background process \S+
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+VKTM running at \(.*\) precision
+GEN0 started with \S+ \S+ \S+
+Starting background process \S+
+MMAN started with \S+ \S+ \S+
+Starting background process \S+
+GEN1 started with \S+ \S+ \S+
+Starting background process \S+
+DIAG started with \S+ \S+ \S+
+Starting background process \S+
+PING started with \S+ \S+ \S+
+Starting background process \S+
+PMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIA0 started with \S+ \S+ \S+
+Starting background process \S+
+LMON started with \S+ \S+ \S+
+Starting background process \S+
+LMD0 started with \S+ \S+ \S+
+Starting background process \S+
+Load Monitor used for high load check
+New Low - High Load Threshold Range = \[.*\]
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+LMHB started with \S+ \S+ \S+
+Starting background process \S+
+LCK1 started with \S+ \S+ \S+
+Starting background process \S+
+DBW0 started with \S+ \S+ \S+
+Starting background process \S+
+LGWR started with \S+ \S+ \S+
+Starting background process \S+
+CKPT started with \S+ \S+ \S+
+Starting background process \S+
+SMON started with \S+ \S+ \S+
+Starting background process \S+
+LREG started with \S+ \S+ \S+
+Starting background process \S+
+PXMN started with \S+ \S+ \S+
+Starting background process \S+
+RBAL started with \S+ \S+ \S+
+Starting background process \S+
+GMON started with \S+ \S+ \S+
+Starting background process \S+
+MMON started with \S+ \S+ \S+
+Starting background process \S+
+MMNL started with \S+ \S+ \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+allocate domain \S+ valid . \S+
+Attached to domain \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+ASM instance
+List of instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Starting background process \S+
+LCK0 started with \S+ \S+ \S+
+ORACLE_BASE from environment = \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: Diskgroup used for \S+ \S+ \S+
+DATA
+Diskgroup with \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Starting background process \S+
+ASMB started with \S+ \S+ \S+
+NOTE: diskgroup resource \S+ is \S+
+NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
+NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+KSXPPING: \S+ selected for Ping
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: registering \S+ \[.*\] for client \S+ \S+ ospid \S+
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: repairing extent \S+ of file \S+ group \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: block repair initiating disk offline
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+Dumping diagnostic data in directory=\[.*\], requested by \(.*\), summary=\[.*\].
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+dead instance detected - domain \S+ invalid = \S+
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
+Received dirty detach msg from inst \S+ for dom \S+
+Dirty detach reconfiguration started \(.*\)
+List of instances \(.*\) \S+
+My inst \S+ .*
+NOTE: detected orphaned client id \S+
+NOTE: detected orphaned client id \S+
+NOTE: detected orphaned client id \S+
+Global Resource Directory partially frozen for dirty detach
+dirty detach - domain \S+ invalid = \S+
+Dirty Detach Reconfiguration complete \(.*\)
+Dumping diagnostic data in directory=\[.*\], requested by \(.*\), summary=\[.*\].
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: \S+ update grp = \S+ completed successfully
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+NOTE: \S+ update grp = \S+ completed successfully
+instance \S+ validates domain \S+
+NOTE: disk \S+ \(.*\) in group \S+ \(.*\) is locally offline for writes
+NOTE: detected orphaned client id \S+
+NOTE: detected orphaned client id \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
+NOTE: registered owner id \S+ for \S+ \(.*\)
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \[.*\] declared \S+ additional pending writes
+NOTE: registered owner id \S+ for \S+ \(.*\)
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \[.*\] declared \S+ additional pending writes
+NOTE: registered owner id \S+ for \S+ \(.*\)
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \[.*\] declared \S+ additional pending writes
+NOTE: registering \S+ \[.*\] for client \S+ \S+ ospid \S+
+NOTE: registering \S+ \[.*\] for client \S+ \S+ ospid \S+
+NOTE: relocating client \S+ \(.*\)
+NOTE: \S+ client \S+ disconnected unexpectedly.
+NOTE: check client alert log.
+NOTE: Trace records dumped in trace file \S+
+NOTE: cleaned up \S+ client \S+ connection state \(.*\)
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: detected orphaned client id \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: cleaning stale remote ownerid \S+ for client \S+ \(.*\)
+NOTE: cleaning stale remote ownerid \S+ for client \S+ \(.*\)
+NOTE: cleaning stale remote ownerid \S+ for client \S+ \(.*\)
+NOTE: registered owner id \S+ for \S+ \(.*\)
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \[.*\] declared \S+ additional pending writes
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: relocating client \S+ \(.*\)
+NOTE: cleaned up \S+ client \S+ connection state
+NOTE: relocating client \S+ \(.*\)
+NOTE: cleaned up \S+ client \S+ connection state \(.*\)
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+ \(.*\)
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \[.*\] declared \S+ additional pending writes
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: detected orphaned client id \S+
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: relocating client \S+ \(.*\)
+NOTE: cleaned up \S+ client \S+ connection state
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: cleaning stale remote ownerid \S+ for client \S+ \(.*\)
+NOTE: relocating client \S+ \(.*\)
+NOTE: cleaned up \S+ client \S+ connection state
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: detected orphaned client id \S+
+NOTE: detected orphaned client id \S+
+NOTE: registered owner id \S+ for \S+ \(.*\)
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \[.*\] declared \S+ additional pending writes
+NOTE: relocating client \S+ \(.*\)
+NOTE: cleaned up \S+ client \S+ connection state
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+ \(.*\)
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \[.*\] declared \S+ additional pending writes
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: relocating client \S+ \(.*\)
+NOTE: cleaned up \S+ client \S+ connection state
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: detected orphaned client id \S+
+NOTE: cleaning stale remote ownerid \S+ for client \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: Failed voting file relocation on diskgroup \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+NOTE: \S+ update grp = \S+ completed successfully
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache closing disk \S+ of grp \S+ .*
+NOTE: \S+ update grp = \S+ completed successfully
+SUCCESS: extent \S+ of file \S+ group \S+ - all online mirror sides found readable, no repair required
+NOTE: repairing extent \S+ of file \S+ group \S+
+SUCCESS: extent \S+ of file \S+ group \S+ - all online mirror sides found readable, no repair required
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: membership refresh pending for group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: detected orphaned client id \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: \S+ client \S+ disconnected unexpectedly.
+NOTE: check client alert log.
+NOTE: Trace records dumped in trace file \S+
+NOTE: cleaned up \S+ client \S+ connection state \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: detected orphaned client id \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: client \S+ .*
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: \S+ client \S+ disconnected unexpectedly.
+NOTE: check client alert log.
+NOTE: Trace records dumped in trace file \S+
+NOTE: cleaned up \S+ client \S+ connection state \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: detected orphaned client id \S+
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: client \S+ .*
+NOTE: client \S+ .*
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: client \S+ no longer has group \S+ \(.*\) mounted
+NOTE: \S+ process exiting due to \S+ instance shutdown \(.*\)
+NOTE: \S+ clearing idle groups before exit
+NOTE: client \S+ .*
+Shutting down instance \(.*\) \(.*\)
+Shutting down instance: further logons disabled
+Stopping background process \S+
+Stopping background process \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+License high water mark = \S+
+asm agent .//. \{.*\} ./
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: \S+ doing \S+ dismount of group \S+ \(.*\) thread \S+
+NOTE: \S+ closing thread \S+ of diskgroup \S+ \(.*\) at \S+ \S+
+NOTE: \S+ released recovery enqueue for thread \S+ group \S+ \(.*\)
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+kjbdomdet send to inst \S+
+detach from dom \S+ sending detach message to inst \S+
+NOTE: detached from domain \S+
+NOTE: cache dismounted group \S+ \(.*\)
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+SUCCESS: diskgroup \S+ was \S+
+NOTE: cache deleting context for group \S+ \S+
+asm agent .//. \{.*\} ./
+Shutting down archive processes
+Archiving is disabled
+freeing rdom \S+
+Received detach msg from inst \S+ for dom \S+
+Shutting down archive processes
+Archiving is disabled
+Stopping background process \S+
+freeing rdom \S+
+Instance shutdown complete \(.*\)
+MEMORY_TARGET defaulting to \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+ksxp_exafusion_enabled_dcf: \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+node \S+ does not exist. \S+ = \S+
+SZAUD: Cluster class retrieved from \S+ is \[.*\]. thus skipping setting audit syslog level
+Starting \S+ instance \(.*\) \(.*\)
+CLI notifier \S+ \S+
+Available system pagesizes:
+Supported system pagesize\(.*\):
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Per process system memlock \(.*\) limit = \S+
+Expected per process system memlock \(.*\) limit to lock
+SHARED \S+ \S+ \(.*\) into memory: \S+
+Reason for not supporting certain system pagesizes:
+LICENSE_MAX_SESSION = \S+
+LICENSE_SESSIONS_WARNING = \S+
+Initial number of \S+ is \S+
+Number of processor \S+ in the system is \S+
+Number of processor \S+ in the system is \S+
+Using \S+ parameter default value as \S+
+Autotune of undo retention is turned on.
+LICENSE_MAX_USERS = \S+
+SYS auditing is enabled
+NOTE: remote asm mode is \S+ \(.*\)
+NOTE: Cluster configuration type = \S+ \[.*\]
+NUMA system with \S+ nodes detected
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+ORACLE_HOME: \s*\S+
+System name:	Linux
+Node \S+
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Machine:	x86_64
+Using parameter settings in server-side \S+ \S+
+System parameters with non-default values:
+large_pool_size          = \S+
+remote_login_passwordfile= ".*"
+asm_power_limit          = \S+
+NOTE: remote asm mode is \S+ \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+IP: \S+ Subnet: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC Available Transports: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC \S+ \S+
+KSXP: \S+ \S+ \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+IPC Vendor \S+ proto \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+NOTE: PatchLevel of this instance \S+
+Starting background process \S+
+PMON started with \S+ \S+ \S+
+Starting background process \S+
+CLMN started with \S+ \S+ \S+
+Starting background process \S+
+PSP0 started with \S+ \S+ \S+
+Starting background process \S+
+Starting background process \S+
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+VKTM running at \(.*\) precision
+GEN0 started with \S+ \S+ \S+
+Starting background process \S+
+MMAN started with \S+ \S+ \S+
+Starting background process \S+
+GEN1 started with \S+ \S+ \S+
+Starting background process \S+
+DIAG started with \S+ \S+ \S+
+Starting background process \S+
+PING started with \S+ \S+ \S+
+Starting background process \S+
+PMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIA0 started with \S+ \S+ \S+
+Starting background process \S+
+LMON started with \S+ \S+ \S+
+Starting background process \S+
+LMD0 started with \S+ \S+ \S+
+Starting background process \S+
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+Load Monitor used for high load check
+New Low - High Load Threshold Range = \[.*\]
+LMHB started with \S+ \S+ \S+
+Starting background process \S+
+Starting background process \S+
+LCK1 started with \S+ \S+ \S+
+DBW0 started with \S+ \S+ \S+
+Starting background process \S+
+LGWR started with \S+ \S+ \S+
+Starting background process \S+
+CKPT started with \S+ \S+ \S+
+Starting background process \S+
+SMON started with \S+ \S+ \S+
+Starting background process \S+
+LREG started with \S+ \S+ \S+
+Starting background process \S+
+PXMN started with \S+ \S+ \S+
+Starting background process \S+
+RBAL started with \S+ \S+ \S+
+Starting background process \S+
+GMON started with \S+ \S+ \S+
+Starting background process \S+
+Starting background process \S+
+MMON started with \S+ \S+ \S+
+MMNL started with \S+ \S+ \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+allocate domain \S+ valid . \S+
+Attached to domain \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+ASM instance
+List of instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Starting background process \S+
+LCK0 started with \S+ \S+ \S+
+ORACLE_BASE from environment = \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: Diskgroup used for \S+ \S+ \S+
+DATA
+Diskgroup with \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: initial disk modes for disk \S+ \(.*\) in group \S+ \(.*\) is not completely online: modes \S+ lflags \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: group \S+ \(.*\) high disk header ckpt advanced to fcn \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: diskgroup resource \S+ is \S+
+KSXPPING: \S+ selected for Ping
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Starting background process \S+
+ASMB started with \S+ \S+ \S+
+NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
+NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: registering \S+ \[.*\] for client \S+ \S+ ospid \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: membership refresh pending for group \S+ \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*

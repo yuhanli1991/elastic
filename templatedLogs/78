@@ -1,0 +1,1596 @@
+MEMORY_TARGET defaulting to \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+ksxp_exafusion_enabled_dcf: \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+node \S+ does not exist. \S+ = \S+
+Starting \S+ instance \(.*\) \(.*\)
+CLI notifier \S+ \S+
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Available system pagesizes:
+Supported system pagesize\(.*\):
+Per process system memlock \(.*\) limit = \S+
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+Expected per process system memlock \(.*\) limit to lock
+SHARED \S+ \S+ \(.*\) into memory: \S+
+Reason for not supporting certain system pagesizes:
+LICENSE_MAX_SESSION = \S+
+LICENSE_SESSIONS_WARNING = \S+
+Initial number of \S+ is \S+
+Number of processor \S+ in the system is \S+
+Number of processor \S+ in the system is \S+
+Shared memory segment for instance monitoring created
+Using \S+ parameter default value as \S+
+Autotune of undo retention is turned on.
+LICENSE_MAX_USERS = \S+
+SYS auditing is enabled
+NOTE: remote asm mode is \S+ \(.*\)
+NOTE: Cluster configuration type = \S+ \[.*\]
+NUMA system with \S+ nodes detected
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+ORACLE_HOME: \s*\S+
+System name:	Linux
+Node \S+
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Machine:	x86_64
+Using parameter settings in server-side \S+ \S+
+System parameters with non-default values:
+large_pool_size          = \S+
+remote_login_passwordfile= ".*"
+asm_power_limit          = \S+
+NOTE: remote asm mode is \S+ \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+IP: \S+ Subnet: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC Available Transports: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC \S+ \S+
+KSXP: \S+ \S+ \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+IPC Vendor \S+ proto \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+NOTE: PatchLevel of this instance \S+
+Starting background process \S+
+PMON started with \S+ \S+ \S+
+Starting background process \S+
+CLMN started with \S+ \S+ \S+
+Starting background process \S+
+PSP0 started with \S+ \S+ \S+
+Starting background process \S+
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+Starting background process \S+
+VKTM running at \(.*\) precision
+GEN0 started with \S+ \S+ \S+
+Starting background process \S+
+MMAN started with \S+ \S+ \S+
+Starting background process \S+
+GEN1 started with \S+ \S+ \S+
+Starting background process \S+
+DIAG started with \S+ \S+ \S+
+Starting background process \S+
+Starting background process \S+
+PING started with \S+ \S+ \S+
+PMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIA0 started with \S+ \S+ \S+
+Starting background process \S+
+LMON started with \S+ \S+ \S+
+Starting background process \S+
+LMD0 started with \S+ \S+ \S+
+Starting background process \S+
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+Load Monitor used for high load check
+New Low - High Load Threshold Range = \[.*\]
+LMHB started with \S+ \S+ \S+
+Starting background process \S+
+LCK1 started with \S+ \S+ \S+
+Starting background process \S+
+DBW0 started with \S+ \S+ \S+
+Starting background process \S+
+LGWR started with \S+ \S+ \S+
+Starting background process \S+
+CKPT started with \S+ \S+ \S+
+Starting background process \S+
+SMON started with \S+ \S+ \S+
+Starting background process \S+
+LREG started with \S+ \S+ \S+
+Starting background process \S+
+PXMN started with \S+ \S+ \S+
+Starting background process \S+
+RBAL started with \S+ \S+ \S+
+Starting background process \S+
+GMON started with \S+ \S+ \S+
+Starting background process \S+
+MMON started with \S+ \S+ \S+
+Starting background process \S+
+MMNL started with \S+ \S+ \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+allocate domain \S+ valid . \S+
+Attached to domain \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+ASM instance
+List of instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Starting background process \S+
+LCK0 started with \S+ \S+ \S+
+NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
+ORACLE_BASE from environment = \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: Diskgroup used for \S+ \S+ \S+
+DATA
+Diskgroup with \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ expansion required for disk group \S+
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: setting \S+ start \S+ for group \S+ thread \S+ to \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+ORACLE_BASE value has been saved for future startups
+asm agent call crs .//. \{.*\} ./
+NOTE: diskgroup resource \S+ is \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Starting background process \S+
+ASMB started with \S+ \S+ \S+
+NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
+NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+KSXPPING: \S+ selected for Ping
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: detected orphaned client id \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+allocate domain \S+ valid . \S+
+freeing rdom \S+
+Received detach msg from inst \S+ for dom \S+
+allocate domain \S+ valid . \S+
+instance \S+ validates domain \S+
+asm agent .//. \{.*\} ./
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ expansion required for disk group \S+
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: setting \S+ start \S+ for group \S+ thread \S+ to \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+asm agent .//. \{.*\} ./
+NOTE: Voting File refresh pending for group \S+ \(.*\)
+NOTE: Voting File refresh pending for group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: No voting file found on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+Received dirty detach msg from inst \S+ for dom \S+
+List of instances \(.*\) \S+
+My inst \S+ .*
+Dirty detach reconfiguration started \(.*\)
+Global Resource Directory partially frozen for dirty detach
+dirty detach - domain \S+ invalid = \S+
+Dirty Detach Reconfiguration complete \(.*\)
+NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+start recovery: pdb \S+ passed in flags \S+ \(.*\)
+NOTE: \S+ starting instance recovery of group \S+ domain \S+ inc \S+ \(.*\) at \S+ \S+
+NOTE: \S+ will attempt offline of disk \S+ - no header
+NOTE: \S+ will attempt offline of disk \S+ - no header
+NOTE: \S+ will attempt offline of disk \S+ - no header
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache initiating offline of disk \S+ group \S+
+NOTE: cache initiating offline of disk \S+ group \S+
+NOTE: cache initiating offline of disk \S+ group \S+
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: checking \S+ grp = \S+
+GMON checking disk modes for group \S+ at \S+ for pid \S+ osid \S+
+NOTE: checking \S+ for grp \S+ done.
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+NOTE: waiting for instance recovery of group \S+
+Received dirty detach msg from inst \S+ for dom \S+
+Dirty detach reconfiguration started \(.*\)
+Global Resource Directory partially frozen for dirty detach
+dirty detach - domain \S+ invalid = \S+
+List of instances \(.*\) \S+
+My inst \S+ .*
+Dirty Detach Reconfiguration complete \(.*\)
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+NOTE: waiting for instance recovery of group \S+
+NOTE: \S+ update grp = \S+ completed successfully
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+NOTE: cache closing disk \S+ of grp \S+ .*
+NOTE: cache closing disk \S+ of grp \S+ .*
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+NOTE: cache closing disk \S+ of grp \S+ .*
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: \S+ update grp = \S+ completed successfully
+NOTE: instance recovery of group \S+ will recover \S+ \S+ \S+ \S+ \S+
+NOTE: instance recovery of group \S+ will recover \S+ \S+ \S+ \S+ \S+
+NOTE: \S+ recovery sucessfully read \S+ from one mirror side
+Errors in file \S+
+ORA-15062: \S+ disk is globally closed
+ORA-15062: \S+ disk is globally closed
+ORA-15062: \S+ disk is globally closed
+NOTE: \S+ recovery sucessfully read \S+ from one mirror side
+Errors in file \S+
+ORA-15062: \S+ disk is globally closed
+ORA-15062: \S+ disk is globally closed
+ORA-15062: \S+ disk is globally closed
+NOTE: \S+ waiting for thread \S+ recovery enqueue
+NOTE: \S+ waiting for thread \S+ recovery enqueue
+NOTE: \S+ about to begin recovery lock claims for diskgroup \S+ \(.*\)
+validate pdb \S+ flags \S+ valid \S+ pdb flags \S+
+CDB instance recovery on pdb \S+ needs to \S+ aborted \(.*\)
+NOTE: \S+ validation of lock domain \S+ failed \(.*\)
+Abort recovery for domain \S+ flags \S+
+NOTE: advancing ckpt for group \S+ \(.*\) \S+ \S+ domain inc# \S+
+NOTE: advancing ckpt for group \S+ \(.*\) \S+ \S+ domain inc# \S+
+start recovery: pdb \S+ passed in flags \S+ \(.*\)
+NOTE: \S+ starting instance recovery of group \S+ domain \S+ inc \S+ \(.*\) at \S+ \S+
+NOTE: \S+ skipping disk \S+ \(.*\)
+NOTE: \S+ skipping disk \S+ \(.*\)
+NOTE: \S+ skipping disk \S+ \(.*\)
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+validate pdb \S+ flags \S+ valid \S+ pdb flags \S+
+validated domain \S+ flags = \S+
+NOTE: \S+ successfully validated lock domain \S+ inc \S+ \(.*\)
+NOTE: \S+ did instance recovery for group \S+ domain \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+Communications reconfiguration: \S+ \S+ by ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+Suppressed nested communications reconfiguration: \S+ \S+
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+LMS0 \(.*\) has detected no messaging activity from instance \S+
+LMS0 \(.*\) has detected no messaging activity from instance \S+
+LMD0 \(.*\) has detected no messaging activity from instance \S+
+LMD0 \(.*\) has detected no messaging activity from instance \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+LMON \(.*\) drops the \S+ request from \S+ \(.*\) because \S+ is in progress and inst \S+ is marked bad.
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+LMON \(.*\) drops the \S+ request from \S+ \(.*\) because \S+ is in progress and inst \S+ is marked bad.
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Remote instance kill is issued with system inc \S+
+Remote instance kill map \(.*\) \S+ \S+ \S+
+LMON received an instance eviction notification from instance \S+
+The instance eviction \S+ is \S+
+The instance eviction map is \S+ \S+
+LMON received an instance eviction notification from instance \S+
+The instance eviction \S+ is \S+
+The instance eviction map is \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+No Cluster Synchronization Service reconfig event in \S+ seconds
+Expecting \S+ \S+ instances to leave the cluster.
+Expecting \S+ \S+ instances to leave the cluster.
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+LMS0 \(.*\) has detected no messaging activity from instance \S+
+LMS0 \(.*\) has detected no messaging activity from instance \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+Waiting for instances to leave: \S+ \S+
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IMR has experienced some problems and can.*
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+ \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+dead instance detected - domain \S+ invalid = \S+
+dead instance detected - domain \S+ invalid = \S+
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+instance \S+ validates domain \S+
+NOTE: detected orphaned client id \S+
+NOTE: client \S+ .*
+NOTE: client \S+ should failover
+Errors in file \S+
+ORA-29710: Current operation aborted by Cluster Synchronization Services
+Error: received an \S+ event from the Cluster Synchronization Service
+Shutting down instance \(.*\) \(.*\)
+Errors in file \S+
+ORA-29701: unable to connect to Cluster Synchronization Service
+Errors in file \S+  \(.*\):
+ORA-29701 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+Errors in file \S+  \(.*\):
+ORA-29710 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+Errors in file \S+  \(.*\):
+ORA-29701 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+Errors in file \S+
+ORA-29701: unable to connect to Cluster Synchronization Service
+Unexpected return code \(.*\) from the Cluster Synchronization Service \(.*\)
+Please check the \S+ log file for more \S+
+Error \S+ unexpected return code \S+ from the Cluster Synchronization \S+
+Incident details in: \S+
+Incident details in: \S+
+Incident details in: \S+
+RBAL \(.*\): terminating the instance due to error \S+
+MEMORY_TARGET defaulting to \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+ksxp_exafusion_enabled_dcf: \S+
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ does not support ipclw. Switching to skgxp
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+node \S+ does not exist. \S+ = \S+
+Starting \S+ instance \(.*\) \(.*\)
+CLI notifier \S+ \S+
+Per process system memlock \(.*\) limit = \S+
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Expected per process system memlock \(.*\) limit to lock
+SHARED \S+ \S+ \(.*\) into memory: \S+
+Supported system pagesize\(.*\):
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+Available system pagesizes:
+Reason for not supporting certain system pagesizes:
+LICENSE_MAX_SESSION = \S+
+LICENSE_SESSIONS_WARNING = \S+
+Initial number of \S+ is \S+
+Number of processor \S+ in the system is \S+
+Number of processor \S+ in the system is \S+
+Using \S+ parameter default value as \S+
+Autotune of undo retention is turned on.
+LICENSE_MAX_USERS = \S+
+SYS auditing is enabled
+NOTE: remote asm mode is \S+ \(.*\)
+NOTE: Cluster configuration type = \S+ \[.*\]
+NUMA system with \S+ nodes detected
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+ORACLE_HOME: \s*\S+
+System name:	Linux
+Node \S+
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Machine:	x86_64
+Using parameter settings in server-side \S+ \S+
+System parameters with non-default values:
+large_pool_size          = \S+
+remote_login_passwordfile= ".*"
+asm_diskgroups           = ".*"
+asm_power_limit          = \S+
+NOTE: remote asm mode is \S+ \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+IP: \S+ Subnet: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC Available Transports: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC: Client: \S+ Transport: \S+
+KSIPC \S+ \S+
+KSXP: \S+ \S+ \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+IPC Vendor \S+ proto \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+NOTE: PatchLevel of this instance \S+
+Starting background process \S+
+PMON started with \S+ \S+ \S+
+Starting background process \S+
+CLMN started with \S+ \S+ \S+
+Starting background process \S+
+PSP0 started with \S+ \S+ \S+
+Starting background process \S+
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+Starting background process \S+
+VKTM running at \(.*\) precision
+GEN0 started with \S+ \S+ \S+
+Starting background process \S+
+MMAN started with \S+ \S+ \S+
+Starting background process \S+
+GEN1 started with \S+ \S+ \S+
+Starting background process \S+
+DIAG started with \S+ \S+ \S+
+Starting background process \S+
+PING started with \S+ \S+ \S+
+Starting background process \S+
+PMAN started with \S+ \S+ \S+
+Starting background process \S+
+DIA0 started with \S+ \S+ \S+
+Starting background process \S+
+LMON started with \S+ \S+ \S+
+Starting background process \S+
+LMD0 started with \S+ \S+ \S+
+Starting background process \S+
+Load Monitor used for high load check
+New Low - High Load Threshold Range = \[.*\]
+LMHB started with \S+ \S+ \S+
+Starting background process \S+
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+LCK1 started with \S+ \S+ \S+
+Starting background process \S+
+DBW0 started with \S+ \S+ \S+
+Starting background process \S+
+LGWR started with \S+ \S+ \S+
+Starting background process \S+
+CKPT started with \S+ \S+ \S+
+Starting background process \S+
+SMON started with \S+ \S+ \S+
+Starting background process \S+
+LREG started with \S+ \S+ \S+
+Starting background process \S+
+PXMN started with \S+ \S+ \S+
+Starting background process \S+
+RBAL started with \S+ \S+ \S+
+Starting background process \S+
+GMON started with \S+ \S+ \S+
+Starting background process \S+
+MMON started with \S+ \S+ \S+
+Starting background process \S+
+MMNL started with \S+ \S+ \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+allocate domain \S+ valid . \S+
+Attached to domain \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+ASM instance
+List of instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+allocate domain \S+ valid . \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+Starting background process \S+
+LCK0 started with \S+ \S+ \S+
+NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
+ORACLE_BASE from environment = \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: Diskgroup used for \S+ \S+ \S+
+VFDG
+Diskgroup with \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: Diskgroups listed in \S+ are
+VFDG
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: cache registered group \S+ \S+
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: initial disk modes for disk \S+ \(.*\) in group \S+ \(.*\) is not completely online: modes \S+ lflags \S+
+NOTE: initial disk modes for disk \S+ \(.*\) in group \S+ \(.*\) is not completely online: modes \S+ lflags \S+
+NOTE: initial disk modes for disk \S+ \(.*\) in group \S+ \(.*\) is not completely online: modes \S+ lflags \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+kjbdomatt send to inst \S+
+kjbdomatt send to inst \S+
+NOTE: attached to recovery domain \S+
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+SUCCESS: diskgroup \S+ was \S+
+asm agent call crs .//. \{.*\} ./
+NOTE: diskgroup resource \S+ is \S+
+NOTE: diskgroup resource \S+ is \S+
+KSXPPING: \S+ selected for Ping
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Starting background process \S+
+ASMB started with \S+ \S+ \S+
+NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
+NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: disk validation pending for \S+ \S+ in group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Found \S+ for disk \S+
+NOTE: completed disk validation for \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: membership refresh pending for group \S+ \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Voting File refresh pending for group \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: disk validation pending for \S+ \S+ in group \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Found \S+ for disk \S+
+NOTE: completed disk validation for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: membership refresh pending for group \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Voting File refresh pending for group \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: disk validation pending for \S+ \S+ in group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Found \S+ for disk \S+
+NOTE: completed disk validation for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: membership refresh pending for group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: Voting File refresh pending for group \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: membership refresh pending for group \S+ \(.*\)
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+SUCCESS: refreshed membership for \S+ \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: detected orphaned client id \S+
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: client \S+ mounted group \S+ \(.*\)
+Received dirty detach msg from inst \S+ for dom \S+
+Dirty detach reconfiguration started \(.*\)
+Global Resource Directory partially frozen for dirty detach
+dirty detach - domain \S+ invalid = \S+
+List of instances \(.*\) \S+
+My inst \S+ .*
+Dirty Detach Reconfiguration complete \(.*\)
+NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: \S+ failed to write \S+ quorum of target disks in group \S+ site \S+ \(.*\)
+Received dirty detach msg from inst \S+ for dom \S+
+Dirty detach reconfiguration started \(.*\)
+Global Resource Directory partially frozen for dirty detach
+dirty detach - domain \S+ invalid = \S+
+List of instances \(.*\) \S+
+My inst \S+ .*
+Dirty Detach Reconfiguration complete \(.*\)
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+path:\S+
+incarnation:\S+ \S+ result:'.*'
+subsys:System \S+ \S+ \S+ osderr2:0x0
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+start recovery: pdb \S+ passed in flags \S+ \(.*\)
+NOTE: \S+ starting instance recovery of group \S+ domain \S+ inc \S+ \(.*\) at \S+ \S+
+NOTE: \S+ will attempt offline of disk \S+ - no header
+NOTE: \S+ will attempt offline of disk \S+ - no header
+NOTE: \S+ will attempt offline of disk \S+ - no header
+NOTE: group \S+ \(.*\) high disk header ckpt advanced to fcn \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: cache initiating offline of disk \S+ group \S+
+NOTE: cache initiating offline of disk \S+ group \S+
+NOTE: cache initiating offline of disk \S+ group \S+
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: checking \S+ grp = \S+
+GMON checking disk modes for group \S+ at \S+ for pid \S+ osid \S+
+NOTE: checking \S+ for grp \S+ done.
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+NOTE: waiting for instance recovery of group \S+
+NOTE: waiting for instance recovery of group \S+
+NOTE: \S+ update grp = \S+ completed successfully
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+NOTE: cache closing disk \S+ of grp \S+ .*
+NOTE: cache closing disk \S+ of grp \S+ .*
+NOTE: cache closing disk \S+ of grp \S+ .*
+NOTE: \S+ update grp = \S+ completed successfully
+NOTE: instance recovery of group \S+ will recover \S+ \S+ \S+ \S+ \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: instance recovery of group \S+ will recover \S+ \S+ \S+ \S+ \S+
+NOTE: \S+ recovery sucessfully read \S+ from one mirror side
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+Errors in file \S+
+ORA-15062: \S+ disk is globally closed
+ORA-15062: \S+ disk is globally closed
+ORA-15062: \S+ disk is globally closed
+NOTE: \S+ recovery sucessfully read \S+ from one mirror side
+Errors in file \S+
+ORA-15062: \S+ disk is globally closed
+ORA-15062: \S+ disk is globally closed
+ORA-15062: \S+ disk is globally closed
+NOTE: \S+ waiting for thread \S+ recovery enqueue
+NOTE: \S+ waiting for thread \S+ recovery enqueue
+NOTE: \S+ about to begin recovery lock claims for diskgroup \S+ \(.*\)
+validate pdb \S+ flags \S+ valid \S+ pdb flags \S+
+validated domain \S+ flags = \S+
+NOTE: \S+ successfully validated lock domain \S+ inc \S+ \(.*\)
+NOTE: advancing ckpt for group \S+ \(.*\) \S+ \S+ domain inc# \S+
+NOTE: advancing ckpt for group \S+ \(.*\) \S+ \S+ domain inc# \S+
+NOTE: \S+ did instance recovery for group \S+ domain \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+Receiver: inst \S+ binc \S+ ospid \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Successful voting file relocation on diskgroup \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+Dead instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+dead instance detected - domain \S+ invalid = \S+
+dead instance detected - domain \S+ invalid = \S+
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Post \S+ to start 1st pass \S+
+NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: detected orphaned client id \S+
+NOTE: detected orphaned client id \S+
+NOTE: detected orphaned client id \S+
+instance \S+ validates domain \S+
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: will remove stale ownerid \S+ for client .* \(.*\)
+NOTE: registered owner id \S+ for \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: found stale ownerid \S+ for client \S+
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+NOTE: client \S+ fence duration: \S+ seconds
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: timeout \(.*\) expired for orphan ownerid \S+ for client \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: timeout \(.*\) expired for orphan ownerid \S+ for client \S+ \S+ elapsed
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: released resources held for client id \S+ \(.*\)
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+Reconfiguration \S+ \(.*\)
+List of instances \(.*\) \S+
+New instances \(.*\) \S+
+My inst \S+ .*
+Global Resource Directory frozen
+Communication channels reestablished
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+domain \S+ valid = \S+ according to instance \S+
+Master broadcasted resource hash value bitmaps
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Non-local Process blocks cleaned out
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+Set master node info
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all remote-enqueue requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Dwn-cvts replayed, VALBLKs dubious
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+All grantable enqueues granted
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Submitted all \S+ remote-cache requests
+Begin lmon rcfg omni enqueue reconfig \S+
+End lmon rcfg omni enqueue reconfig \S+
+Fix write in gcs resources
+Reconfiguration \S+ \(.*\)
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
