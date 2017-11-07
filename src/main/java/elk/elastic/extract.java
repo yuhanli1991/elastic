@@ -665,7 +665,7 @@ public class extract {
 			if (!Pattern.matches("^[A-Z0-9]+", line)){
 				ret.add(line);
 			}
-			else if (Pattern.matches("^ORA\\-[0-9]+ [^0-9a-zA-Z]+", line)) {
+			else if (Pattern.matches("^ORA[\\-0-9]+ [^0-9a-zA-Z]+", line)) {
 				ret.add(line.split(" ")[0] + ".*");
 			}
 		}
