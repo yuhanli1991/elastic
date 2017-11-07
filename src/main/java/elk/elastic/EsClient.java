@@ -122,7 +122,8 @@ public class EsClient {
 							}
 							catch (Exception e)
 						    {
-						        e.printStackTrace();
+								System.out.println("=================");
+						        //e.printStackTrace();
 						        for (String line : cl) System.out.println(line);
 						        System.out.println("--------------");
 						        for (String line: ml) System.out.println(line);
