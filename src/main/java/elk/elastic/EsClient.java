@@ -114,10 +114,19 @@ public class EsClient {
 //							for (String line : ((ArrayList<String>)message)) {
 //								messageList.add(line);
 //							}
-							for (int i = 0; i < cl.size(); i ++) {
-								contentList.add(cl.get(i));
-								messageList.add(ml.get(ml.size() - cl.size() + i));
+							try{
+								for (int i = 0; i < cl.size(); i ++) {
+									contentList.add(cl.get(i));
+									messageList.add(ml.get(ml.size() - cl.size() + i));
+								}
 							}
+							catch (Exception e)
+						    {
+						        e.printStackTrace();
+						        for (String line : cl) System.out.print(line);
+						        System.out.print("--------------");
+						        for (String line: ml) System.out.print(line);
+						    }
 						}
 						else {
 //							if (content == null)
