@@ -662,10 +662,10 @@ public class extract {
 	private List<String> finalClean(List<String> templates){
 		List<String> ret = new LinkedList<String>();
 		for (String line : templates) {
-			if (!Pattern.matches("^[A-Z_0-9]+( [^0-9a-zA-Z]+)?", line)){
+			if (!Pattern.matches("^[A-Z_0-9]+( [^0-9a-zA-Z]+)?", line) && (!Pattern.matches("^SQL>.*", line)) && !Pattern.matches("^SUCCESS: .*", line)){
 				
 				if (Pattern.matches("^ORA-[0-9]+:? [^0-9a-zA-Z]+", line)) {
-					ret.add(line.split(" ")[0] + ".*");
+					ret.add(line.split(" ")[0] + " .*");
 				}
 				else{
 					ret.add(line);
