@@ -664,9 +664,9 @@ public class extract {
 		for (String line : templates) {
 			if (!Pattern.matches("^[A-Z0-9]+", line)){
 				ret.add(line);
-			}
-			else if (Pattern.matches("^ORA[\\-0-9]+ [^0-9a-zA-Z]+", line)) {
-				ret.add(line.split(" ")[0] + ".*");
+				if (Pattern.matches("^ORA-[0-9]+:? [^0-9a-zA-Z]+", line)) {
+					ret.add(line.split(" ")[0] + ".*");
+				}
 			}
 		}
 		return ret;
