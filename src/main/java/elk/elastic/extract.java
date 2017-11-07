@@ -649,10 +649,24 @@ public class extract {
 		//Ends here
 		/////////////////////////////////////////////////
 		
+		
+		newTemplate = finalClean(newTemplate);		//清除掉长度为一且全大写的行,这里没有处理scorelog
+		
+		
 
 		writeFile(templatesFile, newTemplate);		//最后还是会写入templatesFile
 		writeFile(scoreFile, scoreList);		
 		return null;
+	}
+	
+	private List<String> finalClean(List<String> templates){
+		List<String> ret = new LinkedList<String>();
+		for (String line : templates) {
+			if (!Pattern.matches("^[A-Z0-9]+", line)){
+				ret.add(line);
+			}
+		}
+		return ret;
 	}
 	
 	public List<String> addTmp(String file){
