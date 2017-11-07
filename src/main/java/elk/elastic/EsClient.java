@@ -37,7 +37,7 @@ public class EsClient {
 	private List<String> removeSqlTail(List<String> msg){
 		List<String> ret = new ArrayList<String>();
 		for (String line : msg){
-			if (!Pattern.matches("^SQL>", line) && !Pattern.matches("^SUCCESS:", line)) {
+			if (!Pattern.matches("^SQL.*", line) && !Pattern.matches("^SUCCESS:.*", line)) {
 				ret.add(line);
 			}
 			else {
