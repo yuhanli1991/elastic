@@ -663,9 +663,12 @@ public class extract {
 		List<String> ret = new LinkedList<String>();
 		for (String line : templates) {
 			if (!Pattern.matches("^[A-Z0-9]+", line)){
-				ret.add(line);
+				
 				if (Pattern.matches("^ORA-[0-9]+:? [^0-9a-zA-Z]+", line)) {
 					ret.add(line.split(" ")[0] + ".*");
+				}
+				else{
+					ret.add(line);
 				}
 			}
 		}
