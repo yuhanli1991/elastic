@@ -107,6 +107,7 @@ public class EsClient {
 						//System.out.println(content.getClass());
 						if (content instanceof java.util.ArrayList<?>) {
 							List<String> cl2 = (ArrayList<String>)content;
+							List<String> ml2 = (ArrayList<String>)message;
 							List<String> cl = removeSqlTail((ArrayList<String>)content);
 							List<String> ml = removeSqlTail((ArrayList<String>)message);
 //							for (String line : ((ArrayList<String>)content)) {
@@ -130,6 +131,8 @@ public class EsClient {
 						        for (String line: cl2) System.out.println(line);
 						        System.out.println("--------------");
 						        for (String line: ml) System.out.println(line);
+						        System.out.println("--------------");
+						        for (String line: ml2) System.out.println(line);
 						    }
 						}
 						else {
