@@ -17,6 +17,7 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 import org.apache.lucene.queryparser.flexible.core.builders.QueryBuilder;
 import org.elasticsearch.action.search.SearchResponse;
@@ -31,6 +32,22 @@ import org.elasticsearch.search.sort.SortOrder;
 
 public class EsClient { 
 	final static int TIME_VALUE =50000;
+	
+	//处理SQL语句的行
+	private List<String> removeSqlTail(List<String> msg){
+		List<String> ret = new ArrayList<String>();
+		for (String line : msg){
+			if (!Pattern.matches("^SQL>", line)){
+				ret.add(line);
+			}
+			else {
+				ret.add(line);
+				return ret;
+			}
+		}
+		return ret;
+	}
+	
 	public List<List<String>> getSnippet(String[] node, String logType, String from, String to, String clusterName, String host, int port, String index) throws UnknownHostException {
 		System.out.println("Starting to connect " + host + ":" + port + "   Index: " + index);
 		List<List<String>> ret = new LinkedList<List<String>>();
@@ -89,8 +106,8 @@ public class EsClient {
 					if (source.containsKey("tags") && ((List<String>)source.get("tags")).get(0).equals("multiline")){
 						//System.out.println(content.getClass());
 						if (content instanceof java.util.ArrayList<?>) {
-							List<String> cl = (ArrayList<String>)content;
-							List<String> ml = (ArrayList<String>)message;
+							List<String> cl = removeSqlTail((ArrayList<String>)content);
+							List<String> ml = removeSqlTail((ArrayList<String>)message);
 //							for (String line : ((ArrayList<String>)content)) {
 //								contentList.add(line);
 //							}
