@@ -123,9 +123,9 @@ public class EsClient {
 							catch (Exception e)
 						    {
 						        e.printStackTrace();
-						        for (String line : cl) System.out.print(line);
-						        System.out.print("--------------");
-						        for (String line: ml) System.out.print(line);
+						        for (String line : cl) System.out.println(line);
+						        System.out.println("--------------");
+						        for (String line: ml) System.out.println(line);
 						    }
 						}
 						else {
