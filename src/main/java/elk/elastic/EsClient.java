@@ -106,6 +106,7 @@ public class EsClient {
 					if (source.containsKey("tags") && ((List<String>)source.get("tags")).get(0).equals("multiline")){
 						//System.out.println(content.getClass());
 						if (content instanceof java.util.ArrayList<?>) {
+							List<String> cl2 = (ArrayList<String>)content;
 							List<String> cl = removeSqlTail((ArrayList<String>)content);
 							List<String> ml = removeSqlTail((ArrayList<String>)message);
 //							for (String line : ((ArrayList<String>)content)) {
@@ -125,6 +126,8 @@ public class EsClient {
 								System.out.println("=================");
 						        //e.printStackTrace();
 						        for (String line : cl) System.out.println(line);
+						        System.out.println("--------------");
+						        for (String line: cl2) System.out.println(line);
 						        System.out.println("--------------");
 						        for (String line: ml) System.out.println(line);
 						    }
