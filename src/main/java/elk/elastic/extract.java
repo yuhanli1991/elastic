@@ -1102,8 +1102,8 @@ public class extract {
 		
 		java.util.Comparator<String> comparator = new java.util.Comparator<String>() {
 			public int compare(String s1, String s2) {
-				int a = Integer.parseInt(s1.split(".")[2]);
-				int b = Integer.parseInt(s2.split(".")[2]);
+				int a = Integer.parseInt(s1.split("\\.")[2]);
+				int b = Integer.parseInt(s2.split("\\.")[2]);
 				if (a > b) 
 					return -1;
 				else if (a < b)
