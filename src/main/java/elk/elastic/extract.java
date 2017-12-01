@@ -1099,12 +1099,13 @@ public class extract {
 		List<List<String>> snippet;
 		for (int i = 1; i <= 216; i ++) {
 			try {
+				System.out.println("===== " + Integer.toString(i) + " =====");
 				snippet = ec.getSnippet(node, logType, Integer.toString(i), "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
 				writeFile(".//templatedLogs//" + Integer.toString(i), Snippet.getGeneralList(judge.getScore(), snippet.get(0), logType, templatesFile));
 			}
 			catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		}
 	}
