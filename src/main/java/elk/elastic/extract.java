@@ -669,7 +669,12 @@ public class extract {
 					!Pattern.matches("^SUCCESS: .*", line) &&
 					!Pattern.matches("^ALTER .*", line) &&
 					!Pattern.matches("^AFDLIB .*", line) &&
-					!Pattern.matches("^CREATE DISKGROUP", line)
+					!Pattern.matches("^CREATE DISKGROUP", line) &&
+					!Pattern.matches("^Release: *\\S+", line) &&
+					!Pattern.matches("^SITE site.*", line) &&
+					!Pattern.matches("^Version: *#.*", line) &&
+					!Pattern.matches("^path:\\S+", line) &&
+					!Pattern.matches("^path:Unknown disk", line)
 					){
 				
 				if (Pattern.matches("^ORA-[0-9]+:? [^0-9a-zA-Z]+", line)) {
