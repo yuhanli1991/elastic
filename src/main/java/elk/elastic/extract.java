@@ -670,9 +670,9 @@ public class extract {
 					!Pattern.matches("^ALTER .*", line) &&
 					!Pattern.matches("^AFDLIB .*", line) &&
 					!Pattern.matches("^CREATE DISKGROUP", line) &&
-					!Pattern.matches("^Release: *\\S+", line) &&
+					!Pattern.matches("^Release:*\\S+", line) &&
 					!Pattern.matches("^SITE site.*", line) &&
-					!Pattern.matches("^Version: *#.*", line) &&
+					!Pattern.matches("^Version:.*", line) &&
 					!Pattern.matches("^path:\\S+", line) &&
 					!Pattern.matches("^path:Unknown disk", line)
 					){
