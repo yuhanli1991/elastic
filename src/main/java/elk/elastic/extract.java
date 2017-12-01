@@ -1104,8 +1104,9 @@ public class extract {
 				System.out.println("===== " + Integer.toString(i) + " =====");
 				String path = "";
 				for (String fileName : this.fileNameMap){
-					if (Pattern.matches(".*\\." + Integer.toString(i), fileName)) {
+					if (Pattern.matches(".*\\." + Integer.toString(i) + "$", fileName)) {
 						path = fileName;
+						break;
 					}
 				}
 				if (path.equals("")) {
