@@ -1099,6 +1099,7 @@ public class extract {
 	public void replaceRawAsTmp (String[] node, String logType, String index) {
 		EsClient ec = new EsClient();
 		List<List<String>> snippet;
+		
 		Comparator<String> comparator = new Comparator<String>() {
 			public int compare(String s1, String s2) {
 				int a = Integer.parseInt(s1.split(".")[2]);
