@@ -479,7 +479,9 @@ public class Snippet {
 			return temp;
 		}
 		else {
-			throw new java.lang.RuntimeException("Log line: '" + line + "' doesn't belong to any template in template file.");
+			//throw new java.lang.RuntimeException("Log line: '" + line + "' doesn't belong to any template in template file.");
+			System.out.println("Log line: '" + line + "' doesn't belong to any template in template file.");
+			return null;
 		}
 	}
 	
@@ -898,7 +900,9 @@ public class Snippet {
 				
 				if (Pattern.matches("^[A-Z_]+=.+", comp))
 					comp = comp.split("=")[0] + "=" + "\\S+";
-				ret.add(searchAndTmp(map, jsonMap, comp, line, logType, false));
+				String t = searchAndTmp(map, jsonMap, comp, line, logType, false);
+				if (t != null)
+					ret.add(t);
 			}
 			
 		}
