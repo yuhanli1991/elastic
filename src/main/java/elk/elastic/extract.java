@@ -1117,7 +1117,7 @@ public class extract {
 		for (int i = 1; i <= 216; i ++) {
 			try {
 				System.out.println("===== " + Integer.toString(i) + " =====");
-				String path = this.fileNameMap.get(i - 1).split("\\.")[1] + this.fileNameMap.get(i - 1).split("\\.")[2];
+				String path = this.fileNameMap.get(i - 1).split("\\.")[1] + "." + this.fileNameMap.get(i - 1).split("\\.")[2];
 //				if (path.equals("")) {
 //					throw new java.lang.RuntimeException("Path: " + Integer.toString(i) + " don't have related file name in ./fileName.txt");
 //				}
