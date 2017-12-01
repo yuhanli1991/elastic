@@ -1100,19 +1100,19 @@ public class extract {
 		EsClient ec = new EsClient();
 		List<List<String>> snippet;
 		
-		Comparator<String> comparator = new Comparator<String>() {
-			public int compare(String s1, String s2) {
-				int a = Integer.parseInt(s1.split(".")[2]);
-				int b = Integer.parseInt(s2.split(".")[2]);
-				if (a > b) 
-					return -1;
-				else if (a < b)
-					return 1;
-				else 
-					return 0;
-			}
-		};
-		Collections.sort(this.fileNameMap, comparator);
+//		Comparator<String> comparator = new Comparator<String>() {
+//			public int compare(String s1, String s2) {
+//				int a = Integer.parseInt(s1.split(".")[2]);
+//				int b = Integer.parseInt(s2.split(".")[2]);
+//				if (a > b) 
+//					return -1;
+//				else if (a < b)
+//					return 1;
+//				else 
+//					return 0;
+//			}
+//		};
+		Collections.sort(this.fileNameMap);
 		
 		for (int i = 1; i <= 216; i ++) {
 			try {
