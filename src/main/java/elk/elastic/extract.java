@@ -223,6 +223,7 @@ public class extract {
 					|| Pattern.matches("\\.APX[0-9]+:\\.APX:\\S+", word)
 					|| Pattern.matches("\\S+:orcl:\\S+", word)												//orcl4:orcl:rwsba-cluster
 					|| Pattern.matches("[0-9\\.]+\\-[0-9\\.]+el[0-9]+uek\\.\\S+", word)
+					|| Pattern.matches("[A-Za-z0-9\\-]+:[A-Za-z0-9\\-]+:[A-Za-z0-9\\-]+", word)				//TESTDB3:TESTDB:rwsad-cluster
 					|| (word.length() > 3 && word.substring(0, 3).equals("rws"))) {
 				return true;
 			}
@@ -659,10 +660,17 @@ public class extract {
 		return null;
 	}
 	
+	
 	private List<String> finalClean(List<String> templates){
 		List<String> ret = new LinkedList<String>();
 		for (String line : templates) {
-			if (!Pattern.matches("^[A-Z_0-9]+( [^0-9a-zA-Z]+)?", line) && (!Pattern.matches("^SQL>.*", line)) && !Pattern.matches("^SUCCESS: .*", line)){
+			if (!Pattern.matches("^[A-Z_0-9]+( [^0-9a-zA-Z]+)?", line) && 
+					(!Pattern.matches("^SQL>.*", line)) && 
+					!Pattern.matches("^SUCCESS: .*", line) &&
+					!Pattern.matches("^ALTER .*", line) &&
+					!Pattern.matches("^AFDLIB .*", line) &&
+					!Pattern.matches("^CREATE DISKGROUP", line)
+					){
 				
 				if (Pattern.matches("^ORA-[0-9]+:? [^0-9a-zA-Z]+", line)) {
 					ret.add(line.split(" ")[0] + " .*");
