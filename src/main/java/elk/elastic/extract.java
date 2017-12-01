@@ -1099,16 +1099,24 @@ public class extract {
 	public void replaceRawAsTmp (String[] node, String logType, String index) {
 		EsClient ec = new EsClient();
 		List<List<String>> snippet;
+		Comparator<String> comparator = new Comparator<String>() {
+			public int compare(String s1, String s2) {
+				int a = Integer.parseInt(s1.split(".")[2]);
+				int b = Integer.parseInt(s2.split(".")[2]);
+				if (a > b) 
+					return -1;
+				else if (a < b)
+					return 1;
+				else 
+					return 0;
+			}
+		};
+		Collections.sort(this.fileNameMap);
+		
 		for (int i = 1; i <= 216; i ++) {
 			try {
 				System.out.println("===== " + Integer.toString(i) + " =====");
-				String path = "";
-				for (String fileName : this.fileNameMap){
-					if (Pattern.matches(".*\\." + Integer.toString(i) + "$", fileName)) {
-						path = fileName;
-						break;
-					}
-				}
+				String path = this.fileNameMap.get(i - 1);
 				if (path.equals("")) {
 					throw new java.lang.RuntimeException("Path: " + Integer.toString(i) + " don't have related file name in ./fileName.txt");
 				}
