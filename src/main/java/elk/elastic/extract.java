@@ -130,12 +130,14 @@ public class extract {
 	Judge judge;
 	String scoreFile;
 	String logType;
+	List<String> fileNameMap;
 	Map<String, Integer> map = new HashMap<String, Integer>();		//to store regex scores
 	
 	public extract(String file, String scoreFile, String logType){
 		this.templatesFile = file;
 		this.scoreFile = scoreFile;
 		this.logType = logType;
+		this.fileNameMap = readFile(".//fileNameMap.txt");
 		judge = new Judge(scoreFile, ".//log//scoreOutput.txt");
 		
 		//store regex scores in map
@@ -1100,7 +1102,17 @@ public class extract {
 		for (int i = 1; i <= 216; i ++) {
 			try {
 				System.out.println("===== " + Integer.toString(i) + " =====");
-				snippet = ec.getSnippet(node, logType, Integer.toString(i), "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
+				String path = "";
+				for (String fileName : this.fileNameMap){
+					if (Pattern.matches(".*\\." + Integer.toString(i), fileName)) {
+						path = fileName;
+					}
+				}
+				if (path.equals("")) {
+					throw new java.lang.RuntimeException("Path: " + Integer.toString(i) + " don't have related file name in ./fileName.txt");
+				}
+				System.out.println("File name is: " + path);
+				snippet = ec.getSnippet(node, logType, path, "rws00fxw-cluster", "rws00fxw.us.oracle.com", 9300, index);
 				writeFile(".//templatedLogs//" + Integer.toString(i), Snippet.getGeneralList(judge.getScore(), snippet.get(0), logType, templatesFile));
 			}
 			catch (UnknownHostException e) {
