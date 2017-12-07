@@ -12,6 +12,11 @@ import java.util.Set;
 import net.sf.json.JSONArray; 
 
 
+/*
+ * 2017-12-6
+ * main 函数
+ * 使用./bin/下的脚本文件来调用,具体用法参见./bin/下脚本的help信息
+ */
 public class App 
 {
 	/*
@@ -39,7 +44,7 @@ public class App
     	
     	String[] nodes = args[8].split(",");
     	extract e = new extract(args[0], args[1], args[2]);
-		if (args[3].equals("addtmp")) {
+		if (args[3].equals("addtmp")) {			//为template base 添加新的template, 日志来源于elasticsearch
 			EsClient ec = new EsClient();
 			List<List<String>> snippet;
 			
@@ -58,7 +63,7 @@ public class App
 			
 			System.out.println("Adding templates completed, please check " + args[0] + " and " + args[1]);
 		}
-		else if (args[3].equals("scorelog")) {
+		else if (args[3].equals("scorelog")) {		//根据提供的分数来筛选出相应分数的原始日志行
 			Set<Integer> scoreSet = new HashSet<Integer>();
 			String[] scores = args[7].split(",");
 			for (String score : scores) {
@@ -81,7 +86,7 @@ public class App
 			System.out.println("####### End ########");
 			System.out.println(list.size() + " lines left.");
 		}
-		else if (args[3].equals("appearance")) {
+		else if (args[3].equals("appearance")) {		//获取每个template在原始日志文件中的出现次数
 			
 			
 			Map<String, Integer> appearance = e.GetAppearance(
@@ -95,7 +100,7 @@ public class App
 				System.out.println(temp + " ~~ " + appearance.get(temp));
 			}
 		}
-		else if (args[3].equals("buildMatrix")) {
+		else if (args[3].equals("buildMatrix")) {		//建立矩阵,多个文件中不同template出现的次数
 			String[] pathes = args[4].split(",");
 			Map<String, List<Integer>> appearance = e.GetAppearance(
 					nodes,
@@ -111,7 +116,7 @@ public class App
 				System.out.println("");
 			}
 		}
-		else if (args[3].equals("MatforEveryFile")) {
+		else if (args[3].equals("MatforEveryFile")) {		//  为每个文件构造矩阵,矩阵为文件行数*文件行数
 			int[][][] ret = e.getMatforEveryFile(nodes, args[2], args[9]);
 //			for (int i = 0; i < ret.length; i ++) {
 //				for (int j = 0; j < ret[0].length; j ++) {
@@ -125,7 +130,7 @@ public class App
 			ls.add(jsonArray.toString());
 			extract.writeFile(".//log//matForEveryFile.json", ls);
 		}
-		else if (args[3].equals("replaceRawAsTmp")) {
+		else if (args[3].equals("replaceRawAsTmp")) {		//使用template替代原始日志文件中的每一行,抛弃掉没有template匹配的行,这是执行python 聚类的必要前提步骤
 			e.replaceRawAsTmp(nodes, args[2], args[9]);
 			
 		}

@@ -13,7 +13,7 @@ import java.util.regex.*;
 
 public class Snippet {
 	/*
-	 * get log snippet according to time stamp
+	 * get log snippet according to time stamp from log files.
 	 * @param log file location
 	 * @return log as list
 	 */
@@ -61,6 +61,9 @@ public class Snippet {
 		return ret;
 	}
 	
+	/*
+	 * 支持多个文件中获取snippet
+	 */
 	public static List<String> getSnippet(String[] files, String from, String to){
 		List<String> loglist = new ArrayList<String>();
 		for (int i = files.length - 1; i >= 0; i --) {
@@ -72,12 +75,15 @@ public class Snippet {
 		return loglist;
 	}
 	
-	public static boolean hasCompPrefix (String line) {
+	private static boolean hasCompPrefix (String line) {
 		//return Pattern.matches("^[A-Za-z][A-Za-z0-9_]+(\\(\\))?:.*", line);
 		return true;
 	}
 	
-	public static String getCompPrefix (String line) {
+	/*
+	 * 获取原始日志行的前缀
+	 */
+	private static String getCompPrefix (String line) {
 		boolean hasQuote = false;
 		extract e = new extract();
 		int tail = line.length();
@@ -110,7 +116,7 @@ public class Snippet {
 		
 	}
 	
-	public static String getCompPrefixForMap (String line) {
+	private static String getCompPrefixForMap (String line) {
 		int tail = line.length();
 		int head = 0;
 		for (int i = 0; i < line.length(); i ++) {
@@ -124,7 +130,7 @@ public class Snippet {
 	
 	
 	//key: component for gipc/ocssd
-	public static Map<String, List<String>> mapComponent (List<String> list) {
+	private static Map<String, List<String>> mapComponent (List<String> list) {
 		Map<String, List<String>> retMap = new HashMap<String, List<String>>();
 //		extract e = new extract();
 		for (int j = 0; j < list.size(); j ++ ) {
@@ -153,13 +159,13 @@ public class Snippet {
 		return retMap;
 	}
 	
-	public static Map<String, List<String>> mapComponent (String file) {
+	private static Map<String, List<String>> mapComponent (String file) {
 		List<String> list = extract.readFile(file);
 		return mapComponent (list);
 		
 	}
 	
-	public static boolean mapMatch (Map<String, List<String>> map, String comp, String line, String logType) {
+	private static boolean mapMatch (Map<String, List<String>> map, String comp, String line, String logType) {
 		if (map.containsKey(comp)){
 			for (String template : map.get(comp)) {
 				if (isMatched (template, line, logType))
@@ -169,7 +175,7 @@ public class Snippet {
 		return false;
 	}
 	
-	public static boolean mapMatchNoStamp (Map<String, List<String>> map, String comp, String line, String logType) {
+	private static boolean mapMatchNoStamp (Map<String, List<String>> map, String comp, String line, String logType) {
 		if (map.containsKey(comp)){
 			for (String template : map.get(comp)) {
 				if (isMatchedNoStamp (template, line, logType))
@@ -179,7 +185,7 @@ public class Snippet {
 		return false;
 	}
 	
-	public static String mapMatchTemplate (Map<String, List<String>> map, String comp, String line, String logType, boolean hasStamp) {
+	private static String mapMatchTemplate (Map<String, List<String>> map, String comp, String line, String logType, boolean hasStamp) {
 //		for (int i = 0; i < line.length(); i ++) {
 //			if (line.charAt(i) != ' ') {
 //				line = line.substring(i, line.length());
@@ -206,7 +212,7 @@ public class Snippet {
 	}
 	
 	
-	public static boolean traverseMatch (List<String> templates, String line, String logType) {
+	private static boolean traverseMatch (List<String> templates, String line, String logType) {
 		for (String template : templates){
 			if (isMatched (template, line, logType))
 				return true;
@@ -214,7 +220,7 @@ public class Snippet {
 		return false;
 	}
 	
-	public static boolean hasTimeStamp (String line) {
+	private static boolean hasTimeStamp (String line) {
 		String timestamp = 
 				"^[0-9]{4}-.*";
 		return Pattern.matches(timestamp, line);
@@ -252,7 +258,7 @@ public class Snippet {
 		return comp;
 	}
 	
-	public static boolean hasLogComp (String line, String logType) {
+	private static boolean hasLogComp (String line, String logType) {
 		String[] s = null;
 		if (logType.equals("ocssd") || logType.equals("gipcd"))
 			s = line.split(":");
@@ -264,7 +270,7 @@ public class Snippet {
 		return hasLogComp(s, logType);
 	}
 	
-	public static boolean hasLogComp (String[] s, String logType) {
+	private static boolean hasLogComp (String[] s, String logType) {
 		if (logType.equals("ocssd") || logType.equals("gipcd"))	{
 			if (s.length > 5) {
 				return true;
@@ -284,7 +290,7 @@ public class Snippet {
 		return false;
 	}
 	
-	public static String getLogComp (String line, String logType) {
+	private static String getLogComp (String line, String logType) {
 		String comp = mySplit(line, logType);
 		
 		return compCorrect(comp);
@@ -292,7 +298,7 @@ public class Snippet {
 	
 	
 	//从第五个冒号开始 到下一个冒号或者空号结束
-	public static String mySplit (String line, String logType) {		//需要加入crsd的
+	private static String mySplit (String line, String logType) {		//需要加入crsd的
 		int head = -1;
 		int num = 0;
 		extract e = new extract();
@@ -432,9 +438,10 @@ public class Snippet {
 //	}
 	
 	
-	//给定需要的log score，输出这些score的line
-	public static int searchAndScore (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, Set<Integer> scoreSet, boolean hasStamp) {
-		String temp = mapMatchTemplate(map, comp, line, logType, hasStamp);
+	//input: 日志行,想要输出的日志分数的集合
+	//output: 如果该日志行对应的分数在scoreSet中,则输出这个分数值/如果这个不在,则输出-1/如果没有匹配到对应的template,则输出defaultScore
+	private static int searchAndScore (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, Set<Integer> scoreSet, boolean hasStamp) {
+		String temp = mapMatchTemplate(map, comp, line, logType, hasStamp);		//匹配日志行的template
 		
 		
 		if (temp != "") {		//匹配到了，根据文件打分
@@ -453,13 +460,13 @@ public class Snippet {
 		}
 	}
 	
-	public static int searchAndLoc (Map<String, List<String>> map, Map<String, Integer> tmpNum, String comp, String line, String logType, boolean hasStamp) {
-		String temp = mapMatchTemplate(map, comp, line, logType, hasStamp);
+	private static int searchAndLoc (Map<String, List<String>> map, Map<String, Integer> tmpNum, String comp, String line, String logType, boolean hasStamp) {
+		String temp = mapMatchTemplate(map, comp, line, logType, hasStamp);		//匹配日志行的template
 		
 		
-		if (temp != "") {
+		if (temp != "") {		//如果匹配到了日志行
 			try {
-				int loc = tmpNum.get(temp);
+				int loc = tmpNum.get(temp);		//输出template对应的loc
 				return loc;
 			}
 			catch (Exception e1){
@@ -473,7 +480,7 @@ public class Snippet {
 		}
 	}
 	
-	public static String searchAndTmp (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, boolean hasStamp){
+	private static String searchAndTmp (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, boolean hasStamp){
 		String temp = mapMatchTemplate(map, comp, line, logType, hasStamp);
 		if (temp != "") {
 			return temp;
@@ -485,7 +492,7 @@ public class Snippet {
 		}
 	}
 	
-	public static void searchAndSum (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, Map<String, Integer> appearance){
+	private static void searchAndSum (Map<String, List<String>> map, Map<String, Integer> jsonMap, String comp, String line, String logType, Map<String, Integer> appearance){
 		String temp = mapMatchTemplate(map, comp, line, logType, false);
 		
 		if (temp != "") {
@@ -496,7 +503,7 @@ public class Snippet {
 	}
 	
 	
-	public static boolean isMatched (String template, String line, String logType) {
+	private static boolean isMatched (String template, String line, String logType) {
 		String timestamp = 
 				"^[0-9]{4}-[0-9]{2}-[0-9]{2}[ T][0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}";
 		String forShortLine = "[ \\+]\\S+\\s*\\S+ ";			//对较短行的处理，可能存在风险！！
@@ -533,7 +540,7 @@ public class Snippet {
 		return false;
 	}
 	
-	public static boolean isMatchedNoStamp (String template, String line, String logType) {
+	private static boolean isMatchedNoStamp (String template, String line, String logType) {
 		String NoStamp = "";
 		String lineNoTab = line;
 		if (line.contains("\t")) {
@@ -547,6 +554,8 @@ public class Snippet {
 	}
 
 	
+	
+	//传统的过滤方法,snippet行中没有去除时间戳
 	public static List<String> filter(String templateFile, List<String> snippet, String logType){
 		/*
 		 * 07/05
@@ -614,6 +623,7 @@ public class Snippet {
 		return ret;
 	}
 	
+	//传统的addtmp方式
 	public static List<String> filterForAddTmp (String templateFile, List<String> snippet){
 		List<String> templates = extract.readFile(templateFile);
 		List<String> ret = new ArrayList<String>();
@@ -722,6 +732,8 @@ public class Snippet {
 	}
 	
 	
+	//输出特定分数集合的日志行
+	//messageList是原始日志行的list
 	public static List<String> scoreLog(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile, Set<Integer> scoreSet, List<String> messageList) {
 		List<String> ret = new LinkedList<String>();
 		Map<String, List<String>> map = mapComponent(templateFile);
@@ -756,6 +768,8 @@ public class Snippet {
 		return ret;
 	}
 	
+	
+	//传统的打分方式,输入的snippet日志行都包含了时间戳,没有用logstash处理过
 	public static List<String> scoreLog(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile, Set<Integer> scoreSet){
 		List<String> ret = new ArrayList<String>();
 		Map<String, List<String>> map = mapComponent(templateFile);
@@ -833,6 +847,7 @@ public class Snippet {
 		return ret;
 	}
 	
+	//统计不同template在日志中出现的次数
 	public static Map<String, Integer> getAppearance(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile) {
 		Map<String, Integer> appearance = new HashMap<String, Integer>();
 		Map<String, List<String>> map = mapComponent(templateFile);
@@ -853,10 +868,13 @@ public class Snippet {
 		return appearance;
 	}
 	
+	
+	//tmpNum 是template_line - id 的map,id是根据template在文件中的行数来确定
+	//输出template出现位置的距离关系
 	public static int[][] getMatArray(Map<String, Integer> tmpNum, Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile) {
 		int tmpLen = extract.readFile(templateFile).size();
 		int[][] retMat = new int[tmpLen][tmpLen];
-		int[] tmpArray = new int[tmpLen];
+		int[] tmpArray = new int[tmpLen];		//储存原始日志行的template 首次出现的位置
 		Map<String, List<String>> map = mapComponent(templateFile);
 		for (int i = 0; i < snippet.size(); i ++) {
 			String line = snippet.get(i);
@@ -877,14 +895,15 @@ public class Snippet {
 		}
 		for (int i = 0; i < tmpLen; i ++) {
 			for (int j = 0; j < tmpLen; j ++) {
-				if (tmpArray[i] != 0 && tmpArray[j] != 0)
+				if (tmpArray[i] != 0 && tmpArray[j] != 0)	//如果日志行i和j都出现过,那么就计算他们出现位置的距离,储存到retMat中
 					retMat[i][j] = tmpArray[i] - tmpArray[j];
 				else 
 					retMat[i][j] = 0;
 			}
 		}
-		return retMat;
+		return retMat;			//输出的是日志行之间距离的矩阵
 	}
+	
 	
 	public static List<String> getGeneralList(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile) {
 		List<String> ret = new LinkedList<String>();
@@ -900,7 +919,7 @@ public class Snippet {
 				
 				if (Pattern.matches("^[A-Z_]+=.+", comp))
 					comp = comp.split("=")[0] + "=" + "\\S+";
-				String t = searchAndTmp(map, jsonMap, comp, line, logType, false);
+				String t = searchAndTmp(map, jsonMap, comp, line, logType, false);		//搜索日志template库,找到对应的template并输出, 没有对应template的行将被忽略
 				if (t != null)
 					ret.add(t);
 			}

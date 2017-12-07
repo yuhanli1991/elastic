@@ -28,7 +28,9 @@ import org.elasticsearch.index.query.QueryBuilders.*;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.sort.SortOrder;
 
-
+/*
+ * 用于与elasticsearch端交互,主要用于检索日志行
+ */
 
 public class EsClient { 
 	final static int TIME_VALUE =50000;
@@ -48,6 +50,8 @@ public class EsClient {
 		return ret;
 	}
 	
+	
+	//根据host, type, 时间戳等信息检索日志行,输出的是原始日志的list,按时间顺序排列
 	public List<List<String>> getSnippet(String[] node, String logType, String from, String to, String clusterName, String host, int port, String index) throws UnknownHostException {
 		System.out.println("Starting to connect " + host + ":" + port + "   Index: " + index);
 		List<List<String>> ret = new LinkedList<List<String>>();
@@ -184,7 +188,7 @@ public class EsClient {
 		}
 	} 
 	
-	
+	//支持对原始日志path的设定
 	public List<List<String>> getSnippet(String[] node, String logType, String path, String clusterName, String host, int port, String index) throws UnknownHostException {
 		System.out.println("Starting to connect " + host + ":" + port + "   Index: " + index);
 		List<List<String>> ret = new LinkedList<List<String>>();

@@ -1032,7 +1032,9 @@ public class extract {
 		}
 	}
 	
-	public Map<String, List<Integer>> GetAppearance (String[] node, String logType, String[] path, String index) {
+	
+	//输出矩阵,多个文件中每个template出现的次数.
+	public Map<String, List<Integer>> GetAppearance (String[] node, String logType, String[] path, String index) {	
 		EsClient ec = new EsClient();
 		Map<String, List<Integer>> ret = new HashMap<String, List<Integer>>();
 		List<String> templates = readFile(templatesFile);

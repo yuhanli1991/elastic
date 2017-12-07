@@ -67,6 +67,8 @@ public class Judge {
 		return jo;
 	}
 	
+	
+	//
 	public Map<String, Integer> getTmpNum() {
 		List<String> list = extract.readFile(templateFile);
 		Map<String, Integer> jo = new HashMap<String, Integer>();
@@ -81,7 +83,7 @@ public class Judge {
 					}
 				}
 //				System.out.println(line);
-				String content = line.substring(0, tail);
+				String content = line.substring(0, tail);		//截取掉尾部的数字
 				jo.put(content, i);
 			}
 			else
