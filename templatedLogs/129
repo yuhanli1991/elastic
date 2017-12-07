@@ -30,8 +30,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -147,7 +145,6 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-OCRDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -181,7 +178,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 ORACLE_BASE value has been saved for future startups
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
@@ -193,13 +189,11 @@ NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 KSXPPING: \S+ selected for Ping
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 NOTE: detected orphaned client id \S+
 NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
 NOTE: detected orphaned client id \S+
@@ -209,8 +203,6 @@ NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: client \S+ mounted group \S+ \(.*\)
 NOTE: detected orphaned client id \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
@@ -261,7 +253,6 @@ NOTE: client \S+ fence duration: \S+ seconds
 NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
 NOTE: released resources held for client id \S+ \(.*\)
 NOTE: detected orphaned client id \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 Received detach msg from inst \S+ for dom \S+
@@ -345,7 +336,6 @@ GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -417,8 +407,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -534,7 +522,6 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-OCRDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -565,7 +552,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
@@ -581,8 +567,6 @@ KSXPPING: \S+ selected for Ping
 NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
@@ -593,11 +577,8 @@ GMON checking disk modes for group \S+ at \S+ for pid \S+ osid \S+
 NOTE: checking \S+ for grp \S+ done.
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:OCRDG2
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -736,10 +717,8 @@ Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: timeout \(.*\) expired for orphan ownerid \S+ for client \S+ \S+ elapsed
 WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
 NOTE: \S+ requested to fence client \S+ id \S+ \S+
@@ -816,10 +795,8 @@ NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \S+ client \S+ disconnected unexpectedly.
 NOTE: check client alert log.
 NOTE: Trace records dumped in trace file \S+
@@ -842,14 +819,14 @@ Errors in file \S+
 ORA-29701: unable to connect to Cluster Synchronization Service
 opiodr aborting process unknown ospid \(.*\) as \S+ result of \S+
 Errors in file \S+  \(.*\):
-ORA-29701 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29701 .*
 Incident details in: \S+
 Error \S+ unexpected return code \S+ from the Cluster Synchronization \S+
 Error \S+ unexpected return code \S+ from the Cluster Synchronization \S+
 Errors in file \S+
 ORA-29701: unable to connect to Cluster Synchronization Service
 Errors in file \S+  \(.*\):
-ORA-29701 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29701 .*
 Incident details in: \S+
 RBAL \(.*\): terminating the instance due to error \S+
 System state dump requested by \(.*\), summary=\[.*\].

@@ -33,8 +33,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -150,7 +148,6 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -195,7 +192,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 ORACLE_BASE value has been saved for future startups
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
@@ -207,7 +203,6 @@ NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
 NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -246,10 +241,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: detected orphaned client id \S+
 NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
 allocate domain \S+ valid . \S+
@@ -301,7 +292,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent .//. \{.*\} ./
 NOTE: Voting File refresh pending for group \S+ \(.*\)
 NOTE: Voting File refresh pending for group \S+ \(.*\)
@@ -705,19 +695,19 @@ Error \S+ unexpected return code \S+ from the Cluster Synchronization \S+
 Errors in file \S+
 ORA-29701: unable to connect to Cluster Synchronization Service
 Errors in file \S+  \(.*\):
-ORA-29701 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29701 .*
 Errors in file \S+  \(.*\):
-ORA-29701 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29701 .*
 Incident details in: \S+
 Incident details in: \S+
 Error \S+ unexpected return code \S+ from the Cluster Synchronization \S+
 Errors in file \S+  \(.*\):
-ORA-29702 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29702 .*
 Incident details in: \S+
 Errors in file \S+
 ORA-29710: Current operation aborted by Cluster Synchronization Services
 Errors in file \S+  \(.*\):
-ORA-29710 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29710 .*
 Incident details in: \S+
 USER \(.*\): terminating the instance due to error \S+
 MEMORY_TARGET defaulting to \S+
@@ -754,8 +744,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -874,11 +862,9 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-VFDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-VFDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -954,7 +940,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
@@ -965,7 +950,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
 NOTE: diskgroup resource \S+ is \S+
@@ -977,15 +961,11 @@ NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 KSXPPING: \S+ selected for Ping
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -1086,7 +1066,6 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -1118,7 +1097,6 @@ NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
@@ -1148,7 +1126,6 @@ NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -1168,7 +1145,6 @@ NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -1189,32 +1165,26 @@ dirty detach - domain \S+ invalid = \S+
 Dirty Detach Reconfiguration complete \(.*\)
 NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -1423,13 +1393,10 @@ NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
 NOTE: timeout \(.*\) expired for orphan ownerid \S+ for client \S+ \S+ elapsed
 WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
@@ -1550,7 +1517,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -1576,7 +1542,6 @@ GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
 Archiving is disabled
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 Shutting down archive processes
 Archiving is disabled
@@ -1619,8 +1584,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -1739,11 +1702,9 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-VFDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-VFDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -1822,7 +1783,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -1833,7 +1793,6 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
 NOTE: diskgroup resource \S+ is \S+
@@ -1845,15 +1804,11 @@ NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 KSXPPING: \S+ selected for Ping
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -1965,14 +1920,12 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
 NOTE: registered owner id \S+ for \S+ \(.*\)
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: client \[.*\] declared \S+ additional pending writes
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
@@ -2083,7 +2036,6 @@ GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
 NOTE: registered owner id \S+ for \S+ \(.*\)
@@ -2116,7 +2068,6 @@ GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -2153,7 +2104,6 @@ NOTE: Voting file relocation is required in diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -2185,7 +2135,6 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 NOTE: Voting File refresh pending for group \S+ \(.*\)
@@ -2204,7 +2153,6 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: \S+ client \S+ disconnected unexpectedly.
@@ -2321,7 +2269,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -2342,7 +2289,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -2453,8 +2399,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -2573,11 +2517,9 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-VFDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-VFDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -2653,12 +2595,10 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
 NOTE: diskgroup resource \S+ is \S+
@@ -2674,11 +2614,7 @@ NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
 NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 KSXPPING: \S+ selected for Ping
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -2738,7 +2674,6 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Failed voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -2760,7 +2695,6 @@ NOTE: membership refresh pending for group \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: membership refresh pending for group \S+ \(.*\)
@@ -2769,7 +2703,6 @@ NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: cache closing disk \S+ of grp \S+ .*
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
@@ -2780,14 +2713,12 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
 Received detach msg from inst \S+ for dom \S+
 Received detach msg from inst \S+ for dom \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 Dead instances \(.*\) \S+
@@ -2876,7 +2807,6 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
 NOTE: Voting File refresh pending for group \S+ \(.*\)
@@ -2893,12 +2823,10 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 Reconfiguration \S+ \(.*\)
@@ -3019,7 +2947,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Received dirty detach msg from inst \S+ for dom \S+
@@ -3091,7 +3018,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent .//. \{.*\} ./
 NOTE: Voting File refresh pending for group \S+ \(.*\)
 NOTE: Voting File refresh pending for group \S+ \(.*\)
@@ -3110,10 +3036,7 @@ NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: detected orphaned client id \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: detected orphaned client id \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Received detach msg from inst \S+ for dom \S+
 Received detach msg from inst \S+ for dom \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -3198,7 +3121,6 @@ NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
 NOTE: released resources held for client id \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 Reconfiguration \S+ \(.*\)
@@ -3282,7 +3204,6 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -3299,7 +3220,6 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 allocate domain \S+ valid . \S+
@@ -3334,7 +3254,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent .//. \{.*\} ./
 allocate domain \S+ valid . \S+
 freeing rdom \S+
@@ -3368,7 +3287,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent .//. \{.*\} ./
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
@@ -3448,7 +3366,6 @@ NOTE: advancing ckpt for group \S+ \(.*\) \S+ \S+ domain inc# \S+
 NOTE: \S+ did instance recovery for group \S+ domain \S+
 Errors in file \S+
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:TMP11
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -3474,8 +3391,6 @@ License high water mark = \S+
 Instance terminated by \S+ pid = \S+
 USER \(.*\): terminating the instance
 Instance terminated by \S+ pid = \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 MEMORY_TARGET defaulting to \S+
 WARNING: \S+ does not support ipclw. Switching to skgxp
 WARNING: \S+ does not support ipclw. Switching to skgxp
@@ -3510,8 +3425,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -3634,15 +3547,11 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-VFDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-VFDG
-TMP1
-TMP2
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -3652,13 +3561,11 @@ NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:TMP11
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -3755,17 +3662,14 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 ORA-15032: not all alterations performed
 ORA-15017: diskgroup ".*" cannot \S+ mounted
@@ -3865,18 +3769,15 @@ NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:TMP11
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -3902,8 +3803,6 @@ Additional information: \S+
 ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
 ORA-15186: \S+ error function = \[.*\],  error = .*
 asm agent .//. \{.*\} ./
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 WARNING: failed to find state to reconnect client \S+ id \S+ \S+ after \S+ secs
 NOTE: cleaned up \S+ client \S+ connection state
@@ -3919,8 +3818,6 @@ NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: client \S+ mounted group \S+ \(.*\)
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
@@ -4003,7 +3900,6 @@ NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
 System state dump requested by \(.*\), summary=\[.*\].
 System State dumped to trace file \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \S+ client \S+ disconnected unexpectedly.
 NOTE: check client alert log.
 NOTE: Trace records dumped in trace file \S+
@@ -4084,7 +3980,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -4099,7 +3994,6 @@ GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache dismounted group \S+ \(.*\)
 NOTE: detached from domain \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -4119,7 +4013,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -4194,8 +4087,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -4320,15 +4211,11 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-VFDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-VFDG
-TMP1
-TMP2
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -4439,22 +4326,18 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
 NOTE: diskgroup resource \S+ is \S+
@@ -4477,10 +4360,6 @@ NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -4639,7 +4518,6 @@ Begin lmon rcfg omni enqueue reconfig \S+
 End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 Dumping diagnostic data in directory=\[.*\], requested by \(.*\), summary=\[.*\].
@@ -4681,7 +4559,6 @@ Fix write in gcs resources
 Errors in file \S+
 Reconfiguration \S+ \(.*\)
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:TMP11
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -4699,12 +4576,7 @@ GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
 ERROR: disk 0\(.*\) in group .* cannot \S+ offlined because the disk group has external redundancy.
 ERROR: too many offline disks in \S+ \(.*\)
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:TMP11
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -4712,7 +4584,6 @@ Errors in file \S+
 Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:TMP11
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -4726,7 +4597,6 @@ NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
 ERROR: No disks with \S+ found on disk group \S+
 NOTE: aborting instance recovery of domain \S+ due to diskgroup dismount
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 ORA-15063: \S+ discovered an insufficient number of disks for diskgroup ".*"
 ERROR: \S+ in \S+ recovery for diskgroup \S+ \(.*\)
@@ -4798,8 +4668,6 @@ ORA-1092 \S+ opitsk aborting process
 ORA-1092 \S+ opitsk aborting process
 ORA-1092 \S+ opitsk aborting process
 Instance terminated by \S+ pid = \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 MEMORY_TARGET defaulting to \S+
 WARNING: \S+ does not support ipclw. Switching to skgxp
 WARNING: \S+ does not support ipclw. Switching to skgxp
@@ -4834,8 +4702,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -4958,15 +4824,11 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-VFDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-VFDG
-TMP1
-TMP2
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -4976,13 +4838,11 @@ NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:TMP11
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -5085,17 +4945,14 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 ORA-15032: not all alterations performed
 ORA-15017: diskgroup ".*" cannot \S+ mounted
@@ -5120,20 +4977,16 @@ NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 KSXPPING: \S+ selected for Ping
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:TMP11
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -5164,10 +5017,6 @@ NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+

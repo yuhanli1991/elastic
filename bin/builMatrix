@@ -1,0 +1,63 @@
+#!/bin/bash
+# arg1: logtype
+# arg2: host
+# arg3: index
+# arg4: path1,path2,...
+
+usage() {
+	echo "Java version should be 1.8.x"
+	echo "USAGE: builMatrix -t logtyp -h host -i index -p path[]"
+	echo "logtype: ocssd/gipcd/alert/crsd/ohasd_orarootagent_root etc."
+	exit 1
+}
+
+if [ -z $JAVA_HOME ]; then
+	echo "Please specify JAVA_HOME variable first!"
+	exit 1
+fi
+
+if [ -z $ELA_HOME ]; then
+	echo "Please specify ELA_HOME variable first!"
+	exit 1
+fi
+
+while getopts ":t:h:i:p:" o; do
+	case "${o}" in
+		t)
+			logType=${OPTARG}
+			;;
+		h)
+			host=${OPTARG}
+			;;
+		i)
+			index=${OPTARG}
+			;;
+        p)
+            path=${OPTARG}
+            ;;
+		*)
+			usage
+			;;
+	esac
+done
+shift $((OPTIND-1))
+
+echo "Log type: $logType"
+echo "Host: $host"
+echo "Path: $path"
+
+if [ -z "${logType}" ] || [ -z "${path}" ]; then
+    usage
+fi
+
+logTemplate=$ELA_HOME/log/"$logType"Template.txt
+logTemplateScore=$ELA_HOME/log/"$logType"TemplateScore.txt
+
+JAVA_VERSION=`$JAVA_HOME/bin/java -version 2>&1 |awk 'NR==1{ gsub(/"/,""); print $3 }'`
+if [ `echo $JAVA_VERSION|cut -d'.' -f1-2` != 1.8 ]; then
+	echo "The java version is $JAVA_VERSION. 1.8.x java version is required."
+	exit 1;
+fi
+
+
+$JAVA_HOME/bin/java -cp $ELA_HOME/target/classes:$ELA_HOME/target/dependency/* elk.elastic.App $logTemplate $logTemplateScore $logType buildMatrix "$path" null    null null $host $index

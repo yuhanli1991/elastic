@@ -1,0 +1,1308 @@
+ACL:
+ACTION:
+ACTIONS:
+ACTION_FAILURE_TEMPLATE:
+ACTION_SCRIPT:
+ACTION_TAG:
+ACTION_TIMEOUT:
+ACTIVE_CSS_ROLE:
+ACTIVE_CSS_ROLE=\S+
+ACTIVE_PLACEMENT:
+AFTER being processed:
+AGENT_FILENAME:
+AGENT_HB_INTERVAL:
+AGENT_HB_MISCOUNT:
+AGENT_STOP_RETRY_TIMEOUT:
+ALERT_TEMPLATE:
+ALIAS_NAME:
+ALWAYS_SVC".*"True.* <Then>pullup:always\(.*\)</Then> <Else>pullup\(.*\)</Else> </If></Then> <Else>hard\(.*\)<If cond=".*" value=".*"> <Then><If cond=".*" value=".*"> <Then><If cond=".*" op=".*" value=".*"> <Then>dispersion\(.*\)</Then> </If></Then> </If></Then> </If><If cond=".*" value=".*"> <Then>pullup:always\(.*\) </Then> <Else>pullup\(.*\) </Else> </If><If cond=".*" value=".*"> <Then><If cond=".*" op=".*" value=".*"> <Then>pullup\(.*\)</Then> </If></Then> </If></Else> </If>hard\(.*\)</Then> <Else>hard\(.*\)<If cond=".*" value=".*"> <Then>pullup:always\(.*\) </Then> <Else>pullup\(.*\)</Else> </If></Else> </If><If cond=".*" value=".*"> <Then><If cond=".*" op=".*" value=".*"> <Then>pullup\(.*\)</Then> </If></Then> </If><If cond=".*" value=".*"> <Then><If cond=".*" value=".*"> <Then>dispersion\(.*\)</Then> </If></Then> \S+ cond=".*" value=".*"> <Then><If cond=".*" value=".*"> <Then>hard\(.*\)</Then> </If></Then> </If>hard\(.*\)<If cond=".*" value=".*"> <Then>hard\(.*\)</Then> \S+
+API_HDR_VER:
+API_REGUPDATE_TAG:
+ASE: \S+ \S+ .*
+ASYNC_TAG:
+ATTR_LIST:
+ATTR_LIST_TAG:
+AUTO_START:
+Accepted connection from user: \S+
+Add \S+ \S+
+Added resource type: \S+
+Adding \S+ Op: Wait Op \[.*\]
+Adding \S+ instruction \S+ for \[.*\] \S+ \S+
+Adding running tgip \S+ \[.*\], \S+
+Agent \S+ with \S+ connected to server.
+Agent .* stopped!
+Agent: \S+ with user id root is being stopped. Will \S+ restarted when agent stops completly
+AgentDesc::stop not killing: \S+ = \S+
+Agfw Proxy Server failed to process the message AGENT_SHUTDOWN_REQUEST\[.*\] \S+ \S+
+Agfw Proxy Server forwarding the message: .* \S+ \S+ to the agent \S+
+Agfw Proxy Server forwarding the msg from agent to \S+ AGENT_BACKGROUNDMSG_TOPE\[.*\] \S+ \S+
+Agfw Proxy Server received process disconnected notification, \S+
+Agfw Proxy Server received the message: .* \S+ \S+
+Agfw Proxy Server replying to the message: .* \S+ \S+
+Agfw Proxy Server sending message to \S+ Contents = \[.*\]
+Agfw Proxy Server sending message: .* \S+ \S+ to the agent \S+
+Agfw Proxy Server sending the last reply to \S+ for .* \S+ \S+
+Agfw Proxy Server sending the reply to \S+ for .* \S+ \S+
+Agfw config version set to: \S+
+Agfw received \S+ error for msg: \S+ resource: \S+ \S+ \S+
+Agfw received reply from \S+ for resource state change for \S+ \S+ \S+
+Allow all users to register resources in the new engine.
+Allowing restart of \S+
+Argument \S+ is: \S+
+Argument count \(.*\) for this daemon is \S+
+Attempting to purge...
+AuthLoc \S+
+Autostart \S+ done filtering ops...:
+Autostart cmd \S+ creating ops..
+Autostart cmd \S+ done creating ops
+Autostart cmd filtering \S+ ops
+Autostart condition: \S+ \S+ Servers available: \S+
+Awating write completion, seconds \S+
+BEFORE being processed:
+Bad resource \S+ Skipping it
+Bidding: \S+ \S+
+Boot-time cleanup completed
+Brokering \S+ Write for msg \S+
+CALOG_ID:
+CALOG_ID_TAG:
+CARDINALITY:
+CARDINALITY_ID:
+CARDINALITY_ID=\S+
+CCL \S+ \S+
+CHECK_ARGS:
+CHECK_COMMAND:
+CHECK_INTERVAL:
+CHECK_TIMEOUT:
+CLEAN_ARGS:
+CLEAN_COMMAND:
+CLEAN_TIMEOUT:
+CLIENT:
+CLIENT_NAME:
+CLIENT_PID:
+CLIENT_PRIMARY_GROUP:
+CLS Framework has registered with the state dump
+CLSDNSSD-00026: service not running
+CLUCLS=\S+
+CMD_PAYLOAD:
+COMM=\S+
+CONFIGURED_CSS_ROLE=\S+
+CONFIGURED_CSS_ROLE=
+CONFIGURED_ROLE:
+CONFIG_VERSION:
+CPU_EQUIVALENCY:
+CREATION_SEED:
+CRED_USR_ID:
+CRS-2672: Attempting to start '.*' on '.*'
+CRS-2673: Attempting to stop '.*' on '.*'
+CRS-2674: Start of '.*' on '.*' failed
+CRS-2675: Stop of '.*' on '.*' failed
+CRS-2676: Start of '.*' on '.*' succeeded
+CRS-2677: Stop of '.*' on '.*' succeeded
+CRS-2679: Attempting to clean '.*' on '.*'
+CRS-2681: Clean of '.*' on '.*' succeeded
+CRSEVT_SEQNUM:
+CRS_AUX_DATA:
+CRS_CSS_NODENAME=\S+
+CRS_CSS_NODENUMBER=\S+
+CRS_CSS_NODENUMBER_PLUS1=1
+CRS_HOME=\S+
+CRS_ORACLE_BASE=\S+
+CRS_RESOURCE_RELOCATE_SERVERS:
+CS\(.*\)Error sending msg over socket. gipcretConnectionLost
+CS\(.*\)No connection to client.gipcretConnectionInvalid
+CSS Manager initializing...
+CSSDRIM_PATH:
+CSSD_MODE:
+CSSD_PATH:
+CSS_CRITICAL:
+CSS_USER:
+CURRENT \S+ \S+ for \S+
+Can not start Agent: \S+ with user id root is waiting to \S+ restarted.
+Can not stop the agent: \S+ because pid is not initialized
+Canceled previous stack restart timer; id: \S+
+Cannot get GPnP profile. Error \S+ \(.*\).
+Cant place \S+ \S+ \S+ exeption: \S+ Resource '.*' cannot start on server '.*' as the server does not belong to the resource.*
+Cant place \S+ \S+ \S+ exeption: \S+ Resource '.*' is disabled
+Checking \[.*\]
+Checking version compatibility...
+Cleared in flight to-running transition for \[.*\]
+Cluster reboot took place.
+ClusterConnectException caught \S+ for \S+
+ClusterPubSub::publish Error posting to event stream. Connection will \S+ retried on next publish \[.*\]
+ClusterResource performRegister preserving old target state \[.*\] from old \S+ \[.*\] while creating updated \S+ \[.*\].
+Command completed; zeroing \S+ = \S+
+Communication exception sending reply back to client.FatalCommsException \S+ Failed to send response to client.
+Configuration has been parsed
+Configured server names: \S+
+ConnAccepted from Peer:msgTag= \S+ version= \S+ msgType= \S+ msgId= \S+ msglen = \S+ \S+ \S+ src= \(.*\) dest= \(.*\)
+Connecting to \S+
+Container .*
+Container
+Copied Member \(.*\) on \S+ port=.
+Could not find the resource type \[.*\]
+Could not forward message \[.*\] to agent. \S+ is not running
+Created alert \S+ \(.*\) \S+ \s*\S+ \S+ \S+
+Created alert \S+ \(.*\) \S+  Failed to start the agent \S+
+Created alert \S+ \(.*\) \S+  Shutdown progress: \S+ Shutdown of Oracle High Availability Services-managed resources on '.*' has \S+
+Created alert \S+ \(.*\) \S+  Shutdown progress: \S+ Starting shutdown of Oracle High Availability Services-managed resources on '.*'
+Created alert \S+ \(.*\) \S+  Stop action timed out!
+Creating \S+ context for \S+
+Creating \S+ message filter...
+Creating \S+ personality...
+Creating Subordinate Certificate \S+
+Creating initial stack restart timer - time interval: 900; allowedAttempts: \S+
+Creating the resource: \S+ \S+ \S+
+DAEMON_LOGGING_LEVELS:
+DAEMON_TRACE_FILE_OPTIONS:
+DB instances to \S+ left running: \S+
+DEFAULT_TEMPLATE:
+DEGREE:
+DEGREE_ID:
+DEGREE_ID=\S+
+DELAY_SECS:
+DELETE_TIMEOUT:
+DEPENDENCY \S+ \S+ for \S+
+DEPLOYMENT:
+DEP_DG_RES_NAME:
+DESCRIPTION:
+DETACHED:
+DM flushing its state to repository: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+
+DM flushing its state to repository: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+
+DM: Set event seq number to: \S+
+DM: Set threshold event seq number to: \S+
+DM: read \[.*\] to: \S+
+DM: set crash list, length = \S+
+DNSSD-dnssd_clientstub ConnectToServer: connect\(.*\) failed \S+ Err:-1 \S+ Connection refused
+DNSSD-dnssd_clientstub ConnectToServer: connect\(.*\)-> No of tries: \S+
+DataModel: incremented cache for server hub node count, now = \S+
+Decremented expected instance count for \S+ in response to the unsuccessful completion of \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ restart: , state change= \S+ local restart=0. New count = \S+
+Decremented expected instance count for \S+ on re-eval. New count = \S+
+Deleted resource from repository: \S+
+Deleting \S+ \S+ \S+ \S+ \S+
+DestroyOIs \S+ .* \S+ \S+ \S+ \S+ \S+ .*
+Dev\[.*\]: Read\[.*\] Write\[.*\]
+Device/File Name         : \S+
+Directed placement impossible for \[.*\] on \S+ c.o. PlacementPolicy
+Disabled new shutdown processing
+Disconnected from \S+ process: \{.*\}
+Disconnected from server: \S+
+Disconnected from server:
+Done ------------------
+Done for \S+
+Done parsing server categories...
+Done processing res faults for \S+
+Done.
+Dumping member data ------------------
+ENABLED:
+ENTITY_LIST:
+ENTITY_TAG:
+ENTITY_TAG_TAG:
+ENV_OPTS:
+ENV_OVERRIDES:
+ERROR: \S+ \S+ DISCONNECTED:\{.*\}
+EVENT_TAG:
+EXPRESSION:
+Enabled \S+
+Enabled
+Enabling M2MWatchDog
+Entered handleRGIsAfterResProbe
+Err=\S+ \S+
+Error unmounting '.*'. Possible busy file system. Verify the logs.
+Error: \S+ Cannot start resource '.*' as it is already in the \S+ state on server '.*'
+Error: \S+ Could not stop resource '.*'.
+Evaluating boot processing for: \S+
+Evaluating start \S+ on \[.*\] reason \[.*\] Opts: \S+ In pool \S+
+Evaluating stop of \[.*\] on \[.*\] with parameters: Options:0x0;Identity: root;Reason:user;IDs of entities being stopped: \[.*\]
+Evaluating the initial state change for \S+ \S+ \S+ last \S+ current state: \S+ new state: \S+
+Exception from \S+ \S+ There are no servers that belong to the server category '.*' of resource '.*'.
+Exception while evaluating shutdown \(.*\) of \[.*\] . Error stack:CRS-2551: Resource '.*' cannot \S+ failed-over because it is of type '.*', which cannot relocate
+Exception while evaluating shutdown \(.*\) of \[.*\] . Error stack:CRS-2632: There are no more servers to try to place resource '.*' on that would satisfy its placement policy
+Exiting on request of the Policy Engine...
+Expected username  \[.*\] actual \[.*\] \S+
+Expression Filter \S+ \(.*\)
+FAILOVER_DELAY:
+FAILURE_COUNT:
+FAILURE_COUNT=\S+
+FAILURE_HISTORY:
+FAILURE_HISTORY=
+FAILURE_INTERVAL:
+FAILURE_THRESHOLD:
+FILTER:
+FILTER_TAG:
+FORCE_TAG:
+FS: \S+ \S+ \S+ event\(.*\)=found
+FS: processing '.*' event notification. All interfaces are lost for peer \S+
+FailoverRetryHandler could not fail over \[.*\]. Error: \S+ Resource '.*' has placement error.
+Fatal Error from \S+ Proxy: Communication error with agent process
+Fetching new \S+ context
+Finished agent-initiated updated of: \S+ \S+ \S+
+Finished reading configuration. Parsing...
+Flushing compacted batch of \S+
+Flushing completed
+Flushing repository write requests...
+Forcing \S+ \[.*\] to wait  to-online state change on \S+
+Forcing stop reason to \S+ CRS_STOP_DETAILS=\[.*\]
+Found \[.*\] online nodes: \S+
+Found our unique bid.
+GEN_RESTART:
+GEN_USR_ORA_INST_NAME:
+GIPC address: clsc://\(.*\)
+GIPC error \[.*\] msg \[.*\]
+Getting config role...
+Getting local hostname
+Getting online nodes..
+Getting the target role...
+Got \S+ ops
+Got \[.*\] potential names
+Got Join Req from \[.*\] Msg Details: .* \S+ params: Map \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ \S+
+Got agent-specific msg: \S+ \S+ of '.*' on '.*' \S+
+Got agent-specific msg: \S+ \S+
+Got agent-specific msg: \S+ '.*' on '.*' has experienced an unrecoverable failure
+Got agent-specific msg: \S+ Agent ".*" timed out starting process ".*" for action ".*": details at ".*" in ".*"
+Got agent-specific msg: \S+ Attempting to \S+ '.*' on '.*'
+Got agent-specific msg: \S+ Clean of '.*' on '.*' \S+
+Got agent-specific msg: \S+ Failed to shut down resource '.*' on '.*'
+Got agent-specific msg: \S+ Human intervention required to resume its availability.
+Got agent-specific msg: \S+ Shutdown of Cluster Ready Services-managed resources on '.*' has \S+
+Got agent-specific msg: \S+ Starting shutdown of Cluster Ready Services-managed resources on server '.*'
+Got agent-specific msg: \S+ The resource action ".*" encountered the following error:
+Got agent-specific msg: \S+ cannot stop the last server in Domain Service Cluster with active member cluster named '.*'
+Got agent-specific msg: \S+ to create credentials.
+Got agent-specific msg: \S+
+Got agent-specific msg: Action entry point of StorageAgent: Action \S+
+Got agent-specific msg: Clean action is about to exhaust maximum waiting time
+Got agent-specific msg: Connection refused \(.*\)
+Got agent-specific msg: Connection refused to host: 10.208.144.38; nested exception is:
+Got agent-specific msg:
+Got confirmation from \S+ on \S+
+Got direct msg from agent
+Got servers: \S+
+HOST:
+HOSTING_MEMBERS:
+HOST_TAG:
+Handling autostart conditions
+ID:
+ICAL:
+ICE going for iteration \S+ with \S+ affected ops
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: \S+ for Placement Path RI:\[.*\] server \[.*\] target states \[.*\], locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*' issued from '.*'
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: \S+ for Placement Path RI:\[.*\] server \[.*\] target states \[.*\], locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*'
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: IWaitObject wrapper \S+ \S+ \S+ locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*' issued from '.*'
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: IWaitObject wrapper \S+ \S+ \S+ locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*'
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: IWaitObject wrapper \S+ locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*' issued from '.*'
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: IWaitObject wrapper \S+ locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*'%s.* cannot \S+ started in \S+ server pool because it is \S+ local .*
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: IWaitObject wrapper \S+ locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*'
+ICE: shifted sequence numbers of \S+ operations.
+ID=\S+ \S+ \S+
+IGNORE_TARGET_ON_FAILURE:
+INCARNATION:
+INCARNATION=\S+
+INSTANCE_COUNT:
+INSTANCE_FAILOVER:
+INTERMEDIATE_TIMEOUT:
+INTERNAL_STATE:
+INTERNAL_STATE=\S+
+INTERVAL_FS:
+INVALID \S+ \S+ \S+ \S+ \S+ \[.*\]
+IPT:
+Ignorable error, different tint. This \{.*\}. Last touched: \{.*\}
+Ignoring \S+ state async state change for \[.*\] \S+ \S+ wait op \S+
+Ignoring exception .*
+Ignoring stale exception \S+
+Ignoring state change for \[.*\] as there.*
+Incremented \S+ currently = \S+
+Inited \S+ \S+ \S+
+Initial membership:
+Initializing \S+
+Initializing msg framework...
+Initializing state debug instance...
+Initializing the resource \S+ \S+ \S+ for type \S+
+Initializing ubglm...
+Initiate startup command called from performPostJoinTasks\(.*\)
+Initiating \S+ listener startup
+Initiating Resource Autostart command: Server Join: Resource Startup \{.*\} \S+ \S+
+Initing \S+ Framework messaging
+Initing string tables...
+Instantiating msg framework...
+Invalid request msg from agent to proxy
+Ipc: Purged msg \(.*\) to \S+ member: \S+
+Ipc: Starting send thread
+Ipc: client \(.*\) version: \S+
+Ipc: client version \(.*\) version: \S+
+Ipc: gipcSend\(.*\) failed, rc= \S+
+Ipc: gipcSend\(.*\) to member \S+ returned error: \S+
+Ipc: no connection to peer \S+
+Ipc: sendWork thread started.
+IpcL: Accepted connection \S+ from user \S+ member number \S+
+IpcL: Adding connection: \S+
+IpcL: Adding formed connection: \S+
+IpcL: Found connection in pending connections
+IpcL: Listener instantiated for: \(.*\)
+IpcL: Received member data
+IpcL: Sent member \S+ to client \S+
+IpcL: connection to member \S+ has been removed
+IpcL: gipcListen\(.*\) succeeded
+IpcL: removeConnection: Member \S+ does not exist in pending connections.
+IpcL: removeConnection: Member \S+ does not exist in pending or formed connections.
+IpcL: send failed rc= \S+
+KEEP_D_TARGETS_TAG:
+LAST_FAULT:
+LAST_FAULT=\S+
+LAST_RESTART:
+LAST_RESTART=\S+
+LAST_SERVER:
+LAST_SERVER=\S+
+LAST_STATE_CHANGE:
+LAST_STATE_CHANGE=\S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ .*
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ = \[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ \S+ op_id:\[.*\]\[.*\] Keyname:\[.*\] Nodenum:\[.*\] Type:\[.*\] Username:\[.*\] Groupname:\[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ recv \S+ \S+ \S+ successful
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ send \S+ \S+ successful
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+  open key \[.*\] retval \[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ .* .*
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Acquiring caching lock
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ After sltssmwait \S+ \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Backend exec completed
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Before \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Before sending \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Before sltssmwait
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Caching lock \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Calling \S+ \s*\S+ \S+ \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Calling \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Calling Backend Exec
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Came in
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Completed op \[.*\] return \[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Keyname:\[.*\] Subkeyname:\[.*\] \S+ flag:\[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Keyname:\[.*\] Subkeyname:\[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Node Failure. Attempting retry \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Number of messages in batch:\[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Processed request constr \[.*\] retval \[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Re-acquiring caching lock
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Return before backend call as this is part of batch
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Source Keyname:\[.*\] Target Keyname:\[.*\] Delete Target key:\[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Value for select is \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ gipcSend suceeded
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ parent key name is \S+ \S+ \S+
+LIST_LOGS:\[.*\]: \S+ \S+  Proc id '.*': Proc name '.*'
+LIST_LOGS:\[.*\]: \S+ \S+  major prot '.*' \S+ mnor prot '.*': type '.*' \S+ \S+ '.*'
+LIST_LOGS:\[.*\]: \S+ \S+ propriow: Completed writing to \S+ device\[.*\] \[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ propriow: writing to \S+ device\[.*\] \S+
+LOAD:
+LOCALE:
+LOGGING_LEVEL:
+Last Gasp Monitor thread started
+Launching modules...
+Local Member \S+ selected: \S+
+Local Recovery picked for \[.*\]
+Lock Info:
+Locked \S+ went from \S+ to O, let.*
+Logging level for Module: \S+ \s*\S+
+M2M is now powered by \S+ doWork\(.*\) thread.
+M2M is starting...
+MAX batch \S+
+MESSAGE:
+MIDTo:4.OpID:4.FromA:\{.*\}.ToA:\{.*\}.MIDFrom:4.Type:2.Pri3.Id:1091:Ver:2String \S+ \S+ 1.Int params:ErrCode=0.MsgId=4097.MsgTimeOutKill=1.MsgTimeOutSeqNum=3.Map params: Map \[.*\] \S+ \S+ \S+ \S+ \S+ \S+
+MIDTo:4.OpID:4.FromA:\{.*\}.ToA:\{.*\}.MIDFrom:4.Type:2.Pri3.Id:1152:Ver:2String \S+ \S+ \S+ \S+ 1.SERVER=rwsad12.Int \S+ params: Map \[.*\] \S+ \S+ VALUES:ACL=owner:root:rw-,pgrp:tan:rw-,other::r--,user:betausr1:r-x.ACTIONS=.ACTION_FAILURE_TEMPLATE=.ACTION_SCRIPT=.ACTION_TIMEOUT=60.ACTIVE_PLACEMENT=0.AGENT_FILENAME=/scratch/wc/new_tgip2/bin/orarootagent.ALERT_TEMPLATE=.ALIAS_NAME=.AUTO_START=always.BASE_TYPE=cluster_resource.CARDINALITY=1.CARDINALITY_ID=1.CHECK_INTERVAL=30.CHECK_TIMEOUT=0.CLEAN_TIMEOUT=60.CONFIG_VERSION=1.CREATION_SEED=9.CRS_CLUSTER_NAME=rwsad12.CRS_CSS_NODENAME=rwsad12.CRS_CSS_NODENAME_LOWER_CASE=rwsad12.CRS_CSS_NODENAME_UPPER_CASE=RWSAD12.CRS_CSS_NODENUMBER=0.CRS_CSS_NODENUMBER_PLUS1=1.CRS_EXE_SUFFIX=.CRS_HOME=/scratch/wc/new_tgip2.CRS_ONLINE_CSS_NODENAMES=rwsad12.CRS_ORACLE_BASE=/scratch/gridhome/181gibase.CRS_RESOURCE_RELOCATE_SERVERS=.CRS_SCRIPT_SUFFIX=.CSS_CRITICAL=no.DEFAULT_TEMPLATE=.DEGREE=1.DEGREE_ID=1.DELETE_TIMEOUT=60.DESCRIPTION=".*".ENABLED=1.FAILOVER_DELAY=0.FAILURE_COUNT=0.FAILURE_HISTORY=.FAILURE_INTERVAL=0.FAILURE_THRESHOLD=0.HOSTING_MEMBERS=.ID=ora.cluster_interconnect.haip \S+ 1.IGNORE_TARGET_ON_FAILURE=no.INCARNATION=1.INSTANCE_COUNT=1.INSTANCE_FAILOVER=1.INTERMEDIATE_TIMEOUT=0.INTERNAL_STATE=15.LAST_FAULT=1509095935.LAST_RESTART=1509095314.LAST_SERVER=rwsad12.LAST_STATE_CHANGE=1509095937.LOAD=1.LOGGING_LEVEL=1.MODIFY_TIMEOUT=60.NAME=ora.cluster_interconnect.haip.NOT_RESTARTING_TEMPLATE=.OFFLINE_CHECK_INTERVAL=0.OS_CRASH_THRESHOLD=0.OS_CRASH_UPTIME=0.OXR_SECTION=0.PLACEMENT=balanced.PROFILE_CHANGE_TEMPLATE=.RELOCATE_BY_DEPENDENCY=1.RELOCATE_KIND=offline.RESOURCE_GROUP=.RESTART_ATTEMPTS=5.RESTART_COUNT=1.RESTART_DELAY=0.RUNS_ON_ALIAS=no.SCRIPT_TIMEOUT=60.SERVER_CATEGORY=.SERVER_POOLS=.START_CONCURRENCY=0.START_DEPENDENCIES=hard\(.*\) pullup\(.*\).START_TIMEOUT=60.STATE=8.STATE_CHANGE_TEMPLATE=.STATE_CHANGE_VERS=2.STATE_DETAILS=.STOP_CONCURRENCY=0.STOP_DEPENDENCIES=hard\(.*\).STOP_TIMEOUT=0.TARGET=7.TARGET_DEFAULT=default.TARGET_SERVER=rwsad12.TYPE=ora.haip.type.TYPE_ACL=owner:root:rwx,pgrp:root:r-x,other::r--.TYPE_NAME=ora.haip.type.UPTIME_THRESHOLD=1m.USER_WORKLOAD=no.USE_STICKINESS=0.USR_ORA_AUTO=.USR_ORA_HA_ENABLE=1.USR_ORA_HA_FATAL=1.USR_ORA_IF=.USR_ORA_IF_GROUP=cluster_interconnect.USR_ORA_IF_THRESHOLD=20.USR_ORA_NETMASK=.USR_ORA_SUBNET=.WORKLOAD_CPU=0.WORKLOAD_CPU_CAP=0.WORKLOAD_MEMORY_MAX=0.WORKLOAD_MEMORY_TARGET=0. \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ \S+
+MIDTo:4.OpID:4.FromA:\{.*\}.ToA:\{.*\}.MIDFrom:4.Type:2.Pri3.Id:1204:Ver:2String \S+ \S+ 1.Int params:ErrCode=0.MsgId=4097.MsgTimeOutKill=1.MsgTimeOutSeqNum=3.Map params: Map \[.*\] \S+ \S+ \S+ \S+ \S+ \S+
+MODIFIED \S+ \S+ for \S+
+MODIFY_TIMEOUT:
+MSGTYPE:
+Marking startup complete for server \S+
+Master Change Event; New Master Node \S+ This Node.*
+Master change notification has received. New master: \S+
+Master node id is not intialized, queueing cmd \S+
+Member \(.*\) on node \S+ port=.
+Member \(.*\) on node  port=.
+Member \(.*\) on node slcc04db08 port=.
+Message = .* \S+ params:ErrCode=0.MsgId=20486.MsgTimeOutKill=1.
+MessageStore \S+ \S+ for \S+
+MessageStore all servers startup complete
+MessageStore allowed the transition for \S+
+MessageStore handling startup \S+ for \S+ \[.*\]
+MessageStore init called
+MessageStore is \S+
+MessageStore is ignoring \S+
+MessageStore is monitoring \S+ resources
+MessageStore is monitoring: \S+
+MessageStore target is \[.*\]  \[.*\] suppl targets = \S+
+MessageStore: adding message \S+ Attempting to start '.*' on '.*'
+MessageStore: adding message \S+ Completed start of Oracle Cluster Ready Services-managed resources
+MessageStore: adding message \S+ Processing resource auto-start for servers:
+MessageStore: adding message \S+ Resource auto-start has completed for server \S+
+MessageStore: adding message \S+ Start of '.*' on '.*' succeeded
+MessageStore: forwarding message \S+ Attempting to start '.*' on '.*'
+MessageStore: forwarding message \S+ Resource '.*' failed during Clusterware stack start.
+MessageStore: forwarding message \S+ Start of '.*' on '.*' succeeded
+MessageStore: forwarding message Cluster Ready Service aborted due to Oracle Cluster Registry error \[.*\]. Details at \(.*\) in /scratch/oracle/giusr/diag/crs/rwsad13/crs/trace/crsd.trc.
+MessageStore: no pending servers left
+MessageStore: startup is \S+
+MessageStore: waiting for suppl target\(.*\)1
+MessageStore:attaching \S+ from server \S+
+MessageStore:attaching done
+MessageStore:deleting all messages
+MessageStore:sending \S+ Attempting to start '.*' on '.*'
+MessageStore:sending \S+ Start of '.*' on '.*' succeeded
+Module Enabling is complete
+Multi Write Batch \S+
+My info in memdata: \S+ \S+
+NAME:
+NODE_LIST:
+NOT_RESTARTING_TEMPLATE:
+NO_WAIT_TAG:
+N_ALIAS:
+New \S+ .* \S+
+New process connected to us ID:\{.*\} \S+
+New signature \[.*\]
+No config policy set stored; using the default one
+No initiated or pending servers left for startup
+No startup command created for \S+
+Node down monitor enabled
+Node role at startup: \S+
+Node role at startup:
+Node: scaoda704c1n1 has not replied within the minimum timeout.
+Nothing to run initial check for \S+
+OR:
+OBJID:
+OCR Write broker responded for msg \S+ with result: \S+
+OFFLINE_CHECK_INTERVAL:
+OHASD Daemon Starting. Command string \S+
+OHASD params \[.*\]
+OHASD running as the \S+ user
+OMM=\S+
+OMON_INITRATE:
+OMON_POLLRATE:
+ON_ALIAS:
+ORA-00205: error in identifying control file, check alert log for more info
+ORA-01013: user requested cancel of current operation
+ORA-12152: TNS:unable to send break message
+ORA_OPROCD_MODE:
+OS_CRASH_THRESHOLD:
+OS_CRASH_UPTIME:
+OXR_SECTION:
+Response: \S+ Attempting to stop '.*' on .*
+Offline monitor enabled for \S+ \S+ 1,agent will continue monitoring
+Only servercount = \S+
+Op \[.*\] is spawning new op \[.*\] because of \S+ lock conflict
+Op SeqNum changed to \S+ from \S+ for op: \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ \[.*\]
+Operation \S+ has \S+ WOs
+Operation \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ restart: , state change= \S+ local \S+ skipped state restoration and is completing unsuccessfully.
+Operation \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ skipped state restoration and is completing unsuccessfully.
+Operation \[.*\] has been replaced with .*
+Oracle Database \S+ Clusterware Release \S+ - Production Copyright \S+ \S+ Oracle. All rights reserved.
+Oracle Database \S+ Clusterware Release \S+ - Production
+Ordered state change for \[.*\] to level \S+
+Overriding intermediate from \S+ to \S+
+PE \S+ \S+ \S+
+PE Command \[.*\] has completed
+PE Engine version selected \S+ \S+
+PE Interface selected \S+ \S+ Version \S+ Accessor
+PE Role.State Update: old role \[.*\] new \[.*\]; old state \[.*\] new \[.*\]
+PHYSICAL_HOSTNAME:
+PID for the Process \[.*\], connkey \S+
+PID_FILE:
+PLACEMENT:
+PNC: Accept connection from peer \(.*\)
+PROCD_TIMEOUT:
+PROCESS_TO_MONITOR:
+PRODUCTION env, using bids.
+PROFILE_CHANGE_TEMPLATE:
+PROGRESS_MSG:
+PROTL-713: Device/File integrity check succeeded
+PROTL-720: Logical corruption check succeeded
+PROTL-723: Logical corruption check bypassed due to non-privileged user
+PROTL-726: Backup file integrity check succeeded
+PROTL-729: Consistency check of entities managed by Cluster Ready Services succeeded.
+PTION:
+Parsed and validated \S+ Free \[.*\]\[.*\]\[.*\] \S+ \S+ \S+
+Parsed and validated server category: \S+ Filter \[.*\]
+Parsing resource types...
+Parsing resources/groups...,isGroup=0
+Parsing server \S+
+Persisting \S+ State...
+Persisting built-in pools
+Placement impossible due to placement policy: no online server passed placement policy filter for \[.*\] \S+ \S+
+Prepared shutdown cmd for: \S+
+Proceeding local restart after dep \S+ \S+ \S+
+Process connected from: \S+ \{.*\}
+Process member data: \S+
+Processing \S+ command \S+ \S+ Description: \[.*\]
+Processing \S+ command \S+ Description: \[.*\]
+Processing initial resource state check for \S+
+Processing pending join requests: \S+
+Processing res faults for \S+
+Processing unplanned state change for \[.*\]
+Promoting master \[.*\] to top of preference list because resource is \S+
+ProxySrv processing AgentExitFeedback msg
+Published to \S+ \S+ for \S+
+Purge rc \[.*\] - \S+
+Purge rc \[.*\]
+Purging \[.*\]
+Purging stale socket files
+QUEUE_TAG:
+Queued up internal update of \S+ \[.*\] - the resource is already being updated
+RD Error. \S+ thread restarting
+RD membership thread starting
+RD registrations and Clusterization \S+
+RDE-00051: provider ".*" error.
+RDE-00055: no providers available.
+RDE-02001: failed to connect to the mDNS responder.
+RDW: rd_cxWork\(.*\) returned error: \S+
+RD_1 unregister is requested.
+REBOOT_OPTS:
+RECYCLE_AGENT:
+REJOIN_ATTEMPTS:
+REJOIN_INTERVAL:
+RELOCATE_BY_DEPENDENCY:
+RELOCATE_KIND:
+RESOURCE:
+RESOURCE_GROUP:
+RESOURCE_USE_ENABLED:
+RESTART_ATTEMPTS:
+RESTART_COUNT:
+RESTART_COUNT=\S+
+RESTART_DELAY:
+RESULT:
+RI \[.*\] is updated by its agent
+RI \[.*\] may not restart locally as its local server \S+ is not valid
+RI \[.*\] new \S+ state: \[.*\] old value: \[.*\]
+RI \[.*\] new external state \[.*\] old value: \[.*\] on \S+ label = \[.*\] override:OFFLINE
+RI \[.*\] new external state \[.*\] old value: \[.*\] on \S+ label = \[.*\]
+RI \[.*\] new external state \[.*\] old value: \[.*\] on slcc04db05 label = \[.*\] override:OFFLINE
+RI \[.*\] state is the same, ignoring change to \S+
+RI is \S+ on \S+ but it needs to \S+ \S+ on that server. Aborting the sequencer: \S+ \S+ \S+
+RI is locked, will wait to process to-running event \[.*\] \S+
+RI no longer matches filter for \S+ \[.*\]
+RIM_TERMWAIT:
+RIPT:
+RIPTION:
+RIrejected stop: Resource Instance ID\[.*\]. Values:
+RUNS_ON_ALIAS:
+R_SECTION:
+RdRefreshMembers called
+Re-evaluation of queued op \[.*\]. found it no longer \S+ \S+ .* \S+ \S+ .*
+Re-evaluation of queued op \[.*\]. found it no longer needed:CRS-2506: Operation on '.*' has been cancelled
+Re-evaluation of queued op \[.*\]. found it no longer needed:CRS-5702: Resource '.*' is already running on '.*'
+ReadLocks:.STATE \S+ \S+ \S+
+Reading \(.*\) \S+
+Reading \(.*\) server pools
+Reading join signature
+Received handshake message from \S+
+Received reply to action \[.*\] message \S+ \S+
+Received reply to the intial check for: \S+ \S+ \S+ on \S+
+Received shutdown sync reply for \S+
+Received stale message. Could not find the corresponding agent descriptor.
+Received state \S+ change for \S+ \S+ \S+ \[.*\]
+Received state change for \S+ \S+ \S+ \[.*\]
+Received the reply to the message: .* \S+ \S+ from the agent \S+
+Recording exit feedback for \S+ \S+ \S+ \S+ \S+
+Recovery impossible, stopping \S+ \S+ \S+
+Registering kill callback...
+Registering the state collector...
+Registering: \S+ \S+
+Rejecting pending msgs for \S+ \S+ \S+
+Removed pullup of \[.*\] as it.*
+Removing \S+ Member:\{.*\}
+Removing \S+ instruction \S+ for \[.*\] \S+ \S+ after \S+
+Removing stale entry for \S+ \(.*\).
+Required instruction failed in op: \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ restart: , state change= \S+ local \S+
+ResAddMsg reply got, updating state
+Resending the \S+ message \S+ with \S+ \S+ to \S+
+Resource \S+ has been \S+ \S+ the \S+ data \S+
+Resource \S+ has been updated in the \S+ data model: \S+
+Resource \S+ is disabled
+Resource Autostart completed for \S+
+Resource Instance \S+ \S+ \S+ current state: \S+ target state: \S+ flipping target state to \S+
+Resource State Change \(.*\) \S+ \S+ is adding new op: \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ restart: , state change= \S+ local \S+
+Resource Types parsed
+Resource already present in planned \S+
+Resource group has been unregistered: \S+
+Resource is \S+ not \S+ \S+ \S+
+Resource: \S+ \S+ 1,Message: \S+ Agent ".*" timed out starting process ".*" for action ".*": details at ".*" in ".*"
+Resource: \S+ \S+ 1,Message: \S+ Check of storage failed: details at ".*" in ".*"
+Resource: \S+ \S+ 1,Message: \S+ aborted on node \S+ Error \[.*\]. Details in \S+ \S+
+Resource: \S+ \S+ 1,Message: Cluster Ready Service aborted due to Oracle Cluster Registry error \[.*\]. Details at \(.*\) in \S+ \S+
+Resource: \S+ \S+ 1,Message: Cluster Ready Service aborted due to failure to communicate with Cluster Synchronization Service with error \[.*\]. Details at \(.*\) in /scratch/gridhome/181gibase/diag/crs/rwsad12/crs/trace/crsd.trc.,Type: \S+
+Resource: \S+ \S+ 1,Message: Cluster Ready Service aborted due to failure to retrieve the local node name. Details at \(.*\) in /scratch/gridhome/181gibase/diag/crs/rwsad12/crs/trace/crsd.trc.,Type: \S+
+ResourceGroup \S+ has been registered with the \S+ data \S+
+ResourceType \S+ has been registered with the \S+ data \S+
+Resources parsed
+Response: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1t1.0
+Response: \S+ \S+ 1t1.0
+Response: \S+ \S+ of '.*' on '.*' \S+
+Response: \S+ \S+
+Response: \S+ '.*' on '.*' has experienced an unrecoverable \S+
+Response: \S+ Agent ".*" timed out starting process ".*" for action ".*": details at ".*" in ".*"k7.MSGTYPEt1.3k5.OBJIDt8.ora.crsdk4.WAITt1.0
+Response: \S+ Attempting to \S+ '.*' on .*
+S:
+Response: \S+ Attempting to stop '.*' on .* \S+ 1k4.WAITt1.0
+Response: \S+ Cannot stop resource '.*' as it is not \S+
+Response: \S+ Clean of '.*' on '.*' \S+
+Response: \S+ Failed to shut down resource '.*' on .*
+Response: \S+ Human intervention required to resume its \S+
+Response: \S+ Ready Service aborted due to Oracle Cluster Registry error \[.*\]. Details at \(.*\) in \S+ \S+ 1k4.WAITt1.0
+Response: \S+ Resource '.*' failed during Clusterware stack start.k7.MSGTYPEt1.1k5.OBJIDt0.k4.WAITt1.0
+Response: \S+ Resource '.*' is already running on '.*'k7.MSGTYPEt1.1k5.OBJIDt9.ora.gipcdk4.WAITt1.0
+Response: \S+ Shutdown is already in progress for '.*', waiting for it to \S+
+Response: \S+ Shutdown of Cluster Ready Services-managed resources on '.*' has \S+
+Response: \S+ Shutdown of Oracle High Availability Services-managed resources on '.*' has \S+
+Response: \S+ Start of '.*' on '.*' \S+
+Response: \S+ Starting shutdown of Cluster Ready Services-managed resources on server '.*'k7.MSGTYPEt1.3k5.OBJIDt8.ora.crsdk4.WAITt1.0
+Response: \S+ Starting shutdown of Oracle High Availability Services-managed resources on .*
+Response: \S+ Stop of '.*' on '.*' \S+ \S+ 1k4.WAITt1.0
+Response: \S+ Stop of '.*' on '.*' \S+
+Response: \S+ The resource action ".*" encountered the following error:
+Response: \S+ Waiting for resource '.*' to start on server '.*'.k7.MSGTYPEt1.3k5.OBJIDt7.ora.asmk4.WAITt1.0
+Response: \S+ action is about to exhaust maximum waiting \S+
+Response: \S+ cannot stop the last server in Domain Service Cluster with active member cluster named '.*'k7.MSGTYPEt1.3k5.OBJIDt8.ora.crsdk4.WAITt1.0
+Response: \S+ entry point of StorageAgent: Action \S+
+Response: \S+ refused \(.*\)k7.MSGTYPEt1.3k5.OBJIDt8.ora.crsdk4.WAITt1.0
+Response: \S+ refused to host: 10.208.144.38; nested exception is: \S+
+Response: \S+ to create \S+
+Response: \S+ unable to act on resource '.*' on server '.*' because that would require stopping or relocating resource '.*' but the -force option was not \S+
+Response: \S+
+Restart op was elevated to \S+
+Restarting \S+ find queries.
+Restarting discovery of peers.
+Restarting the agent \S+
+Running mode check...
+SCRIPT_TIMEOUT:
+SE module master election disabled
+SERVER_CATEGORY:
+SERVER_LABEL:
+SERVER_POOLS:
+SITE_GUID=\S+
+SITE_NAME=\S+
+SITE_QUARANTINED=\S+
+SLOS: cat=-1, opn=\(.*\), dep=\(.*\), \S+
+SPFILE:
+SR: acl = \S+
+STARTUPCMD_REQ = false: \S+
+STARTUP_PARAMETERS:
+START_ARGS:
+START_COMMAND:
+START_CONCURRENCY:
+START_DEPENDENCIES:
+START_MODE:
+START_TIMEOUT:
+STATE:
+STATE=\S+
+STATE_CHANGE_TEMPLATE:
+STATE_CHANGE_VERS:
+STATE_CHANGE_VERS=\S+
+STATE_DETAILS:
+STATE_DETAILS=
+STING_MEMBERS:
+STOP_ARGS:
+STOP_COMMAND:
+STOP_CONCURRENCY:
+STOP_DEPENDENCIES:
+STOP_MODE:
+STOP_TIMEOUT:
+SUPPRESS_AUTO_RESTART:
+SYSTEM.FIXEDPORT.gipcha.ohasd handle open failed with ret \S+ \S+ The local registry key to \S+ operated on does not exist.
+Scheduled retry of local recovery for .*
+Sending all pending msgs to agent \S+ \S+
+Sending initial \S+ for \[.*\] to \S+
+Sending join request: .* \S+ params: Map \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ \S+
+Sending member \S+ msg \S+
+Sending message to \S+ ctx= \S+
+Sending message to agfw: id = \S+
+Sending new type update to \S+
+Sending shutdown sync msg for \S+
+Sending state change for \[.*\]
+Sending to \S+ ctx= \S+ \S+ set Properties \(.*\), \S+ \{.*\}
+Sending to \S+ ctx= \S+ \S+ set Properties \(.*\)
+Sent request to write event sequence number \S+ to repository
+Sequencer for \[.*\] has completed with error: \S+ \S+ \S+ \S+ \S+ .*
+Sequencer for \[.*\] has completed with error: \S+ Cannot start resource '.*' as it is already in the \S+ state on server '.*'
+Sequencer for \[.*\] has completed with error: \S+ Server '.*' is down. Unable to perform the operation on '.*'
+Server \S+ completed for \S+ \S+ incarnation num = \S+ grp \S+
+Server \[.*\] assigned to site \[.*\]
+Server \[.*\] has been \S+ \S+ the \S+ \S+ \S+
+Server \[.*\] has changed state from \[.*\] to \[.*\]
+Server \[.*\] is the first server from site \[.*\]. Registering site with the \S+ \S+
+Server \[.*\] is unreachable. Stopping the sequencer for: \S+ \S+ \S+
+Server \[.*\] reclaimed by server pool: Free
+Server \[.*\]
+Server Attribute \S+
+Server Attributes for \S+ \S+
+Server Pool \[.*\]
+Server Pool Free has been registered
+Server category was registered with the data model: \S+
+Server pools parsed
+Servers available are \S+ and  minimum servers required for startup are \S+ Hence, waiting for more servers to join
+Set \S+ message filter named: \S+
+Set \S+ to \S+ for \[.*\]
+Set State Details to \[.*\] from \[.*\] for \[.*\]
+Set attribute overrides for command \(.*\): \[.*\]
+Set event seq number to: \S+
+Set locate \[.*\], ret= \S+
+Set resource IDs for command \(.*\): \[.*\]
+Set threshold event seq number to: \S+
+Setting \S+ contexts...
+Setting graceful shutdown flag in \S+
+Setting stack size...
+Shutdown already in progress for server \S+
+Shutdown cmd failed: Server Shutdown \{.*\} \S+ \S+ \S+ \S+
+Shutdown command for \[.*\] starting stage \S+ Command: \S+
+Shutdown processing \S+ to allow original shutdown to do the work.Server Shutdown \{.*\} \S+ \S+ \S+ \S+
+Shutdown request received from \S+
+Shutdown request rejected for the agent: \S+
+Shutdown was unable to stop these resources: \S+
+ShutdownCmd \S+ completing after sync. No resources to stop.
+Skipping certifiation creation due to tgip
+Skipping check in \S+ \S+
+Skipping stop of TGIP=online resource: \[.*\]
+Skipping subordinate cert. creation -1
+Socket \S+
+Special Value map for \S+ \S+
+StackStartup command in createIceOperations
+StackStartup: Printing Coopted Summary
+StackStartup: already complete, exiting!
+Start cmd \S+ \S+ \S+ \S+
+Start cmd \S+ creating ops...
+Start cmd \S+ filtering \S+ ops...
+Starting \S+ \S+ thread...
+Starting Last Gasp...
+Starting clsdm...
+Starting of the agent: \S+ with user id \S+ is already in progress.
+Starting resource state restoration for: \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ restart: , state change= \S+ local \S+
+Starting shutdown stage \S+ \S+
+Starting the \S+ \[.*\] for agent: \S+
+Starting the agent: \S+ with user id: \S+ and \S+
+Starting thread model named: \S+
+Starting to read configuration
+Startup command not initiated since autostart condition not satisfied
+Startup command queued for: \S+
+StartupCmd: startingResource map\[.*\]
+State change detected for \S+ \S+ \S+ during initial check on \[.*\] \S+ \S+
+State change received before initial state processing, proceeding
+State change received from \S+ for \S+ \S+ \S+
+State change was caused because of an \S+ timeout!
+State information for \[.*\] has been lost, all we know is the initial check timed out. Issuing check operations until we can operate on better data.
+State information for \[.*\] is still bad. Issuing another check \(.*\).
+Static Version \S+
+Stop action failed with error code: \S+
+Stop cmd \S+ \S+ \S+
+Stop cmd \S+ ...done with op creation!
+Subordinate Certificate creation postponed
+Successfully returned to command after \S+ write
+Supplemental target is done: \S+
+TARGET:
+TARGET=\S+
+TARGET_DEFAULT:
+TARGET_ROLE:
+TARGET_SERVER:
+TARGET_SERVER=\S+
+TATE_CHANGE_TEMPLATE:
+THA Finish invoked on \[.*\], proceeding
+THA failed for \[.*\] \S+ label=\[.*\] action=Start server=rws00csa
+THA processing: sending \S+ check for \[.*\] to \S+
+THA succeeded for \[.*\] \S+ label=\[.*\] action=Start \S+
+TIMEOUT:
+TIMEOUT_FS:
+TINT:
+TING_MEMBERS:
+TION:
+TOR:
+TYPE:
+T_HA_FINISH_TAG:
+T_HA_PREPARE_TAG:
+TextMessage.*
+TextMessage\[.*\]
+TextMessage
+TextMessag
+TextMessa
+TextMess
+TextMes
+TextM
+The exe is \S+ and the type is \S+
+There are no resource \S+ to read.
+There are no resource group types to read.
+There are no resources to read.
+There are no server \S+ to read.
+Tex
+Te
+There are no servers to read.
+Time Elapsed \S+
+Tints initialized with nodeId: \S+ procId: \S+
+Trace file \S+
+Trying member \S+ = \S+
+Trying to establish connection with nodeid \S+ \S+
+Turning over control to the framework manager...
+UI Command \[.*\] is replying to sender.
+UI Comms initalizeGipc\(.*\) \S+
+UI comms listening for \S+ events.
+UI socket on: \(.*\)
+UNRESPONSIVE_TIMEOUT:
+UPDATE_TAG:
+UPTIME_THRESHOLD:
+USER_WORKLOAD:
+USE_STICKINESS:
+USING \S+ ============
+USR_ORA_AUTO:
+USR_ORA_ENV:
+USR_ORA_HA_ENABLE:
+USR_ORA_HA_FATAL:
+USR_ORA_IF:
+USR_ORA_IF_GROUP:
+USR_ORA_IF_THRESHOLD:
+USR_ORA_INST_NAME:
+USR_ORA_NETMASK:
+USR_ORA_OPI:
+USR_ORA_OPEN_MODE:
+USR_ORA_STOP_MODE:
+USR_ORA_SUBNET:
+Unable to get the target role from \S+ rc = \S+
+Unregistering resource group: \S+
+Unregistering with \S+
+Unregistering: \S+ \S+
+Update attr: \S+
+Updated state details for server \S+ from \[.*\] to \S+ \[.*\]
+Updating Last Server to \S+ Target to \S+ for \[.*\]
+Used space \(.*\)      : \s*\S+
+Using \S+ batch ops \S+ \S+
+VERSION:
+VMON_INITLIMIT:
+VMON_INITRATE:
+VMON_POLLRATE:
+VOL_DEV_DETAILS:
+VOL_DEV_NAME:
+VOL_RES_NAME:
+Verifying msg agentname = \S+
+Verifying msg rid = \S+ \S+ \S+
+Version \S+ Copyright \S+ \S+ Oracle. All rights reserved.
+Version                  :          4
+Version compatibility check passed:  Software Version: \S+ Release Version: \S+ Active Version: \S+
+WAIT:
+WORKLOAD_CPU:
+WORKLOAD_CPU_CAP:
+WORKLOAD_MEMORY_MAX:
+WORKLOAD_MEMORY_TARGET:
+Wait to process state change completed for \[.*\]
+Wait to process state change completed for - \[.*\]
+Write Locks:none
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+ \S+  to the crash list in \S+
+Writing \S+ \S+  to the crash list in \S+
+Writing \S+  to the crash list in \S+
+Writing current \S+ state to \S+
+Writing graceful shutdown flag in \S+
+Wrote new event sequence to repository
+Wrote new shutdown flag status to repository
+X_AGFW_MsgNotProcessed \S+ Security validation failed
+a_check_permission_int: Other doesn.*
+a_init:\S+ \S+ init successful. Init Level \[.*\]
+a_init:\S+ \S+ init successful
+a_init:\S+ Successfully initialized the Cache layer.
+a_init:\S+ Thread init successful
+a_init: Successfully initialized the \S+ \S+ \S+
+age\[.*\]
+cclCommunicationHandler started.
+changeT \S+ Oct \S+ \S+ \S+
+clsCclDeleteInterface: Peer \S+ does not have interfaces registered
+clsCclGetGpnpProfile: Obtained GPnP Profile.
+clsCclGipcAccept: connection accepted from pEndp->endp= \S+
+clsCclGipcDisconnect: called with pEndp->endp= \S+
+clsCclGipcDisconnect: calling gipcDisconnect with pEndp->endp= \S+
+clsCclGipcListen: Attempting to listen on \S+
+clsCclInit called by process \S+ groupname=CLSFRAME \S+ \S+ \S+
+clsCclMembershipChangeCallback:  Calling mem callback fn.with ctx.
+clsCclNewConn: \S+ new conn to tempConList: newPeerCon = \S+
+clsCclRdGetMembers: using discovery gather delay of \S+ sec
+clsCclRdInit: \S+ \S+ .*
+clsCclRdProcessLostEvent: MemId \S+ lost
+clsCclRdUnregister called
+clsCclRdUnregister: trying to unregister
+clsCclRdWatchPeers called
+clsCclRegRdCb: OpStr=REGISTER typestr= . \S+ \S+
+clsCclRestart: called
+clsCclRestart: finished. ret: \S+
+clsCclUnRegisterWithRdInt called
+clsCclUnRegisterWithRdInt: \S+ unregister successful.
+clsCclgipcDisconnect: Disconnection successful, going to destroy pEndp->endp= \S+
+clsCredCommonInit: Inited singleton credctx.
+clsCredDomClose: Credctx deleted \S+
+clscrs_utl_dadr: Unable to find configuration for resource \[.*\]. Keyname \[.*\]. Return \[.*\]
+clsgpnp_Init init failed. Error: \S+ \(.*\) .
+clsgpnp_Init: \S+ hash type in context is \S+
+clsgpnp_Init: \[.*\] Result: \(.*\) \S+ \(.*\)Error getting certkeys.
+clsgpnp_InitCKProviders: \[.*\] Result: \(.*\) \S+ \(.*\)Error initializing gpnp security key provider: file wallet \(.*\).
+clsgpnp_InitIdSetCtxCK: \[.*\] Result: \(.*\) \S+ \(.*\)Cannot get stored certkey for \S+
+clsgpnp_findSrv2: \[.*\] Result: \(.*\) \S+ \(.*\) \S+ \S+ Not all requested '.*' service details were found.
+clsgpnp_getActiveVersion: Failed to initialize \S+ context to get active version.
+clsgpnp_getCK: \[.*\] \(.*\)Fatal error: failed to get local gpnp security keys \(.*\). Gpnp profiles cannot \S+ verified. ...LOCAL \S+ \S+ INVALID....>
+clsgpnp_getCachedProfileEx: \[.*\] Result: \(.*\) \S+ \(.*\)Can.* get offline GPnP service profile: local gpnpd is up and running. Use getProfile instead.
+clsgpnp_getCachedProfileEx: \[.*\] Result: \(.*\) \S+ \(.*\)Failed to get offline GPnP service profile.
+clsgpnp_getDetails: \[.*\] Result: \(.*\) \S+ \(.*\)error finding details on \S+
+clsgpnp_getSoftwareVersion: Failed to initialize \S+ context to get software version.
+clsgpnpkwf_initwfloc: \[.*\] Result: \(.*\) \S+ \(.*\)Failed to find peer wallet dir in either \S+ or \S+ locations.
+clsgpnpkwf_initwfloc: \[.*\] Result: \(.*\) \S+ \(.*\)Fatal: Cannot open neither \S+ nor \S+ GPnP wallet. No more wallets to verify GPnP configuration \(.*\). Check GPnP configuration: wallet\(.*\) either missing or do not have access privileges. statres: -5, Wallet home \S+ \S+
+clsgpnpkww_initclswcx: \[.*\] Result: \(.*\) \S+ \(.*\)Failed to init \S+ context. \S+ Error \(.*\): \S+ Error in the cluster registry \(.*\) layer. \[.*\] \[.*\]
+clsgpnpm_doconnect: gipcAddress\(.*\)
+clsgpnpm_newWiredMsg: \[.*\] \(.*\)Msg-reply has soap fault \S+ \(.*\) \[.*\]
+clsns_AListLookupWithAddresses:\(.*\):connection to name servers \S+ failed - returning error \S+
+clsns_AListLookupWithAddresses:\(.*\):wait of \S+ milliseconds timed out. Now: \S+ Deadline: \S+ Total wait: \S+ milliseconds. \S+ milliseconds limit exceeded: \S+ clskec:has:gipc:16 \S+ args\[.*\]
+clsns_AListLookupWithAddresses:wait of \S+ milliseconds timed out. Now: \S+ Deadline: \S+ \S+ clskec:has:gipc:16 \S+ args\[.*\]
+clsns_DNSSD_FindServersByRole:\(.*\):Name: ".*" domain ".*" # of instances: \S+ user alist rv: \S+ \(.*\) Flags: ".*" ".*" ".*" ".*" \(.*\): \S+ \S+ \S+ .*
+clsns_DNSSD_FindServersByRole:\(.*\):Name: ".*" domain: ".*" timeout: \S+ milliseconds rv: \S+ \(.*\) Count: \S+ Return count: \S+ Flags: ".*" ".*" ".*" ".*" \(.*\)
+clsns_GetNX:\(.*\):lookup of ".*" failed with error \S+ Flags: ".*" ".*" ".*" ".*" \(.*\)
+clsns_GetNX:\(.*\):query: ".*" - no entry found
+clsns_GetNX:\(.*\):return value: \S+
+clsns_Send:#0 sending \S+ bytes from \S+ to \S+
+clsns_Send:send succeeded.
+clsns_SetTraceLevel:trace level set to \S+
+clsnsgFind:\(.*\):failed to find ".*" instance.
+clsnsgFindInstance:\(.*\):query to find \S+ using service name ".*" failed.
+clsnsgFindService:\(.*\):query to find secondary \S+ instance using service name ".*" failed.
+clsnsg_DNSSD_Get_Domain:\(.*\):retrieval of \S+ subdomain failed.: \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].
+clsnsg_DNSSD_Simple_Advertise:\(.*\):Advertisement of service ".*" failed. Flags: ".*" ".*" \(.*\) Properties: NODE_INCARNATION=".*", NODE_TYPE=".*": \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].
+clsnsg_DNSSD_Simple_Advertise:\(.*\):Advertisement of service ".*" failed. Flags: ".*" ".*" \(.*\) Properties: NODE_INCARNATION=".*", NODE_TYPE=".*": \S+ clskec:has:CLSGN:70 \S+ args\[.*\]
+clsnsg_DNSSD_Simple_Advertise:\(.*\):Advertisement of service ".*" failed. Flags: ".*" ".*" \(.*\) Properties: NODE_ROLE=".*", NODE_INCARNATION=".*", NODE_TYPE=".*": \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].
+clsnsg_DNSSD_Simple_Advertise:\(.*\):Advertisement of service ".*" failed. Flags: ".*" ".*" \(.*\) Properties: NODE_ROLE=".*", NODE_INCARNATION=".*", NODE_TYPE=".*": \S+ clskec:has:CLSGN:70 \S+ args\[.*\]
+clsssinit: initialized context: \(.*\) flags \S+
+clsssterm: terminating context \(.*\)
+clsu_get_config_node_role failed. rc = \S+
+clsu_load_ENV_levels: Reading of logging environment variable failed \[.*\] \[.*\].
+clsugam:\S+ Failed to get gpnp profile. Return \S+ \[.*\].
+clsugcnr:5.2: \S+ failed \[.*\]. Return \[.*\]
+clsugtnr:5.2: \S+ failed \[.*\]. Return \[.*\]
+clsvactversion:\S+ Retrieving Active Version from local storage.
+clsw_Initialize: Error \[.*\] from \S+
+config version updated to \S+ \S+ for \S+ \S+ \S+
+da7m006]
+dependency = \S+ target = .*
+dependency = weak, target = \S+ \S+
+dependency = weak, target = \S+
+disconnecting \S+
+done \S+ \S+
+done. \S+
+done: \S+
+e\[.*\]
+entity kind = resource types,count = \S+
+entity kind = resources,count = \S+
+essage\[.*\]
+extMessage\[.*\]
+failed to retrieve profile with grv \S+ \(.*\)
+ge\[.*\]
+gipcBindF \[.*\]: EXCEPTION\[.*\]  failed to bind endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, flags \S+
+gipcConnectSyncF \[.*\]: EXCEPTION\[.*\]  failed sync connect endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, flags \S+
+gipcInternalConnectSync: failed sync request, ret \S+ \(.*\)
+gipcInternalEndpoint: failed to bind address to endpoint name '.*', ret gipcretAddressNotAvailable \(.*\)
+gipcInternalSend: connection not valid for send operation endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)
+gipcInternalSendSync: failed sync request, ret \S+ \(.*\)
+gipcListen\(.*\) Listening on \S+
+gipcObjectLookupF \[.*\]: search found no matching oid \S+ ret gipcretKeyNotFound \(.*\), ret gipcretInvalidObject \(.*\)
+gipcObjectRelease: wait for obj \S+ oid \S+ to \S+ check free cnt \S+ refCnt \S+
+gipcPostF \[.*\]: EXCEPTION\[.*\]  failed to post obj \S+ flags \S+
+gipcSendF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ cookie .* flags \S+
+gipcSendSyncF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, buf \S+ len \S+ flags \S+
+gipcSendSyncF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ flags \S+
+gipchaDaemonCheckGnsBootEndp: could not create gns bootstrap listen endpoint, will retry
+gipchaDaemonCheckGnsBootEndp: listening on \S+
+gipchaDaemonConnect: connecting to daemon addr \S+
+gipchaDaemonCreateResolveResponse: creating resolveResponse for \S+ \S+ \S+ \S+
+gipchaDaemonPeerConnect: connect initiated to peer gpchaDaemon, tcp addr tcp://10:52790
+gipchaDaemonPeerConnect: connecting to peer gpchaDaemon, tcp addr tcp://10:52790
+gipchaDaemonPeerConnect: connection string:  tcp://10:52790
+gipchaDaemonPeerConnect: created new pEndp: \S+
+gipchaDaemonProcessClientGnsNodeLookupInfo: processing lookup info for \S+ \S+ nodeRole:HUB
+gipchaDaemonProcessClientLocMon: starting \S+ for \S+ \{.*\}
+gipchaDaemonProcessClientReq: processing req \S+ type \S+ \(.*\)
+gipchaDaemonProcessFailAllClients: \S+ \S+
+gipchaDaemonProcessFailAllClients: dropping the \S+ message for non boot strap client
+gipchaDaemonProcessFailAllClients: to handle the \S+ message
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host \S+ haname \S+
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host \S+ haname
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host slcc04db05 haname \S+
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host slcc04db05 haname
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host slcc04db06 haname \S+
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host slcc04db06 haname
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host slcc04db08 haname \S+
+gipchaDaemonProcessInfUpdate: completed interface update host '.*', haName '.*', hctx \S+ \[.*\] \{.*\}
+gipchaDaemonProcessInfUpdate: ip \S+ subnet \S+ mask \S+ state \S+ inc \S+ flags \S+
+gipchaDaemonProcessMarkInfAsTransient: marked all the local inf as \S+
+gipchaDaemonProcessNodeIncarnationUpdate: processing nodeIncarnationUpd for node \S+ nodeIncarnation \S+
+gipchaDaemonProcessPeerConnect: gipchaDaemonProcessPeerConnect \S+ ret: \S+
+gipchaDaemonProcessPeerConnect: processing gipchaDaemonProcessPeerConnect \S+
+gipchaDaemonThread: starting daemon thread hctx \S+ \[.*\] \{.*\}
+gipchaDaemonWork: DaemonThread heart beat, time interval since last heartBeat \S+ \S+
+gipchaGetClusterMode: .* Cluster mode
+gipchaGetLocalNodeRole: clsu_get_target_node_role\(.*\): \S+ \S+
+gipchaGnsAdvertise: \S+ published successfully \S+ \S+ \S+ \S+
+gipchaGnsLookup: found \S+ service records
+gipchaGnsLookup: initiating gns lookup for host:rwsae05, \S+
+gipchaGnsLookup: successful \S+ lookup for \S+
+gipchaGnsPrepareUnderScoreServiceName: underscoreServiceName: \S+
+gipchaGnsProcessAnswer: successfully processed answer for ip address:255.255.255.255, \S+ \S+ \S+
+gipchaGnsProcessClientPortPublish: completing portPublish \S+ \S+ \S+ \S+ nodeRole:HUB, \S+ \S+
+gipchaGnsProcessClientReq: completing \S+ \(.*\)
+gipchaGnsThread: gns thread state changed to gipchaThreadStateRunning \(.*\)
+gipchaGnsThread: starting gns thread hctx \S+ \[.*\] \{.*\}
+gipchaGnsWork: GNSThread heart beat, time interval since last heartBeat \S+ \S+
+gipchaInterfaceDisable: disabling interface \S+ \{.*\}
+gipchaInterfaceDisableF \[.*\]: disabling interface \S+ \{.*\}
+gipchaInterfaceFailF \[.*\]: failing interface \S+ \{.*\}
+gipchaInterfaceReset: resetting interface \S+ \{.*\}
+gipchaInternalReadGpnp: No \S+ network info configured in \S+ profile, using defaults, ret gipcretFail \(.*\)
+gipchaInternalReadGpnp: configuring bootstrap communications using:  broadcast and multicast
+gipchaInternalReadGpnp: configuring default \S+ \S+ \S+
+gipchaInternalReadGpnp: env doesn.*
+gipchaInternalReadGpnp: mcast address\[.*\] .*
+gipchaInternalRegister: \S+ flag \S+
+gipchaInternalRegister: Initializing \S+ \S+ global flags \S+
+gipchaInternalRegister: Initializing \S+ \S+
+gipchaLowerCallback: EXCEPTION\[.*\]  error while processing req \S+ \{.*\}, hctx \S+ \[.*\] \{.*\}
+gipchaLowerCleanInterfaces: destroy interface \S+ \{.*\}
+gipchaLowerCleanInterfaces: forcing interface purge due to loss of all comms node \S+ \{.*\}
+gipchaLowerCleanInterfaces: performing cleanup of disabled interface \S+ \{.*\}
+gipchaLowerInternalSend: failed to initiate send on interface \S+ \{.*\}, hctx \S+ \[.*\] \{.*\}
+gipchaLowerInternalSend: increasing the \S+ trace level for stream \S+ \{.*\}  hdr \S+ \{.*\}
+gipchaLowerInternalSend: send msg \S+ \{.*\} , stream \S+ \{.*\}  inf \S+ \{.*\}
+gipchaLowerMsgCompleteF \[.*\]: retiring completed hdr \S+ \{.*\} , ret \S+ \(.*\)
+gipchaLowerMsgCompleteF: decreasing the \S+ trace level for stream \S+ \{.*\}
+gipchaLowerMsgCompleteF: msg type \S+ cookie \S+ flag \S+
+gipchaLowerProcessAcks: \S+ finished for node \S+ \{.*\}
+gipchaLowerProcessAcks: nodeType info node \S+ \{.*\} changes from gipchaNodeTypeInvalid \(.*\) to gipchaNodeType12001 \(.*\)
+gipchaLowerProcessInterfaceUpd: attempting to \S+ \S+ nics for node \S+ \{.*\}
+gipchaLowerProcessMsgEstablish: \S+ is switched \S+ for node \S+
+gipchaLowerProcessMsgEstablish: processed \S+ from host '.*', haName '.*',hctx \S+ \[.*\] \{.*\}, node \S+ \{.*\} hdr \S+ .*
+gipchaLowerProcessMsgEstablish: processed \S+ from host '.*', haName '.*',hctx \S+ \[.*\] \{.*\}, node \S+ hdr \S+ \{.*\}
+gipchaLowerProcessMsgInfReq: processing \S+ \S+ msg \S+ \{.*\}  from node \S+ \{.*\}
+gipchaLowerProcessMsgInfUpd: processing \S+ \S+ msg \S+ \{.*\}  from node \S+ \{.*\}
+gipchaLowerProcessNode: active boostrap node considered \S+ due to lack of clients, node \S+ \{.*\}
+gipchaLowerProcessNode: bootstrap node considered \S+ because of failure in establishing the connection \S+ ms, node \S+ \{.*\}
+gipchaLowerProcessNode: bootstrap node considered \S+ because of idle connection time \S+ ms, node \S+ \{.*\}
+gipchaLowerProcessNode: no valid interfaces found to node for \S+ ms, node \S+ \{.*\}
+gipchaLowerProcessNode: node \S+ \{.*\} now \S+ diff \S+ connectTime \S+
+gipchaLowerProcessNode: node considered \S+ because incomplete establish and no clients node \S+ \{.*\}
+gipchaLowerProcessPendingQ: \S+ now \S+ lmsg->startTime \S+ lmsg->maxTime \S+ lmsg \S+ \S+ \{.*\}
+gipchaLowerProcessPendingQ: \S+ now \S+ lmsg->startTime \S+ lmsg->maxTime \S+ lmsg \S+
+gipchaLowerProcessRecvQ: increasing the \S+ trace level for stream \S+ \{.*\}  hdr \S+ \{.*\}
+gipchaLowerProcessWaitQ: triggering deffered startup of msg \S+ \{.*\} , haStream \S+ \{.*\}
+gipchaLowerRecv: Added new stream \S+ \{.*\}  to node \S+ \{.*\}
+gipchaLowerRecv: bootstrap mode dropping from node '.*', hdr \S+ \{.*\}
+gipchaLowerRecv: recv hdr \S+ \{.*\}  node \S+ \{.*\} stream \S+ .*
+gipchaLowerSend2: No fragment required, flag \S+ cookie .* type \S+
+gipchaLowerSend: deffering startup of hdr \S+ \{.*\} , node \S+ \{.*\}, stream \S+ .*
+gipchaLowerSendEstablish: sending establish message for node '.*'
+gipchaLowerSendInterfaceReq: sending \S+ \S+ to node '.*'
+gipchaLowerSendInterfaceUpd: sending \S+ \S+ message with \S+ inf, node \S+ \{.*\}, hdr \S+
+gipchaLowerSendInterfaceUpd: sending \S+ \S+ message with \S+ inf, node \S+ \{.*\}, stream \S+ \{.*\}  hdr \S+
+gipchaLowerTranslateToLocal: failed to convert into local version hdrType \S+ msgFormat \(.*\) \(.*\) nodeType \(.*\) \(.*\), ret gipcretFail \(.*\)
+gipchaNodeAddInterface: adding interface information for inf \S+ \{.*\}
+gipchaNodeAddInterfaceF \[.*\]: adding interface info \S+ \{.*\}
+gipchaNodeAddInterfaceF: recovered \S+ inf \S+ \{.*\}
+gipchaNodeCreate: adding new node \S+ \{.*\}
+gipchaNodeCreateWithNodeRole: adding new \S+ node \S+ \{.*\}
+gipchaNodeDelete: performing final delete of node \S+ \{.*\}
+gipchaNodeMarkInfAsTransientF \[.*\]: marking infs of node \S+ \{.*\} as \S+
+gipchaUpperAccept: completed accept endp \S+ \[.*\] \{.*\}
+gipchaUpperCallbackConnAck: completed CONNECT:ACK ret gipcretSuccess, hendp \S+ \[.*\] \{.*\}
+gipchaUpperCallbackDisconnect: completed \S+ ret gipcretSuccess \(.*\), umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ hendp \S+ \[.*\] \{.*\}
+gipchaUpperCallbackSend: completed upper msg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ haMsg \S+ \{.*\} hendp \S+ \[.*\] \{.*\} ret \S+
+gipchaUpperConnect: initiated connect for umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ endp \S+ \[.*\] \{.*\} node \S+ \{.*\}
+gipchaUpperDisconnect: initiated discconnect umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ endp \S+ \[.*\] \{.*\}
+gipchaUpperMsgComplete: completing with ret \S+ \(.*\), umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+
+gipchaUpperMsgComplete: discarding async upper message \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ hendp \S+ \[.*\] \{.*\}
+gipchaUpperProcessAccept: completed new hastream \S+ \{.*\}  for hendp \S+ \[.*\] \{.*\}
+gipchaUpperProcessConnectAck: \S+ completed umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ hendp \S+ \[.*\] \{.*\} node \S+ .*
+gipchaUpperProcessDisconnect: processing \S+ for hendp \S+ \[.*\] \{.*\}
+gipchaUpperProcessNodeDeath: destroying the failed node interface \S+ \{.*\}
+gipchaWorkerAttachInterface: Interface attached inf \S+ \{.*\}
+gipchaWorkerCheckNetwork: processed \S+ msgs dropMsgCount \S+ loop starttime \S+ endtime \S+
+gipchaWorkerCleanInterface: performing cleanup of disabled interface \S+ \{.*\}
+gipchaWorkerCreateInterface: created local bootstrap \S+ interface for node '.*', haName '.*', inf '.*' inf \S+
+gipchaWorkerCreateInterface: created local interface for node '.*', haName '.*', inf '.*' inf \S+
+gipchaWorkerCreateInterface: created remote bootstrap \S+ interface for node '.*', haName '.*', inf '.*' inf \S+
+gipchaWorkerCreateInterface: created remote interface for node '.*', haName '.*', inf '.*' inf \S+
+gipchaWorkerProcessClientConnect: starting resolve from connect for \S+ \S+ \S+
+gipchaWorkerThread: starting worker thread hctx \S+ \[.*\] \{.*\}
+gipchaWorkerWork: workerThread heart beat, time interval since last heartBeat \S+ \S+
+gipchaWorkerWork: workerThread heart beat, time interval since last heartBeat \S+ loopCount \S+ sendCount \S+ recvCount \S+ postCount \S+ sendCmplCount \S+ recvCmplCount \S+
+gipclibGetClusterGuid: retrieved cluster guid \S+
+gipclibGetProcessGPID: ospid \S+ timestamp \S+
+gipclibMapSearch: gipcMapSearch\(.*\) -> gipcMapGetNodeAddr\(.*\) failed: ret:gipcretKeyNotFound \(.*\), \S+ \S+ \S+ \S+
+gipclibTlsTraceCallback: function: \S+
+gipcmodGipcCallbackDisconnect: \[.*\]  Disconnect forced for endp \S+ \[.*\] \{.*\}
+gipcmodGipcCallbackEndpClosed: \[.*\]  Endpoint close for endp \S+ \[.*\] \{.*\}
+gipcmodGipcCompleteConnect: \[.*\] completed connect on endp \S+ \[.*\] \{.*\}
+gipcmodGipcCompleteRecv: \[.*\]  Completed recv for req \S+ \[.*\] \{.*\}
+gipcmodGipcCompleteRequest: \[.*\] completing req \S+ \[.*\] \{.*\}
+gipcmodGipcDisconnect: \[.*\]  Issued endpoint close for endp \S+ \[.*\] \{.*\}
+gipcmodNetworkCompleteSend: \[.*\]  Completed send req \S+ \[.*\] \{.*\}
+gipcmodNetworkProcessBind: failed to bind endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}
+gipcmodNetworkProcessBind: slos dep \S+  Cannot assign requested address \(.*\)
+gipcmodNetworkProcessBind: slos info:  addr '.*'
+gipcmodNetworkProcessBind: slos loc \S+  bind
+gipcmodNetworkProcessBind: slos op  :  sgipcnTcpBind
+gipcmodNetworkProcessSend: \[.*\]  failed send attempt endp \S+ \[.*\] \{.*\}, req \S+ \[.*\] \{.*\}
+gipcmodNetworkProcessSend: slos dep \S+  Invalid argument \(.*\)
+gipcmodNetworkProcessSend: slos info:  addr '.*', len \S+ buf \S+ cookie \S+
+gipcmodNetworkProcessSend: slos loc \S+  address not
+gipcmodNetworkProcessSend: slos op  :  sgipcnValidateSocket
+gipcmodNetworkSend: connection no longer valid on endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)
+gipcmodPacketCompleteSend: \[.*\]  Completed send req \S+ \[.*\] \{.*\}
+gipcmodTlsAuthInit: \S+ credentails set
+gipcmodTlsAuthInit: tls context initialized successfully
+gipcmodTlsAuthReady: \S+ Auth completed Successfully
+gipcmodTlsAuthStart: \S+ \S+ - \S+
+gipcmodTlsAuthStart: \S+
+gipcmodTlsAuthStart: Peer is anonymous
+gipcmodTlsAuthStart: endpoint \S+ \[.*\] \{.*\}, auth state: gipcmodTlsAuthStateReady \(.*\)
+gipcmodTlsDisconnect: \[.*\] disconnect issued on endp \S+ \[.*\] \{.*\}
+gipcmodTlsGetWalletObjFromBuffer: using wallet buffer
+gipcmodTlsGetWalletObjFromCred: found base dom: rootcert
+gipcmodTlsGetWalletObjFromCred: found one certificate
+gipcmodTlsGetWalletObjFromCred: using rootCredDomName: \S+ baseCredDomName:rootcert
+groupname: \[.*\] Not found
+hasNodeRoleChangePending\(.*\) current role: hub, initial role: hub
+initial probe completed\(.*\) \S+ \S+ \S+ \S+
+k7.MSGTYPEt1.1k5.OBJIDt7.ora.asmk4.WAITt1.0
+k7.MSGTYPEt1.3k5.OBJIDt8.ora.crsdk4.WAITt1.0
+m Agent.*
+main::clsgnGetClusterType: \(.*\) failed to get cluster type \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].
+main::clsgnGetSubdomainParameter: \(.*\) Unable to get parameter ".*"- re-throwing. \S+ clskec:has:CLSGN:70 \S+ args\[.*\]
+main::clsgncGetClusterType: \(.*\) \S+ has not been configured on this cluster - throwing \S+
+main::clsgncrsGetAttribute: \(.*\) found no value for ".*" - throwing \S+
+main::clsgncrsQuery: \(.*\) \S+ query failed failed with error \S+ - throwing \S+
+main::clsgnctrCreateReceivePacket: \s*\S+ version: \S+ \(.*\)
+main::clsgnctrGetGNSInstanceUsingCLSNS: \(.*\) \S+ address retrieval failed with error \S+ - throwing \S+ \S+ clskec:has:CLSNS:41 \S+ args\[.*\]\[.*\]\[.*\]\[.*\]
+main::clsgnctrGetGNSInstanceUsingCLSNS: \(.*\) \S+ address retrieval failed with error - throwing \S+ \S+ clskec:has:CLSNS:41 \S+ args\[.*\]\[.*\]\[.*\]\[.*\]
+main::clsgnctrGetInfo:active version: \S+ protocol\(.*\) supported: ".*"
+main::clsgnctrGetProtocol_Version: got connection version: \S+ \(.*\) from \S+ instance.
+main::clsgnctrGetProtocol_Version:got connection version: \S+ \(.*\) from \S+ instance.
+main::clsgnctrGetProtocol_Version:properties returned by \S+ instance do not contain \S+ ".*" property - assuming that the instance is pre12.2.
+main::clsgnctrInitialize: active version ".*" \(.*\) using connection version \S+ \(.*\)
+main::clsgnctrInitialize:active version ".*" \(.*\) using connection version \S+ \(.*\)
+main::clsgnctrSendCommand:Sending command from \S+ to
+main::clsgnocrInitialize: \(.*\) initialization of \S+ at level \S+ failed with \S+ error \S+ \(.*\) - throwing \S+
+main::clsgnocrOpenKey: \(.*\) key for path ".*" does not exist. - throwing \S+
+markStartupCompletedCallback: \S+ = \S+
+modT \S+ Oct \S+ \S+ \S+
+monitoring new interface \S+
+oda7m004]
+optimized update, sending for only \S+ \S+
+ora\S+ \S+ \S+ marked as deleted.
+ora\S+ \S+ \S+ received state from probe request. Old state = \S+ New state = \S+
+ora\S+ \S+ \S+ uptime exceeds uptime threshold , resetting restart count
+ora\S+ \S+ \S+
+ora\S+
+prgval:buffer passed is too small
+proa_dump_permission: Security permissions on the requested key: User:\[.*\] Group:\[.*\] User_perm:\[.*\] Group_perm:\[.*\] Other_perm:\[.*\]. This key is being accessed by User:\[.*\] Group:\[.*\] and the \S+ is \[.*\]
+proa_init: \S+ Abstraction layer initialization. Bootlevel:\[.*\]
+proa_init: Successfully \S+ the \S+ Layer.
+proceeding after \S+ state commit
+processAgentReply:resource found in deleted list
+processing Last Gasp disk location /etc/oracle/lastgasp
+procr_open_key_ext: Node Failure. Attempting retry \S+
+prom_associate: Failed to post container \[.*\]
+prom_rpc: \S+ send failure..ret code \S+
+prom_rpc: possible \S+ retry scenario
+prom_send:Failed to send \[.*\]
+proprinit: Successfully initialized the \S+ \S+ \(.*\).
+proprioo: \S+ set: \(.*\)
+proprioo: Successfully opened the non-ASM locations if configured.
+proprioo: for disk \S+ \(.*\), id match \(.*\), total id sets, \(.*\) need recover \(.*\), my votes \(.*\), total votes \(.*\), \S+ \(.*\), lsn \(.*\)
+proprioo: my id set: \(.*\)
+proprioo: opening \S+ device\(.*\)
+prou_print_io_stats: tid:\[.*\] All times are in micro seconds and block size is 4k
+prou_print_lock_info:tid \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]
+rdp_Work: work function for ".*" failed with \S+
+real agent name = \S+ agent path = \S+
+retrieved \S+ of '.*'
+rws00csa:
+rws00fxi:
+rws00fxu:
+rws00fxv:
+rws00fza:
+rws1270245:
+rws1270246:
+rws1270247:
+rws1270248:
+rws1270249:
+rws1270250:
+rws1270251:
+rws1270252:
+rws1270253:
+rws1270254:
+rws1270255:
+rws1270256:
+rwsae05:
+rwsae06:
+rwsae07:
+rwsae08:
+rwsba07:
+sage\[.*\]
+scaoda704c1n1:
+scaoda704c1n2:
+scaoda709c1n1:
+scaoda709c1n2:
+scaoda710c1n1:
+scaoda710c1n2:
+scaoda7m004:
+scaoda7m006:
+scls_opct_client_thread\(.*\) called.
+scls_opct_client_thread ready to process \S+ client request.
+scls_opct_ct_init_gipc: connection str \[.*\]
+scls_opct_init: Spawn completed.
+scls_opct_init_ctx: called by process \[.*\]: \S+
+scls_opct_join_thread: \S+ value read from \S+ \[.*\]
+scls_opct_query_thread\(.*\) called.
+scls_opct_query_thread: init completed.
+scls_opct_query_thread: ready to process client query.
+scls_opct_set_thread_state:  current status \[.*\] desired status \[.*\]
+scls_opct_set_thread_state: changing the status of \S+
+sending agent name = null,sending agent path = null
+sgipcnDSConnectHelper: ipc file \S+ uid \S+ gid \S+ accessT \S+ Oct \S+ \S+ \S+
+slcc04db05:
+slcc04db06:
+slcc04db08:
+srd_apple_concheck: \S+ Got error \S+ \(.*\) from mdns in \S+
+srd_apple_replay: replay disabled - will not try
+sslconf.ora file could not \S+ opened. Continuing.
+sslconf.ora location is..
+stackRestartTimerHandler - Canceling stack restart because the stack has been successfully restarted.
+stackRestartTimerHandler - Timer is canceled; id: \S+
+state change vers moved to \S+ for \S+ \S+ \S+
+stopCluster command, checking if node role has changed
+tMessage\[.*\]
+tagent%CRS_EXE_SUFFIX%]
+th_delete_backupfile: Failed to delete the backup file \[.*\] Retval:\[.*\]
+th_delete_backupfile: Failed to delete the backup file:\[.*\] Location:\[.*\]
+th_init: Successfully spawned \S+ auto backup thread.
+th_select_chk_threads: All threads in use \[.*\]. Queue \[.*\].
+th_select_chk_threads: Spawn \[.*\] more threads.
+th_select_w_f_r: Error processing request \[.*\]
+th_select_w_f_t:\S+ Failed to post container \[.*\]
+th_snap_olr: Taking \S+ auto backup. Location \[.*\]
+u_check_bkup: The backup file is \S+
+u_fill_errorbuf: Error Info \S+ \[.*\]
+u_generate_ocrcheck_output: output of ocrcheck: .*
+u_generate_process_output: output of spawned process: .*
+u_set_comp_error: comptype '.*' \S+ error '.*'
+undoExecute for \S+ \S+ \S+
+username: \[.*\] Not found
+value for key \S+ is \S+
+waiting for message '.*' to \S+ completed on server \S+ \S+
+xtMessage\[.*\]

@@ -34,8 +34,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in client-side pfile \S+ on machine \S+
 System parameters with non-default values:
@@ -144,14 +142,6 @@ Reconfiguration \S+ \(.*\)
 Starting background process \S+
 LCK0 started with \S+ \S+ \S+
 ORACLE_BASE from environment = \S+
-SQL> \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-ASMCA ./
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -234,7 +224,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
@@ -280,15 +269,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
-SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-ASMCA ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to update diskgroup resource \S+ \(.*\)
 NOTE: Advanced to new \S+ format for group \S+
@@ -343,10 +323,8 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 ASMCMD ./ALTER \S+ \S+ \S+
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-DATA
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 ORA-15032: not all alterations performed
@@ -392,7 +370,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -434,8 +411,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -548,7 +523,6 @@ LCK0 started with \S+ \S+ \S+
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -596,7 +570,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 ORACLE_BASE value has been saved for future startups
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
@@ -614,12 +587,8 @@ NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 Reconfiguration \S+ \(.*\)
@@ -655,8 +624,6 @@ Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -688,7 +655,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -720,11 +686,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-SQL> alter diskgroup \S+ \S+ directory '.*'
-SUCCESS: alter diskgroup \S+ \S+ \S+ '.*'
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)

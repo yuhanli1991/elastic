@@ -37,8 +37,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.277.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Storage:	Exadata
 Using parameter settings in client-side pfile \S+ on machine \S+
@@ -160,10 +158,6 @@ LCK0 started with \S+ \S+ \S+
 High Throughput Write functionality enabled
 ORACLE_BASE from environment = \S+
 KSXPPING: \S+ selected for Ping
-SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-ASMCA ./
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -211,7 +205,6 @@ GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
@@ -246,11 +239,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: Exadata diskgroup \S+ was mounted
-SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-ASMCA ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to update diskgroup resource \S+ \(.*\)
 NOTE: Advanced to new \S+ format for group \S+
@@ -297,10 +285,8 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 ASMCMD ./ALTER \S+ \S+ \S+
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-DATA
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 ORA-15032: not all alterations performed
@@ -342,7 +328,6 @@ GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -388,8 +373,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.277.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Storage:	Exadata
 Using parameter settings in server-side \S+ \S+
@@ -512,7 +495,6 @@ High Throughput Write functionality enabled
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -548,7 +530,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: Exadata diskgroup \S+ was mounted
 ORACLE_BASE value has been saved for future startups
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
@@ -566,11 +547,8 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -602,9 +580,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
-SQL> alter diskgroup \S+ \S+ directory '.*'
-SUCCESS: alter diskgroup \S+ \S+ \S+ '.*'
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
@@ -653,7 +628,6 @@ NOTE: cleaning up empty system-created directory '.*'
 NOTE: cleaning up empty system-created directory '.*'
 NOTE: cleaning up empty system-created directory '.*'
 NOTE: cleaning up empty system-created directory '.*'
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -685,7 +659,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -717,12 +690,9 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 NOTE: cleaning up empty system-created directory '.*'
 NOTE: cleaning up empty system-created directory '.*'
 NOTE: cleaning up empty system-created directory '.*'
-SQL> \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
 REBALANCE \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -761,7 +731,6 @@ NOTE: Failed voting file relocation on diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Failed voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+

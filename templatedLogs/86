@@ -33,8 +33,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in client-side pfile \S+ on machine \S+
 System parameters with non-default values:
@@ -148,14 +146,6 @@ ORACLE_BASE from environment = \S+
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
 Using default \S+ of \S+ \S+
 KSXPPING: \S+ selected for Ping
-SQL> \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-ASMCA ./
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -236,7 +226,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
@@ -282,15 +271,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
-SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-ASMCA ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to update diskgroup resource \S+ \(.*\)
 NOTE: Advanced to new \S+ format for group \S+
@@ -345,10 +325,8 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 ASMCMD ./ALTER \S+ \S+ \S+
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-DATA
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 ORA-15032: not all alterations performed
@@ -394,7 +372,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -438,8 +415,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -551,7 +526,6 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -599,7 +573,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 ORACLE_BASE value has been saved for future startups
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
@@ -617,12 +590,8 @@ NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -654,9 +623,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -688,7 +654,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -720,11 +685,7 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
-SQL> alter diskgroup \S+ \S+ directory '.*'
-SUCCESS: alter diskgroup \S+ \S+ \S+ '.*'
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
@@ -760,8 +721,6 @@ NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: client \S+ mounted group \S+ \(.*\)
-SQL> \S+ \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: initializing header \(.*\) on grp \S+ disk \S+
 NOTE: initializing header on grp \S+ disk \S+
@@ -801,7 +760,6 @@ NOTE: cache dismounted group \S+ \(.*\)
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
@@ -833,13 +791,9 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: diskgroup resource \S+ is \S+
-SUCCESS: \S+ \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
 NOTE: Extended the Used Space Directory to thread \S+
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 NOTE: Physical metadata for diskgroup \S+ \(.*\) was replicated.
 NOTE: Creating voting files in diskgroup: \S+
 NOTE: Voting File refresh pending for group \S+ \(.*\)
@@ -968,7 +922,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -982,7 +935,6 @@ NOTE: detached from domain \S+
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache dismounted group \S+ \(.*\)
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -1057,8 +1009,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -1171,11 +1121,9 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-TMPDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-TMPDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -1243,12 +1191,10 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to online diskgroup resource \S+ \(.*\)
@@ -1266,8 +1212,6 @@ NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
@@ -1336,7 +1280,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -1348,7 +1291,6 @@ NOTE: detached from domain \S+
 NOTE: cache dismounted group \S+ \(.*\)
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -1392,8 +1334,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -1506,11 +1446,9 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-TMPDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -1578,12 +1516,10 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to online diskgroup resource \S+ \(.*\)
@@ -1601,16 +1537,12 @@ NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: client \S+ mounted group \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
@@ -1645,7 +1577,6 @@ Begin lmon rcfg omni enqueue reconfig \S+
 End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -1707,45 +1638,38 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: cleaning up empty system-created directory '.*'
-SQL> \S+ \S+ \S+ \S+  DISK .* \S+ \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 ERROR: \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
 ORA-15067: command or option incompatible with diskgroup redundancy
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-SQL> \S+ \S+ \S+ \S+  DISK .* \S+ \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 ORA-15067: command or option incompatible with diskgroup redundancy
 ERROR: \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-SQL> \S+ \S+ \S+ \S+  DISK .* \S+ \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 ORA-15067: command or option incompatible with diskgroup redundancy
 ERROR: \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-SQL> \S+ \S+ \S+ \S+  QUORUM \S+ '.*' \S+ \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
@@ -1754,7 +1678,6 @@ GMON updating for reconfiguration, group \S+ at \S+ for pid \S+ osid \S+
 NOTE: group \S+ \S+ updated.
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: starting rebalance of group \S+ \(.*\) at power \S+
@@ -1774,13 +1697,10 @@ GMON updating for reconfiguration, group \S+ at \S+ for pid \S+ osid \S+
 NOTE: group \S+ \S+ updated.
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: stopping process \S+
 NOTE: stopping process \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-SUCCESS: rebalance completed for group \S+ \(.*\)
-SUCCESS: \S+ \S+ \S+ \S+  QUORUM \S+ '.*' \S+ \S+
 NOTE: relocating client \S+ \(.*\)
 NOTE: cleaned up \S+ client \S+ connection state \(.*\)
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
@@ -1893,7 +1813,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -1907,7 +1826,6 @@ NOTE: detached from domain \S+
 NOTE: cache dismounted group \S+ \(.*\)
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -1982,8 +1900,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -2096,11 +2012,9 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-TMPDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -2168,12 +2082,10 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to online diskgroup resource \S+ \(.*\)
@@ -2191,8 +2103,6 @@ NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
@@ -2200,25 +2110,18 @@ NOTE: client \S+ mounted group \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 Errors in file \S+
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA1
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Hbeat \S+ to \S+ disk \S+ in group \S+ failed. \[.*\]
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA1
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -2226,18 +2129,14 @@ Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA1
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA1
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -2266,7 +2165,6 @@ ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA1
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -2275,7 +2173,6 @@ NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA1
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -2330,25 +2227,6 @@ ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -2414,7 +2292,6 @@ ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -2465,7 +2342,6 @@ ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 NOTE: \S+ client \S+ disconnected unexpectedly.
 NOTE: check client alert log.
 NOTE: Trace records dumped in trace file \S+
@@ -2501,9 +2377,6 @@ ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
@@ -2534,9 +2407,6 @@ ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
@@ -2557,9 +2427,6 @@ ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 NOTE: client \S+ .*
 NOTE: client \S+ should failover
 Shutting down instance \(.*\) \(.*\)
@@ -2597,7 +2464,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -2614,7 +2480,6 @@ NOTE: detached from domain \S+
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache dismounted group \S+ \(.*\)
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes

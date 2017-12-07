@@ -1,0 +1,1140 @@
+ACTION:--0
+ACTION_TAG:--0
+ACTIVE_CSS_ROLE:--0
+ACTIVE_CSS_ROLE=\S+--0
+API_HDR_VER:--0
+API_REGUPDATE_TAG:--0
+ASM Error Stack \S+ \S+ unable to queue I/O--0
+ASYNC_TAG:--0
+ATTR_LIST:--0
+Active Version and Software Version are same--0
+Active Version changed to \S+--0
+Add \S+ \S+--0
+Added resource type: \S+--0
+Added server name\(.*\) to Generic pool: \S+ \S+--0
+Added server name\(.*\) to Generic pool: \S+--0
+Added to node name map \S+--0
+Adding \S+ resource alias for: \S+--0
+Adding alias resource for: \S+--0
+Additional information: \S+--0
+Additional--0
+Agent \S+ with \S+ connected to server.--0
+Agent .* stopped!--0
+Agent: \S+ with user id \S+ is being stopped. Will \S+ restarted when agent stops completly--0
+Agfw Proxy Server forwarding the message: .* \S+ \S+ to the agent \S+--0
+Agfw Proxy Server forwarding the msg from agent to \S+ AGENT_BACKGROUNDMSG_TOPE\[.*\] \S+ \S+--0
+Agfw Proxy Server received process disconnected notification, \S+--0
+Agfw Proxy Server received the message: .* \S+ \S+--0
+Agfw Proxy Server replying to the message: .* \S+ \S+--0
+Agfw Proxy Server sending message to \S+ Contents = \[.*\]--0
+Agfw Proxy Server sending message: .* \S+ \S+ to the agent \S+--0
+Agfw Proxy Server sending the last reply to \S+ for .* \S+ \S+--0
+Agfw Proxy Server sending the reply to \S+ for .* \S+ \S+--0
+Agfw config version set to: \S+--0
+Agfw received reply from \S+ for resource state change for \S+ \S+ \S+--0
+Allow all users to register resources in the new engine.--0
+Applying optimized update to \S+ \S+ \S+--0
+Argument \S+ is: \S+--0
+Argument count \(.*\) for this daemon is \S+--0
+Assigned \[.*\] to Layer \S+--0
+Attribute \S+ is not in server type. Skippinng...--0
+AuthLoc \S+--0
+Autostart \S+ done filtering ops...:--0
+Autostart cmd \S+ creating ops..--0
+Autostart cmd \S+ done creating ops--0
+Autostart cmd filtering \S+ ops--0
+Autostart condition: \S+ \S+ Servers available: \S+--0
+Boot-time cleanup completed--0
+BootRetryHandler adding current server \S+ \S+ to retry list for running \S+ \S+ \S+ \S+--0
+Brokering \S+ Write for msg \S+--0
+Bucket \S+ \S+--0
+CC \S+ \(.*\) \S+ \S+ \(.*\)--0
+CC \S+ rows x \S+ blocks = \S+--0
+CCL \S+ LEFT:2:1:CRSD:rws00fxx--0
+CLIENT:--0
+CLIENT_NAME:--0
+CLIENT_PID:--0
+CLIENT_PRIMARY_GROUP:--0
+CLS Framework has registered with the state dump--0
+CONFIGURED_CSS_ROLE=\S+--0
+CPU_CLOCK_RATE=\S+--0
+CPU_COUNT=\S+--0
+CPU_EQUIVALENCY=\S+--0
+CPU_HYPERTHREADING=\S+--0
+CRS Daemon \S+--0
+CRS-2672: Attempting to start '.*' on '.*'--0
+CRS-2673: Attempting to stop '.*' on '.*'--0
+CRS-2674: Start of '.*' on '.*' failed--0
+CRS-2676: Start of '.*' on '.*' succeeded--0
+CRS-2677: Stop of '.*' on '.*' succeeded--0
+CRS-2679: Attempting to clean '.*' on '.*'--101
+CRS-2681: Clean of '.*' on '.*' succeeded--101
+CRSD \S+ \S+ socket on: \(.*\)--0
+CRSD exiting on stop request from default--0
+CRSD running as the Privileged user--0
+CRS_CSS_NODENAME=\S+--0
+CRS_CSS_NODENUMBER=\S+--0
+CRS_CSS_NODENUMBER_PLUS1=2--0
+CRS_CSS_NODENUMBER_PLUS1=3--0
+CRS_HOME=\S+--0
+CRS_ORACLE_BASE=\S+--0
+CSS Group Registration complete.--0
+CSS Manager initializing...--0
+CSS_CRITICAL=\S+--0
+Can not start Agent: \S+ with user id \S+ is waiting to \S+ restarted.--0
+Category: \S+--0
+Checking compatibility...--0
+Checking the \S+ device--0
+Chunk \s*\S* sz= \s*\S* \s*\S* .* \s*\S*--0
+Chunk \s*\S+ sz= \s*\S* \s*\S* .*--0
+Chunk \s*\S+ sz= \s*\S*    freeable  ".*"--0
+Chunk \s*\S+ sz= \s*\S+    freeable  ".*" \s*\S*--0
+Chunk \s*\S+ sz= \s*\S+    freeable  ".*"  ds=0x167a270--0
+Chunk        0015086d0 sz=      640    perm      ".*"  alo=640--0
+Chunk        0016b4370 sz=       72    free      ".*"--0
+Chunk        0016b43b8 sz=     4072    recreate  ".*"   --0
+Chunk        0016ba190 sz=       72    free      ".*"--0
+Chunk        0016ba1d8 sz=     4072    recreate  ".*"   --0
+Chunk        0016bb1e0 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        0016bbed8 sz=      824    freeable  ".*"--0
+Chunk        0016d6770 sz=      112    perm      ".*"  alo=112--0
+Chunk        0016d6798 sz=        0   kghdsx--0
+Chunk        0016d76d0 sz=       72    freeable  ".*"--0
+Chunk        001ae3de0 sz=      640    perm      ".*"  alo=640--0
+Chunk        001aef090 sz=       72    free      ".*"--0
+Chunk        001aef0d8 sz=     4072    recreate  ".*"   --0
+Chunk        001af4eb0 sz=       72    free      ".*"--0
+Chunk        001af4ef8 sz=     4072    recreate  ".*"   --0
+Chunk        001af5f00 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        001af6bf8 sz=      824    freeable  ".*"--0
+Chunk        001b547f0 sz=     3584    freeable  ".*"  ds=0x1ab0fb0--0
+Chunk        001b555f0 sz=      560    freeable  ".*"--0
+Chunk        001be8d70 sz=      640    perm      ".*"  alo=640--0
+Chunk        001bf4020 sz=       72    free      ".*"--0
+Chunk        001bf4068 sz=     4072    recreate  ".*"   --0
+Chunk        001bf9e40 sz=       72    free      ".*"--0
+Chunk        001bf9e88 sz=     4072    recreate  ".*"   --0
+Chunk        001bfae90 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        001bfbb88 sz=      824    freeable  ".*"--0
+Chunk        001c180f8 sz=      152    free      ".*"--0
+Chunk        001c1cdb0 sz=      112    perm      ".*"  alo=112--0
+Chunk        001c1cdd8 sz=        0   kghdsx--0
+Chunk        001c1dd10 sz=       72    freeable  ".*"--0
+Chunk        001c59ba0 sz=     3584    freeable  ".*"  ds=0x1bb5f40--0
+Chunk        001c5a9a0 sz=      560    freeable  ".*"--0
+Chunk        001d1e218 sz=      152    free      ".*"--0
+Chunk        001d215d0 sz=      112    perm      ".*"  alo=112--0
+Chunk        001d215f8 sz=        0   kghdsx--0
+Chunk        001e90810 sz=     4184    freeable  ".*"  ds=0x1ab0fb0--0
+Chunk        001f01630 sz=       72    free      ".*"--0
+Chunk        001f01678 sz=     4072    recreate  ".*"   --0
+Chunk        001f07450 sz=       72    free      ".*"--0
+Chunk        001f07498 sz=     4072    recreate  ".*"   --0
+Chunk        001f084a0 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        001f09198 sz=      824    freeable  ".*"--0
+Chunk        001f165d0 sz=      640    perm      ".*"  alo=640--0
+Chunk        001f21880 sz=       72    free      ".*"--0
+Chunk        001f218c8 sz=     4072    recreate  ".*"   --0
+Chunk        001f276a0 sz=       72    free      ".*"--0
+Chunk        001f276e8 sz=     4072    recreate  ".*"   --0
+Chunk        001f286f0 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        001f293e8 sz=      824    freeable  ".*"--0
+Chunk        001f3ae20 sz=      640    perm      ".*"  alo=640--0
+Chunk        001f692d0 sz=    28464    free      ".*"--0
+Chunk        001f70200 sz=      560    freeable  ".*"--0
+Chunk        001f89a70 sz=     3584    freeable  ".*"  ds=0x1ee6730--0
+Chunk        0020523c0 sz=      112    perm      ".*"  alo=112--0
+Chunk        0020523e8 sz=        0   kghdsx--0
+Chunk        002053320 sz=       72    freeable  ".*"--0
+Chunk        002060ec0 sz=      112    perm      ".*"  alo=112--0
+Chunk        002060ee8 sz=        0   kghdsx--0
+Chunk        002061e20 sz=       72    freeable  ".*"--0
+Chunk        0020ec2e0 sz=      640    perm      ".*"  alo=640--0
+Chunk        0020f7590 sz=       72    free      ".*"--0
+Chunk        0020f75d8 sz=     4072    recreate  ".*"   --0
+Chunk        0020fd3b0 sz=       72    free      ".*"--0
+Chunk        0020fd3f8 sz=     4072    recreate  ".*"   --0
+Chunk        0020fe400 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        0020ff0f8 sz=      824    freeable  ".*"--0
+Chunk        00215e7a0 sz=     3584    freeable  ".*"  ds=0x20ba740--0
+Chunk        00215f5a0 sz=      560    freeable  ".*"--0
+Chunk        002173640 sz=      640    perm      ".*"  alo=640--0
+Chunk        00217e8f0 sz=       72    free      ".*"--0
+Chunk        00217e938 sz=     4072    recreate  ".*"   --0
+Chunk        002184710 sz=       72    free      ".*"--0
+Chunk        002184758 sz=     4072    recreate  ".*"   --0
+Chunk        002185760 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        002186458 sz=      824    freeable  ".*"--0
+Chunk        0021a0458 sz=      152    free      ".*"--0
+Chunk        0021e78e0 sz=      560    freeable  ".*"--0
+Chunk        002223058 sz=      152    free      ".*"--0
+Chunk        0022248f0 sz=      112    perm      ".*"  alo=112--0
+Chunk        002224918 sz=        0   kghdsx--0
+Chunk        002225850 sz=       72    freeable  ".*"--0
+Chunk        002292750 sz=    31608    freeable  ".*"  ds=0x1ee6730--0
+Chunk        00229a2e0 sz=    28464    free      ".*"--0
+Chunk        00229f890 sz=     8312    freeable  ".*"  ds=0x1ef8f00--0
+Chunk        0022a1210 sz=      560    freeable  ".*"--0
+Chunk        0022a49d0 sz=    31608    freeable  ".*"  ds=0x1ef8f00--0
+Chunk        0022afde0 sz=      112    perm      ".*"  alo=112--0
+Chunk        0022afe08 sz=        0   kghdsx--0
+Chunk        00236a6f0 sz=      640    perm      ".*"  alo=640--0
+Chunk        0023759a0 sz=       72    free      ".*"--0
+Chunk        0023759e8 sz=     4072    recreate  ".*"   --0
+Chunk        00237b7c0 sz=       72    free      ".*"--0
+Chunk        00237b808 sz=     4072    recreate  ".*"   --0
+Chunk        00237c810 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        00246df20 sz=    28464    free      ".*"--0
+Chunk        002474e50 sz=      560    freeable  ".*"--0
+Chunk        00249a670 sz=     4184    freeable  ".*"  ds=0x20ba740--0
+Chunk        00249d678 sz=      152    free      ".*"--0
+Chunk        0024a31f0 sz=      112    perm      ".*"  alo=112--0
+Chunk        0024a3218 sz=        0   kghdsx--0
+Chunk        0024a4150 sz=       72    freeable  ".*"--0
+Chunk        0024f1f60 sz=    28464    free      ".*"--0
+Chunk        0024f8e90 sz=      560    freeable  ".*"--0
+Chunk        00252ee30 sz=       72    free      ".*"--0
+Chunk        00252ee78 sz=     4072    recreate  ".*"   --0
+Chunk        002534c50 sz=       72    free      ".*"--0
+Chunk        002534c98 sz=     4072    recreate  ".*"   --0
+Chunk        002535ca0 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        002536998 sz=      824    freeable  ".*"--0
+Chunk        0025971c0 sz=     3584    freeable  ".*"  ds=0x24f3030--0
+Chunk        002597fc0 sz=      560    freeable  ".*"--0
+Chunk        00265b498 sz=      152    free      ".*"--0
+Chunk        00265e700 sz=      112    perm      ".*"  alo=112--0
+Chunk        00265e728 sz=        0   kghdsx--0
+Chunk        00265f660 sz=       72    freeable  ".*"--0
+Chunk        002668710 sz=      640    perm      ".*"  alo=640--0
+Chunk        0026739c0 sz=       72    free      ".*"--0
+Chunk        002673a08 sz=     4072    recreate  ".*"   --0
+Chunk        0026797e0 sz=       72    free      ".*"--0
+Chunk        002679828 sz=     4072    recreate  ".*"   --0
+Chunk        00267a830 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        00267b528 sz=      824    freeable  ".*"--0
+Chunk        0026dbbb0 sz=     3584    freeable  ".*"  ds=0x2638870--0
+Chunk        0026dc9b0 sz=      560    freeable  ".*"--0
+Chunk        0026e68f0 sz=    31608    freeable  ".*"  ds=0x233adb0--0
+Chunk        0026ee480 sz=    28464    free      ".*"--0
+Chunk        0026f53b0 sz=      560    freeable  ".*"--0
+Chunk        0027a4610 sz=      112    perm      ".*"  alo=112--0
+Chunk        0027a4638 sz=        0   kghdsx--0
+Chunk        0027a5570 sz=       72    freeable  ".*"--0
+Chunk        0028a6560 sz=    28464    free      ".*"--0
+Chunk        0028ad490 sz=      560    freeable  ".*"--0
+Chunk        0028d1d70 sz=     4184    freeable  ".*"  ds=0x24f3030--0
+Chunk        0029ec0e0 sz=    28464    free      ".*"--0
+Chunk        0029f3010 sz=      560    freeable  ".*"--0
+Chunk        002c3fa50 sz=      640    perm      ".*"  alo=640--0
+Chunk        002c4ad00 sz=       72    free      ".*"--0
+Chunk        002c4ad48 sz=     4072    recreate  ".*"   --0
+Chunk        002c50b20 sz=       72    free      ".*"--0
+Chunk        002c50b68 sz=     4072    recreate  ".*"   --0
+Chunk        002c51b70 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        002c52868 sz=      824    freeable  ".*"--0
+Chunk        002cb2770 sz=     3584    freeable  ".*"  ds=0x2c0deb0--0
+Chunk        002cb3570 sz=      560    freeable  ".*"--0
+Chunk        002d2d1e8 sz=      152    free      ".*"--0
+Chunk        002d40150 sz=     4184    freeable  ".*"  ds=0x2ebcb00--0
+Chunk        002d778b0 sz=      112    perm      ".*"  alo=112--0
+Chunk        002d778d8 sz=        0   kghdsx--0
+Chunk        002d78810 sz=       72    freeable  ".*"--0
+Chunk        002eeec80 sz=      640    perm      ".*"  alo=640--0
+Chunk        002ef3db0 sz=     4184    freeable  ".*"  ds=0x2c0deb0--0
+Chunk        002ef9f30 sz=       72    free      ".*"--0
+Chunk        002ef9f78 sz=     4072    recreate  ".*"   --0
+Chunk        002effd50 sz=       72    free      ".*"--0
+Chunk        002effd98 sz=     4072    recreate  ".*"   --0
+Chunk        002f00da0 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        002f01a98 sz=      824    freeable  ".*"--0
+Chunk        002f02530 sz=      640    perm      ".*"  alo=640--0
+Chunk        002f0d7e0 sz=       72    free      ".*"--0
+Chunk        002f0d828 sz=     4072    recreate  ".*"   --0
+Chunk        002f13600 sz=       72    free      ".*"--0
+Chunk        002f13648 sz=     4072    recreate  ".*"   --0
+Chunk        002f14650 sz=     3320    perm      ".*"  alo=3320--0
+Chunk        002f15348 sz=      824    freeable  ".*"--0
+Chunk        002f5f110 sz=     3584    freeable  ".*"  ds=0x2ebcb00--0
+Chunk        002f5ff10 sz=      560    freeable  ".*"--0
+Chunk        002f759d0 sz=     3584    freeable  ".*"  ds=0x2ed2690--0
+Chunk        002f767d0 sz=      560    freeable  ".*"--0
+Chunk        002fc13f0 sz=    28464    free      ".*"--0
+Chunk        002fc8320 sz=      560    freeable  ".*"--0
+Chunk        002feda30 sz=     4184    freeable  ".*"  ds=0x2c0deb0--0
+Chunk        0030250a0 sz=      112    perm      ".*"  alo=112--0
+Chunk        0030250c8 sz=        0   kghdsx--0
+Chunk        003026000 sz=       72    freeable  ".*"--0
+Chunk        00303e4b0 sz=      112    perm      ".*"  alo=112--0
+Chunk        00303e4d8 sz=        0   kghdsx--0
+Chunk        00303f410 sz=       72    freeable  ".*"--0
+Chunk        00326fc40 sz=    28464    free      ".*"--0
+Chunk        003275330 sz=     4184    freeable  ".*"  ds=0x2ed2690--0
+Chunk        003276b70 sz=      560    freeable  ".*"--0
+Chunk        003279450 sz=    31608    freeable  ".*"  ds=0x2ed2690--0
+Chunk        003280fe0 sz=    28464    free      ".*"--0
+Chunk        003287f10 sz=      560    freeable  ".*"--0
+Cleared server load data for: \S+--0
+Cluster reboot took place.--0
+Command completed; zeroing \S+ = \S+--0
+Command was asked to complete \S+ Server Join: Resource Startup \{.*\} \S+ \S+--0
+Completing \S+ Aborting layered command.--0
+Configuration has been parsed--0
+Configured server names: \S+ \S+--0
+Configured server names: \S+--0
+ConnAccepted from Peer:msgTag= \S+ version= \S+ msgType= \S+ msgId= \S+ msglen = \S+ \S+ \S+ src= \(.*\) dest= \(.*\)--0
+Connecting to \S+--0
+Connecting to the \S+ Daemon--0
+Container .*--0
+Could not find the resource type \[.*\]--0
+Could not forward message \[.*\] to agent. \S+ is not running--0
+Created alert \S+ \(.*\) \S+ \s*\S+ failed to autostart.--0
+Created alert \S+ \(.*\) \S+  Cleaning resource \S+ \S+ \S+ failed as part of reboot-less node fencing--100
+Created alert \S+ \(.*\) \S+  Could not init \S+ error: \S+ Error in cluster services layer Cluster services error .*--4
+Created alert \S+ \(.*\) \S+  Failover cannot \S+ completed for \[.*\]. Stopping it and the resource tree--0
+Created alert \S+ \(.*\) \S+  Posting Node Down Event--0
+Created alert \S+ \(.*\) \S+  Resource restart failed!--0
+Created alert \S+ \(.*\) \S+  Start action timed out!--0
+Creating \S+ message filter...--0
+Creating the resource: \S+ \S+ \S+--0
+Current \S+ \S+ Last \S+--0
+Current map: \S+ \S+ \S+ \S+--0
+Current map: \S+ \S+ \S+--0
+DELAY_SECS:--0
+DEPLOYMENT=\S+--0
+DM flushing its state to repository: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+--0
+DM: Set event seq number to: \S+--0
+DM: Set threshold event seq number to: \S+--0
+DM: Setting \S+ to \[.*\]--0
+DM: read \[.*\] to: \S+--0
+DM: read \[.*\] to:--0
+Daemon version: \S+ Software version: \S+--0
+DataModel: \S+ cache for server hub node count, now = \S+--0
+Decoding of possible comments in or near previous range--0
+Decremented expected instance count for \S+ on re-eval. New count = \S+--0
+Deleted resource from repository: \S+--0
+Deleting \S+ \S+ \S+ \S+ \S+--0
+Deleting \[.*\] from spoolInfo map.--0
+Deleting the server \S+ \S+--0
+DepInfo: \S+--0
+Dev\[.*\]: Read\[.*\] Write\[.*\]--0
+Device/File Name         : \S+--0
+Directed placement impossible for \[.*\] on \S+ c.o. PlacementPolicy--0
+Disabled new shutdown processing--0
+Disconnected from \S+ process: \{.*\}--0
+Disconnected from server: \S+--0
+Disconnected from server:--0
+Disconnecting client of command id \S+--0
+Done --------------------0
+Done for \S+--0
+Done parsing server categories...--0
+Done processing res faults for \S+--0
+Done.--0
+Dumping member data --------------------0
+ENTITY_LIST:--0
+ENV_OVERRIDES:--0
+EVENT_TAG:--0
+EXPRESSION:--0
+EXTENT \S+ \S+--0
+Enabled \S+--0
+Enabled--0
+Enabling M2MWatchDog--0
+Entered CRG::handleInstanceCountUpdate, new = \S+ old = \S+--0
+Entered handleRGIsAfterResProbe--0
+Erased node name 2=rws00fxx--0
+Err stack .*--0
+Err=0. \S+--0
+Error \S+ opening dom root in \S+--0
+Error \S+ querying length of attr \S+--0
+Error \[.*\] in \[.*\] at \S+--0
+Error in clssgsgrpstat rc =8--0
+Error: \S+ Could not start resource '.*'.--0
+Evaluating boot processing for: \S+--0
+Evaluating start \S+ on \[.*\] reason \[.*\] Opts: \S+ In pool \S+--0
+Evaluating stop of \[.*\] on \[.*\] with parameters: \S+ \S+ of entities being stopped: \[.*\]--0
+Evaluating the initial state change for \S+ \S+ \S+ last \S+ current state: \S+ new state: \S+--0
+Exception while evaluating shutdown \(.*\) of \[.*\] . Error stack:CRS-2551: Resource '.*' cannot \S+ failed-over because it is of type '.*', which cannot relocate--0
+Exception while evaluating shutdown \(.*\) of \[.*\] . Error stack:CRS-2837: There are no servers that belong to the server category '.*' of resource '.*'.--0
+Exiting on request of the Policy Engine...--0
+Expected username  \[.*\] actual \[.*\] \S+--0
+Expression Filter \S+ \(.*\)--0
+FILTER:--0
+FILTER_TAG:--0
+FORCE_TAG:--0
+FREE \S+--0
+Failed to connect to \S+ \S+ \S+ \S+ \(.*\) \S+--0
+FailoverRetryHandler could not fail over \[.*\]. Error: \S+ Resource '.*' cannot \S+ failed-over because it is of type '.*', which cannot relocate--0
+Fence command completed, rc = \S+--0
+Fence command status: \S+--0
+Fenced off the resource \[.*\]--101
+Finished agent-initiated updated of: \S+ \S+ \S+--0
+Finished reading configuration. Parsing...--0
+First attempt: Running in \S+ mode.--0
+First attempt: init \S+ context succeeded.--0
+Flushing compacted batch of \S+--0
+Flushing completed--0
+Flushing repository write requests...--0
+Force-disconnecting \[.*\]  existing \S+ clients...--0
+Forwarding Node Leave to \S+ for: \S+--0
+Found \[.*\] online nodes: \S+--0
+GIPC address: clsc://\(.*\)--0
+GIPC error \[.*\] msg \[.*\]--0
+Getting \S+ Root...--0
+Getting \S+ host info...--0
+Getting \S+ role...--0
+Getting local node number--0
+Getting local nodename...--0
+Getting online nodes..--0
+Getting site guid--0
+Got \S+ ops for \S+--0
+Got \S+ ops--0
+Got Join Req from \[.*\] Msg Details: .* \S+ params: Map \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ \S+--0
+Got agent-specific msg: \S+ The container was not able to start.--0
+Got agent-specific msg: \S+--0
+Got agent-specific msg: One or more listeners failed to start. Full details will \S+ found in the appropriate container log fileContext \[.*\] startup failed due to previous errors--0
+Got confirmation from \S+ on \S+--0
+Got direct msg from agent--0
+Got servers: \S+--0
+Group \S+ \[.*\]--0
+HEAP \S+ heap name=".*" \s*\S*--0
+HOST:--0
+HOST_TAG:--0
+Handling autostart conditions--0
+Hla: \S+--0
+ICE going for iteration \S+ with \S+ affected ops--0
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: \S+ for Placement Path RI:\[.*\] server \[.*\] target states \[.*\], locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*' issued from '.*'--0
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: \S+ for Placement Path RI:\[.*\] server \[.*\] target states \[.*\], locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*'--0
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: IWaitObject wrapper \S+ locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*' issued from '.*'--0
+ICE has queued an operation. Details: Operation \[.*\] cannot run cause it needs \S+ lock for: IWaitObject wrapper \S+ locked by op \[.*\]. Owner: \S+ It is locked by '.*' for command '.*'--0
+Ignoring stale exception \S+--0
+Ignoring state change for disabled \S+ \[.*\]--0
+Incremented \S+ currently = \S+--0
+Informing \S+ of successful \S+ shutdown...--0
+Inited \S+ \S+ \S+--0
+Initialing cluclu context...--0
+Initializing \S+ context--0
+Initializing \S+--0
+Initializing Node Down Monitor--0
+Initializing msg framework...--0
+Initializing the resource \S+ \S+ \S+ for type \S+--0
+Initiate startup command called from performPostJoinTasks\(.*\)--0
+Initiating \S+ listener startup--0
+Initiating Resource Autostart command: Server Join: Resource Startup \{.*\} \S+ \S+--0
+Initing \S+ Framework messaging--0
+Initing string tables...--0
+Inputting startup params: key = tbd, value = later--0
+Instantiated \S+ for \S+ \S+--0
+Instantiating msg framework...--0
+Ipc: Starting send thread--0
+Ipc: client \(.*\) version: \S+--0
+Ipc: sendWork thread started.--0
+IpcL: Accepted connection \S+ from user \S+ member number \S+--0
+IpcL: Adding formed connection: \S+--0
+IpcL: Found connection in pending connections--0
+IpcL: Listener instantiated for: \(.*\)--0
+IpcL: Received member data--0
+IpcL: Sent member \S+ to client \S+--0
+IpcL: connection to member \S+ has been removed--0
+IpcL: gipcListen\(.*\) succeeded--0
+IpcL: removeConnection: Member \S+ does not exist in pending or formed connections.--0
+Issues with \S+ \S+--0
+Join request has been processed by the Master.--0
+KEEP_D_TARGETS_TAG:--0
+KGFCHECK kgfnStmtExecute01c: ret == \S+ \S+ at kgfn.c:3535--0
+Keeping last server \[.*\] for \[.*\]--0
+LFI exception message: \S+ Trying to create file \S+ that already exists.--0
+LFI-01509: fopen\(.*\) failed\(.*\).--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ = \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ \S+ op_id:\[.*\]\[.*\] Keyname:\[.*\] Nodenum:\[.*\] Type:\[.*\] Username:\[.*\] Groupname:\[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ .* \S+ \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+ \S+ .*--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+--6
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ location \S+ is valid
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ send \S+ \S+ \S+ successful--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+  open key \[.*\] retval \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ After \S+ \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ After sending operation request \S+ clsc status \[.*\] optype \[.*\] key name \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Calling \S+ flags \S+  --0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Calling \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Came in \S+ with flags \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Completed op \[.*\] return \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Entering. monitored map \[.*\]. timeout \[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Exiting. monitored map \[.*\].
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Processed request constr \[.*\] retval \[.*\]
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Returned after batch completed with \S+ seq id \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Sending operation \S+  opid \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Suceeded--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Using \S+ \[.*\] \S+ \[.*\]. misscount \[.*\].--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ flags \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ invalidating key \[.*\], \S+ \[.*\] with \S+ \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+  Proc id '.*': Proc name '.*'--0
+LIST_LOGS:\[.*\]: \S+ \S+  major prot '.*' \S+ mnor prot '.*': type '.*' \S+ \S+ '.*'--0
+LIST_LOGS:\[.*\]: \S+ \S+ proprasmw: Begin write to \S+--0
+LIST_LOGS:\[.*\]: \S+ \S+ proprasmw: Successfully wrote \[.*\] bytes at offset \[.*\]--0
+LIST_LOGS:\[.*\]: \S+ \S+ propriow: Completed \S+ \S+ \S+ .* .*--0
+LIST_LOGS:\[.*\]: \S+ \S+ propriow: direct write to disk \(.*\)--0
+LIST_LOGS:\[.*\]: \S+ \S+ propriow: writing to \S+ device\[.*\] \S+--0
+LIST_LOGS:\[.*\]: Some log entries were printed by the monitoring thread. Printing remaining log entries.--0
+LLUP_ALWAYS_SVC".*"True.* <Then>pullup:always\(.*\)</Then> <Else>pullup\(.*\)</Else> </If></Then> <Else>hard\(.*\)<If cond=".*" value=".*"> <Then><If cond=".*" value=".*"> <Then><If cond=".*" op=".*" value=".*"> <Then>dispersion\(.*\)</Then> </If></Then> </If></Then> </If><If cond=".*" value=".*"> <Then>pullup:always\(.*\) </Then> <Else>pullup\(.*\) </Else> </If><If cond=".*" value=".*"> <Then><If cond=".*" op=".*" value=".*"> <Then>pullup\(.*\)</Then> </If></Then> </If></Else> </If>hard\(.*\)</Then> <Else>hard\(.*\)<If cond=".*" value=".*"> <Then>pullup:always\(.*\) </Then> <Else>pullup\(.*\)</Else> </If></Else> </If><If cond=".*" value=".*"> <Then><If cond=".*" op=".*" value=".*"> <Then>pullup\(.*\)</Then> </If></Then> </If><If cond=".*" value=".*"> <Then><If cond=".*" value=".*"> <Then>dispersion\(.*\)</Then> </If></Then> \S+ cond=".*" value=".*"> <Then><If cond=".*" value=".*"> <Then>hard\(.*\)</Then> </If></Then> </If>hard\(.*\)<If cond=".*" value=".*"> <Then>hard\(.*\)</Then> \S+--0
+LOCALE:--0
+Launching modules...--0
+Layer \S+ attempting to create operation for \[.*\]--0
+Layer \S+ stopped tracking \[.*\]. Still waiting on \S+--0
+Layer \S+ tracking layered \S+ \[.*\] from operation \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ restart: , state change= \S+ local \S+--0
+Layer -1 attempting to create operation for \[.*\]--0
+Layer -1 stopped tracking \[.*\]. Still waiting on \S+--0
+Layer -1: tracking layered \S+ \[.*\] from operation \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+--0
+Layer advanced for \S+ New layer is Layer \S+ resources \[.*\], pullups \[.*\]--0
+Layered command complete.--0
+Layering: Ranked resources require \S+ layers.--0
+Local \S+ Node \S+ is: \S+--0
+Local Recovery picked for \[.*\]--0
+Locale is = \[.*\] \S+--0
+Logging level for Module: \S+ \s*\S+--0
+M2M is now powered by \S+ doWork\(.*\) thread.--0
+M2M is starting...--0
+MAX batch \S+--0
+MEMORY_SIZE=\S+--0
+MESSAGE:--0
+MSGTYPE:--0
+Marking startup complete for server \S+--0
+Master Change Event; New Master Node \S+ This Node.*--0
+Master change notification has received. New master: \S+--0
+Master is not known. Rejecting the command: \S+--0
+Member \(.*\) @  found.--6
+Member \(.*\) on node \S+ port=.--0
+MessageStore all servers startup complete--0
+MessageStore handling startup \S+ for \S+ \[.*\]--0
+MessageStore init called--0
+MessageStore is enabled!--0
+MessageStore target is \[.*\]  \[.*\] suppl targets = \S+--0
+MessageStore will wait for autostart completion!--0
+MessageStore: Timed out waiting for \S+ StackStartup Command to attach. Clearing messages.--0
+MessageStore: adding message \S+ \S+ of '.*' on '.*' succeeded--0
+MessageStore: adding message \S+ Attempting to \S+ '.*' on '.*'--0
+MessageStore: adding message \S+ Clean of '.*' on '.*' succeeded--0
+MessageStore: adding message \S+ Completed start of Oracle Cluster Ready Services-managed resources--0
+MessageStore: adding message \S+ Processing resource auto-start for servers: \S+--0
+MessageStore: adding message \S+ Resource auto-start has completed for server \S+--0
+MessageStore: adding message \S+ Start of '.*' on '.*' succeeded--0
+MessageStore: adding message \S+ Starting Oracle Cluster Ready Services-managed resources--0
+MessageStore: forwarding message \S+ Attempting to \S+ '.*' on '.*'--0
+MessageStore: forwarding message \S+ Clean of '.*' on '.*' succeeded--0
+MessageStore: forwarding message \S+ Completed start of Oracle Cluster Ready Services-managed resources--0
+MessageStore: forwarding message \S+ Processing resource auto-start for servers: \S+--0
+MessageStore: forwarding message \S+ Resource '.*' failed to start automatically.--0
+MessageStore: forwarding message \S+ Resource auto-start has completed for server \S+--0
+MessageStore: forwarding message \S+ Start of '.*' on '.*' \S+--0
+MessageStore: forwarding message ===== Summary of resource auto-start failures follows =====--0
+MessageStore: no pending servers left--0
+MessageStore::notifyFaultedServer called while the MessageStore was not enabled.--0
+MessageStore:attaching \S+ from server \S+--0
+MessageStore:attaching done--0
+MessageStore:deleting all messages--0
+MessageStore:sending \S+ \S+ of '.*' on '.*' succeeded--0
+MessageStore:sending \S+ Attempting to \S+ '.*' on '.*'--0
+MessageStore:sending \S+ Clean of '.*' on '.*' succeeded--0
+MessageStore:sending \S+ Completed start of Oracle Cluster Ready Services-managed resources--0
+MessageStore:sending \S+ Processing resource auto-start for servers: \S+--0
+MessageStore:sending \S+ Resource auto-start has completed for server \S+--0
+MessageStore:sending \S+ Start of '.*' on '.*' succeeded--0
+MessageStore:sending \S+ Starting Oracle Cluster Ready Services-managed resources--0
+Module Enabling is complete--0
+Multi Write Batch \S+--0
+NAME:--0
+NO_WAIT_TAG:--0
+New \S+ .* \S+--0
+New process connected to us ID:\{.*\} \S+--0
+New signature \[.*\]--0
+No \S+ servers online--0
+No Local Restart of \[.*\], restart attempt exhausted--0
+No config policy set stored; using the default one--0
+No initiated or pending servers left for startup--0
+No instances need to \S+ probed for: \S+--0
+No stack allocations--0
+Node Site \[.*\]\[.*\]--0
+Node down monitor enabled--0
+Node group incarnation = \S+--0
+Not disconnecting \S+ call client--0
+Now constructing \S+ \S+--0
+OBJID:--0
+OCI-21500: internal error code, arguments: \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\]--0
+OCR Write broker responded for msg \S+ with result: \S+--0
+OCR context init failure.  Error: \S+ Error in cluster services layer Cluster services error .*--4
+ORA-01017: invalid username/password; logon denied--0
+ORA-06512: at ".*", line \S+--0
+ORA-06512: at line \S+--0
+ORA-15081: failed to submit an I/O operation to \S+ disk--0
+ORA-27051: I/O error \(.*\)--0
+ORA-27091: unable to queue I/O--0
+Obtained first membership map.--0
+OcrOlrSync::syncKeys Syncing keys--0
+Only servercount = \S+--0
+Operation \S+ has \S+ WOs--0
+Operation \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ restart: , state change= \S+ local \S+ has stalled as its command requested an abort--0
+Operation \S+ of \[.*\] on \[.*\] \S+ \S+ \S+ \S+ restart: , state change= \S+ local \S+ skipped state restoration and is completing unsuccessfully.--0
+Operation \[.*\] has been replaced with .*--0
+Oracle Database \S+ Clusterware Release \S+ - Production Copyright \S+ \S+ Oracle. All rights reserved.--0
+PE \S+ \S+ \S+--0
+PE Command \[.*\] has completed--0
+PE Engine version selected \S+ \S+--0
+PE Engine: \S+--0
+PE Interface selected \S+ \S+ Version \S+ Accessor--0
+PE Role.State Update: old role \[.*\] new \[.*\]; old state \[.*\] new \[.*\]--0
+PE active version: \S+--0
+PERMANENT \S+--0
+PHYSICAL_HOSTNAME=--0
+PID for the Process \[.*\], connkey \S+--0
+PNC: Accept connection from peer \(.*\)--0
+PROC-00005: User does not have permission to perform \S+ cluster registry operation on this key..*--0
+PROC-00104: Authentication error \[.*\]--0
+PROT-713: Device/File integrity check succeeded--0
+PROT-720: Logical corruption check succeeded--0
+PROT-726: Backup file integrity check succeeded--0
+PROT-729: Consistency check of entities managed by Cluster Ready Services succeeded.--0
+Parse String=\[.*\]--0
+Parsed and validated \S+ \S+ \[.*\]\[.*\]\[.*\] \S+ \S+ \S+--0
+Parsed and validated \S+ \S+ \[.*\]\[.*\]\[.*\] \[.*\].* Pools: Generic \S+ \S+ \S+--0
+Parsed and validated server category: \S+ Filter \[.*\]--0
+Parsing \S+--0
+Parsing resource types...--0
+Parsing server \S+--0
+Per Server Layer advancement on server \[.*\]. New layer is \S+--0
+Performing dynamic debug init...--0
+Permanent space    =    11712--0
+Persisting \S+ State...--0
+Persisting built-in pools--0
+Placement impossible due to placement policy: no online server passed placement policy filter for \[.*\] \S+ \S+--0
+Pool Generic \[.*\]\[.*\]\[.*\] \[.*\].* Servers: \S+ \S+ cannot \S+ \S+ donor  for pool Generic \[.*\]\[.*\]\[.*\] \[.*\].* Servers: \S+ \S+--0
+Pool Generic \[.*\]\[.*\]\[.*\] \[.*\]NO \S+ \S+ cannot \S+ \S+ donor  for pool Generic \[.*\]\[.*\]\[.*\] \[.*\]NO \S+ \S+--0
+Prepared shutdown cmd for: \S+--0
+Previous instance of startup cmd is still going on..--0
+Previous map: \S+ \S+ \S+ \S+--0
+Previous map: \S+ \S+ \S+--0
+Previous map: \S+--0
+Process environment is not initialized yet!--0
+Process member data: \S+--0
+Processing \S+ command \S+ .* Description: \[.*\]--0
+Processing \S+ command \S+ Description: \[.*\]--0
+Processing \S+ command \S+ origin:rws00fxu. Description: \[.*\]--0
+Processing \S+ command id=103. Description: \[.*\]--0
+Processing initial resource state check for \S+--0
+Processing internal delete msg--0
+Processing pending join requests: \S+--0
+Processing reconfig: \S+ inc \S+ mbr count \S+--0
+Processing res faults for \S+--0
+Processing unplanned state change for \[.*\]--0
+Promoting master \[.*\] to top of preference list because resource is \S+--0
+Published to \S+ \S+ for \S+--0
+QUEUE_TAG:--0
+Queued up internal update of \S+ \[.*\] - the resource is already being updated--0
+RESOURCE:--0
+RESOURCE_USE_ENABLED=\S+--0
+RGI evalStart: \S+ \S+ \S+ \S+--0
+RI \[.*\] is updated by its agent--0
+RI \[.*\] new \S+ state: \[.*\] old value: \[.*\]--0
+RI \[.*\] new external state \[.*\] old value: \[.*\] on \S+ label = \[.*\] override:OFFLINE--0
+RI \[.*\] new external state \[.*\] old value: \[.*\] on \S+ label = \[.*\]--0
+RI \[.*\] remains offline, ignoring change--0
+RI \[.*\] state is the same, ignoring change to \S+--0
+RIs of this resource are not \S+ failover impossible--0
+Re-evaluation of queued op \[.*\]. found it no longer needed:CRS-0223: Resource '.*' has placement error.--0
+Re-evaluation of queued op \[.*\]. found it no longer needed:CRS-2506: Operation on '.*' has been cancelled--0
+Read \S+ resource group sections--0
+Read \S+ resource sections--0
+Read \S+ server pool sections--0
+Reading \(.*\) \S+ \S+--0
+Reading \(.*\) \S+--0
+Reading \(.*\) resource group types--0
+Reading \(.*\) types--0
+Reading join signature--0
+Received ServerPoolInfo \[.*\]--0
+Received handshake message from \S+--0
+Received reply to action \[.*\] message \S+ \S+--0
+Received reply to the intial check for: \S+ \S+ \S+ on \S+--0
+Received shutdown sync reply for \S+--0
+Received state \S+ change for \S+ \S+ \S+ \[.*\]--0
+Received state change for \S+ \S+ \S+ \[.*\]--0
+Received the reply to the message: .* \S+ \S+ from the agent \S+--0
+Reconfig handled--0
+Recovery impossible, stopping \S+ \S+ \S+--0
+Registering for mastership change events...--0
+Registering kill callback...--0
+Registering the state collector...--0
+Rejecting pending msgs for \S+ \S+ \S+--0
+Removed the server from site: \S+--0
+Removing \S+ Member:\{.*\}--0
+Repeat \S+ times--0
+Requesting resource\[.*\] definition from \S+--0
+ResAddMsg reply got, updating state--0
+Resetting \S+ cleanup flag...--0
+Resource \S+ exempted from layer prohibition, as it is already online on the desired server \(.*\). Command: Server Join: Resource Startup \{.*\} \S+ \S+--0
+Resource \S+ has \S+ state on \S+ \S+--0
+Resource \S+ has been \S+ \S+ the \S+ data \S+--0
+Resource \S+ has been updated in the \S+ data model: \S+--0
+Resource \S+ is disabled--0
+Resource \S+ prohibited from running in this layer. Command: Server Join: Resource Startup \{.*\} \S+ \S+--0
+Resource Autostart completed for \S+--0
+Resource Types parsed--0
+Resource group has been unregistered: \S+--0
+Resource: \S+ \S+ 1,Message: \S+ could not connect to cluster '.*'--0
+Resource::ocrWriter flushing \S+ \S+--0
+ResourceGroup \S+ has been registered with the \S+ data \S+--0
+ResourceGroupType \S+ has been registered with the \S+ data \S+--0
+ResourceType \S+ has been registered with the \S+ data \S+--0
+Resources parsed--0
+Response: \S+ \S+ \S+ \S+ 1t1.0--0
+Response: \S+ \S+ \S+--0
+Response: \S+ \S+ of '.*' on '.*' \S+ \S+ 1k4.WAITt1.0--0
+Response: \S+ \S+ of '.*' on '.*' \S+--0
+Response: \S+ Attempting to \S+ '.*' on .* \S+ 1k4.WAITt1.0--0
+Response: \S+ Attempting to \S+ '.*' on .*--0
+Response: \S+ Clean of '.*' on '.*' \S+ \S+ 1k4.WAITt1.0--0
+Response: \S+ Clean of '.*' on '.*' \S+--0
+Response: \S+ Completed start of Oracle Cluster Ready Services-managed resourcesk7.MSGTYPEt1.3k5.OBJIDt0.k4.WAITt1.0--0
+Response: \S+ Processing resource auto-start for servers: \S+--0
+Response: \S+ Resource '.*' failed to start \S+--0
+Response: \S+ Resource '.*' is \S+--0
+Response: \S+ Resource '.*' is already running on .*--0
+Response: \S+ Resource auto-start has completed for server \S+--0
+Response: \S+ Server '.*' is not onlinek7.MSGTYPEt1.1k5.OBJIDt8.rws00fxxk4.WAITt1.0--0
+Response: \S+ Start of '.*' on '.*' \S+ \S+ 1k4.WAITt1.0--0
+Response: \S+ Start of '.*' on '.*' \S+--0
+Response: \S+ Starting Oracle Cluster Ready Services-managed resourcesk7.MSGTYPEt1.3k5.OBJIDt0.k4.WAITt1.0--0
+Response: \S+ Stop of '.*' on '.*' \S+ \S+ 1k4.WAITt1.0--0
+Response: \S+ Stop of '.*' on '.*' \S+--0
+Response: \S+ The container was not able to \S+--0
+Response: \S+ There are no more servers to try to place resource '.*' on that would satisfy its placement \S+ \S+ 1k4.WAITt1.0--0
+Response: \S+ There are no more servers to try to place resource '.*' on that would satisfy its placement \S+--0
+Response: \S+ or more listeners failed to start. Full details will \S+ found in the appropriate container log fileContext \[.*\] startup failed due to previous \S+--5
+Response: \S+--0
+Response: c4.5!ORDERk7.MESSAGEt59.===== Summary of resource auto-start failures follows =====k7.MSGTYPEt1.3k5.OBJIDt0.k4.WAITt1.0--0
+Restarting the agent \S+--0
+Running as user: root--0
+Running mode check...--0
+Running path init...--0
+SERVER_LABEL=--0
+SITE_GUID=\S+--0
+SITE_NAME=\S+--0
+SITE_QUARANTINED=\S+--0
+SLOS \S+ \S+ \S+ opn=kgfoIO02, \S+ loc=kgfokge--0
+SR: acl = \S+--0
+STARTUP_PARAMETERS=\S+--0
+Scheduled local recovery for \[.*\]--0
+Sending \S+ \S+ \[.*\] to \S+--0
+Sending all pending msgs to agent \S+ \S+--0
+Sending initial \S+ for \[.*\] to \S+--0
+Sending join request: .* \S+ params: Map \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ VALUESMap \[.*\] \S+ \S+ \S+ \S+ \S+ \S+--0
+Sending message to \S+ ctx= \S+ Client \S+ \S+--0
+Sending message to agfw: id = \S+--0
+Sending message: \S+ to \S+ proxy server.--0
+Sending new type update to \S+--0
+Sending shutdown sync msg for \S+--0
+Sending to \S+ ctx= \S+ \S+ set Properties \(.*\), orig.tint: \{.*\}--0
+Sending to \S+ ctx= \S+ \S+ set Properties \(.*\)--0
+Sending to \S+ ctx= \S+ set Properties \(.*\)--0
+Sent request to write event sequence number \S+ to repository--0
+Sequencer for \[.*\] has completed with error: \S+ Could not start resource '.*'.--0
+Server \S+ came in for the the first time--0
+Server \S+ completed for \S+ \S+ incarnation num = \S+ grp \S+--0
+Server \[.*\] assigned to site \[.*\]--0
+Server \[.*\] has been \S+ \S+ the \S+ \S+ \S+--0
+Server \[.*\] has changed state from \[.*\] to \[.*\]--0
+Server \[.*\] is the first server from site \[.*\]. Registering site with the \S+ \S+--0
+Server \[.*\]--0
+Server Attribute \S+--0
+Server Attributes for \S+ \S+--0
+Server Pool \S+ has been registered--0
+Server Pool \[.*\]--0
+Server category was registered with the data model: \S+--0
+Server failure to \S+ processed for: \S+ incarnation: \S+--0
+Server not online: \S+--0
+Server pools parsed--0
+ServerStateChangeNotifier:cancelAll--0
+Set \S+ message filter named: \S+--0
+Set \S+ to \S+ for \[.*\]--0
+Set State Details to \[.*\] from \[.*\] for \[.*\]--0
+Set attribute overrides for command \(.*\): \[.*\]--0
+Set dirty state for \S+ \[.*\]--0
+Set event seq number to: \S+--0
+Set maxHubNodes to \[.*\]--0
+Set resource IDs for command \(.*\): \[.*\]--0
+Set threshold event seq number to: \S+--0
+Setting \S+ contexts...--0
+Setting \S+ list to \S+ crsusr--0
+Shutdown command \S+ delaying layer advancement. Still waiting on \S+ non-layered operations in this stage.--0
+Shutdown command for \[.*\] starting stage \S+ Command: \S+--0
+Shutdown request received from \S+--0
+Shutdown request rejected for the agent: \S+--0
+ShutdownCmd \S+ completing after sync. No resources to stop.--0
+Site \[.*\] now has \S+ servers--0
+Skipping Fence of \S+ \S+--0
+Skipping global \S+ for \S+ \S+ \S+--0
+Skipping operation for \[.*\] on node \S+ because we are already tracking this instance.--0
+Special Value map for \S+ \S+--0
+StackStartup command in createIceOperations--0
+StackStartup: already complete, exiting!--0
+Start action failed with error code: \S+--0
+Start cmd \S+ \S+ \S+ \S+--0
+Start cmd \S+ creating ops...--0
+Start cmd \S+ filtering \S+ ops...--0
+Start mode: normal--0
+Starting Node Down Monitor--0
+Starting module framework--0
+Starting ocr to olr sync thread...--0
+Starting of the agent: \S+ with user id \S+ is already in progress.--0
+Starting the \S+ \[.*\] for agent: \S+--0
+Starting the agent: \S+ with user id: \S+ and \S+--0
+Starting thread model named: \S+--0
+Starting threads...--0
+Starting to read configuration--0
+Startup command queued for: \S+--0
+StartupCmd: startingResource map\[.*\]--0
+State change detected for \S+ \S+ \S+ during initial check on \[.*\] \S+ \S+--0
+State change received before initial state processing, proceeding--0
+State change received from \S+ for \S+ \S+ \S+--0
+State information for \[.*\] has been lost, all we know is the initial check timed out. Issuing check operations until we can operate on better data.--0
+State information for \[.*\] is still bad. Issuing another check \(.*\).--0
+Static Version \S+--0
+Stop cmd \S+ \S+ \S+--0
+Stop cmd \S+ ...done with op creation!--0
+Sync-ing with \S+ \S+ \S+--0
+Sync-ing with \S+--0
+THA Finish found no Prepare for \S+ \[.*\]--0
+THA Finish invoked, but no waiting instruction  for \[.*\] is found--0
+TINT:--0
+T_HA_FINISH_TAG:--0
+T_HA_PREPARE_TAG:--0
+TextMessage\[.*\]--0
+TextMessage.*--0
+The daemon is running in exclusive mode. Access to managed entities is disabled--0
+The exe is /u01/app/12.2.0/grid/bin/ocrcheck and the type is \S+--0
+There are no pools to read.--0
+There are no resource \S+ to read.--0
+There are no resource group types to read.--0
+There are no resources to read.--0
+There are no server categories to read.--0
+There are no servers to read.--0
+Time Elapsed \S+--0
+Tints initialized with nodeId: \S+ procId: \S+--0
+Total free space   =    28760--0
+Total heap size    =   126000--0
+Trace file \S+--0
+Trying to establish connection with nodeid \S+ \S+--0
+Turning over control to the framework manager...--0
+UI Command \[.*\] is replying to sender.--0
+UI Comms initalizeGipc\(.*\) \S+--0
+UI comms listening for \S+ events.--0
+UI server recvd reply from Agfw Proxy Server: \S+--0
+UI socket on: \(.*\)--0
+UNPINNED \S+ \S+ \(.*\):--0
+UPDATE_TAG:--0
+USING \S+ ============--0
+Unable to check  \[.*\] \S+ server not found--0
+Unregistering \S+ \S+ \S+--0
+Update attr: .*--0
+Updated state details for server \S+ from \[.*\] to \S+ \[.*\]--0
+Updating \S+ \S+ to \S+--0
+Updating \S+ to \S+--0
+Updating Last Server to \S+ Target to \S+ for \[.*\]--0
+Updating NetworkStatus to \S+--0
+Used space \(.*\)      : \s*\S*--0
+Using \S+ batch ops \S+ \S+--0
+Using Authorizer location: \S+--0
+VALUE \S+ FOUND! \S+ \S+ \S+ dummy--0
+Verifying msg agentname = \S+--0
+Verifying msg rid = \S+ \S+ \S+--0
+Version                  :          4--0
+WAIT:--0
+Waiting for first node group post...--0
+Waiting for reconfigs--0
+Waiting for the first node group sync...--0
+Warning: No instance of resource \S+ found for template STAT\(.*\). Defaulting to type--0
+Wrote new event sequence to repository--0
+X_AGFW_RejectMsg \S+ Could not find the resource: \S+ \S+ \S+--0
+a_check_permission_int: Other doesn.*--0
+a_init:\S+ \S+ init successful. Init Level \[.*\]--0
+a_init:\S+ \S+ init successful--0
+a_init:\S+ Successfully initialized the Cache layer.--0
+a_init:\S+ This node is functioning in role \[.*\].--0
+a_init:\S+ Thread init successful--0
+a_init: \S+ mode retrieved is \[.*\]--0
+a_init: Node role retrieved is \[.*\] and the type is \[.*\].--0
+a_init: Successfully initialized the patch management context.--0
+a_init:13!: Clusterware init unsuccessful \S+ \[.*\]--0
+a_init_clsss: failed to call clssnshostbynodenum retval:\(.*\)--0
+a_reg_master_change: Registered master change callback. flags:\[.*\]--0
+cclCommunicationHandler started.--0
+cclGetMemberData called, current \S+--0
+clsCclGipcAccept: connection accepted from pEndp->endp= \S+--0
+clsCclGipcDisconnect: called with pEndp->endp= \S+--0
+clsCclGipcDisconnect: calling gipcDisconnect with pEndp->endp= \S+--0
+clsCclGipcListen: Attempting to listen on \S+--0
+clsCclInit called by process \S+ groupname=CLSFRAME \S+ \S+ \S+--0
+clsCclMembershipChangeCallback:  Calling mem callback fn.with ctx.--0
+clsCclNewConn: \S+ new conn to tempConList: newPeerCon = \S+--0
+clsCclSendWithPriority: clsCclCommonSend\(.*\) returned= \S+--0
+clsCclgipcDisconnect: Disconnection successful, going to destroy pEndp->endp= \S+--0
+clsCredCommonInit: Inited singleton credctx.--0
+clsCredDomClose: Credctx deleted \S+--0
+clsce_subscribe \S+ filter='.*', \S+ \S+ \S+--0
+clsclu_init: rc \S+--0
+clsm_lease_init: Initializing the lease context.--0
+clsm_lease_init: Successfully initialized the lease context.--0
+clsm_lease_updater: Started--0
+clsm_update_nodelist: Successfully updated the node list:\[.*\]--0
+clsns_GetNX_PickAnswer:\(.*\):record type: \S+ name: ".*" doesn.*--0
+clsns_Send:#0 sending \S+ bytes from \S+ to udp://10.208.150.141:53--0
+clsns_Send:send succeeded.--0
+clsns_SetTraceLevel:trace level set to \S+--0
+clssgsGroupGetStatus:  communications failed \(.*\)--0
+clssgsGroupGetStatus: returning \S+--0
+clssnsNameRequest: \S+ failure, rc \S+--0
+clsssRecvMsgA: got \S+ disconnect from the server while waiting for message type \S+--0
+clsvactversion:\S+ Retrieving Active Version from local storage.--0
+config version updated to \S+ \S+ for \S+ \S+ \S+--0
+crfcli_init:  status \S+--0
+cssSPTable size=\[.*\].--0
+done \S+ \S+--0
+done: \S+--0
+done--0
+ds \s*\S+ sz= \s*\S+ ct= \s*\S+--0
+dsx empty ext \S+  subheap rc \S+--0
+dsx first \S+--0
+dumpPendingFences:Pending Fence\(.*\), Count = \S+--0
+dumpPendingFences:Started Resource Fencing, Count = \S+--0
+entity kind = resource \S+ = \S+--0
+entity kind = resource group types,count = \S+--0
+entity kind = resource types,count = \S+--0
+entity kind = resources,count = \S+--0
+extent \S+ \S+ \S+ \S+ \S+ \S+--0
+fencing not needed for \S+ \S+ \S+ \S+--0
+fl2=0x60, nex=\(.*\), \S+ \S+ \S+--0
+gipcListen\(.*\) Listening on \S+--0
+gipcObjectLookupF \[.*\]: search found no matching oid \S+ ret gipcretKeyNotFound \(.*\), ret gipcretInvalidObject \(.*\)--0
+gipcObjectRelease: wait for obj \S+ oid \S+ to \S+ check free cnt \S+ refCnt \S+--0
+gipcPostF \[.*\]: EXCEPTION\[.*\]  failed to post obj \S+ flags \S+--0
+gipchaDaemonCreateResolveResponse: creating resolveResponse for \S+ \S+ \S+ \S+--0
+gipchaDaemonProcessClientReq: processing req \S+ type \S+ \(.*\)--0
+gipchaDaemonProcessDaemonUpdate: processed daemon update msg for host \S+--0
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host \S+ haname \S+--0
+gipchaDaemonProcessHAInvalidate: completed ha name invalidate for node \S+--0
+gipchaDaemonProcessHAInvalidate: daemon on node ".*" restarted, sent monitor message for host \S+ \S+ hanme: \S+--0
+gipchaDaemonProcessInfUpdate: completed interface update host '.*', haName '.*', hctx \S+ \[.*\] \{.*\}--0
+gipchaDaemonProcessInfUpdate: ip \S+ subnet \S+ mask \S+ state \S+ inc \S+ flags \S+--0
+gipchaDaemonProcessInfUpdate: pickup \S+ for remote interface \[.*\]--0
+gipchaDaemonThread: starting daemon thread hctx \S+ \[.*\] \{.*\}--0
+gipchaDaemonWork: DaemonThread heart beat, time interval since last heartBeat \S+ \S+--0
+gipchaGetClusterMode: .* Cluster mode--0
+gipchaInternalRegister: \S+ \S+ \S+ \S+--0
+gipchaInternalRegister: \S+ flag \S+--0
+gipchaInternalRegister: Initializing \S+ \S+ global flags \S+--0
+gipchaLowerProcessAcks: \S+ finished for node \S+ \{.*\}--0
+gipchaLowerProcessMsgEstablish: \S+ is switched \S+ for node \S+--0
+gipchaLowerProcessMsgEstablish: processed \S+ from host '.*', haName '.*',hctx \S+ \[.*\] \{.*\}, node \S+ hdr \S+ \{.*\}--0
+gipchaLowerProcessWaitQ: triggering deffered startup of msg \S+ \{.*\} , haStream \S+ \{.*\}--0
+gipchaLowerRecv: Added new stream \S+ \{.*\}  to node \S+ \{.*\}--0
+gipchaLowerSend: deffering startup of hdr \S+ \{.*\} , node \S+ \{.*\}, stream \S+ .*--0
+gipchaLowerSendEstablish: sending establish message for node '.*'--0
+gipchaNodeAddInterfaceF \[.*\]: adding interface info \S+ \{.*\}--0
+gipchaNodeCreate: adding new node \S+ \{.*\}--0
+gipchaNodeDelete: performing final delete of node \S+ \{.*\}--0
+gipchaNodeMarkInfAsTransientF \[.*\]: marking infs of node \S+ \{.*\} as \S+--0
+gipchaUpperAccept: completed accept endp \S+ \[.*\] \{.*\}--0
+gipchaUpperCallbackConnAck: completed CONNECT:ACK ret gipcretSuccess, hendp \S+ \[.*\] \{.*\}--0
+gipchaUpperCallbackSend: completed upper msg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ haMsg \S+ \{.*\} hendp \S+ \[.*\] \{.*\} ret \S+--0
+gipchaUpperConnect: initiated connect for umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ endp \S+ \[.*\] \{.*\} node \S+ \{.*\}--0
+gipchaUpperDisconnect: initiated discconnect umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ endp \S+ \[.*\] \{.*\}--0
+gipchaUpperProcessAccept: completed new hastream \S+ \{.*\}  for hendp \S+ \[.*\] \{.*\}--0
+gipchaUpperProcessConnectAck: \S+ completed umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ hendp \S+ \[.*\] \{.*\} node \S+ .*--0
+gipchaUpperProcessNodeDeath: destroying the failed node interface \S+ \{.*\}--0
+gipchaWorkerAttachInterface: Interface attached inf \S+ \{.*\}--0
+gipchaWorkerCreateInterface: created \S+ interface for node '.*', haName '.*', inf '.*' inf \S+--0
+gipchaWorkerProcessClientConnect: starting resolve from connect for \S+ \S+ \S+--0
+gipchaWorkerThread: starting worker thread hctx \S+ \[.*\] \{.*\}--0
+gipchaWorkerWork: workerThread heart beat, time interval since last heartBeat \S+ loopCount \S+ sendCount \S+ recvCount \S+ postCount \S+ sendCmplCount \S+ recvCmplCount \S+--0
+gipclibGetClusterGuid: retrieved cluster guid \S+--0
+gipclibGetProcessGPID: ospid \S+ timestamp \S+--0
+gipclibMapSearch: gipcMapSearch\(.*\) -> gipcMapGetNodeAddr\(.*\) failed: ret:gipcretKeyNotFound \(.*\), \S+ \S+ \S+ \S+--0
+gipcmodGipcCallbackDisconnect: \[.*\]  Disconnect forced for endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcCallbackEndpClosed: \[.*\]  Endpoint close for endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcCompleteConnect: \[.*\] completed connect on endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcDisconnect: \[.*\]  Issued endpoint close for endp \S+ \[.*\] \{.*\}--0
+gipcmodTlsAuthInit: tls context initialized successfully--0
+gipcmodTlsAuthReady: \S+ Auth completed Successfully--0
+gipcmodTlsAuthStart: \S+ \S+ - \S+--0
+gipcmodTlsAuthStart: \S+--0
+gipcmodTlsAuthStart: Peer is anonymous--0
+gipcmodTlsAuthStart: endpoint \S+ \[.*\] \{.*\}, auth state: gipcmodTlsAuthStateReady \(.*\)--0
+gipcmodTlsAuthStart: name:CN=71162ced73b95f92ffa1253a7753dcf0,O=Oracle Clusterware,UID=21014754,--0
+gipcmodTlsDisconnect: \[.*\] disconnect issued on endp \S+ \[.*\] \{.*\}--0
+gipcmodTlsGetWalletObjFromBuffer: using wallet buffer--0
+gipcmodTlsGetWalletObjFromCred: found base dom: \S+--0
+gipcmodTlsGetWalletObjFromCred: found one certificate--0
+gipcmodTlsGetWalletObjFromCred: using rootCredDomName: \S+ \S+--0
+initial probe completed\(.*\) \S+ \S+ \S+ \S+--0
+kgepop: no error frame to pop to for error \S+--0
+kgfnConnect2: failed to connect--0
+kgfnConnect2Int: cstr=\(.*\)--0
+kgfnGetGNSData: no listener found--0
+kgfnInitEnv \S+ \S+--0
+kgfnRecordErr \S+ \S+ error:--0
+kgfoCreateCtxExt2 trcflg: \S+ \[.*\] \S+--0
+m_clusterClass:2--0
+m_clusterClass:3--0
+markStartupCompletedCallback: \S+ = \S+--0
+optimized update, sending for only \S+ \S+--0
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----5
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ \S+ \S+ 1;-----0
+ora\S+ \S+ \S+ \S+ 1;-----5
+ora\S+ \S+ \S+ marked as deleted.--0
+ora\S+ \S+ \S+ received state from probe request. Old state = \S+ New state = \S+--0
+ora\S+ \S+ \S+ uptime exceeds uptime threshold , resetting restart count--0
+ora\S+ \S+ 1;-----5
+ora\S+--0
+parent=\(.*\) owner=\(.*\) nex=\(.*\) \S+ heap=\(.*\)--0
+pdb \S+ src pdb \S+--0
+prcreatei: Failed in recovery \[.*\]--0
+prcreatei: problem reading the tnode--0
+prgval:buffer passed is too small--0
+proa_dump_permission: Security permissions on the requested key: User:\[.*\] Group:\[.*\] User_perm:\[.*\] Group_perm:\[.*\] Other_perm:\[.*\]. This key is being accessed by User:\[.*\] Group:\[.*\] and the \S+ is \[.*\]--0
+proa_init: \S+ Abstraction layer initialization. Bootlevel:\[.*\]--0
+proa_init: Successfully \S+ the \S+ Layer.--0
+proas_amiwriter: ctx is in some other state--0
+proas_replace_dev: Successfully deleted the \S+ file in the \S+ diskgroup that is being removed from \S+ configuration.--0
+proath_check_and_mount_backuploc: Backup location \[.*\] is accessible on the local node.--0
+proath_connect_master: Attempting to connect to master at address \[.*\]--0
+proath_listen: listening to remote requests at portstr \[.*\]--0
+proath_listen: listening to remote rim requests at portstr \[.*\]--0
+proath_master:\S+ Spawned upgrade thread--0
+proath_master:\S+ reconfig/grpmaster event \[.*\] happened. Incarnation:\[.*\]--0
+proath_master: \S+ \S+ \S+ \S+ \S+--0
+proath_master: Master changing. cssctx->master \[.*\] new master \[.*\] \S+ \[.*\] \S+ \[.*\].--0
+proath_master: No suitable \S+ Cache Writer. Waiting for \S+ event.--0
+proath_master:5.*--0
+proath_update_grppubdata: Successfully updated and published the configured devices in public data.--0
+processAgentReply:resource found in deleted list--0
+processTargetDefaultValues computed target of: \S+ \S+ \S+ is: \S+--0
+procr_beg_asmshut: \S+ ctx set to donotterminate state. Return \[.*\].--0
+procr_ctx_set_invalid_no_abort: Exiting...--0
+procr_ctx_set_invalid_no_abort: ctx is in state \[.*\].--0
+procr_ctx_set_invalid_no_abort: ctx set to invalid--0
+prom_associate: Failed to post container \[.*\]--0
+prom_connect: Connect to \S+ gipc_flags=\[.*\] prom_flags=\[.*\]--0
+prom_dump_con: \S+--0
+prom_dump_pubdata: \S+ dumping \S+--0
+prom_dump_pubdata: \S+--0
+prom_listen: Port str \[.*\]--0
+propr_bkp: Failed to take the backup. Retval:\[.*\]--0
+proprasmcache: \S+ cache \[.*\] enabled for disk group \[.*\].--0
+proprasmcache: \S+ cache size is \[.*\]--0
+proprasmcr: Creating \S+ file in \S+ dg \[.*\] with pages \[.*\]. reducedsz:\[.*\]--0
+proprasmdel: Successfully deleted the \S+ file \[.*\] in \S+ \S+ \[.*\]--0
+proprasmdirectconn: Direct Connection to \S+ instance is enabled for \S+ file access in disk group \[.*\].--0
+proprasmo: Successfully set the incremental size to \[.*\] pages for \S+ file in \S+ dg \[.*\]--0
+proprasmo: Successfully set the maxsize to \[.*\] pages for \S+ file in \S+ \S+ \[.*\]--0
+proprasmr: kgfoIO returned error \[.*\]--0
+proprasmw: kgfoIO returned error \[.*\]--0
+proprbatchexec: Failed in recovery \[.*\]--0
+proprbatchexec: Failed to finish shadow updates. Retval:\[.*\]--0
+proprbkp_get_fhdl: Could not create the backup file \[.*\]--0
+proprdc: \S+ dumping \S+--0
+proprdc: .*--0
+proprdc_propr_fcl: \S+  dump of \S+ len \S+--0
+proprdc_propr_fcl: \S+ dumping \S+--0
+proprdc_propr_fcl: \S+--0
+proprdc_propr_hdr: \S+--0
+proprdc_propr_log: \S+  dump of \S+ len \S+--0
+proprdc_propr_log: .*--0
+proprdc_proprhandle: \S+  dump of \S+ len \S+--0
+proprdc_proprhandle: \S+ dumping .*--0
+proprdc_proprhandle: .* is \S+--0
+proprdc_proprhandle: .*--0
+proprinit: Successfully initialized the \S+ \S+ \(.*\).--0
+propriogid:1_2: \S+ \S+--0
+proprioo: \S+ set: \(.*\)--0
+proprioo: Successfully opened the \S+ location \[.*\]--0
+proprioo: Successfully opened the non-ASM locations if configured.--0
+proprioo: for disk \S+ \(.*\), id match \(.*\), total id sets, \(.*\) need recover \(.*\), my votes \(.*\), total votes \(.*\), \S+ \(.*\), lsn \(.*\)--0
+proprioo: my id set: \(.*\)--0
+proprioo: opening \S+ device\(.*\)--0
+propriosync: no disk in open state--0
+propriow: failed to write to half of the disks\(.*\)--0
+propriowv_bootbuf: Vote information on disk \S+ \[.*\] is adjusted from \[.*\] to \[.*\]--0
+proprseterror: Error in accessing physical storage \[.*\] Marking context invalid.--0
+proprstree_flushblocks: Failed to flush the undo blocks. Retval:\[.*\]--0
+proprstree_flushblocks_tree: Failed to write. offser:\[.*\] num_blocks:\[.*\] retval:\[.*\]--0
+proprstree_flushblocks_undo: Failed to flush the undo blocks. Retval:\[.*\]--0
+proprutfsu: Failed to flush all splay tree blocks. Retval:\[.*\]--0
+prou_mthread_print_loglist: Dumping logs for Thread:\[.*\] Total Time:\[.*\] Execution Time:\[.*\]--0
+prou_mthread_print_loglist: End dumping logs for Thread:\[.*\]--0
+prou_print_io_stats: tid:\[.*\] All times are in micro seconds and block size is 4k--0
+prou_print_lock_info:tid \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]--0
+rbkp:\S+ Failed to get the backup file handle. Backup file name: \[.*\]--0
+rcfg_con:\S+ Member \[.*\] \S+ Inc \[.*\].--0
+rrecover:1:problem syncing mirrors \[.*\]--0
+rtnode:\S+ Problem \[.*\] reading the tnode \S+ Returning \[.*\]--0
+s_u_r_c_i: Connecting to node with host name \[.*\]--0
+s_u_r_c_i: Using \S+ type to connect--0
+s_update_remote_cache_int: Connecting to node \[.*\] at address \[.*\] for invaldiation.--0
+state change vers moved to \S+ for \S+ \S+ \S+--0
+tbd:--0
+th_calc_av: Configured Active Patch Level \[.*\]--0
+th_calc_av:5'.*': Return persisted \S+ \[.*\]--0
+th_calc_av:5.*--0
+th_connect_master:\S+ Master host name \[.*\]--0
+th_connect_master: Using \S+ type to connect--0
+th_init:\S+ \S+ \S+ Node num \[.*\]Remote Listening Port \[.*\] Cache invalidation port \[.*\]--0
+th_init: Decided to use \S+--0
+th_init: Successfully \S+ \S+ \S+ \[.*\].--0
+th_init: The Active Version of the cluster as seen by this node is \S+--0
+th_init:1.1: \S+ \S+ Node num \[.*\]CLSC Private \S+ or \S+ connect string \[.*\]--0
+th_invalidate_cache: listening to \S+ requests at portstr \[.*\]--0
+th_master:\S+ \S+ \S+ \S+ \S+ \S+ \S+ at incar \S+ Node Number \S+--0
+th_master: \S+ \S+ \S+ \S+ \S+--0
+th_master: Received group \S+ data event. Incarnation \[.*\]--0
+th_master: Unknow group event \(.*\)--0
+th_master:1.*--0
+th_master:19.1: Wake up upgrade thread--0
+th_master:2.*--0
+th_master:22.1: Wake up upgrade thread--0
+th_master_check_hashids_helper: \S+ dev \(.*\)--0
+th_master_check_hashids_helper: Comparing device hash IDs between local and master.--0
+th_master_prereg: Persistent upgrade state retrieved from \S+ is \[.*\].--0
+th_master_prereg: Persistent upgrade toversion buffer retrieved from \S+ is \[.*\]. Setting toversion to \[.*\].--0
+th_monitor_ocrlocalgrp: Reconfig event is received and there is no change in \S+ instance membership. Ignoring this event.--0
+th_not_master_change: Invoking master change callback. Master \[.*\] Inc \[.*\]--0
+th_not_master_change: Master change callback not registered for \[.*\]--0
+th_populate_rank: Rank of OCR:\[.*\]. Rank of \S+ Instance:\[.*\]. Rank of \S+ Standby:\[.*\]. \S+ on ASM:\[.*\]. \S+ mode:\[.*\]. My Rank:\[.*\]. Min Rank:\[.*\].--0
+th_reg_master_change: Master change callback registered. Client:\[.*\]--0
+th_reg_master_change: Notified master change--0
+th_select_chk_threads: All threads in use \[.*\]. Queue \[.*\].--0
+th_select_chk_threads: Spawn \[.*\] more threads.--0
+th_select_w_f_t:\S+ Failed to post container \[.*\]--0
+th_snap:8:failed \[.*\] in writing backupto location \[.*\]--0
+th_snap_local_spawn: Inside snap local spawn. host is \[.*\]--0
+th_update_rank: New rank:\[.*\] Prev Rank:\[.*\]. New minrank:\[.*\] Prev minrank:\[.*\].--0
+th_update_rank: Rank of OCR:\[.*\]. Rank of \S+ Instance:\[.*\]. Rank of \S+ Standby:\[.*\]. \S+ on ASM:\[.*\]. \S+ mode:\[.*\]. My Rank:\[.*\]. Min Rank:\[.*\].--0
+th_upgrade: Starting upgrade calculation--0
+th_upgrade:10.1 \S+ \[.*\]. State \[.*\]. Already upgraded.Updated global data to the crs version group. Return \[.*\]--0
+u_check_bkup: The backup file is \S+--0
+u_fill_errorbuf: Error Info \S+ \[.*\]--0
+u_generate_process_output: output of spawned process: .*--0
+u_masmd:\S+ \S+ succeeded \[.*\]. Return \[.*\]--0
+u_set_backuploc_perm: opening backuploc key failed '.*'--0
+u_set_comp_error: comptype '.*' \S+ error '.*'--0
+u_set_gbl_comp_error: comptype '.*' \S+ error '.*'--0
+value for key \S+ is \S+--0
+waiting for message '.*' to \S+ completed on server \S+ \S+--0

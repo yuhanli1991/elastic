@@ -1,0 +1,77 @@
+#!/bin/bash
+# Score log lines in snippet
+# arg1: logtype
+# arg2: host
+# arg3: index
+# arg4: from
+# arg5: to
+# arg6: score set
+
+usage() {
+	echo "Java version should be 1.8.x"
+	echo "USAGE: scorelog -t logtyp -h host -i index -s start_time -e end_time -n numbersOfScore"
+	echo "logtype: ocssd/gipcd/alert/crsd/ohasd_orarootagent_root"
+	exit 1
+}
+
+if [ -z $JAVA_HOME ]; then
+	echo "Please specify JAVA_HOME variable first!"
+	exit 1
+fi
+
+if [ -z $ELA_HOME ]; then
+	echo "Please specify ELA_HOME variable first!"
+	exit 1
+fi
+
+while getopts ":t:h:i:s:e:n:" o; do
+	case "${o}" in
+		t)
+			logType=${OPTARG}
+			;;
+		h)
+			host=${OPTARG}
+			;;
+		i)
+			index=${OPTARG}
+			;;
+		s)
+			start=${OPTARG}
+			;;
+		e)
+			end=${OPTARG}
+			;;
+		n)
+			score=${OPTARG}
+			;;
+		*)
+			usage
+			;;
+	esac
+done
+shift $((OPTIND-1))
+
+echo "Log type: $logType"
+echo "Host: $host"
+echo "Start time: $start"
+echo "End time: $end"
+echo "Score set: $score"
+
+if [ -z "${logType}" ] || [ -z "${start}" ] || [ -z "${end}" ] || [ -z "${score}" ]; then
+    usage
+fi
+
+logTemplate=$ELA_HOME/log/"$logType"Template.txt
+logTemplateScore=$ELA_HOME/log/"$logType"TemplateScore.txt
+
+JAVA_VERSION=`$JAVA_HOME/bin/java -version 2>&1 |awk 'NR==1{ gsub(/"/,""); print $3 }'`
+if [ `echo $JAVA_VERSION|cut -d'.' -f1-2` != 1.8 ]; then
+	echo "The java version is $JAVA_VERSION. 1.8.x java version is required."
+	exit 1;
+fi
+
+start="`echo $start|awk '{print $1}'`T`echo $start|awk '{print $2}'`Z"
+end="`echo $end|awk '{print $1}'`T`echo $end|awk '{print $2}'`Z"
+
+$JAVA_HOME/bin/java -cp $ELA_HOME/target/classes:$ELA_HOME/target/dependency/* elk.elastic.App $logTemplate $logTemplateScore $logType scorelog null "$start" "$end" $score $host $index
+

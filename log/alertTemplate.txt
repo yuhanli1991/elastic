@@ -1,0 +1,202 @@
+A Configuration change request completed successfully
+ACFS-9212:     Driver build version = \S+
+ACFS-9325:     Driver \S+ kernel version = \S+
+ACFS-9326:     Driver build number = \S+
+ACFS-9547:     Driver available build number = \S+
+ACFS-9548:     Driver available build version = \S+
+ACFS-9549:     Kernel and command versions.
+ADVM and \S+ driver media location is '.*'
+ADVM/ACFS distribution files found.
+ADVM/ACFS installation correctness verified.
+AFD distribution files found.
+AFD driver media location is '.*'
+AFD installation correctness verified.
+Aborted command '.*' for resource '.*'. Details at \(.*\) \{.*\} in \S+
+Additional information: \S+
+Agent ".*" timed out starting process ".*" for action ".*": details at ".*" in ".*"
+Agent '.*' disconnected from server. Details at \(.*\) \{.*\} in \S+
+Agent '.*' has exceeded maximum failures and has been disabled. Details at \(.*\) \{.*\} in /u01/app/crsusr/diag/crs/rws00fxw/crs/trace/ohasd.trc.
+Agent '.*' is unresponsive and will \S+ restarted. Details at \(.*\) \{.*\} in /u01/app/crsusr/diag/crs/rws00fxw/crs/trace/ohasd.trc.
+All \S+ locations are on \S+ disk groups \[.*\], and none of these disk groups are mounted. Details are at ".*" in ".*".
+An I/O error occurred for voting file: .YUHANDATA/RWS00FXWX/VOTINGFILE/vfile.258.946596309; details at \(.*\) in /u01/app/crsusr/diag/crs/rws00fxw/crs/trace/ocssd.trc.
+Beginning Oracle Grid Infrastructure configuration.
+Bug numbers:   NoTransactionInformation
+Build hash:    9256567290
+Build version: \S+
+CLSGN-0125: \S+ started on node \S+
+CLSGN-0148: \S+ stopped on node \S+
+CRS-1402 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+CRS-4000: Command \S+ failed, or completed with errors.
+CRS-4529: Cluster Synchronization Services is online
+CRS-4533: Event Manager is online
+CRS-4534: Cannot communicate with Event Manager
+CRS-4535: Cannot communicate with Cluster Ready Services
+CRS-4639: Could not contact Oracle High Availability Services
+CRS-8503 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+CRSD started on node \S+
+CSSD Reconfiguration complete. Active nodes are \S+ \S+ \S+ \S+ .
+CSSD Reconfiguration complete. Active nodes are \S+ \S+ \S+ .
+CSSD Reconfiguration complete. Active nodes are \S+ \S+ .
+CSSD Reconfiguration complete. Active nodes are \S+ .
+CSSD daemon is started in \S+ mode
+CSSD on node \S+ detected \S+ problem and started to shutdown.
+CSSD on node \S+ has been shut down.
+CSSD voting file is offline: \S+ details at \(.*\) in \S+
+CSSD voting file is online: \S+ details in \S+
+CVU found following errors with Clusterware setup \S+ \S+ \S+ \S+ \S+ is recommended to resolve to ".*" or more \S+ addresses, but \S+ ".*" resolves to only ".*"
+CVU found following errors with Clusterware setup \S+ \S+ \S+ \S+ configuration file ".*" is present on nodes ".*" on which \S+ daemon or service was not running
+CVU found following errors with Clusterware setup \S+ \S+ \S+ \S+ connectivity from node ".*": ".*" to node ".*": ".*" failed.
+CVU found following errors with Clusterware setup \S+ \S+ \S+ \S+ kernel parameter ".*" does not have expected \S+ value on node ".*" \[.*\].
+CVU found following errors with Clusterware setup \S+ \S+ \S+ An error occurred while establishing connection to database with user name ".*" and connect descriptor:
+CVU found following errors with Clusterware setup \S+ \S+ \S+ Command ".*" failed on node ".*" and produced the following output:
+CVU found following errors with Clusterware setup \S+ \S+ \S+ Core file name pattern is not same on all the nodes.
+CVU found following errors with Clusterware setup \S+ \S+ \S+ Failed to determine cluster node roles. Verification will proceed considering nodes ".*" as hub nodes.
+CVU found following errors with Clusterware setup \S+ \S+ \S+ Failed to execute the exectask command on node ".*"
+CVU found following errors with Clusterware setup \S+ \S+ \S+ No entry was found in the group database for the group name corresponding to the group-ID ".*" for file ".*" on node ".*"
+CVU found following errors with Clusterware setup \S+ \S+ \S+ The Oracle Clusterware is not healthy on node ".*"
+CVU found following errors with Clusterware setup \S+ \S+ \S+ The disk free space for file system path ".*" on node ".*" is below ".*" percent of total disk space. The required free space is ".*", the available free space is ".*" and the total disk size is ".*".
+CVU found following errors with Clusterware setup \S+ \S+ \S+ no response for name ".*" from the \S+ server ".*" specified in ".*"
+CVU found following errors with Clusterware setup \S+ \S+ \S+ slewing option ".*" not found on the \S+ daemon command line on nodes ".*"
+Cannot get GPnP profile. Error \S+ \(.*\).
+Cardinality violation detected on server '.*', resource '.*' is in unexpected state. Details at \(.*\) \{.*\} in /u01/app/crsusr/diag/crs/rws00fxw/crs/trace/crsd.trc.
+Check of resource ".*" failed: details at ".*" in ".*"
+Checking for existing \S+ installation.
+Checking for existing '.*' driver installation.
+Clean up of \S+ resources finished successfully.
+Cleaning resource '.*' failed as part of reboot-less node fencing
+Cluster Ready Service aborted due to Oracle Cluster Registry error .*
+Cluster Synchronization Service daemon \(.*\) \S+ not scheduled for \S+ msecs.
+Cluster Synchronization Services daemon \(.*\) is ready for operation.
+Clusterware has disabled an \S+ route associated with destination ".*" and interface ".*". For details, refer to ".*" in ".*".
+Command '.*' timed out waiting for response from the resource '.*'. Details at \(.*\) \{.*\} in \S+
+Commands:
+Connection refused
+Copying file '.*' to the path '.*'
+Creating module dependencies - this may take some time.
+Creating new log segment:
+Creating udev for \S+
+DIA-48001: internal error code, arguments: \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\]
+Detecting control device '.*'.
+EVMD aborted on node \S+ Error \[.*\]. Details in /u01/app/crsusr/diag/crs/rws1270364/crs/trace/evmd.trc.
+Error message: \S+ Error: \S+ Operation not permitted
+Errors in file \S+  \(.*\):
+Existing ADVM/ACFS installation detected.
+Failed to restart resource '.*'
+Fatal \S+ connect error \S+ connecting to:
+File system ".*" unmounted
+Found core filename pattern ".*" on nodes ".*".
+GNSD \S+ on node \S+
+GPNPD on node \S+ shut down.
+GPNPD started on node \S+
+HAIP failover due to network interface \S+ not functioning
+IO Error: The Network Adapter could not establish the connection
+Incident details in: \S+
+Installing requested \S+ software.
+Kernel:
+Lease acquisition failed for node \S+ because no voting file has been configured; Details at \(.*\) in \S+
+Lease acquisition for node \S+ number \S+ completed
+Liveness check failed for ".*"
+Loading '.*' driver.
+Loading installed \S+ drivers.
+Location of Oracle Home is '.*' as determined from the internal configuration data
+Maximum restart attempts reached for resource '.*'; will not restart.
+Network communication with node \S+ \(.*\) has been missing for \S+ of the timeout interval.  If this persists, removal of this node from cluster will occur in \S+ seconds
+Network communication with node \S+ \(.*\) missing for \S+ of timeout interval.  Removal of this node from cluster in \S+ seconds
+No I/O has completed after \S+ of the maximum interval. If this persists, voting file \S+ will \S+ considered not functional in \S+ milliseconds.
+Node \S+ is being evicted in cluster incarnation \S+ details at \(.*\) in /u01/app/crsusr/diag/crs/rws1270361/crs/trace/ocssd.trc.
+Node \S+ number \S+ was shut down
+Node down event reported for node '.*'.
+Non critical error \S+ caught while writing to trace file ".*"
+OKA is not supported on this operating system version: '.*'
+Oracle Clusterware \S+ process is starting with operating system process \S+ \S+
+Oracle Clusterware \S+ process with operating system process \S+ \S+ encountered internal error \S+
+Oracle Clusterware \S+ process with operating system process \S+ \S+ is ending with return value \S+
+Oracle Clusterware \S+ process with operating system process \S+ \S+ is exiting
+Oracle Clusterware Release \S+
+Oracle Clusterware process \S+ with operating system process \S+ \S+ experienced fatal signal or exception code \S+
+Oracle High Availability Service started on node \S+
+Oracle high availability service on peer nodes is reachable. Details at \(.*\) in /u01/app/crsusr/diag/crs/rws1270364/crs/trace/ohasd.trc.
+PRCI-1108 \S+ Failed to check \S+ running state for \S+ home /u01/app/gihome on node \S+
+PRCQ-1000 \S+ An error occurred while establishing connection to database with user name ".*" and connect descriptor:
+PRVF-4555 \S+ Node application ".*" does not exist on node ".*"
+PRVF-4556 \S+ Failed to check existence of node application ".*" on node ".*"
+PRVF-4759 \S+ '.*' execution failed on the node
+PRVF-5302 \S+ Failed to execute the exectask command on node ".*"
+PRVF-7590 \S+ ".*" is not running on node ".*"
+PRVG-0827 \S+ No entry was found in the group database for the group name corresponding to the group-ID ".*" for file ".*" on node ".*"
+PRVG-10048 \S+ Name ".*" was not resolved to an address of the specified type by name servers o".*".
+PRVG-1017 \S+ \S+ configuration file ".*" is present on nodes ".*" on which \S+ daemon or service was not running
+PRVG-1019 \S+ The \S+ configuration file ".*" does not exist on nodes ".*"
+PRVG-1024 \S+ The \S+ daemon or Service was not running on any of the cluster nodes.
+PRVG-1032 \S+ slewing option ".*" not found on the \S+ daemon command line on nodes ".*"
+PRVG-1036 \S+ \S+ daemon boot time configuration file ".*" does not have slewing option ".*" set on nodes ".*".
+PRVG-11067 \S+ \S+ connectivity from node ".*": ".*" to node ".*": ".*" failed.
+PRVG-11095 \S+ The \S+ system call ".*" failed with error ".*" while executing exectask on node ".*"
+PRVG-11368 \S+ \S+ \S+ is recommended to resolve to ".*" or more \S+ addresses, but \S+ ".*" resolves to only ".*"
+PRVG-1201 \S+ \S+ kernel parameter ".*" does not have expected configured value on node ".*" \[.*\].
+PRVG-1205 \S+ \S+ kernel parameter ".*" does not have expected current value on node ".*" \[.*\].
+PRVG-13620 \S+ Node application ".*" is offline on node ".*".
+PRVG-2034 \S+ Command ".*" executed on node ".*" exited with status value ".*" and gave the following output:
+PRVG-2043 \S+ Command ".*" failed on node ".*" and produced the following output:
+PRVG-2048 \S+ no response for name ".*" from the \S+ server ".*" specified in ".*"
+PRVG-6056 \S+ Insufficient \S+ instances found.  Expected \S+ but found \S+ on nodes ".*".
+Previous \S+ components successfully removed.
+Process ".*" spawned by agent ".*" for action ".*" failed: details at ".*" in ".*"
+Received state change for disabled resource '.*' from server '.*'.
+Removing previous \S+ installation.
+Resource '.*' failed to start automatically.
+Resource '.*' is in an unknown state.
+Resource state recovery not attempted for '.*' as its target state is \S+
+Server '.*' has been \S+ \S+ pool '.*'.
+Shutdown of Oracle High Availability Services-managed resources on '.*' has \S+
+Starting clean up of \S+ resources.
+Starting shutdown of Oracle High Availability Services-managed resources on '.*'
+TCP/IP \S+ Protocol Adapter for Linux: Version \S+ - \S+
+TNS for Linux: Version \S+ - \S+
+TNS-00524: Current operation is still in progress
+TNS-12541: TNS:no listener
+TNS-12564: TNS:connection refused
+The \S+ daemon is terminating due to \S+ fatal error; Details at \(.*\) in \S+
+The \S+ daemon is terminating due to \S+ fatal error; Details at \(.*\) in
+The \S+ daemon shutdown has completed
+The \S+ location  is inaccessible. Details in /u01/app/crsusr/diag/crs/rws00fxw/crs/trace/crsd.trc.
+The \S+ location .YUHANDATA/rws00fxwx/OCRFILE/registry.257.946596281 is inaccessible. Details in /u01/app/crsusr/diag/crs/rws00fxw/crs/trace/crsd.trc.
+The \S+ location in an \S+ disk group is inaccessible. Details in \S+
+The \S+ mirror location \S+ was removed.
+The \S+ service started on node \S+
+The \S+ was formatted using version \S+
+The Cluster Time Synchronization Service aborted on host \S+ Details at  in /u01/app/crsusr/diag/crs/rws1270364/crs/trace/octssd.trc.
+The Cluster Time Synchronization Service on host \S+ is \S+ \S+ \S+
+The Cluster Time Synchronization Service started on host \S+
+The Cluster Time Synchronization Service timed out on host \S+ Details in /u01/app/crsusr/diag/crs/rws1270362/crs/trace/octssd.trc.
+The OCR/OCR mirror location was replaced by \S+
+The Oracle Cluster Registry backup location \S+ is inaccessible from node \S+ Details in /u01/app/crsusr/diag/crs/rws00fxu/crs/trace/crsd.trc.
+The clean up of the \S+ resources failed.
+The new Cluster Time Synchronization Service reference node is host \S+
+The number of voting files available, \S+ is less than the minimum number of voting files required, \S+ resulting in \S+ termination to ensure data integrity; details at \(.*\) in \S+
+The number of voting files currently available \S+ has fallen to the minimum number of voting files required \S+ Further reduction in voting files will result in eviction and loss of functionality
+The number of voting files currently available \S+ has fallen to the minimum number of voting files required \S+
+The resource action ".*" encountered the following error:
+This node is unable to communicate with other nodes in the cluster and is going down to preserve cluster integrity; details at \(.*\) in /u01/app/crsusr/diag/crs/rws1270362/crs/trace/ocssd.trc.
+This node was evicted by node \S+ \S+ details at \(.*\) in /u01/app/crsusr/diag/crs/rws1270362/crs/trace/ocssd.trc.
+Time: \S+ \S+
+Tns error struct:
+Tracing not turned on.
+Unable to contact Oracle high availability service on peer nodes for cluster wide commands. Details at \(.*\) in /u01/app/crsusr/diag/crs/rws1270364/crs/trace/ohasd.trc.
+Unable to discover any voting files, retrying discovery in \S+ seconds; Details at \(.*\) in \S+
+Unable to failover resource '.*'.
+Unmounting file system ".*"
+VERSION \S+
+Validating \S+ installation files for operating system.
+Verifying \S+ \S+ setup.
+Verifying \S+ devices.
+Writing to the above trace file is disabled for now on...
+completed
+error in identifying file .*
+location: /etc/oracle/lastgasp has \S+ reboot advisory log files, \S+ were announced and \S+ errors occurred
+mDNS service stopping by request.
+ns \S+ err code: \S+
+nt \S+ err code: \S+
+reboot advisory message from host: \S+ component: \S+ with time stamp: \S+
+reboot advisory message text: Rebooting node due to connection problems with \S+
+updating file /etc/sysconfig/oracledrivers.conf

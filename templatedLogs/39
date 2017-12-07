@@ -35,8 +35,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in client-side pfile \S+ on machine \S+
 System parameters with non-default values:
@@ -149,14 +147,6 @@ LCK0 started with \S+ \S+ \S+
 NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
-SQL> \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP fg3  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP fg2  DISK '.*' \S+ \S+
-ASMCA ./
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -238,7 +228,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
@@ -284,15 +273,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
-SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP fg3  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP fg2  DISK '.*' \S+ \S+
-ASMCA ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to update diskgroup resource \S+ \(.*\)
 NOTE: Advanced to new \S+ format for group \S+
@@ -347,10 +327,8 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 ASMCMD ./ALTER \S+ \S+ \S+
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-DATA
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 ORA-15032: not all alterations performed
@@ -396,7 +374,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -440,8 +417,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -555,7 +530,6 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -602,7 +576,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 ORACLE_BASE value has been saved for future startups
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
@@ -620,12 +593,8 @@ NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 Reconfiguration \S+ \(.*\)
@@ -659,8 +628,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -692,7 +659,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -724,11 +690,7 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
-SQL> alter diskgroup \S+ \S+ directory '.*'
-SUCCESS: alter diskgroup \S+ \S+ \S+ '.*'
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
@@ -763,14 +725,6 @@ NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: client \S+ mounted group \S+ \(.*\)
-SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP ted1  DISK '.*' \S+ ted1  SIZE \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteq  QUORUM  FAILGROUP ted7  DISK '.*' \S+ ted7  SIZE \S+
-ATTRIBUTE .*
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -852,7 +806,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
@@ -898,19 +851,9 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: diskgroup resource \S+ is \S+
-SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP ted1  DISK '.*' \S+ ted1  SIZE \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteq  QUORUM  FAILGROUP ted7  DISK '.*' \S+ ted7  SIZE \S+
-ATTRIBUTE .*
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
 NOTE: Extended the Used Space Directory to thread \S+
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 NOTE: Physical metadata for diskgroup \S+ \(.*\) was replicated.
 NOTE: Creating voting files in diskgroup: \S+
 NOTE: Voting File refresh pending for group \S+ \(.*\)
@@ -984,7 +927,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Received dirty detach msg from inst \S+ for dom \S+
@@ -1012,7 +954,6 @@ freeing rdom \S+
 List of instances \(.*\) \S+
 My inst \S+ .*
 Dirty Detach Reconfiguration complete \(.*\)
-SQL> alter diskgroup \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -1058,9 +999,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
-SUCCESS: alter diskgroup \S+ \S+
-SQL> drop diskgroup \S+ including contents
 NOTE: diskgroup resource \S+ is \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -1091,7 +1029,6 @@ NOTE: erasing header on grp \S+ disk \S+
 NOTE: erasing header on grp \S+ disk \S+
 NOTE: erasing header on grp \S+ disk \S+
 NOTE: erasing header on grp \S+ disk \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
@@ -1101,16 +1038,7 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: diskgroup resource \S+ is \S+
-SUCCESS: drop diskgroup \S+ including contents
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
-SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP ted1  DISK '.*' \S+ ted1  SIZE \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteq  QUORUM  FAILGROUP ted7  DISK '.*' \S+ ted7  SIZE \S+
-ATTRIBUTE .*
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -1200,7 +1128,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
@@ -1249,19 +1176,9 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: diskgroup resource \S+ is \S+
-SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP ted1  DISK '.*' \S+ ted1  SIZE \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
-SITE siteq  QUORUM  FAILGROUP ted7  DISK '.*' \S+ ted7  SIZE \S+
-ATTRIBUTE .*
 NOTE: Physical metadata for diskgroup \S+ \(.*\) was replicated.
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 NOTE: Creating voting files in diskgroup: \S+
 NOTE: Voting File refresh pending for group \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
@@ -1357,7 +1274,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 Received detach msg from inst \S+ for dom \S+
 Reconfiguration \S+ \(.*\)
@@ -1409,7 +1325,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
@@ -1484,8 +1399,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -1600,11 +1513,9 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-VFDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-VFDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -1688,12 +1599,10 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to online diskgroup resource \S+ \(.*\)

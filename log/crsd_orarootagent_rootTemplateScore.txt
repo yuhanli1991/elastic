@@ -1,0 +1,296 @@
+AGFW assuming \S+ entry point defined in script.--0
+Aborted cmd entrypoint returned \S+ check for resource: \S+ \S+ \S+--0
+AcfsAgent::Constructor: Entered.--0
+ActiveAddr::Published \S+ new address \S+ \s*\S+ \S+ \S+ \S+ \S+ \S+ \S+--0
+Added new resource: \S+ \S+ \S+ to the agfw--0
+Added new restype: \S+--0
+Adding \S+ on \S+--0
+AddressType = \S+--0
+Agent Framework started successfully--0
+Agent do not have any action entries defined for type: \S+--0
+Agent does not have the type: \S+--0
+Agent framework initialized, Process Id = \S+--0
+Agent is exiting with exit code: \S+--0
+Agent is started with userid: root , expected user: root--0
+Agent received the message: .* \S+ \S+--0
+Agent sending \S+ \S+ \S+ .* \S+ \S+--0
+Agent sending reply for: .* \S+ \S+--0
+Agent::Agent \S+ \S+ \S+--0
+Agent::commonCheck check failed \S+ \S+--4
+Agent::doStateDump  last call info:--0
+Agent::doStateDump Default Agent Dump--0
+Agent::flagUsrOraOpiIsSet\(.*\) reason user.tha--0
+Agent::getDeploymentPlatformId return raconpremise--0
+Agent::getDeploymentPlatformId return--0
+Agent::getNodeName getCSSAttribute--0
+Agent::getResAgent \S+ \S+--0
+Agent::setResType setResType \S+--0
+Agent::valueOfAttribIs attrib: \S+ compare value: \S+ attribute value: \S+--0
+Agent::valueOfAttribIs attrib: \S+ compare value: tha attribute value:--0
+Agent::valueOfAttribIs returns \S+--0
+AgentException caught in VipAgent::check\(.*\)--0
+Agfw calling user exitCB, will exit on return--0
+Agfw engine module has enabled...--0
+Argument \S+ is: \S+--0
+Argument count \(.*\) for this daemon is \S+--0
+Arp::sCreateSocket .*--0
+Arp::sFlushArpCache .*--0
+Arp::sSend:  sending type \S+--0
+Arp::sUnArp .*--0
+BaseFS::Constructor: Entered.--0
+BaseFSAgent:: Set Env Vars: \S+--0
+BaseFSAgent::check Resource state changed, logging relevant information--0
+BaseFSAgent::check State label:'.*'--0
+BaseFSAgent::check admin unmounted '.*'--0
+BaseFSAgent::check entered: \S+ volumeDevice=/dev/asm/ghchkpt-332; mountPath=/mnt/oracle/rhpimages/chkbase; \S+--0
+BaseFSAgent::check returning: sid=.ASM1; volumeDevice=/dev/asm/ghchkpt-332; mountPath=/mnt/oracle/rhpimages/chkbase; \S+ \S+ \S+ \S+--0
+BaseFSAgent::check returning: sid=; volumeDevice=/dev/asm/ghchkpt-332; mountPath=/mnt/oracle/rhpimages/chkbase; \S+ mountState=0; availState=-1; \S+ intendedState=ONLINE--0
+BaseFSAgent::getAgent: \S+ \S+--0
+BaseFSAgent::getAgent: type=acfs--0
+BaseFSAgent::mount command /bin/mount -t acfs /dev/asm/ghchkpt-332 ".*"--0
+BaseFSAgent::start entered: sid=.ASM1; volumeDevice=/dev/asm/ghchkpt-332; mountPath=/mnt/oracle/rhpimages/chkbase--0
+BaseFSAgent::start maxWaitingTime: \S+ seconds--0
+BaseFSAgent::start returning: sid=.ASM1; volumeDevice=/dev/asm/ghchkpt-332; mountPath=/mnt/oracle/rhpimages/chkbase--0
+BaseFSAgent::stop \S+ sid=.ASM1; volumeDevice=/dev/asm/ghchkpt-332; mountPath=/mnt/oracle/rhpimages/chkbase--0
+Calling targetcheck \S+--0
+Check \S+--0
+Check command exceedes time limit, but thread limit not reached--0
+Checking if \S+ Interface is fine, \S+--0
+Clean dhcp vip on \S+--0
+Cleared pPEMsg in \S+--0
+Command executor, maximum threads = \S+--0
+Command: \S+ for resource: \S+ \S+ \S+ completed with status: \S+--0
+Command: check for resource: \S+ \S+ \S+ has been aborted, updating resource state/label--0
+Command: check for resource: \S+ \S+ \S+ has excedeed the maximum allowed time limit!--0
+Connected to server running as user: root--0
+Connecting to \S+--0
+ConnectionPoolRoot::initMutex--0
+Could not find any base type entry points for type: \S+ Assuming script entry points.--0
+Could not find any base type named: \S+ type: \S+--0
+Could not find the action entry: \S+--0
+Created alert \S+ \(.*\) \S+  Aborting the command: check for resource: \S+ \S+ \S+--0
+Created alert \S+ \(.*\) \S+  Disconnected from server, Agent is shutting down.--0
+CrsCmd::stat3 \S+ \S+ TARGET:ONLINE--0
+Deleting the mount thread--0
+Deleting the resource: \S+ \S+ \S+--0
+DerivedAttrMgr::getDerivedAttrMgr - no derived attributes are defined for resType \S+--0
+Disconnected from \S+ process: \{.*\}--0
+Error: gipcWait for gipcConnect - \S+ \S+--0
+Failed to check \S+ on \S+--0
+Failed to send dynamic control message to connection \[.*\]\[.*\]--4
+Flushing neighbours \S+ Cache--0
+GHAgent::check .*--0
+GHAgent::check with \S+ and ret = \S+--0
+GHAgent::start .*--0
+Generating new Tint for unplanned state change. Original Tint: \{.*\}--0
+HostName \S+ translated to \S+--0
+ICMP Ping from \S+ to \S+--0
+ID = \[.*\] Intermediate Timeout = \[.*\]--0
+IncarnationTS = \S+--0
+Inited lsf context \S+--0
+Initing \S+ Framework messaging--0
+Interface Name = \S+--0
+InterfaceName = \S+--0
+InterfaceNameList = \S+--0
+Ipc: Starting send thread--0
+Ipc: sendWork thread started.--0
+IpcC: \S+ Client thread started listening--0
+IpcC: \S+ client connection \S+ to member \S+ has been removed--0
+IpcC: Member data received--0
+IpcC: Received member number of \S+--0
+Logging level for Module: \S+ \s*\S+--0
+M2M is now powered by \S+ doWork\(.*\) thread.--0
+M2M is starting...--0
+Module Enabling is complete--0
+Mount point '.*' unmounted.--0
+NetInterface::NetInterface .*--0
+NetInterface::sStopIp .*--0
+NetworkAgent::init enter .*--0
+NetworkAgent::init exit, \S+ \S+--0
+NetworkAuto = static--0
+NetworkMask = \S+--0
+New \S+ .* username=root--0
+New Framework state: \S+--0
+New process connected to us ID:\{.*\} \S+--0
+Ocr Context init default level \S+--0
+Oracle Database \S+ Clusterware Release \S+ - Production Copyright \S+ \S+ Oracle. All rights reserved.--0
+Preparing \S+ command for: \S+ \S+ \S+--0
+Primary \S+ = \S+--0
+Processing aborted reply \S+ check for resource: \S+ \S+ \S+--0
+Removing \S+ Member:\{.*\}--0
+Retrieved  GNS base domain:--0
+Return code is \S+--0
+Start \S+--0
+Started implicit monitor for \[.*\] \S+ \S+--0
+Starting offline monitor--0
+Starting thread model named: \S+--0
+Static Version \S+--0
+Stopping ip '.*', inf '.*', mask '.*'--0
+SubNet Number = \S+--0
+Succeed to bind \S+--0
+Switching \S+ monitor to \S+ one--0
+TM \[.*\] is changing desired thread # to \S+ Current # is \S+--0
+Thread:\[.*\] Skipping Agent Initiated \S+ check action--0
+Thread:\[.*\] Thread exiting--0
+Thread:\[.*\] Thread stop:thread acquire \S+ \S+--0
+Thread:\[.*\] Thread stop:thread sltstjn--0
+Thread:\[.*\] Thread::start .*--0
+Thread:\[.*\] Thread::start spawn \S+ \S+--0
+Thread:\[.*\] Thread::start spawned release \S+ .--0
+Thread:\[.*\] Thread::start thread spawned \S+--0
+Thread:\[.*\] isFinished set to true--0
+Thread:\[.*\] isRunning is reset to false here--0
+Thread:\[.*\] stop .*--0
+Thread:\[.*\] stop release \S+ \S+--0
+Thread:\[.*\] thread constructor exit \S+ \S+ \S+ \S+ \S+ \S+--0
+Thread:\[.*\] thread constructor exit \S+ \S+ \S+ \S+ \S+--0
+Thread::start .*--0
+Thread::start spawn \S+ \S+--0
+Thread::start spawned release \S+ .--0
+Thread::start thread spawned \S+--0
+Thread:MountFSThread MountFSThread::run\(.*\) Mount Succeeded--0
+Thread:MountFSThread Thread stop:loopcount:59 \S+--0
+Thread:MountFSThread Thread stop:thread acquire \S+ \S+--0
+Thread:MountFSThread Thread stop:thread sltstjn--0
+Thread:MountFSThread isFinished set to true--0
+Thread:MountFSThread isRunning is reset to false here--0
+Thread:MountFSThread stop .*--0
+Thread:MountFSThread stop release \S+ .--0
+Thread:MountFSThread thread constructor exit \S+ \S+ \S+ \S+ \S+ \S+--0
+Thread:MountFSThread thread destructor entry .*--0
+Thread:MountFSThread thread destructor m_pThnd:\(.*\) exit .--0
+Thread:NetworkAgentCssIPSECGroupThread thread constructor exit \S+ \S+ \S+ \S+ \S+--0
+Thread:NetworkMonitorThread thread constructor exit \S+ \S+ \S+ \S+ \S+--0
+Thread:OcrCreateKeyValueThread\[.*\] Thread::start .*--0
+Thread:OcrCreateKeyValueThread\[.*\] Thread::start spawn \S+ \S+--0
+Thread:OcrCreateKeyValueThread\[.*\] Thread::start spawned release \S+ .--0
+Thread:OcrCreateKeyValueThread\[.*\] Thread::start thread spawned \S+--0
+Thread:OcrCreateKeyValueThread\[.*\] isFinished set to true--0
+Thread:OcrCreateKeyValueThread\[.*\] isRunning is reset to false here--0
+Thread:OcrCreateKeyValueThread\[.*\] thread constructor exit \S+ \S+ \S+ \S+ \S+ \S+--0
+Thread:OcrCreateKeyValueThread\[.*\] thread constructor exit \S+ \S+ \S+ \S+ \S+--0
+Thread:ReconnectingSubscribers  run .*--0
+Thread:ReconnectingSubscribers  thread constructor exit \S+ \S+ \S+ \S+ \S+ \S+--0
+Thread:TunnelThread thed:TunnelThreadeead constructor exit \S+ \S+ \S+ \S+ \S+ \S+--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ \S+ .*--5
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ \S+--6
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:\(.*\) Agent::commonCheck check failed \S+ \S+--4
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::Agent \S+ \S+ \S+--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::Agent refreshAttr--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::commonCheck \S+ .*--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::commonCheck exit \S+ .--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::commonCheck notifyObservers--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Calling ioctl for disabling volume--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Calling ioctl to check if volume is enabled--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:NetworkAgent::check Vendor Flag \S+--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:NetworkAgent::createVipResourceIfRequired.--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:VipAgent::init \S+ \S+ = \S+--0
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:--0
+Tints initialized with nodeId: \S+ procId: \S+--0
+Trace file \S+--0
+TunnelThread::generateIPCAddr generated gipc addr = \S+--0
+Unarp \S+ Cache--0
+Unlocking cmdQ after check abort--0
+Unmounting mount path /mnt/oracle/rhpimages/chkbase--0
+UsmUtils::execCmd: cmd=/usr/sbin/exportfs \S+--0
+UsmUtilsFS::realpath=/mnt/oracle/rhpimages/chkbase.--0
+Utils::getOracleHomeAttrib \S+--0
+Utils::getOracleHomeAttrib getEnvVar \S+--0
+Utils::getResAttrib \S+ \S+ exit--0
+Utils::getResAttrib entry \S+ \S+ \S+--0
+Utils::getResAttrib: attribname \S+ value  len \S+--0
+Utils::getResAttrib: attribname \S+ value true len \S+--0
+Utils::setResAttrib \S+ attr \S+ value \S+ retCode \S+--0
+Utils::setResAttrib \S+ attr \S+ value  retCode \S+--0
+Utils::setResAttrib calling \S+ attr \S+ value \S+--0
+Utils::setResAttrib cmdid \S+ checktype \S+--0
+Utils::setResAttrib modifyResource attr \S+ value--0
+Utils:execCmd action = \S+ flags = \S+ ohome = \(.*\) cmdname = ghappctl.--0
+Utils:execCmd action = \S+ flags = \S+ ohome =  cmdname = \S+--0
+Utils:execCmd scls_process_join\(.*\) uret \S+--0
+VendorType=0--0
+VipActions::startIp .*--0
+VipActions::stopIp .*--0
+VipAgent: \S+ = \S+--0
+VipAgent: hostName \S+ is not in \S+--0
+VipAgent::check Network check indicated \S+ \S+--0
+VipAgent::checkIp returned false--0
+VipAgent::init \S+ \S+ = \S+--0
+VipAgent::sendFail2Srv .*--0
+VipAgent::startOrphanSrv .*--0
+VipAgent::stop\(.*\) called--0
+VipAgent:getConfigVipAddr Current State  sv4: \S+ dv4 \S+  sv6 \S+  dv6 \S+  USR_ORA_AUTO \S+ static \S+ \S+ \S+--0
+VolumeAgent::Constructor: Entered. \S+--0
+VolumeAgent::check Resource state changed.Previous: '.*' New: '.*'--0
+VolumeAgent::check: Entered. \S+--0
+VolumeAgent::check: Returning. \S+ volumeDevice=/dev/asm/ghchkpt-332; volStatus=; \S+ \S+ \S+ \S+--0
+VolumeAgent::disableVolume: \S+--0
+VolumeAgent::enableVolume: \S+--0
+VolumeAgent::fillAddVol \S+ \S+--0
+VolumeAgent::getAgent: Entered. \S+ resVersion=12.2.0.1.0--0
+VolumeAgent::ioctl=NOTFOUND--0
+VolumeAgent::ioctl=SUCCESS--0
+VolumeAgent::msg.dgName=YUHANMGMT--0
+VolumeAgent::msg.volName=GHCHKPT--0
+VolumeAgent::start: \S+--0
+VolumeAgent::start: transparent ha exit .--0
+VolumeAgent::stop: \S+--0
+Worker thread is exiting in \S+ \[.*\] to meet the desired count of \S+ New count is \S+--0
+Worker::schedule adding worker '.*' to thread '.*'--0
+Worker::schedule thread '.*' not already created. Creating--0
+WorkerThread::addWorker starting self--0
+WorkerThread::addWorker total workers: \S+--0
+WorkerThread::addWorker waiting for thread to start--0
+adding state dumper of \S+--0
+clean .*--0
+clsce_subscribe \S+ .* \S+ \S+ \S+--0
+clsdm select on--0
+clsgpnp_Init: \S+ hash type in context is \S+--0
+clsgpnp_getCachedProfileEx: \[.*\] Result: \(.*\) \S+ \(.*\)Can.* get offline GPnP service profile: local gpnpd is up and running. Use getProfile instead.--0
+clsgpnp_getCachedProfileEx: \[.*\] Result: \(.*\) \S+ \(.*\)Failed to get offline GPnP service profile.--0
+clsmdns-mDNS_StartExit: mDNSPlatformRawTime went backwards by \S+ ticks; setting correction factor to \S+--0
+clsnUtils::setResAttrib nonPerX current value \S+ value \S+--0
+clsnUtils::setResAttrib nonPerX current value \S+ value--0
+clsn_agent::clean .*--0
+clsn_agent::modify .*--0
+clsn_agent::start .*--0
+clsn_agent::stop .*--0
+clsns_SetTraceLevel:trace level set to \S+--0
+clsssinit: initialized context: \(.*\) flags \S+--0
+clsssterm: terminating context \(.*\)--0
+clsvactversion:\S+ Retrieving Active Version from local storage.--0
+config version updated to \S+ \S+ for \S+ \S+ \S+--0
+dynamic component \[.*\] mapped to \[.*\]--0
+execCmd ret = \S+--0
+getAttrs - NetworkAgent is not initialized--0
+getAttrs - UserErrorException occured.Details: \S+ Expected resource \S+ does not exist in agent process--0
+getAttrs .*--0
+getUserPerms entered. crsAcl=owner:root:rwx,pgrp:root:r-x,other::r--,user:crsusr:r-x, oracleHome=/u01/app/12.2.0.1/grid--0
+getUserPerms: Returning: \S+ \S+ \S+ \S+--0
+gipcInternalSend: connection not valid for send operation endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)--0
+gipcSendF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ cookie \(.*\), flags \S+--4
+gipcWait failed.--0
+gipcWait gets wrong msg from connection \[.*\]\[.*\] with type gipcreqtypeDisconnect--0
+ifname=eth0--0
+main::clsgnctrCreateReceivePacket:  connection version: \S+ \(.*\)--0
+main::clsgnctrGetProtocol_Version: got connection version: \S+ \(.*\) from \S+ instance.--0
+main::clsgnctrInitialize: active version ".*" \(.*\) using connection version \S+ \(.*\)--0
+main::clsns_Send:#0 sending \S+ bytes from \S+ to udp://10.208.150.141:53--0
+main::clsns_Send:send succeeded.--0
+main::clsns_SetTraceLevel:trace level set to \S+--0
+numThreads = 9,maxThreads = \S+--0
+ora\S+ \S+ \S+ marked as deleted.--0
+ora\S+ \S+ \S+ state changed from: \S+ to: \S+--0
+ora\S+ \S+ \S+ state details has changed from: \S+ \S+ \S+ \S+ \S+ \S+ \S+ \S+--0
+ora\S+ \S+ \S+ state details has changed from:  to: \S+ \S+ \S+--0
+ora\S+ \S+ \S+ state details has changed from:  to: \S+ \S+--0
+ora\S+ \S+ \S+ state details has changed from:  to: \S+--0
+ora\S+ \S+ \S+ state details has changed from: volume /mnt/oracle/rhpimages/chkbase offline to: mounted on /mnt/oracle/rhpimages/chkbase--0
+ora\S+ \S+ \S+ would \S+ continued to monitored!--0
+returned from user exitCB, exiting--0
+sclsiaddaddrs returned--0
+sclsideladdrs returned--0
+subnetmask=255.255.248.0--0
+subnetnumber=10.208.144.0--0
+targetcheck \S+ returned--0
+targetcheck::Initial check target check \S+--0

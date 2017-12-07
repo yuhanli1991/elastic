@@ -23,8 +23,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -140,11 +138,9 @@ LCK0 started with \S+ \S+ \S+
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-VFDG
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-VFDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -236,7 +232,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -249,7 +244,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 WARNING: failed to online diskgroup resource \S+ \(.*\)
 WARNING: failed to online diskgroup resource \S+ \(.*\)
@@ -269,14 +263,10 @@ NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -585,13 +575,11 @@ running stat on \S+
 running stat on \S+
 running stat on \S+
 running stat on \S+
-SQL> alter diskgroup \S+ online disk \S+ force
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: initiating resync of disk group \S+ disks
-TED1 \(.*\)
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -688,7 +676,6 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -722,7 +709,6 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: \S+ update grp = \S+ completed successfully
 NOTE: Voting File refresh pending for group \S+ \(.*\)
-SUCCESS: alter diskgroup \S+ online disk \S+ force
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -767,7 +753,6 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: reset timers for disk: \S+
 NOTE: completed online of disk group \S+ disks
-TED1 \(.*\)
 NOTE: stopping process \S+
 NOTE: stopping process \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
@@ -778,22 +763,18 @@ NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: Starting expel slave for group \S+ \(.*\)
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
-SUCCESS: rebalance completed for group \S+ \(.*\)
 NOTE: membership refresh pending for group \S+ \(.*\)
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-SQL> alter diskgroup \S+ online disk \S+ force
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: initiating resync of disk group \S+ disks
-TED4 \(.*\)
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
@@ -861,7 +842,6 @@ GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -889,7 +869,6 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: \S+ update grp = \S+ completed successfully
 NOTE: Voting File refresh pending for group \S+ \(.*\)
-SUCCESS: alter diskgroup \S+ online disk \S+ force
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -909,12 +888,10 @@ NOTE: \S+ on disk \S+ \(.*\) relocated at fcn \S+ \S+ \S+ -> \S+ \S+
 NOTE: \S+ fcn on disk \S+ synced at fcn \S+
 NOTE: \S+ fcn on disk \S+ synced at fcn \S+
 NOTE: \S+ fcn on disk \S+ synced at fcn \S+
-SQL> alter diskgroup \S+ online disk \S+ force
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: initiating resync of disk group \S+ disks
-TED5 \(.*\)
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -971,7 +948,6 @@ NOTE: Successful voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -985,7 +961,6 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: \S+ update grp = \S+ completed successfully
 NOTE: Voting File refresh pending for group \S+ \(.*\)
-SUCCESS: alter diskgroup \S+ online disk \S+ force
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -1005,11 +980,9 @@ NOTE: \S+ on disk \S+ \(.*\) relocated at fcn \S+ \S+ \S+ -> \S+ \S+
 NOTE: \S+ fcn on disk \S+ synced at fcn \S+
 NOTE: \S+ fcn on disk \S+ synced at fcn \S+
 NOTE: \S+ fcn on disk \S+ synced at fcn \S+
-SQL> alter diskgroup \S+ online disk \S+ force
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: initiating resync of disk group \S+ disks
-TED6 \(.*\)
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -1049,7 +1022,6 @@ NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 NOTE: \S+ update grp = \S+ completed successfully
@@ -1057,7 +1029,6 @@ NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ manda
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
 NOTE: \S+ update grp = \S+ completed successfully
 NOTE: Voting File refresh pending for group \S+ \(.*\)
-SUCCESS: alter diskgroup \S+ online disk \S+ force
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -1088,9 +1059,6 @@ NOTE: reset timers for disk: \S+
 NOTE: reset timers for disk: \S+
 NOTE: reset timers for disk: \S+
 NOTE: completed online of disk group \S+ disks
-TED4 \(.*\)
-TED5 \(.*\)
-TED6 \(.*\)
 NOTE: stopping process \S+
 NOTE: stopping process \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
@@ -1101,10 +1069,8 @@ NOTE: Successful voting file relocation on diskgroup \S+
 NOTE: Starting expel slave for group \S+ \(.*\)
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
-SUCCESS: rebalance completed for group \S+ \(.*\)
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: cleaning up empty system-created directory '.*'
@@ -4048,10 +4014,7 @@ running stat on \S+
 running stat on \S+
 running stat on \S+
 running stat on \S+
-SQL> \S+ \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 ERROR: \S+ \S+ tst \S+ \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 ORA-15018: diskgroup cannot \S+ created
 ORA-15031: disk specification '.*' matches no disks
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
@@ -8073,12 +8036,9 @@ running stat on \S+
 running stat on \S+
 running stat on \S+
 running stat on \S+
-SQL> \S+ \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 ORA-15018: diskgroup cannot \S+ created
 ORA-15031: disk specification '.*' matches no disks
 ERROR: \S+ \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 ERROR: diskgroup \S+ was not \S+
 running stat on \S+
@@ -13377,17 +13337,14 @@ WARNING: Oracle executable binary mismatch detected.
 Binary of new process does not match binary which started instance
 issue alter system set ".*" = true to disable these messages
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec

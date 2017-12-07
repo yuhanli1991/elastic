@@ -1,0 +1,611 @@
+ACFS-9154: Loading '.*' driver.
+ACFS-9156: Detecting control device '.*'.
+ACFS-9308: Loading installed ADVM/ACFS drivers.
+ACFS-9322: completed
+ACFS-9327: Verifying ADVM/ACFS devices.
+ACFS-9391: Checking for existing ADVM/ACFS installation.
+ACFS-9392: Validating ADVM/ACFS installation files for operating system.
+ACFS-9393: Verifying \S+ Administrator setup.
+ARG1 = , \S+ = , \S+ = , \S+ = , \S+ = , \S+ =
+ARG1 = update, \S+ = /dev/xvd., \S+ = , \S+ = , \S+ = , \S+ = \S+
+Action entry point of \S+ Action \S+
+Active Version: \S+
+Added new resource: \S+ \S+ \S+ to the agfw
+Added new restype: \S+
+Adding \S+ \S+ \S+
+Agent Framework started successfully
+Agent framework initialized, Process Id = \S+
+Agent is exiting \(.*\)
+Agent is exiting with exit code: \S+
+Agent is started with userid: root , expected user: root
+Agent received the message: .* \S+ \S+
+Agent sending \S+ \S+ \S+ .* \S+ \S+
+Agent sending reply for: .* \S+ \S+
+Agent::Agent \S+ \S+ \S+
+Agent::commonAbort Exception LockAcquireTimeoutException
+Agent::commonCheck check failed \S+ \S+
+Agent::doStateDump  last call info:
+Agent::doStateDump Default Agent Dump
+Agent::getAgent for \S+ = \S+
+Agent::getResAgent \S+ \S+
+Agent::setResType setResType \S+
+Agfw calling user exitCB, will exit on return
+Agfw engine module has enabled...
+Arg Value = \S+
+Argument \S+ is: \S+
+Argument count \(.*\) for this daemon is \S+
+Arp::sAnnounce .*
+Arp::sCreateSocket .*
+Arp::sFlushArpCache .*
+Arp::sProbe .*
+Arp::sSend:  sending type \S+
+Arp::sUnArp .*
+Assigned \S+ \s*\S* \S+ \S+ \S+
+Assigned \S+ post MainT on interface \S+
+Attaching to process \S+
+Attr = \S+ Value = \S+
+Attr = \S+ Value =
+CHECK action in progress on \S+ \S+ 1,queuing \S+ more
+CLSDM Based stop action
+CRSD Deep Check exit
+CRSD Deep Check
+CSSD \S+
+CTSS is in partial
+Cancelled timer for \[.*\]
+Check = \S+
+Check action requested by agent entry point for \S+
+Check return = \S+ state detail = \S+
+Check: \S+
+Check:  restart HaThreads
+Clean up done!
+Cleared pPEMsg in \S+
+ClsdmClient::sendMessage \S+ Error =
+ClsdmClient::sendMessage \S+ error \S+ ecode:-10 errbuf:CRS-02004: error \S+ encountered when sending messages to
+ClsdmClient::sendMessage \S+ error \S+ ecode:-7 errbuf:
+Command executor, maximum threads = \S+
+Command: \S+ for resource: \S+ \S+ \S+ completed with status: \S+
+Command: check for resource: \S+ \S+ \S+ has been aborted, updating resource state/label
+Completed \S+ \S+ assignment, start complete
+Completed Shutdown request; rc = \S+
+Connected to server running as user: root
+Connecting to \S+
+ConnectionPoolRoot::initMutex
+Created alert \S+ \(.*\) \S+  Aborting the command: check for resource: \S+ \S+ \S+
+Created alert \S+ \(.*\) \S+  Disconnected from server, Agent is shutting down.
+Creating \S+ Logging temporary directory: '.*'
+CrsAgent::CrsStopAction .*
+CrsAgent::CrsStopAction Calling DaemonAgent::check
+CrsAgent::CrsStopCleanAction .*
+CrsAgent::CrsStopCleanAction Calling DaemonAgent::check
+CrsAgent::isUIServerFlagCheckRequired \S+
+CrsAgent::isUIServerFlagCheckRequired returns  1
+Css::Css Error in constructor. All subsequent functions will fail.
+Css::Css clsssinit\(.*\) error, rc = \S+
+Css::getCssGrpPubData \S+ clssgsgrppubdata returned \[.*\]
+CssEventThread:  starting
+CssEventThread: cleanup done
+CssGroup::regis registration of \S+ \S+ \S+ \S+ succeeded
+CssHubEventThread:  starting
+CssRimEventThread: starting, grp \S+
+DaemonAgent::check \S+ \S+ \S+
+DaemonAgent::check returned \S+
+DaemonAgent::clsdmAndPidChecks \S+ adjusted \S+
+DaemonAgent::clsdmCheck \S+ sendMessage excp:CRS-02004: error \S+ encountered when sending messages to
+DaemonAgent::clsdmCheck \S+ sendMessage excp:
+DaemonAgent::generateFilePath \S+ entry
+DaemonAgent::generateFilePathFromPname returns \S+
+DaemonAgent::start \S+ \S+ .*
+DaemonAgent::start \S+ clsdmCheck \S+ returnbuf \S+
+DaemonAgent::updatePidCache \S+ \S+ from \S+
+DaemonAgent::updatePidCache \S+ Generated \S+ \S+ using legacy location
+DaemonAgent::updatePidCache \S+ entry
+DeepCheck:  no interface found \S+
+DeepCheck:  should \S+ managing \S+ nics
+Deleting the \S+ configuration files in /etc/samba/acfs/
+Deleting the resource: \S+ \S+ \S+
+DerivedAttrMgr::getDerivedAttrMgr - no derived attributes are defined for resType \S+
+Disconnected from OHASD:rws00fxu process: \{.*\}
+DiskmonAgent::DiskmonAgent .*
+DiskmonAgent::DiskmonAgent diskmon is disabled
+DiskmonAgent::check .*
+DiskmonAgent::check .- \S+
+DiskmonAgent::start .*
+DriverAfdAgent::AFD \S+ \S+ done
+DriverAfdAgent::action .*
+DriverAfdAgent::action keyword = -afdds
+DriverAfdAgent::action keyword =
+DriverAfdAgent::check Driver \S+ is loaded
+DriverAfdAgent::scandisk \S+ devices scan done
+DriversAcfsAgent:: Completed initializing resource entry points
+DriversAcfsAgent:: Initializing resource entry points
+DriversAcfsAgent::Checking \S+ Logging
+Error getting Css Misscount value
+Error in getting Key \S+ in \S+
+Error: gipcWait for gipcConnect - \S+ \S+
+Failed to check \S+ on \S+
+Failed to send dynamic control message to connection \[.*\]\[.*\]
+Flushing neighbours \S+ Cache
+Found existing ip \S+ for interface \S+ transitioning to \S+ state
+Generating new Tint for unplanned state change. Original Tint: \{.*\}
+HAIP enable is \S+
+HAIP reset on new modified startup, ipSize \S+ != numInf \S+
+HAIP sets enable into cssgrp data, \S+
+HAIP to set enable into cssgrp data, \S+
+HAIP: \S+ \S+ \S+
+HAIP: \S+ \S+ is in the working list
+HAIP: \S+ \S+ is with \S+ \S+
+HAIP: \S+ \S+
+HAIP: \S+ to Update member info HAIP-RM1;10.196.0.0#0;10.196.16.0#0
+HAIP:  CleanDeadThreads '.*'  inf '.*'
+HAIP:  CleanDeadThreads entry \S+
+HAIP:  CleanDeadThreads entry
+HAIP:  starting inf '.*', suggestedIp '.*', assignedIp '.*', subnetNum \S+
+HAIP:  to Update member info HAIP1;10.196.0.0#0;10.196.16.0#0
+HAIP: CssEventThread setGrpData, \S+
+HAIP: CssEventThread setPubGrpData,2-2
+HAIP: HubMbrData cssInfo \S+
+HAIP: Updating \S+ \s*\S+ \S+
+HAIP: address type \S+ \S+
+HAIP: address type \S+ subnet \S+
+HAIP: assigned ip '.*'
+HAIP: base \S+ len \S+
+HAIP: check ip '.*'
+HAIP: checkINF  haips
+HAIP: clsinet numInf-- \S+
+HAIP: configured to use \S+ interfaces
+HAIP: cssgrp PubData empty
+HAIP: current  cssData '.*'
+HAIP: empty \S+
+HAIP: enable \S+  css group data \S+
+HAIP: enqueue cssRimGrpData \S+ \S+
+HAIP: enter UpdatecssMbrdata
+HAIP: event \S+
+HAIP: getSubnetRange \S+ \S+ \S+ \S+ \S+ \S+  32768, \S+
+HAIP: grpdata to \S+ len
+HAIP: hag size \S+
+HAIP: hubmbrdata HAIP2;10.196.0.0#0%1;10.196.16.0#0%1;HAIP-RM1;10.196.0.0#0;10.196.16.0#0 before queuing
+HAIP: hubmbrdata HAIP2;10.196.0.0#0%1;10.196.16.0#0%1
+HAIP: i \S+ haip \S+ hag size \S+ ip \S+
+HAIP: init CssEventThread
+HAIP: initializing to \S+ interfaces, \S+
+HAIP: ipNum \S+ num \S+
+HAIP: mInfList size \S+ cssdata sz \S+
+HAIP: main netmask \S+
+HAIP: master mbr num is \S+
+HAIP: mbr num is \S+
+HAIP: my ip \S+
+HAIP: new hub mbr \S+
+HAIP: new mbr \S+
+HAIP: number of inf from clsinet -- \S+
+HAIP: old \S+ \S+
+HAIP: read grpdata, len \S+
+HAIP: subnetNum \S+
+HAIP: subnetRange \S+ \S+
+HAIP: suggestedIP \S+ subnetnum \S+ haipSize \S+ numHaip \S+ numSub \S+
+HAIP: the \S+ \S+ \S+ .*
+HAIP: the cssPart list '.*', j = \S+
+HAIP: the current \S+ list \S+ '.*'
+HAIP: the interface list '.*'
+HAIP: the transit \S+ list '.*'
+HAIP: to set \S+
+HAIP: to use \S+ haips
+HAIP: update  mbr \S+
+HAIP: update hub  mbr \S+
+HAIP: updateCssMbrData for \S+
+HAIP_RIM: configured to use \S+ interfaces
+HAIP_RIM: initializing to \S+ interfaces
+HAIP_enable: \S+ 1; \S+ \S+ \S+ \S+ \S+
+HAIP_enable: \S+ 1; \S+ \S+ \S+
+ID = \[.*\] Intermediate Timeout = \[.*\]
+IncarnationTS = \S+
+Inited \S+ \S+ \S+
+InitializeHaIps\[.*\]  infList '.*'
+Initing \S+ Framework messaging
+Ipc: Starting send thread
+Ipc: sendWork thread started.
+IpcC: \S+ Client thread started listening
+IpcC: \S+ client connection \S+ to member \S+ has been removed
+IpcC: Member data received
+IpcC: Received member number of \S+
+IptoClean '.*', ip '.*', mask '.*'
+LANG = ".*"
+LANGUAGE = \(.*\),
+LC_ALL = \(.*\),
+LC_CTYPE = ".*",
+Loaded symbols for \S+
+Logging level for Module: \S+ \s*\S+
+M2M is now powered by \S+ doWork\(.*\) thread.
+M2M is starting...
+Module Enabling is complete
+Moving \S+ Logging to \S+ .*
+NODEROLE_NONE init\(.*\)
+NetInterface::sStopIp .*
+NetworkAgent::init enter .*
+NetworkAgent::init exit, \S+ .
+NetworkHaMainThread \S+ 169.254/16, \S+
+NetworkHaMainThread cleanup
+NetworkHaMainThread thread shutdown
+NetworkHaMainThread: internalcleanup
+New \S+ Member:\{.*\}:OHASD:rws00fxu username=root
+New Framework state: \S+
+New process connected to us ID:\{.*\} Info:OHASD:rws00fxu
+No \S+ info configured in \S+ using defaults
+OCR Thread Check
+Ocr Context init default level \S+
+Oracle Database \S+ Clusterware Release \S+ - Production Copyright \S+ \S+ Oracle. All rights reserved.
+PID \S+ doesn.*
+Preparing \S+ command for: \S+ \S+ \S+
+Probing the resource: \S+ \S+ \S+
+Process id \S+ translated to cachefilesd
+Process id \S+ translated to
+Process id  translated to ro root=UUID=e1a43cf5-74bd-4b23-8c23-71279f68978d \S+ \S+ \S+ \S+ SYSFONT=latarcyrheb-sun16 crashkernel=258M@0M  KEYBOARDTYPE=pc KEYTABLE=us \S+ rhgb quiet numa=off \S+
+ProcessInitial, ip '.*', subnetNum \S+ numSubnets \S+ generateIp \S+
+Processing aborted reply \S+ check for resource: \S+ \S+ \S+
+RECYCLE_AGENT attribute not found
+ReadOlrInterfaces\[.*\]  inf '.*', ip '.*'
+Reading symbols from .*
+Reattached \S+ \s*\S+ on interface \S+
+Recvd request to shed the threads
+Removing \S+ Member:\{.*\}
+Resid = \S+ \S+ \S+
+Resource \S+ \S+ \S+ has transitioned to \S+
+SERVER \S+ \S+ \S+ \(.*\)
+Sending AgentExitFeedbackMsg to proxyResource = \S+ \S+ 1,retry = \S+
+Sending Shutdown request to crsd \S+ force \S+
+Start: \S+ \S+ assignment, \S+ \S+ \S+ \S+
+Start: Extended check return buffer: ".*" with length of \S+
+Started implicit monitor for \[.*\] \S+ \S+
+Started timer for \[.*\]  delay=720000
+Starting Probe for ip \S+
+Starting offline monitor
+Starting thread model named: \S+
+State = \S+
+Static Version \S+
+Stopping ip '.*', inf '.*', mask '.*'
+StorageAgent::action .*
+StorageAgent::check \S+ getOCRdetails
+StorageAgent::check kgfo returncode \S+
+StorageAgent::init NodeRole = \S+
+StorageAgent::parsekgforetcodes retcode = \S+ kgfoCheckMount\(.*\), flag \S+
+StorageAgent::parsekgforretcodes \S+ dgName \S+ state \S+
+Successful: delete arp cache
+Switching \S+ monitor to \S+ one
+TM \[.*\] is changing desired thread # to \S+ Current # is \S+
+Target \S+
+TaskletObjManager::manageTasklets \S+
+The final \S+ subnet 169.254/16
+This is \S+
+Thread:\[.*\] \S+ \S+ \S+ \S+
+Thread:\[.*\] \S+ \S+ \S+ \s*\S* \S+--6
+Thread:\[.*\] \S+ \S+ \S+ is in the working list
+Thread:\[.*\] \S+ \S+ \S+ is with \S+ \S+
+Thread:\[.*\] \S+ \S+ .*--6
+Thread:\[.*\] \S+ \S+ mbr \S+
+Thread:\[.*\] \S+ \S+ to Update member info HAIP-RM1;10.196.0.0#0;10.196.16.0#0
+Thread:\[.*\] \S+  checkupgrade \S+
+Thread:\[.*\] \S+  starting
+Thread:\[.*\] \S+  to Update member info HAIP1;10.196.0.0#0;10.196.16.0#0
+Thread:\[.*\] \S+ CssEventThread setGrpData, HAIP-RG1;10.196.0.0#0%1;10.196.16.0#0%1
+Thread:\[.*\] \S+ CssEventThread setPubGrpData,2-2
+Thread:\[.*\] \S+ FinalINF list '.*'
+Thread:\[.*\] \S+ HAIP\[.*\]: \s*\S+ - \S+
+Thread:\[.*\] \S+ HubMbrData cssInfo HAIP-RG1;10.196.0.0#0%1;10.196.16.0#0%1
+Thread:\[.*\] \S+ address type \S+ subnet \S+
+Thread:\[.*\] \S+ base \S+ len \S+
+Thread:\[.*\] \S+ checkipinSubnet \S+ \S+
+Thread:\[.*\] \S+ clsinet num of Inf: \S+
+Thread:\[.*\] \S+ configured to use \S+ interfaces
+Thread:\[.*\] \S+ cssEventThread \S+ event
+Thread:\[.*\] \S+ cssgrp PubData empty
+Thread:\[.*\] \S+ current  cssData '.*'
+Thread:\[.*\] \S+ done
+Thread:\[.*\] \S+ enable is \S+
+Thread:\[.*\] \S+ enqueue cssRimGrpData \S+ HAIP-RG1;10.196.0.0#0%1;10.196.16.0#0%1
+Thread:\[.*\] \S+ found in HaipList '.*'
+Thread:\[.*\] \S+ getSubnetRange \S+ \S+ \S+ \S+ \S+ \S+  4096, \S+
+Thread:\[.*\] \S+ grpdata to \S+ len
+Thread:\[.*\] \S+ hag size \S+
+Thread:\[.*\] \S+ hubmbrdata HAIP2;10.196.0.0#0%1;10.196.16.0#0%1;HAIP-RM1;10.196.0.0#0;10.196.16.0#0 before queuing
+Thread:\[.*\] \S+ hubmbrdata HAIP2;10.196.0.0#0%1;10.196.16.0#0%1
+Thread:\[.*\] \S+ i \S+ haip \S+ hag size \S+ ip \S+ suggestedHAIP \S+ assignedHAIP
+Thread:\[.*\] \S+ init CssEventThread
+Thread:\[.*\] \S+ initializing to \S+ interfaces, \S+
+Thread:\[.*\] \S+ initializing to \S+ interfaces
+Thread:\[.*\] \S+ ipNum \S+ num \S+
+Thread:\[.*\] \S+ mInfList size \S+ cssdata sz \S+
+Thread:\[.*\] \S+ main netmask \S+ subnetPrefix \S+
+Thread:\[.*\] \S+ master mbr num: \S+
+Thread:\[.*\] \S+ mbr \S+ changes mbr private data
+Thread:\[.*\] \S+ mbr num: \S+
+Thread:\[.*\] \S+ metricInfList '.*'
+Thread:\[.*\] \S+ new hub mbr \S+
+Thread:\[.*\] \S+ number of clsinet inf \S+
+Thread:\[.*\] \S+ read grpdata, len \S+
+Thread:\[.*\] \S+ reads \S+ ipMapsz \S+ idxMap sz \S+ restart \S+ numHaip \S+ infListSz \S+
+Thread:\[.*\] \S+ rebalance smV \S+ \S+ bgV \S+ \S+
+Thread:\[.*\] \S+ resets for new modified start, ipSize 0!= numInf \S+
+Thread:\[.*\] \S+ self mbr \S+ private data change event
+Thread:\[.*\] \S+ sets enable into cssgrp data, \S+
+Thread:\[.*\] \S+ sets total number to \S+
+Thread:\[.*\] \S+ subnetNum \S+
+Thread:\[.*\] \S+ subnetRange \S+ \S+
+Thread:\[.*\] \S+ suggestedIP \S+ subnetnum \S+ haipSize \S+ numHaip \S+ numSub \S+
+Thread:\[.*\] \S+ the \S+ \S+ \S+ .*
+Thread:\[.*\] \S+ the cssPart list '.*', j = \S+
+Thread:\[.*\] \S+ the interface list '.*'
+Thread:\[.*\] \S+ the transFinalInfList '.*'
+Thread:\[.*\] \S+ the transHaipList Iflist '.*'
+Thread:\[.*\] \S+ thread
+Thread:\[.*\] \S+ to init total number of inf: \S+
+Thread:\[.*\] \S+ to set \S+
+Thread:\[.*\] \S+ to set enable into cssgrp data, \S+
+Thread:\[.*\] \[.*\] thread started \S+
+Thread:\[.*\] \[.*\] thread stopping
+Thread:\[.*\]  ProcessInitial, ip '.*', subnetNum \S+ numSubnets \S+ generateIp \S+
+Thread:\[.*\] Assigned \S+ \s*\S* \S+ \S+ \S+
+Thread:\[.*\] Assigned \S+ post MainT on interface \S+
+Thread:\[.*\] Check: \S+
+Thread:\[.*\] Clean up done!
+Thread:\[.*\] Completed \S+ \S+ assignment, start complete
+Thread:\[.*\] CssEventThread: cleanup done
+Thread:\[.*\] CssRimEventThread: starting, grp \S+
+Thread:\[.*\] DeepCheck:  no interface found \S+
+Thread:\[.*\] InitializeHaIps\[.*\]  infList '.*'
+Thread:\[.*\] Initiating \S+ check action
+Thread:\[.*\] IptoClean '.*', ip '.*', mask '.*'
+Thread:\[.*\] Network interface \S+ \S+ functioning \(.*\) from \S+ \S+ to failover now
+Thread:\[.*\] NetworkHaMainThread \S+ 169.254/19, \S+
+Thread:\[.*\] NetworkHaMainThread cleanup
+Thread:\[.*\] NetworkHaMainThread thread shutdown
+Thread:\[.*\] NetworkHaMainThread: internalcleanup
+Thread:\[.*\] No \S+ info configured in \S+ using defaults
+Thread:\[.*\] Skipping Agent Initiated \S+ check action
+Thread:\[.*\] Starting Probe for ip \S+
+Thread:\[.*\] Successful: delete arp cache
+Thread:\[.*\] The final \S+ subnet 169.254/19
+Thread:\[.*\] Thread exiting
+Thread:\[.*\] Thread stop:thread acquire .* \S+
+Thread:\[.*\] Thread stop:thread sltstjn
+Thread:\[.*\] Thread::start .*
+Thread:\[.*\] Thread::start spawn \S+ \S+
+Thread:\[.*\] Thread::start spawned release \S+ .
+Thread:\[.*\] Thread::start thread spawned \S+
+Thread:\[.*\] Transitioning to \S+ State
+Thread:\[.*\] checkWorkThread addresstype \S+
+Thread:\[.*\] checkWorkThread: test \S+ internal, \S+
+Thread:\[.*\] checkupgrade \S+
+Thread:\[.*\] clean up \S+
+Thread:\[.*\] clean up all workThreads
+Thread:\[.*\] cssEventThread: cleanup
+Thread:\[.*\] cssMbrData, \S+
+Thread:\[.*\] delete \S+ during cleanup
+Thread:\[.*\] dequeue css event \S+ \S+
+Thread:\[.*\] destroy locks
+Thread:\[.*\] dowork is done.
+Thread:\[.*\] enqueue private data change event \S+ CssMbrData, HAIP1;10.196.0.0#0;10.196.16.0#0
+Thread:\[.*\] enqueue private data change event \S+ CssMbrData,
+Thread:\[.*\] got message from daemon. Initiating check
+Thread:\[.*\] got pubgrpdata, \S+
+Thread:\[.*\] isFinished set to true
+Thread:\[.*\] isRunning is reset to false here
+Thread:\[.*\] restart \S+ haipSize \S+ numHaip \S+ numSub \S+ ipMsz \S+
+Thread:\[.*\] stop .*
+Thread:\[.*\] stop release \S+ \S+
+Thread:\[.*\] the metrics is below Thresdhold, value -1, \S+ \S+
+Thread:\[.*\] this event \S+ internal debug only
+Thread:\[.*\] thread \S+
+Thread:\[.*\] thread constructor exit \S+ \S+ \S+ \S+ \S+ \S+
+Thread:\[.*\] thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:\[.*\] thread destructor entry .*
+Thread:\[.*\] thread destructor m_pThnd:\(.*\) exit .
+Thread:\[.*\] to stop \S+ \S+ on \S+
+Thread:\[.*\] updated \S+ pubgrpdata
+Thread:\[.*\] use all detected \S+
+Thread:\[.*\] workThread init address type \S+
+Thread::start .*
+Thread::start spawn \S+ \S+
+Thread::start spawned release \S+ .
+Thread::start thread spawned \S+
+Thread:NetworkAgentCssIPSECGroupThread thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:NetworkMonitorThread thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:inUpgrade Tasklet::doTask\(.*\) executed in \s*\S+ seconds
+Thread:inUpgrade Tasklet::doTask \S+ returned
+Thread:inUpgrade Thread stop:thread acquire \S+ \S+
+Thread:inUpgrade Thread stop:thread sltstjn
+Thread:inUpgrade Thread::start .*
+Thread:inUpgrade Thread::start spawn \S+ \S+
+Thread:inUpgrade Thread::start spawned release \S+ .
+Thread:inUpgrade Thread::start thread spawned \S+
+Thread:inUpgrade isFinished set to true
+Thread:inUpgrade isRunning is reset to false here
+Thread:inUpgrade stop .*
+Thread:inUpgrade stop release \S+ \S+
+Thread:inUpgrade thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:inUpgrade thread destructor entry .*
+Thread:inUpgrade thread destructor m_pThnd:\(.*\) exit .
+Thread:inUpgrade thread destructor stop
+Thread:kgfoCheckMountExt Tasklet::doTask\(.*\) executed in \s*\S+ seconds
+Thread:kgfoCheckMountExt Tasklet::doTask \S+ returned
+Thread:kgfoCheckMountExt Thread stop:thread acquire \S+ \S+
+Thread:kgfoCheckMountExt Thread stop:thread sltstjn
+Thread:kgfoCheckMountExt Thread::start .*
+Thread:kgfoCheckMountExt Thread::start spawn \S+ \S+
+Thread:kgfoCheckMountExt Thread::start spawned release \S+ .
+Thread:kgfoCheckMountExt Thread::start thread spawned \S+
+Thread:kgfoCheckMountExt isFinished set to true
+Thread:kgfoCheckMountExt isRunning is reset to false here
+Thread:kgfoCheckMountExt stop .*
+Thread:kgfoCheckMountExt stop release \S+ \S+
+Thread:kgfoCheckMountExt thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:kgfoCheckMountExt thread destructor entry .*
+Thread:kgfoCheckMountExt thread destructor m_pThnd:\(.*\) exit .
+Thread:kgfoCheckMountExt thread destructor stop
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ \S+ \S+ \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ \S+ \S+ .*
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ \S+ .*--6
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ \S+ exit \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ .*--5
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:\(.*\) Agent::commonCheck check failed \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::Agent \S+ \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::Agent refreshAttr
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::commonCheck \S+ .*--4
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::commonCheck exit \S+ .
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::commonCheck notifyObservers
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmAndPidChecks \S+ \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmAndPidChecks \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmAndPidChecks \S+ extended check \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmCheck \S+ \S+ .*
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmCheck \S+ exit \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmCheck \S+ sendMessage \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmCheck \S+ sendMessage excp:CRS-02004: error \S+ encountered when sending messages to
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmCheck \S+ sendMessage excp:
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::generateClsdmTimeOut \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::generateClsdmTimeOut \S+ timeout.800 \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:StorageAgent::parsekgforetcodes retcode = \S+ kgfoCheckMount\(.*\), flag \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:isUpgrade .*
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:targetcheck \S+ returned--0
+Tints initialized with nodeId: \S+ procId: \S+
+Trace file \S+
+Transitioning to \S+ State
+UISERVER_MODE = \S+
+USING HAIP\[.*\]: \s*\S+ - \S+
+Unarp \S+ Cache
+Unlocking cmdQ after check abort
+UsmUtils::CreateUsmOcrKey .
+UsmUtils::CreateUsmOcrKey path \S+ = \S+ key \S+
+UsmUtils::CreateUsmOcrKey path \S+ key \S+
+UsmUtils::CreateUsmOcrKey:Generic Exception
+UsmUtils::Enabling Proxy. Start
+UsmUtils::Enabling Proxy
+UsmUtils::Exit Enabling Proxy
+UsmUtils::Starting Proxy globally
+UsmUtils::attributeName=ENABLED
+UsmUtils::isMemberCluster class: Domain Services Cluster
+UsmUtils::setDriverVersion .*
+Utils::execCmd \S+ \S+ \S+ \S+
+Utils::getOracleHomeAttrib \S+
+Utils::getOracleHomeAttrib getEnvVar \S+
+Utils:execCmd action = \S+ flags = \S+ ohome = \(.*\) cmdname = \S+
+Utils:execCmd action = \S+ flags = \S+ ohome =  cmdname = \S+
+Utils:execCmd scls_process_join\(.*\) uret \S+
+VendorType=0
+VipActions bypass getHostIpAddress
+VipActions::startIp .*
+VipActions::stopIp .*
+Waiting for debug process\(.*\) to finish
+Worker thread is exiting in \S+ \[.*\] to meet the desired count of \S+ New count is \S+
+abort .*
+abort command: check
+abort command:abort \S+ \S+ \S+
+action ended.
+action: \S+
+adding state dumper of \S+
+are supported and installed on your system.
+calling \S+ at Sat Jul \S+ \S+ \S+
+checkErrorCode = \S+ pestate = \S+ perole = \S+ pemode = \S+
+checkWorkThread addresstype \S+
+checkWorkThread: test \S+ internal, \S+
+clean up \S+
+clean up all workThreads
+clsCredCommonInit: Inited singleton credctx.
+clsCredDomClose: Credctx deleted \S+
+clsCredDomInitRootDom: Using user given storage context for repository access.
+clsCredOcrKeyExists: Obj dom \S+ \S+ not found
+clsce_publish_internal \S+ \S+ failed with status = \S+ try = \S+
+clsce_subscribe \S+ .* \S+ \S+ \S+
+clsce_unsubscribe \S+ successfully unsubscribed \S+ \S+
+clsdm select on
+clsgpnp_Init: \S+ hash type in context is \S+
+clsgpnp_dbmsGetItem_profile: \[.*\] Result: \(.*\) \S+ \(.*\)got ASM-Profile.Mode='.*'
+clsnUtils::error Exception \S+ string=
+clsnUtils::logUTCtime \S+ \s*\S+ \S+ \S+
+clsn_agent::abort .*
+clsn_agent::abort, agent exiting .
+clsn_agent::action .*
+clsn_agent::isTGIPAction \S+ rc = \S+
+clsn_agent::start .*
+clsn_agent::stop .*
+clsns_SetTraceLevel:trace level set to \S+
+clssgsgrppubdata: group \(.*\) not found
+clsssinit: initialized context: \(.*\) flags \S+
+clsssterm: terminating context \(.*\)
+clsu_load_ENV_levels: Reading of logging environment variable failed \[.*\] \[.*\].
+clsvactversion:\S+ Retrieving Active Version from local storage.
+command \S+ failed with status \S+
+crs stat check
+cssEventThread: cleanup
+cssEventThread: it is \S+ event
+cssMbrData, \S+
+cssRimThread done
+cssThread done
+delete \S+ during cleanup
+dequeue \S+ event \S+ \S+
+destroy locks
+did not get lock
+dowork is done.
+dynamic component \[.*\] mapped to \[.*\]
+enqueue private data change event \S+ CssMbrData, HAIP1;10.196.0.0#0;10.196.16.0#0
+enqueue private data change event \S+ CssMbrData,
+execCmd ret = \S+
+exists in ifMap, nd size \S+ \S+
+exiting debug session. \S+
+failed to open \S+ \S+ subtype \S+ key, \S+
+getCssGrpPubData \S+
+getCssNodeRole not executed \S+ css context
+gipcConnectSyncF \[.*\]: EXCEPTION\[.*\]  failed sync connect endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, flags \S+
+gipcInternalConnectSync: failed sync request, ret gipcretConnectionRefused \(.*\)
+gipcInternalPost: post obj \S+ \[.*\] \{.*\} contains \S+ wait obj, ret gipcretFail \(.*\)
+gipcInternalSend: connection not valid for send operation endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)
+gipcInternalSendSync: failed sync request, ret gipcretConnectionLost \(.*\)
+gipcPostF \[.*\]: EXCEPTION\[.*\]  failed to post obj \S+ \[.*\] \{.*\}, flags \S+
+gipcSendF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ cookie \(.*\), flags \S+
+gipcSendSyncF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ flags \S+
+gipcWait gets wrong msg from connection \[.*\]\[.*\] with type gipcreqtypeDisconnect
+got lock
+got pubgrpdata, \S+
+ipMapsz \S+ idxMap sz \S+ restart \S+ numHaip \S+ infListSz \S+
+it is my mbr \S+ private data change event
+mbr \S+ changes mbr private data
+mbr \S+ is \S+
+mode = \[.*\], offset = \[.*\], total = \S+
+my node number is \S+
+ora\S+ \S+ \S+ marked as deleted.
+ora\S+ \S+ \S+ state changed from: \S+ to: \S+
+ora\S+ \S+ \S+ state details has changed from:  to: \S+ \S+ \S+
+ora\S+ \S+ \S+ state details has changed from:  to: \S+
+ora\S+ \S+ \S+ would \S+ continued to monitored!
+pausing thread
+perl: warning: Falling back to \S+ fallback locale \(.*\).
+perl: warning: Please check that your locale settings:
+perl: warning: Setting locale failed.
+posting thread
+restart \S+ haipSize \S+ numHaip \S+ numSub \S+ ipMsz \S+
+returned from user exitCB, exiting
+sDumpBackTraceOfAllThreads - before first fork. pidDebug=2645. \S+
+scandisk .*
+sclsiaddaddrs returned
+sclsideladdrs returned
+sending status msg \[.*\] for \S+ for resource: \S+ \S+ \S+
+start .*
+stop .*
+targetcheck::Initial check target check \S+
+thread \S+
+thread started \S+
+thread stopping
+to init haip \S+
+to stop \S+ \S+ on \S+
+to verify inf event
+to verify routes
+to verify start completion \S+
+to verify wt, \S+
+translateReturnCodes, return = \S+ state detail = \S+ data \[.*\]: mode\[.*\] offset\[.*\].
+tryActionLock .*
+u_set_comp_error: comptype '.*' \S+ error '.*'
+updated \S+ pubgrpdata
+use all detected \S+
+useClsdm = \S+
+vol_create\(.*\)
+wait for /usr/bin/gdb\(.*\) to attach process \S+ at Sat Jul \S+ \S+ \S+
+waitForDebuggerPid - Waiting for debug process\(.*\) to finish
+waitForDebuggerPid - debug process\(.*\) finished. sleeping for \S+ second to allow transfer of \S+ messages from shared bucket to tracefile
+workThread init address type \S+

@@ -16,8 +16,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in client-side pfile \S+ on machine \S+
 System parameters with non-default values:
@@ -101,14 +99,6 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
 KSXPPING: \S+ selected for Ping
-SQL> \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-ASMCA ./
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -126,7 +116,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
 Archiving is disabled
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 Shutting down archive processes
 Archiving is disabled
@@ -135,7 +124,6 @@ freeing rdom \S+
 Instance shutdown complete \(.*\)
 NOTE: volume resource \S+ is \S+
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
-SQL> \S+ \S+ \S+ \S+  DISK .* \S+ \S+
 DISK '.*' \S+ \S+
 REBALANCE \S+
 NOTE: GroupBlock outside rolling migration privileged region
@@ -150,7 +138,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 ERROR: \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
 DISK '.*' \S+ \S+
 REBALANCE \S+
@@ -158,8 +145,6 @@ ORA-15032: not all alterations performed
 ORA-59710: site information mismatch between disk group \S+ and disk /dev/asmdisk/3par108
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-SQL> \S+ \S+ \S+ \S+  SITE sitea  DISK '.*' \S+ \S+
-SITE siteb  DISK '.*' \S+ \S+
 REBALANCE \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -190,7 +175,6 @@ GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
 NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -218,16 +202,11 @@ NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: stopping process \S+
 NOTE: stopping process \S+
-SUCCESS: rebalance completed for group \S+ \(.*\)
-SUCCESS: \S+ \S+ \S+ \S+  SITE sitea  DISK '.*' \S+ \S+
-SITE siteb  DISK '.*' \S+ \S+
 REBALANCE \S+
-SQL> \S+ \S+ \S+ \S+  DISK .* \S+ \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
@@ -236,7 +215,6 @@ GMON updating for reconfiguration, group \S+ at \S+ for pid \S+ osid \S+
 NOTE: group \S+ \S+ updated.
 NOTE: membership refresh pending for group \S+ \(.*\)
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: starting rebalance of group \S+ \(.*\) at power \S+
@@ -262,8 +240,6 @@ NOTE: GroupBlock outside rolling migration privileged region
 NOTE: requesting \S+ \S+ \S+ for \S+
 GMON updating for reconfiguration, group \S+ at \S+ for pid \S+ osid \S+
 NOTE: group \S+ \S+ updated.
-SUCCESS: grp \S+ disk \S+ emptied
-SUCCESS: grp \S+ disk \S+ emptied
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
@@ -291,7 +267,6 @@ NOTE: grp \S+ disk \S+ expelled from the \S+
 NOTE: Erasing header on \S+
 NOTE: Erasing header on \S+
 NOTE: membership refresh pending for group \S+ \(.*\)
-SUCCESS: rebalance completed for group \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
@@ -299,79 +274,24 @@ GMON querying group \S+ at \S+ for pid \S+ osid \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
-SUCCESS: \S+ \S+ \S+ \S+  DISK .* \S+ \S+
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
 NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
-SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 ORA-15018: diskgroup cannot \S+ created
 ORA-59706: The specified allocation unit size '.*' is less than the minimum required for extended disk groups.
 ERROR: \S+ \S+ \S+ \S+ \S+  SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
-SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 ORA-15018: diskgroup cannot \S+ created
 ORA-15283: \S+ operation requires compatible.rdbms of \S+ or higher
 ERROR: \S+ \S+ \S+ \S+ \S+  SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
-SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 ORA-15018: diskgroup cannot \S+ created
 ORA-15283: \S+ operation requires compatible.rdbms of \S+ or higher
 ERROR: \S+ \S+ \S+ \S+ \S+  SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
-SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -461,7 +381,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
@@ -510,29 +429,17 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: diskgroup resource \S+ is \S+
-SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
-SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
-ATTRIBUTE .*
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 NOTE: Physical metadata for diskgroup \S+ \(.*\) was replicated.
 Errors in file \S+
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:SU2
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:SU1
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -613,12 +520,10 @@ NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ manda
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:SU2
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:SU1
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -684,23 +589,6 @@ ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 WARNING: Started Drop Disk Timeout for Disk \S+ \(.*\) in group \S+ with \S+ value \S+
 WARNING: Started Drop Disk Timeout for Disk \S+ \(.*\) in group \S+ with \S+ value \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-ASMCA ./
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
@@ -806,19 +694,8 @@ Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 NOTE: volume resource \S+ is \S+
-ASMCA ./
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 NOTE: volume resource \S+ is \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-ASMCA ./
 NOTE: volume resource \S+ is \S+
-ASMCA ./
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 Errors in file \S+
@@ -876,7 +753,6 @@ NOTE: cache dismounted group \S+ \(.*\)
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 NOTE: cache dismounting \(.*\) group \S+ \(.*\)
 NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
@@ -902,7 +778,6 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 asm agent .//. \{.*\} ./
 Shutting down archive processes
 Archiving is disabled
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache deleting context for group \S+ \S+
 Stopping background process \S+
 Shutting down archive processes
@@ -945,8 +820,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -1063,11 +936,9 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: Diskgroups listed in \S+ are
-SUDG
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -1133,7 +1004,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
@@ -1142,31 +1012,23 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
 NOTE: diskgroup resource \S+ is \S+
 KSXPPING: \S+ selected for Ping
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 NOTE: Voting file relocation is required in diskgroup \S+
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Successful voting file relocation on diskgroup \S+
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 NOTE: Flex client id \S+ \[.*\] attempting to \S+
 NOTE: registered owner id \S+ for \S+
 NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: registering \S+ \[.*\] for client \S+ \S+ ospid \S+
-SQL> alter diskgroup \S+ online disk \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: initiating resync of disk group \S+ disks
-SU1 \(.*\)
 NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
 NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
 GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
@@ -1851,7 +1713,6 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -1872,13 +1733,11 @@ NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 ORA-15032: not all alterations performed
 ORA-59709: No site identified for the disk
 ERROR: alter diskgroup \S+ \S+ disk '.*' force
-SQL> alter diskgroup \S+ \S+ site \S+ disk '.*' force
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
@@ -1898,13 +1757,11 @@ NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 ORA-15032: not all alterations performed
 ORA-15291: \S+ could not \S+ disk ".*" to disk group ".*"
 ERROR: alter diskgroup \S+ \S+ site \S+ disk '.*' force
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-SQL> alter diskgroup \S+ \S+ site \S+ disk '.*' force
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Assigning number \(.*\) to disk \(.*\)
@@ -1922,13 +1779,11 @@ NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 ERROR: alter diskgroup \S+ \S+ site \S+ disk '.*' force
 ORA-15067: command or option incompatible with diskgroup redundancy
 NOTE: GroupBlock outside rolling migration privileged region
-SQL> alter diskgroup \S+ \S+ site \S+ disk '.*' force
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: Assigning number \(.*\) to disk \(.*\)
 NOTE: requesting \S+ \S+ \S+ for \S+
@@ -1947,14 +1802,11 @@ NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
 GMON querying group \S+ at \S+ for pid \S+ osid \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
-SUCCESS: refreshed membership for \S+ \(.*\)
 ORA-15032: not all alterations performed
 ORA-15291: \S+ could not \S+ disk ".*" to disk group ".*"
 ERROR: alter diskgroup \S+ \S+ site \S+ disk '.*' force
 NOTE: Attempting voting file \S+ \S+ diskgroup \S+
 NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Received detach msg from inst \S+ for dom \S+
 Received detach msg from inst \S+ for dom \S+
 Reconfiguration \S+ \(.*\)
@@ -1988,7 +1840,6 @@ Begin lmon rcfg omni enqueue reconfig \S+
 End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
-SQL> alter diskgroup \S+ \S+ site \S+ disk '.*' force
 NOTE: GroupBlock outside rolling migration privileged region
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
 NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
