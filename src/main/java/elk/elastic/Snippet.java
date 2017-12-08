@@ -904,7 +904,7 @@ public class Snippet {
 		return retMat;			//输出的是日志行之间距离的矩阵
 	}
 	
-	
+	//According to template base, it will replace every raw log line with templates. Ignore if no template matches
 	public static List<String> getGeneralList(Map<String, Integer> jsonMap, List<String> snippet, String logType, String templateFile) {
 		List<String> ret = new LinkedList<String>();
 		Map<String, List<String>> map = mapComponent(templateFile);

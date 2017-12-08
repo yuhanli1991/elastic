@@ -2,14 +2,44 @@
 Author: Yuhan Li
 ## Function Overview
 
-Before using these functions, you should set $JAVA_HOME and $ELA_HOME(path of this tool), and make sure Java version is 1.8X
+Before using these functions, you should set \$JAVA_HOME and \$ELA_HOME(path of this tool), and make sure Java version is 1.8X
+
+All these scripts will run \$JAVA_HOME/bin/java -cp \$ELA_HOME/target/classes:\$ELA_HOME/target/dependency/* elk.elastic.App
+
+<!-- ```flow
+st1=>start: addtmp
+st2=>start: scorelog
+st3=>start: appearance
+st4=>start: replaceRawAsTmp
+st5=>start: builMatrix
+st6=>start:	matForEveryFile
+e=>end: java
+
+
+st1->e(left)
+st2->e
+st3->e
+``` -->
+
+<!-- ```dot
+digraph G {
+	addtmp -> Java
+	scorelog -> Java
+	appearance -> Java
+	replaceRawAsTmp -> Java
+	builMatrix -> Java
+	matForEveryFile -> Java
+}
+``` -->
+
+
 
 ### ./bin/addtmp
 #### Introduction
 
 Use addtmp to add templates into template base according to log snippet you provided from elasticsearch.
 
-Template base is located under ./log/, named '$log_typeTemplate.txt' and '$log_typeTemplateScore.txt'
+Template base is located under ./log/, named '\$log_typeTemplate.txt' and '$log_typeTemplateScore.txt'
 
 Template base files will be created when first run addtmp.
 
@@ -139,3 +169,34 @@ hostname: it's name of the host where the logs locate originally.
 index: index name the logs stores in elasticsearch
 ```
 
+## Function Workflow
+### ./bin/addtmp workflow
+
+```flow
+st=>start: Start
+op=>operation: EsClient.getSnippet(): get log snippet from Elasticsearch
+addTmp=>operation: extract.addTmp(): adding templates to base
+dp=>operation: extract.doublePartition()
+sort=>operation: sort list
+partition=>operation: extract.partition()
+e=>end: Return Templates
+extrTmp=>operation: extract.extrTmp(): Input partitioned lines list, it will return one template
+
+
+st->op->addTmp(right)->dp(right)->sort->partition
+partition(right)->extrTmp->e
+
+```
+
+### ./bin/replaceRawAsTmp workflow
+
+```flow
+st=>start: Start
+replace=>operation: extract.replaceRawAsTmp()
+ec=>operation: EcClient.getSnippet(): get log snippet from Elasticsearch
+get=>operation: Snippet.getGerneralList(): replace raw log lines with related templates. Ignore if no templates matches
+search=>operation: Snippet.searchAndTmp(): Check every templates for log line, return template if it can match the line.
+e=>end: Return templates list
+
+st->replace(right)->ec->get(right)->search->e
+```
