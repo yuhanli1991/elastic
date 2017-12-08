@@ -1,0 +1,408 @@
+Argument \S+ is: \S+
+Argument count \(.*\) for this daemon is \S+
+GIPC error \[.*\] msg \[.*\]
+Inited \S+ context: \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ \S+ \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Node Failure. Attempting retry \S+
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ Suceeded
+LIST_LOGS:\[.*\]: \S+ \S+ \S+ to send \[.*\]
+PID for the Process \[.*\], connkey \S+
+Time Elapsed \S+
+clsCredCommonInit: Inited singleton credctx.
+clsCredDomClose: Credctx deleted \S+
+clsde_clsceevt_publish:  Clusterwide event
+clsgpnp_getCachedProfileEx: \[.*\] Result: \(.*\) \S+ \(.*\)Can.* get offline GPnP service profile: local gpnpd is up and running. Use getProfile instead.
+clsgpnp_getCachedProfileEx: \[.*\] Result: \(.*\) \S+ \(.*\)Failed to get offline GPnP service profile.
+clsns_AListLookupWithAddresses:\(.*\):connection to name servers \S+ failed - returning error \S+
+clsns_AListLookupWithAddresses:\(.*\):wait of \S+ milliseconds timed out. Now: \S+ Deadline: \S+ Total wait: \S+ milliseconds. \S+ milliseconds limit exceeded: \S+ clskec:has:gipc:16 \S+ args\[.*\]
+clsns_AListLookupWithAddresses:wait of \S+ milliseconds timed out. Now: \S+ Deadline: \S+ \S+ clskec:has:gipc:16 \S+ args\[.*\]
+clsns_DNSSD_FindServersByRole:\(.*\):Name: ".*" domain ".*" # of instances: \S+ user alist rv: \S+ \(.*\) Flags: ".*" ".*" ".*" ".*" \(.*\): \S+ clskec:has:CLSNS:41 \S+ args\[.*\]\[.*\]\[.*\]\[.*\]
+clsns_DNSSD_FindServersByRole:\(.*\):Name: ".*" domain: ".*" timeout: \S+ milliseconds rv: \S+ \(.*\) Count: \S+ Return count: \S+ Flags: ".*" ".*" ".*" ".*" \(.*\)
+clsns_GetNX:\(.*\):lookup of ".*" failed with error \S+ Flags: ".*" ".*" ".*" ".*" \(.*\)
+clsns_GetNX:\(.*\):return value: \S+
+clsns_Send:#0 sending \S+ bytes from \S+ to \S+
+clsns_Send:send succeeded.
+clsns_SetTraceLevel:trace level set to \S+
+clsnsgFindInstance:\(.*\):query to find \S+ using service name ".*" failed.
+clsnsg_DNSSD_Get_Domain:\(.*\):retrieval of \S+ subdomain failed.: \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].
+clsnsg_DNSSD_Simple_Advertise:\(.*\):Advertisement of service ".*" failed. Flags: ".*" ".*" \(.*\) Properties: NODE_INCARNATION=".*", NODE_TYPE=".*": \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].
+clsnsg_DNSSD_Simple_Advertise:\(.*\):Advertisement of service ".*" failed. Flags: ".*" ".*" \(.*\) Properties: NODE_INCARNATION=".*", NODE_TYPE=".*": \S+ clskec:has:CLSGN:70 \S+ args\[.*\]
+clssgsGroupGetStatus: \S+ shutting down.
+clssgsGroupGetStatus:  communications failed \(.*\)
+clssgsGroupGetStatus: returning \S+
+clssgsGroupJoin: \S+ shutting down. Join refused.
+clsssCommonClientExit: \S+ failure, rc \S+
+clsssRecvMsgA: got \S+ disconnect from the server while waiting for message type \S+
+clsssServerRPC: send failed with err \S+ msg type \S+
+clsssinit: initialized context: \(.*\) svc flags \S+ flags \S+
+clsssterm: terminating context \(.*\)
+clsvactversion:\S+ Retrieving Active Version from local storage.
+gipcConnectSyncF \[.*\]: EXCEPTION\[.*\]  failed sync connect endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, flags \S+
+gipcDestroyF \[.*\]: EXCEPTION\[.*\]  failure to destroy obj \S+ flags \S+
+gipcDissociateF \[.*\]: EXCEPTION\[.*\]  failed to dissociate obj \S+ \[.*\] \{.*\}, flags \S+
+gipcInternalConnectSync: failed sync request, ret gipcretConnectionRefused \(.*\)
+gipcInternalDissociate: obj \S+ \[.*\] \{.*\} not associated with any container, ret gipcretFail \(.*\)
+gipcInternalSend: connection not valid for send operation endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)
+gipcInternalSendSync: failed sync request, ret \S+ \(.*\)
+gipcMemoryF \[.*\]: EXCEPTION\[.*\]  failed memory create ctx \S+ \[.*\] \{.*\}, name '.*', flags \S+
+gipcObjectLookupF \[.*\]: search found no matching oid \S+ ret gipcretKeyNotFound \(.*\), ret gipcretInvalidObject \(.*\)
+gipcSendSyncF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, buf \S+ len \S+ flags \S+
+gipcSendSyncF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ flags \S+
+gipcdAddClientEntry: \S+ client \S+ to shared memory. client memid: \S+ haname \S+
+gipcdAddLocalEndp: Endp \S+ \S+ \S+ to the list of local clients
+gipcdAddNodeCon: Added the remoteCon in the map with endp\(.*\)
+gipcdAddNodeCon: Received another connection request from host \S+ with endpid \S+
+gipcdAddPeerEntry: successfully \S+  peer entry  to shared memory: memid: \S+
+gipcdAddPeerEntry: successfully \S+ peer \S+ entry  to shared memory memid: \S+
+gipcdAddPortEntry: \S+ port \S+ entry to shared memory. port mid: \S+ memid \S+ client \S+ incarnation \S+
+gipcdAddPortEntry: \S+ port \S+ to shared memory. port memid: \S+ memid \S+ client \S+ incarnation \S+
+gipcdAddSubscribeEntry: curret remoteCon \S+ new remoteCon \S+
+gipcdAddSubscribeEntry: host \S+ \S+ haname \S+ subscribed local client haname \S+
+gipcdBcastAllClients: Sending update to local client with endp \S+ 0000000000000000,registered for haname \S+
+gipcdBcastAllClients: Sending update to node client with endp \S+ \S+ haname \S+
+gipcdBcastAllLocalClients: broadcasting msg \S+ to all local clients
+gipcdBootStrapUpdates: failed to get the nodemap for host \S+
+gipcdCheckClntRequestTimeout: request req: \S+ \[.*\] is timedout
+gipcdCheckDeadNode: \S+ on node \S+ got disconnected and not re-joined with localGIPCD, looks like node \S+ went down
+gipcdCheckThreadHealth: the time stamp is overflowed loopStartTime \S+ now \S+ Name \S+
+gipcdCleanUpRemote: req: req: \S+ \[.*\], flags \S+
+gipcdClientCreateName: Received type\(.*\), endp\(.*\), len\(.*\), buf\(.*\):.* portstr: \(.*\), haname\(.*\), retStatus\(.*\).
+gipcdClientDeleteName: Name deleted\(.*\)
+gipcdClientDeleteName: Received type\(.*\), endp\(.*\), len\(.*\), buf\(.*\):.* portstr: \(.*\), haname\(.*\), retStatus\(.*\).
+gipcdClientDisconnect: Client disconnect with endp\(.*\), haname\(.*\) proc name\(.*\) pid \(.*\)
+gipcdClientEstablish: \S+ client \S+ entry to shared memory. haname \S+ mid: \S+ inc \S+
+gipcdClientEstablish: Establish from process \S+ pid \S+ endp \S+ \S+
+gipcdClientEstablish: Received type\(.*\), endp\(.*\), len\(.*\), buf\(.*\):.* retStatus\(.*\).
+gipcdClientFetchNodeInfo: received nodeInfo req for host \S+ cookie \S+
+gipcdClientInterfaceMetrics: Received type\(.*\), endp\(.*\), len\(.*\), buf\(.*\), inf\(.*\) time\(.*\), retry\(.*\), stamp\(.*\), send\(.*\), recv\(.*\)
+gipcdClientInterfaceMetrics: enqueue interface metrics \(.*\) to worklist
+gipcdClientInterfacePublish: Interface \S+ ip: \S+ mask: \S+ subnet: \S+ mac: , ifname:
+gipcdClientInterfacePublish: Received type\(.*\), endp\(.*\), len\(.*\), buf\(.*\):.* req cookie\(.*\), haname\(.*\),update.* \S+ mask: \S+ subnet: \S+ mac: , ifname: \S+ state\(.*\), retStatus\(.*\).
+gipcdClientInterfaceQueryToMonitor: enqueue local interface query \(.*\) to worklist
+gipcdClientInterfaceRegister: Received type\(.*\),endp\(.*\), len\(.*\), buf\(.*\):.* req cookie\(.*\), haname\(.*\), retStatus\(.*\).
+gipcdClientInterfaceRequest: Received type\(.*\), endp\(.*\), len\(.*\), buf\(.*\):.* retStatus\(.*\).
+gipcdClientInterfaceRequest: sent local interface list back to client
+gipcdClientInterfaceRequest: sent local interface query
+gipcdClientInterfaceUnpublish: Received type\(.*\), endp\(.*\), len\(.*\), buf\(.*\):.* req cookie\(.*\), haname\(.*\),update.* \S+ mask: \S+ subnet: \S+ mac: , ifname: \S+ state\(.*\), retStatus\(.*\).
+gipcdClientInterfaceUpdate: req: req:\(.*\)
+gipcdClientLookupName: Received type\(.*\), endp\(.*\), len\(.*\), buf\(.*\):.* portstr: \(.*\), haname\(.*\), retStatus\(.*\).
+gipcdClientProcessCssReadinessStatus: Received type\(.*\), ret\(.*\)
+gipcdClientThread: \S+ received \S+ shutdown msg from agent framework or node thread died
+gipcdClientThread: Client thread has exited
+gipcdClientThread: Sent req to local client on endp .*
+gipcdClientThread: connection str \S+
+gipcdClientThread: gipcdClientThread started
+gipcdClientThread: gipcreqtypeAccept
+gipcdClientThread: req from local client of type \S+ endp \S+
+gipcdClientThreadShutdown: Deleted connection with local client with endpid \(.*\)
+gipcdClientUpdateAck: Interface \S+ ip: \S+ mask: \S+ subnet: \S+ mac: , ifname:
+gipcdClientUpdateAck: req: req:\[.*\]
+gipcdClientUpdates: Added host:haname \S+ as \S+ subscription to \S+ subid \S+ remCon \S+
+gipcdClientUpdates: CLNTHDR\[.*\], \S+ \S+
+gipcdClientUpdates: Interface item cannot \S+ \S+ the remote client cannot besubscribed to receive the updates for haname \S+
+gipcdConfig_vir2phyID_setunit: level \S+ module name \S+
+gipcdConfig_vir2phyID_setunit: modifying the log of module \S+ level \S+
+gipcdConfig_vir2phyID_setunit: to set trace level to \S+ for gipclib module \S+
+gipcdCreateName: con for endp\(.*\) does not exist to save the name\(.*\), ignoring
+gipcdDelClientEntry: delete client \S+ entry from shared memory; memid \S+ haname \S+
+gipcdDelPeerEntry: successfully deleted peer \S+ entry from shared memory
+gipcdDelPendSendReq: Deleting send requests
+gipcdDelPendSendReq: No pending send requests to \S+ deleted
+gipcdDelPendSendReq: pending send deleted \S+
+gipcdDelPortEntry: port \S+ entry deleted from shared memory. port memid: \S+
+gipcdDelRemoteAckList: No request waiting for ack
+gipcdDelSubscribeEntry: host \S+ haname \S+ local haname \S+ next \S+ prev \S+
+gipcdDelSubscribeEntry: reset subscribe id of remote con \S+
+gipcdDeleteAllIfaceClients: deleted the subscriptions
+gipcdDeleteAllInterfaces: interface \(.*\) deleted
+gipcdDeleteAllNames: Portstr \S+ deleted
+gipcdDeleteAllSubscriptions: All subscriptions deleted
+gipcdDeleteCon: Con cache deleted for haname\(.*\), id\(.*\)
+gipcdDeleteConCache: Con cache deleted for haname \S+ id \(.*\)
+gipcdDeleteId: Remote client endp \S+ \S+ deleted from the list. no cache exists for this remote client.*
+gipcdDeleteId: recvd msg clnt header: \(.*\)
+gipcdDeleteInterfaces: No interface object exist in the map for haname\(.*\)
+gipcdDeleteInterfaces: hanameInvalidate msg for remote with id\(.*\)
+gipcdDeletehaname: The con cache is not deleted yet for the haname \S+ id \(.*\)
+gipcdDeletehaname: peer client update avail for host \S+ haname \S+
+gipcdDeletehaname: peer client update not avail for host \S+ haname \S+ remcon \S+
+gipcdDeletehaname: req: CLNTHDR\[.*\], \S+ \S+
+gipcdEnqueueMsgForClient: Enqueuing \S+ msg for client \S+ req: \S+ \[.*\]
+gipcdEnqueueMsgForNode: Enqueuing for NodeThread \(.*\)
+gipcdEnqueueSendReq: Enqueuing the msg in the pending send request for host \S+ msg \S+
+gipcdEventThread: \S+ received \S+ shutdown msg from agent framework or some other thread died
+gipcdEventThread: Event thread is exiting..
+gipcdEventThread: gipcdEventThread started
+gipcdFreeDeadClientInfo: deleting.. client \S+ entry from shared memory.  haname: \S+ \S+ cmidN: \S+ cmidP: \S+ first \S+ next \S+ host \S+ haname \S+ present \S+
+gipcdFreeDeadClientInfo: deleting.. client \S+ entry from shared memory.  haname: \S+ \S+ cmidN: \S+ cmidP: \S+
+gipcdFreeRemoteCache: Deleting the \S+ \S+ \S+ \S+ \S+
+gipcdInitClientEntry: client \S+ entry initialized client \S+ \S+ procName \S+
+gipcdInitPeerEntry: successfully initialized peer \S+ entry  memid: \S+
+gipcdInitPortEntry: port \S+ entry initialized. port memid \S+ \S+
+gipcdLocalConDelete: Msg Received, client header:\(.*\)
+gipcdLocalConDelete: No pending sends to \S+ deleted requested by local client
+gipcdLookupNameAck: req: req:\[.*\]
+gipcdLookupNameForRemote: LookupNameAck for remote host: req:\[.*\]
+gipcdLookupNameForRemote: Name \S+ does not exist on host \S+
+gipcdLookupNameForRemote: req: req:\[.*\]
+gipcdMain: \S+ starting, \S+ \(.*\)
+gipcdMain: \S+ terminated
+gipcdMain: All threads terminated
+gipcdMain: It is fresh start, creating brand new shared memory
+gipcdMain: Starting \S+ \S+ .* \S+ \(.*\) \S+
+gipcdMain: acquired exclusive lock on existing map \S+
+gipcdMain: created new gipcMemory\(.*\) successfully
+gipcdMain: gipcd Started
+gipcdMonitorCheckInfMetrics: adding metrics for \S+ to iflist
+gipcdMonitorCheckXfer: set new infQuery
+gipcdMonitorCssCheck: Failed to get the \S+ group status ret \S+
+gipcdMonitorCssCheck: found node \S+ index \S+
+gipcdMonitorCssCheck: updating reconfig incarnation to node \S+
+gipcdMonitorCssInit: Successfully connected to \S+
+gipcdMonitorCssTerm: Successfully cleanup of connection to \S+
+gipcdMonitorFailZombieNodes: Forcing zombie failure, node '.*', now \S+ last \S+ to \S+ endp \S+ \S+
+gipcdMonitorFailZombieNodes: skipping live node '.*', reconfig incarnation \S+ ms, endp \S+ \S+
+gipcdMonitorPublishDiags:  key \S+ handle \S+ writeTime \S+ value \S+
+gipcdMonitorPublishDiags: successfully open \S+ \S+ handle \S+
+gipcdMonitorSaveInfMetrics: \S+ rank \S+ detected, raise trace lvl
+gipcdMonitorSaveInfMetrics: inf\[.*\] \s*\S+     - rank \s*\S* node \S+ \s*\S* avgms \S+ \[.*\]
+gipcdMonitorSaveInfMetrics: inf\[.*\] \s*\S+     - rank \s*\S+ node \S+ avgms \S+ \[.*\]
+gipcdMonitorSaveInfMetrics: reset trace level, \S+
+gipcdMonitorSaveInfMetrics: saving: \s*\S*
+gipcdMonitorThread: \S+ received \S+ shutdown msg from agent framework or some other thread died
+gipcdMonitorThread: Monitor thread is exiting..
+gipcdMonitorThread: gipcdMonitorThread started
+gipcdMonitorUpdate: Published \S+ \S+ \S+ event
+gipcdMonitorUpdate: interface \S+ - \[.*\]
+gipcdMonitorUpdate: msg sent to client thread \(.*\)
+gipcdNodeFailed: Deleted remote client with id \S+ \S+ \(.*\) from remote cache on this host
+gipcdNodeFailed: Deleting information of all clients on remote endps \(.*\), \(.*\)
+gipcdNodeFailed: Deleting the peer endpoint from the list of endpt list
+gipcdNodeFailed: No cache available in client thread for this remote host \S+
+gipcdNodeFailed: connection lost with host\(.*\), id \(.*\), \S+ \S+
+gipcdNodeSendAck: Recvd an ack from client thread, clnt header:\(.*\)
+gipcdNodeSendAck: Sending the ack to remote node id \S+ \(.*\)
+gipcdNodeSendReq: Sending using id \S+ \(.*\)
+gipcdNodeThread: \S+ received \S+ shutdown msg from agent framework or client thread died
+gipcdNodeThread: \S+ waitStart \S+ waitEnd \S+ now \S+ loopCount \S+ timeout \S+
+gipcdNodeThread: Connection established with hostname \S+ endp: \S+
+gipcdNodeThread: Failing information for remote con host\(.*\), id \(.*\)
+gipcdNodeThread: Msg received from endp \S+ \S+  \[.*\] flags \S+
+gipcdNodeThread: Node thread has exited
+gipcdNodeThread: gipcdNodeThread started
+gipcdNodeThread: gipcreqtypeAccept connection from host \S+
+gipcdNodeThread: received Disconnect from hostname \S+ endp: \S+
+gipcdNodeThreadShutdown: Deleted connection with host \S+
+gipcdNodeThreadShutdown: deleting all the peer connections
+gipcdProcessClientRequest: Dequeued req for host \(.*\), type\(.*\), id \(.*\), cookie .*
+gipcdProcessDeadNodeReqList: processing the \S+ Node \S+ reqList
+gipcdProcessDeadNodeUpd: No client requires this update, discarding the msg
+gipcdProcessDeadNodeUpd: Received deadClientupd: hostSrc \S+ hanameSrc \S+ hostDst \S+ hanameDst \S+
+gipcdProcessEstablish: \S+ host \S+ details into \S+
+gipcdProcessEstablish: Received establish  message from node \S+ \S+ incarnation \S+ nodeIncarnation \S+ flags \S+
+gipcdProcessEstablish: process establish  message from node \S+ \S+ flags \S+
+gipcdProcessEstablish: sent establishAck msg to host \S+ ret: \S+
+gipcdProcessEstablishAck: \S+ host \S+ details into \S+
+gipcdProcessEstablishAck: Recvd establishAck from host \S+ inc \S+ nodeInc \S+
+gipcdProcessEstablishAck: processed EstablishAck of host \S+
+gipcdProcessNodeInfoAck: req: nodeInfoAck: host \S+ nodeType \S+
+gipcdProcessNodeRequest: Dequeued req from host \S+ type: \S+ id: \S+ \S+
+gipcdRawInterfaceUpdates: \(.*\)
+gipcdSaveid: \S+ message from new remote client found with id:\(.*\)
+gipcdScanMemory: no clients are registered with \S+
+gipcdScanMemory: scanning the shared memory for restoring the registered clients info
+gipcdSearchInterface: Existing interface ip: \S+ mask: \S+ subnet: \S+ mac: , ifname: , update interface ip: \S+ mask: \S+ subnet: \S+ mac: , ifname:  
+gipcdSendCssIncarnationUpd: successfully sent cssIncarnationupdate \(.*\) msg
+gipcdSendEstablishMsg: sent establish msg to host \S+ ret \S+ nodeType \S+ inc \S+ nodeInc \S+
+gipcdSendFailAckToClient: Deleting the Failed ack info for update request
+gipcdSendReq: Enqueued the request and waiting for connection to complete with host \S+
+gipcdSendReq: Failed to get the localCon
+gipcdSendReq: Sent the request to host \S+
+gipcdSendReq: recvd msg clnt header: \(.*\)
+gipcdSetThreadState: changing the status of \S+ current status .* desired status \S+
+gipcdUpdateLocalClient: successfully sent the inf update
+gipcdUpdateNodeType: hostname \S+ nodeType gipchaNodeType12001
+gipcd_CLSDMInit: clsdm inited
+gipcd_CheckCB: \S+ Daemon is \S+ yet \S+ for business \S+
+gipcd_ExitCB: Received \S+ shutdown message from agent framework
+gipcdsContextInitialize: no subscriber using the existing map file \S+
+gipcdsInitializeF: gipcds init successful
+gipcdsMemoryAddKeyEntry: successfully published key \S+ into shared memory, mid \S+
+gipcdsMemoryDelDeadSubscribers: processed the subscribers list
+gipcdsMemoryDelDeadSubscribers: subscriber gipcd \(.*\) is alive
+gipcdsMemoryGarbageCollection: garbage collection completed
+gipcdsMemoryScan: found key \S+ mid \S+
+gipcdsMemoryScan: memory scan completed
+gipcdsMemorySubscribeMap: successfully subscribed the map file
+gipcdsMemoryUnsubscribeMap: successfully un-subscribed the map file smid \S+ tot \S+
+gipchaDaemonCheckGnsBootEndp: could not create gns bootstrap listen endpoint, will retry
+gipchaDaemonCheckGnsBootEndp: listening on \S+
+gipchaDaemonCreateResolveResponse: creating resolveResponse for \S+ \S+ \S+ \S+
+gipchaDaemonProcessClientReq: processing req \S+ type \S+ \(.*\)
+gipchaDaemonProcessCssIncarnationUpdate: processing css incarnationUpd msg, cssIncarnation \S+
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host \S+ haname \S+
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host \S+ haname
+gipchaDaemonProcessInfUpdate: completed interface update host '.*', haName '.*', hctx \S+ \[.*\] \{.*\}
+gipchaDaemonProcessInfUpdate: ip \S+ subnet \S+ mask \S+ state \S+ inc \S+ flags \S+
+gipchaDaemonProcessMarkInfAsTransient: marked all the local inf as \S+
+gipchaDaemonProcessNodeIncarnationUpdate: processing nodeIncarnationUpd for node \S+ nodeIncarnation \S+
+gipchaDaemonProcessSend: send \S+ failed for daemon ret gipcretConnectionLost \(.*\), hctx \S+ \[.*\] \{.*\}
+gipchaDaemonThread: starting daemon thread hctx \S+ \[.*\] \{.*\}
+gipchaDaemonWork: DaemonThread heart beat, time interval since last heartBeat \S+ \S+
+gipchaGetClusterMode: .* Cluster mode
+gipchaGetLocalNodeRole: clsu_get_target_node_role\(.*\): \S+ \S+
+gipchaGnsAdvertise: \S+ published successfully \S+ \S+ \S+ \S+
+gipchaGnsPrepareUnderScoreServiceName: underscoreServiceName: \S+
+gipchaGnsProcessClientPortPublish: completing portPublish \S+ \S+ \S+ \S+ nodeRole:HUB, \S+ \S+
+gipchaGnsProcessClientReq: completing req:gipchaClientReqTypeGnsPortPublish \(.*\)
+gipchaGnsThread: gns thread state changed to gipchaThreadStateRunning \(.*\)
+gipchaGnsThread: starting gns thread hctx \S+ \[.*\] \{.*\}
+gipchaGnsWork: GNSThread heart beat, time interval since last heartBeat \S+ \S+
+gipchaInterfaceDisable: disabling interface \S+ \{.*\}
+gipchaInterfaceDisableF \[.*\]: disabling interface \S+ \{.*\}
+gipchaInterfaceFail: marking interface failing \S+ \{.*\}
+gipchaInterfaceFailF \[.*\]: failing interface \S+ \{.*\}
+gipchaInterfaceReset: resetting interface \S+ \{.*\}
+gipchaInternalReadGpnp: No \S+ network info configured in \S+ profile, using defaults, ret gipcretFail \(.*\)
+gipchaInternalReadGpnp: configuring bootstrap communications using:  broadcast and multicast
+gipchaInternalReadGpnp: configuring default \S+ \S+ \S+
+gipchaInternalReadGpnp: mcast address\[.*\] .*
+gipchaInternalRegister: \S+ \S+ \S+ \S+
+gipchaInternalRegister: \S+ flag \S+
+gipchaInternalRegister: Initializing \S+ \S+ global flags \S+
+gipchaLowerCallback: EXCEPTION\[.*\]  error while processing req \S+ \{.*\}, hctx \S+ \[.*\] \{.*\}
+gipchaLowerCleanInterfaces: destroy interface \S+ \{.*\}
+gipchaLowerCleanInterfaces: forcing interface purge due to loss of all comms node \S+ \{.*\}
+gipchaLowerCleanInterfaces: performing cleanup of disabled interface \S+ \{.*\}
+gipchaLowerInternalSend: failed to initiate send on interface \S+ \{.*\}, hctx \S+ \[.*\] \{.*\}
+gipchaLowerInternalSend: increasing the \S+ trace level for stream \S+ \{.*\}  hdr \S+ \{.*\}
+gipchaLowerInternalSend: send msg \S+ \{.*\} , stream \S+ \{.*\}  inf \S+ \{.*\}
+gipchaLowerMsgCompleteF \[.*\]: retiring completed hdr \S+ \{.*\} , ret \S+ \(.*\)
+gipchaLowerMsgCompleteF: decreasing the \S+ trace level for stream \S+ \{.*\}
+gipchaLowerMsgCompleteF: msg type \S+ cookie \S+ flag \S+
+gipchaLowerProcessAcks: \S+ finished for node \S+ \{.*\}
+gipchaLowerProcessAcks: nodeType info node \S+ \{.*\} changes from gipchaNodeTypeInvalid \(.*\) to gipchaNodeType12001 \(.*\)
+gipchaLowerProcessDigestAlgUpd: \S+ \S+ algo \S+ \(.*\), algoLen \S+ for node \S+ \{.*\}
+gipchaLowerProcessInterfaceUpd: attempting to \S+ \S+ nics for node \S+ \{.*\}
+gipchaLowerProcessMsgDigestAlgUpd: processing \S+ \S+ \S+ msg \S+ \{.*\}  from node \S+ \{.*\}
+gipchaLowerProcessMsgDigestReq: processing \S+ \S+ msg \S+ \{.*\}  from node \S+ \{.*\}
+gipchaLowerProcessMsgEstablish: \S+ is switched \S+ for node \S+
+gipchaLowerProcessMsgEstablish: processed \S+ from host '.*', haName '.*',hctx \S+ \[.*\] \{.*\}, node .* hdr \S+ \{.*\}
+gipchaLowerProcessMsgEstablish: src \S+ \S+ host '.*', haName '.*', does not match node \S+ \{.*\}
+gipchaLowerProcessMsgInfReq: processing \S+ \S+ msg \S+ \{.*\}  from node \S+ \{.*\}
+gipchaLowerProcessMsgInfUpd: processing \S+ \S+ msg \S+ \{.*\}  from node \S+ \{.*\}
+gipchaLowerProcessNode: active boostrap node considered \S+ due to lack of clients, node \S+ \{.*\}
+gipchaLowerProcessNode: bootstrap node considered \S+ because of idle connection time \S+ ms, node \S+ \{.*\}
+gipchaLowerProcessNode: no valid interfaces found to node for \S+ ms, node \S+ \{.*\}
+gipchaLowerProcessNode: node \S+ \{.*\} now \S+ diff \S+ connectTime \S+
+gipchaLowerProcessPendingQ: \S+ now \S+ lmsg->startTime \S+ lmsg->maxTime \S+ lmsg \S+ \S+ \{.*\}
+gipchaLowerProcessStream: forcing \S+ for liveness heartbeat check to stream \S+ \{.*\} , now \S+ lastSendTime \S+
+gipchaLowerProcessStream: skipping new \S+ because no work outstanding stream \S+ \{.*\}
+gipchaLowerProcessWaitQ: triggering deffered startup of msg \S+ \{.*\} , haStream \S+ \{.*\}
+gipchaLowerRecv: Added new stream \S+ \{.*\}  to node \S+ \{.*\}
+gipchaLowerRecv: bootstrap mode dropping from node '.*', hdr \S+ \{.*\}
+gipchaLowerRecv: either of the stream has to \S+ \S+ if '.*' && '.*', junk packet received, dropping, hdr \S+ \{.*\} , ret gipcretFail \(.*\)
+gipchaLowerRecv: recv hdr \S+ \{.*\}  stream \S+ \{.*\}  node \S+
+gipchaLowerSend2: No fragment required, flag \S+ cookie \(.*\), type \S+
+gipchaLowerSend: deffering startup of hdr \S+ \{.*\} , node \S+ \{.*\}, stream \S+ .*
+gipchaLowerSendDigestAlgUpd: sending \S+ \S+ to node '.*'
+gipchaLowerSendDigestAlgoReq: sending \S+ \S+ to node '.*'
+gipchaLowerSendEstablish: sending establish message for node '.*'
+gipchaLowerSendInterfaceReq: sending \S+ \S+ to node '.*'
+gipchaLowerSendInterfaceUpd: sending \S+ \S+ message with \S+ inf, node \S+ \{.*\}, hdr \S+
+gipchaNodeAddInterface: adding interface information for inf \S+ \{.*\}
+gipchaNodeAddInterfaceF \[.*\]: adding interface info \S+ \{.*\}
+gipchaNodeAddInterfaceF: recovered \S+ inf \S+ \{.*\}
+gipchaNodeCreate: adding new node \S+ \{.*\}
+gipchaNodeDelete: performing final delete of node \S+ \{.*\}
+gipchaNodeMarkInfAsTransientF \[.*\]: marking infs of node \S+ \{.*\} as \S+
+gipchaUpperAccept: completed accept endp \S+ \[.*\] \{.*\}
+gipchaUpperCallbackConnAck: completed CONNECT:ACK ret gipcretSuccess, hendp \S+ \[.*\] \{.*\}
+gipchaUpperCallbackDisconnect: completed \S+ ret gipcretSuccess \(.*\), umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ hendp \S+ \[.*\] \{.*\}
+gipchaUpperCallbackSend: completed upper msg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ haMsg \S+ \{.*\} hendp \S+ \[.*\] \{.*\} ret \S+
+gipchaUpperConnect: initiated connect for umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ endp \S+ \[.*\] \{.*\} node \S+ \{.*\}
+gipchaUpperDisconnect: initiated discconnect umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ endp \S+ \[.*\] \{.*\}
+gipchaUpperProcessAccept: completed new hastream \S+ \{.*\}  for hendp \S+ \[.*\] \{.*\}
+gipchaUpperProcessConnectAck: \S+ completed umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ hendp \S+ \[.*\] \{.*\} node \S+ .*
+gipchaUpperProcessDisconnect: processing \S+ for hendp \S+ \[.*\] \{.*\}
+gipchaUpperProcessNodeDeath: destroying the failed node interface \S+ \{.*\}
+gipchaUpperProcessRecv: EXCEPTION\[.*\]  error during \S+ processing for node \S+ \{.*\}, msg \S+ \{.*\}
+gipchaUpperProcessRecv: dropping recv for unknown endpoint msg \S+ \{.*\}, hctx \S+ \[.*\] \{.*\}, ret gipcretFail \(.*\)
+gipchaWorkerAttachInterface: Interface attached inf \S+ \{.*\}
+gipchaWorkerCheckNetwork: processed \S+ msgs dropMsgCount \S+ loop starttime \S+ endtime \S+
+gipchaWorkerCleanInterface: performing cleanup of disabled interface \S+ \{.*\}
+gipchaWorkerCreateInterface: created local bootstrap \S+ interface for node '.*', haName '.*', inf '.*' inf \S+
+gipchaWorkerCreateInterface: created local interface for node '.*', haName '.*', inf '.*' inf \S+
+gipchaWorkerCreateInterface: created remote bootstrap \S+ interface for node '.*', haName '.*', inf '.*' inf \S+
+gipchaWorkerCreateInterface: created remote interface for node '.*', haName '.*', inf '.*' inf \S+
+gipchaWorkerProcessClientConnect: starting resolve from connect for \S+ \S+ \S+
+gipchaWorkerThread: starting worker thread hctx \S+ \[.*\] \{.*\}
+gipchaWorkerWork: workerThread heart beat, time interval since last heartBeat \S+ loopCount \S+ sendCount \S+ recvCount \S+ postCount \S+ sendCmplCount \S+ recvCmplCount \S+
+gipclibCheckProcessAliveness: ospid \S+ timestamp \S+ is \S+
+gipclibClsceCtxInit: evm client context initialized successfully
+gipclibGetClusterGuid: retrieved cluster guid \S+
+gipclibGetProcessGPID: ospid \S+ timestamp \S+
+gipclibMapRemove: gipcMapRemove\(.*\) -> gipcMapRemoveNode\(.*\) failed: ret:gipcretKeyNotFound \(.*\), \S+ \S+ \S+ \S+
+gipclibMapSearch: gipcMapSearch\(.*\) -> gipcMapGetNodeAddr\(.*\) failed: ret:gipcretKeyNotFound \(.*\), \S+ \S+ \S+ \S+
+gipclibPublishEvent: failed to publish clscevent ret \S+ error: \S+ \(.*\)  Could not connect to the Event Manager daemon, type \S+
+gipclibPublishEvent: successfully published clscevent ret \S+ type \S+
+gipcmodGipcCallbackDisconnect: \[.*\]  Disconnect forced for endp \S+ \[.*\] \{.*\}
+gipcmodGipcCallbackEndpClosed: \[.*\]  Endpoint close for endp \S+ \[.*\] \{.*\}
+gipcmodGipcCompleteConnect: \[.*\] completed connect on endp \S+ \[.*\] \{.*\}
+gipcmodGipcDisconnect: \[.*\]  Issued endpoint close for endp \S+ \[.*\] \{.*\}
+gipcmodNetworkProcessSend: \[.*\]  failed send attempt endp \S+ \[.*\] \{.*\}, req \S+ \[.*\] \{.*\}
+gipcmodNetworkProcessSend: slos dep \S+  Invalid argument \(.*\)
+gipcmodNetworkProcessSend: slos info:  addr '.*', len \S+ buf \S+ cookie \S+
+gipcmodNetworkProcessSend: slos loc \S+  address not
+gipcmodNetworkProcessSend: slos op  :  sgipcnValidateSocket
+gipcmodSharedSegOpen: failed shared memory open \S+ \[.*\] \{.*\}, name '.*'
+gipcmodSharedSegOpen: slos dep \S+  No such file or directory \(.*\)
+gipcmodSharedSegOpen: slos info:  failed to open map \S+
+gipcmodSharedSegOpen: slos loc \S+  open
+gipcmodSharedSegOpen: slos op  :  sgipcOpenSharedMemory
+gipcmodTlsAuthInit: cipher suite set
+gipcmodTlsAuthInit: created connection context
+gipcmodTlsAuthInit: credentails set
+gipcmodTlsAuthInit: found persona
+gipcmodTlsAuthInit: got the wallet into memory
+gipcmodTlsAuthInit: tls context initialized successfully
+gipcmodTlsAuthReady: \S+ Auth completed Successfully
+gipcmodTlsAuthStart: \S+ \S+ \S+ \S+
+gipcmodTlsAuthStart: \S+
+gipcmodTlsAuthStart: Peer is anonymous
+gipcmodTlsAuthStart: certificate chain:
+gipcmodTlsAuthStart: endpoint \S+ \[.*\] \{.*\}, auth state: gipcmodTlsAuthStateReady \(.*\)
+gipcmodTlsAuthStart: name:CN=71162ced73b95f92ffa1253a7753dcf0,O=Oracle Clusterware,UID=21014754,
+gipcmodTlsAuthStart: name:CN=b954d0a58579ef60bfba16d0b8451169,O=Oracle \S+
+gipcmodTlsAuthStart: negotiated \S+ \S+ \S+ \S+
+gipcmodTlsAuthStart: negotiated \S+ \S+ \S+
+gipcmodTlsAuthStart: negotiated symmetric key \S+ \S+
+gipcmodTlsAuthStart: nzos_Handshake\(.*\) completed successfully
+gipcmodTlsDisconnect: \[.*\] disconnect issued on endp \S+ \[.*\] \{.*\}
+gipcmodTlsGetWalletObjFromBuffer: using wallet buffer
+gipcmodTlsGetWalletObjFromCred: found base dom: \S+
+gipcmodTlsGetWalletObjFromCred: found one certificate
+gipcmodTlsGetWalletObjFromCred: initialized Olr clsCred
+gipcmodTlsGetWalletObjFromCred: using rootCredDomName: \S+ \S+
+gipcmodTlsSetAuthFlags: nzcred auth flags, feature: \S+ \S+
+main::clsgnGetClusterType: \(.*\) failed to get cluster type \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].
+main::clsgnGetSubdomainParameter: \(.*\) Unable to get parameter ".*"- re-throwing. \S+ clskec:has:CLSGN:70 \S+ args\[.*\]
+main::clsgncGetClusterType: \(.*\) \S+ has not been configured on this cluster - throwing \S+
+main::clsgncrsGetAttribute: \(.*\) found no value for ".*" - throwing \S+
+main::clsgncrsQuery: \(.*\) \S+ query failed failed with error \S+ - throwing \S+
+main::clsgnctrCreateReceivePacket: connection version: \S+ \(.*\)
+main::clsgnctrGetGNSInstanceUsingCLSNS: \(.*\) \S+ address retrieval failed with error - throwing \S+ \S+ clskec:has:CLSNS:41 \S+ args\[.*\]\[.*\]\[.*\]\[.*\]
+main::clsgnctrGetInfo:active version: \S+ protocol\(.*\) supported: ".*"
+main::clsgnctrGetProtocol_Version:got connection version: \S+ \(.*\) from \S+ instance.
+main::clsgnctrInitialize:active version ".*" \(.*\) using connection version \S+ \(.*\)
+main::clsgnctrSendCommand:Sending command from \S+ to
+main::clsgnocrInitialize: \(.*\) initialization of \S+ at level \S+ failed with \S+ error \S+ \(.*\) - throwing \S+
+main::clsgnocrOpenKey: \(.*\) key for path ".*" does not exist. - throwing \S+
+procr_open_key_ext: Node Failure. Attempting retry \S+
+prom_rpc: \S+ send failure..ret code \S+
+prom_rpc: possible \S+ retry scenario
+prom_send:Failed to send \[.*\]
+prou_print_lock_info:tid \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]	 \S+ \[.*\]
+sgipcGetCrsUser: successfully fetched \S+ user name \S+ id \S+
+u_set_comp_error: comptype '.*' \S+ error '.*'
+value for key \S+ is \S+

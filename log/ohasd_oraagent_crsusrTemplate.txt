@@ -1,0 +1,179 @@
+AGFW assuming \S+ entry point defined in script.
+Added new resource: \S+ \S+ \S+ to the agfw
+Added new restype: \S+
+Adding Environment Variables \S+
+Agent Framework started successfully
+Agent do not have any action entries defined for type: \S+
+Agent does not have the type: \S+
+Agent framework initialized, Process Id = \S+
+Agent has no resources to \S+ monitored, Shutting down \S+
+Agent is exiting with exit code: \S+
+Agent is shutting down.
+Agent is started with userid: crsusr , expected user: crsusr
+Agent received the message: .* \S+ \S+
+Agent sending \S+ \S+ \S+ .* \S+ \S+
+Agent sending reply for: .* \S+ \S+
+Agent::Agent \S+ \S+ \S+
+Agent::commonCheck check failed \S+ \S+
+Agent::doStateDump  last call info:
+Agent::doStateDump Default Agent Dump
+Agent::getNodeName \S+
+Agent::getNodeName Exception \S+ Internal Error: \S+ Internal Error: Agents: clssnsqlnum ret = \S+  ignored
+Agent::getResAgent \S+ version:12.1.0.1.0
+Agent::setResType setResType \S+
+Agfw calling user exitCB, will exit on return
+Agfw engine module has enabled...
+Argument \S+ is: /u01/app/12.2.0/grid/bin/oraagent.bin
+Argument count \(.*\) for this daemon is \S+
+CLSDM Based stop action
+CSSD Mode=
+Cancelled timer for \[.*\]
+Check = \S+
+Check action requested by agent entry point for \S+
+ClsdmClient::sendMessage \S+ error \S+ ecode:-10 errbuf:CRS-02004: error \S+ encountered when sending messages to
+ClsdmClient::sendMessage \S+ error \S+ ecode:-7 errbuf:
+ClusterPubSub::subscribe \S+ failed \[.*\]
+Command executor, maximum threads = \S+
+Command: \S+ for resource: \S+ \S+ \S+ completed with status: \S+
+Config \S+ /u01/app/12.2.0/grid
+Config \S+ timeout \S+
+Config port \S+
+Connected to server running as user: root
+Connecting to \S+
+ConnectionPool::initMutex
+Could not find any base type entry points for type: \S+ Assuming script entry points.
+Could not find any base type named: \S+ type: \S+
+Could not find the action entry: \S+
+CrsCmd::ClscrsCmdData::stat1 \S+ attribute EM_PORT@SERVERNAME\(.*\) not found
+DaemonAgent::check returned \S+
+DaemonAgent::clsdmAndPidChecks \S+ adjusted \S+
+DaemonAgent::clsdmCheck \S+ sendMessage excp:CRS-02004: error \S+ encountered when sending messages to
+DaemonAgent::clsdmCheck \S+ sendMessage excp:
+DaemonAgent::generateFilePath \S+ entry
+DaemonAgent::generateFilePathFromPname returns \S+
+DaemonAgent::start \S+ \S+ .*
+DaemonAgent::start \S+ clsdmCheck without returnbuf \S+
+DaemonAgent::updatePidCache \S+ \S+ from \S+
+DaemonAgent::updatePidCache \S+ entry
+Deep check returned \S+
+DerivedAttrMgr::getDerivedAttrMgr - no derived attributes are defined for resType \S+
+Error: gipcWait for gipcConnect - \S+ \S+
+Failed to send dynamic control message to connection \[.*\]\[.*\]
+Generating new Tint for unplanned state change. Original Tint: \{.*\}
+ID = \[.*\] Intermediate Timeout = \[.*\]
+IncarnationTS = \S+
+Inited lsf context \S+
+Initing \S+ Framework messaging
+Ipc: Starting send thread
+Ipc: sendWork thread started.
+IpcC: \S+ Client thread started listening
+IpcC: Member data received
+IpcC: Received member number of \S+
+Logging level for Module: \S+ \s*\S+
+LsnrAgent::initMutex \S+
+M2M is now powered by \S+ doWork\(.*\) thread.
+M2M is starting...
+Module Enabling is complete
+New \S+ .* username=root
+New Framework state: \S+
+New process connected to us ID:\{.*\} \S+
+Oracle Database \S+ Clusterware Release \S+ - Production Copyright \S+ \S+ Oracle. All rights reserved.
+PortEventForwarder PortEventForwarder::forward \S+ is now online
+Preparing \S+ command for: \S+ \S+ \S+
+Process id \S+ translated to \S+
+Process id \S+ translated to
+Proxy EonsProxyEventForwarder::init no port; proxy not started
+Proxy EonsProxyEventForwarder::setPort Proxy started
+Proxy EonsProxyEventForwarder::setPort port is \S+
+Proxy EonsProxyEventForwarder::shutdown Shutting down the proxy
+RECYCLE_AGENT attribute not found
+Recvd request to shed the threads
+Resid = \S+ \S+ \S+
+Resource \S+ \S+ \S+ has transitioned to \S+
+SERVER \S+ \S+ \S+ \(.*\)
+Started implicit monitor for \[.*\] \S+ \S+
+Started timer for \[.*\]  delay=960000
+Starting thread model named: \S+
+State = \S+
+Static Version \S+
+SvcAgent::initMutex \S+
+TM \[.*\] is changing desired thread # to \S+ Current # is \S+
+Thread:\[.*\] Initiating \S+ check action
+Thread:\[.*\] Skipping Agent Initiated \S+ check action
+Thread:\[.*\] Thread exiting
+Thread:\[.*\] Thread stop:thread acquire \S+ \S+
+Thread:\[.*\] Thread stop:thread sltstjn
+Thread:\[.*\] Thread::start .*
+Thread:\[.*\] Thread::start spawn \S+ \S+
+Thread:\[.*\] Thread::start spawned release \S+ .
+Thread:\[.*\] Thread::start thread spawned \S+
+Thread:\[.*\] got message from daemon. Initiating check
+Thread:\[.*\] isFinished set to true
+Thread:\[.*\] isRunning is reset to false here
+Thread:\[.*\] stop .*
+Thread:\[.*\] stop release \S+ \S+
+Thread:\[.*\] thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:\[.*\] thread destructor entry .*
+Thread:\[.*\] thread destructor m_pThnd:\(.*\) exit .
+Thread:ASM DedicatedThread thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:ASM DedicatedThread thread destructor entry .*
+Thread:ASM DedicatedThread thread destructor m_pThnd:\(.*\) exit .
+Thread:EventBridgesEvm  Thread::start .*
+Thread:EventBridgesEvm  Thread::start spawn \S+ \S+
+Thread:EventBridgesEvm  Thread::start spawned release \S+ .
+Thread:EventBridgesEvm  Thread::start thread spawned \S+
+Thread:EventBridgesEvm  WorkerThread::addWorker starting self
+Thread:EventBridgesEvm  WorkerThread::addWorker total workers: \S+
+Thread:EventBridgesEvm  WorkerThread::addWorker waiting for thread to start
+Thread:EventBridgesEvm  run .*
+Thread:EventBridgesEvm  thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:InstStartThread: thread constructor exit \S+ \S+ \S+ \S+ \S+
+Thread:InstStartThread: thread destructor entry .*
+Thread:InstStartThread: thread destructor m_pThnd:\(.*\) exit .
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ \S+ \S+ .*
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ \S+ \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:\(.*\) Agent::commonCheck check failed \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:Agent::commonCheck check \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::check \S+ exit \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmAndPidChecks \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmAndPidChecks \S+ exit \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmCheck \S+ exit \S+ \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmCheck \S+ sendMessage \S+
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::clsdmCheck \S+ sendMessage excp:CRS-02004: error \S+ encountered when sending messages to
+Time:\S+ \S+ Tint:\{.*\} \S+ \S+ lastCall:DaemonAgent::generateClsdmTimeOut \S+
+Tints initialized with nodeId: \S+ procId: \S+
+Trace file \S+
+Usrco UsrcoEventForwarder::postMyEvent posting event ".*"
+Utils::execCmd \S+ \S+ oracleHome:/u01/app/12.2.0/grid CrsHome:/u01/app/12.2.0/grid
+Utils::getOracleHomeAttrib \S+
+Utils::getOracleHomeAttrib getEnvVar \S+
+Utils:execCmd action = \S+ flags = \S+ ohome = \(.*\) cmdname = \S+
+Worker thread is exiting in \S+ \[.*\] to meet the desired count of \S+ New count is \S+
+Worker::schedule adding worker '.*' to thread '.*'
+Worker::schedule thread '.*' not already created. Creating
+adding state dumper of \S+
+checkCrsStat \S+ \S+ \S+ \S+
+clsce_publish_internal \S+ EvmConnCreate failed with status = \S+ try = \S+
+clsce_subscribe \S+ .* \S+ \S+ \S+
+clsce_subscribe \S+ EvmConnCreate failed with status = \S+
+clsce_unsubscribe \S+ successfully unsubscribed \S+ \S+
+clsdm select on
+clsnUsrco: path=/u01/app/12.2.0/grid/racg/usrco/
+clsn_agent::start .*
+clsn_agent::stop .*
+clsssinit: clsssInitNative returned unsuccesfully, but client did not specify native css connection, rc\(.*\)
+clsu_load_ENV_levels: Reading of logging environment variable failed \[.*\] \[.*\].
+clsvactversion:\S+ Retrieving Active Version from local storage.
+command \S+ failed with status \S+
+dynamic component \[.*\] mapped to \[.*\]
+execCmd ret = \S+
+gipcConnectSyncF \[.*\]: EXCEPTION\[.*\]  failed sync connect endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, flags \S+
+gipcInternalConnectSync: failed sync request, ret gipcretConnectionRefused \(.*\)
+gipcInternalSend: connection not valid for send operation endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)
+gipcSendF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ cookie \(.*\), flags \S+
+gipcShutdownF: \S+
+gipcWait gets wrong msg from connection \[.*\]\[.*\] with type gipcreqtypeDisconnect
+ora\S+ \S+ \S+ marked as deleted.
+ora\S+ \S+ \S+ state changed from: \S+ to: \S+
+removing state dumper of \S+
+returned from user exitCB, exiting

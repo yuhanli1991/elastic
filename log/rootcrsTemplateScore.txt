@@ -1,0 +1,1040 @@
+ACFS Remote is not supported in this kernel. Skipping target.service enable.
+ACFS drivers installation \S+
+ACFS is already initialized, skipped \S+ function
+ACFS is already initialized
+ACFS-9154: Loading '.*' driver.
+ACFS-9156: Detecting control device '.*'.
+ACFS-9176: Entering '.*'
+ACFS-9177: Return from '.*'
+ACFS-9178: Return code = \S+
+ACFS-9180: Sub-command is '.*'
+ACFS-9200: Supported
+ACFS-9294: updating file /etc/sysconfig/oracledrivers.conf
+ACFS-9300: ADVM/ACFS distribution files found.
+ACFS-9307: Installing requested ADVM/ACFS software.
+ACFS-9308: Loading installed ADVM/ACFS drivers.
+ACFS-9309: ADVM/ACFS installation correctness verified.
+ACFS-9314: Removing previous ADVM/ACFS installation.
+ACFS-9315: Previous ADVM/ACFS components successfully removed.
+ACFS-9321: Creating udev for ADVM/ACFS.
+ACFS-9323: Creating module dependencies - this may take some time.
+ACFS-9327: Verifying ADVM/ACFS devices.
+ACFS-9503: \S+ and \S+ driver media location is '.*'
+ACFS-9504: Copying file '.*' to the path '.*'
+ACFS-9505: Using acfsutil executable from location: '.*'
+ACFS-9860: Configuring \S+ Remote
+ADE_AUTO_MAP = disabled
+ADE_CHROOT_SHELL = \S+
+ADE_DEFAULT_TRANS_STORAGE_LOC = \S+
+ADE_DEFAULT_TWORK_STORAGE_LOC = \S+
+ADE_DEFAULT_VIEW_STORAGE_LOC = \S+
+ADE_SITE = \S+
+AFD-626: \S+ driver media location is '.*'
+AFD-627: \S+ distribution files found.
+AFD-634: Removing previous \S+ installation.
+AFD-635: Previous \S+ components successfully removed.
+AFD-636: Installing requested \S+ software.
+AFD-637: Loading installed \S+ drivers.
+AFD-638: \S+ installation correctness verified.
+AFD-649: Verifying \S+ devices.
+AFD-9154: Loading '.*' driver.
+AFD-9155: Checking for existing '.*' driver installation.
+AFD-9156: Detecting control device '.*'.
+AFD-9200: Supported
+AFD-9294: updating file /etc/sysconfig/oracledrivers.conf
+AFD-9321: Creating udev for \S+
+AFD-9323: Creating module dependencies - this may take some time.
+AFD-9504: Copying file '.*' to the path '.*'
+AFD_CONF=\S+
+APPLICATION_VIP=
+ASM \S+ attribute: \S+
+ASM Diskstring: /dev/xvd.
+ASM Listener \S+ created
+ASM mode = \S+
+ASMCA_ARGS=
+ASM_CONFIG \S+ near
+ASM_CONFIG=\S+
+ASM_CREDENTIALS=
+ASM_DISCOVERY_STRING=\S+
+ASM_SPFILE=
+ASM_UPGRADE=\S+
+AUTO=\S+
+Adding \S+ Certificate as \S+ \S+ into \S+ GPnP Peer Wallet...
+Adding \S+ Certificate as \S+ \S+ into \S+ GPnP Profile Reader Wallet...
+Adding \S+ diskgroup resource
+Adding Root Certificate \S+ to GPnP \S+ Wallet...
+Adding Root Certificate \S+ to GPnP Profile Reader Wallet...
+Adding certificate to \S+ wallet:
+Adding default users to \S+ Access list...
+Adding nodeapps...
+Adding peer Certificate as \S+ \S+ into \S+ GPnP \S+ Wallet...
+Adding peer Certificate as \S+ \S+ into \S+ GPnP Profile Reader Wallet...
+Adding private key to GPnP \S+ Wallet...
+All disk groups already mounted.
+Attempt to bounce ohasd
+Attempt to get current working directory
+Attempt to start the whole \S+ stack
+BC discovery address: \{.*\}
+BIG_CLUSTER=\S+
+Backing up \S+ pwfile in install stage...
+Backing up /etc/oracle/ocr.loc to /etc/oracle/ocr.loc.orig
+Backup disk group: \S+ has not been created.
+Best gpnp node configuration is ".*"
+CDATA_AUSIZE=\S+
+CDATA_BACKUP_AUSIZE=\S+
+CDATA_BACKUP_DISKS=\S+
+CDATA_BACKUP_DISK_GROUP=\S+
+CDATA_BACKUP_FAILURE_GROUPS=
+CDATA_BACKUP_QUORUM_GROUPS=
+CDATA_BACKUP_REDUNDANCY=\S+
+CDATA_BACKUP_SITES=
+CDATA_BACKUP_SIZE=\S+
+CDATA_DISKS=\S+
+CDATA_DISK_GROUP=\S+
+CDATA_FAILURE_GROUPS=
+CDATA_QUORUM_GROUPS=
+CDATA_REDUNDANCY=\S+
+CDATA_SITES=
+CDATA_SIZE=\S+
+CLSCFG_EXTRA_PARMS=
+CLSCFG_MISSCOUNT=
+CLSRSC-325: Configure Oracle Grid Infrastructure for \S+ Cluster \S+ succeeded
+CLSRSC-330: Adding Clusterware entries to file '.*'
+CLSRSC-343: Successfully started Oracle Clusterware stack
+CLSRSC-363: User ignored prerequisites during installation
+CLSRSC-365: Failed to create credentials for \S+ on the local node
+CLSRSC-4001: Installing Oracle Trace File Analyzer \(.*\) Collector.
+CLSRSC-4002: Successfully installed Oracle Trace File Analyzer \(.*\) Collector.
+CLSRSC-482: Running command: '.*'
+CLSRSC-594: Executing installation step \S+ of \S+ '.*'.
+CLUSTER_CLASS=\S+
+CLUSTER_GUID=
+CLUSTER_NAME=\S+
+CLUSTER_TYPE=\S+
+COLORTERM = gnome-terminal
+CRS user = crsusr
+CRS-10405: \(.*\)Credential domain already exists.
+CRS-2500: Cannot stop resource '.*' as it is not running
+CRS-2613: Could not find resource '.*'.
+CRS-2672: Attempting to start '.*' on '.*'
+CRS-2673: Attempting to stop '.*' on '.*'
+CRS-2676: Start of '.*' on '.*' succeeded
+CRS-2677: Stop of '.*' on '.*' succeeded
+CRS-2791: Starting shutdown of Oracle High Availability Services-managed resources on '.*'
+CRS-2793: Shutdown of Oracle High Availability Services-managed resources on '.*' has completed
+CRS-4000: Command \S+ failed, or completed with errors.
+CRS-41008: Cluster class is '.*'
+CRS-4123: Oracle High Availability Services has been started.
+CRS-4123: Starting Oracle High Availability Services-managed resources
+CRS-4133: Oracle High Availability Services has been stopped.
+CRS-4256: Updating the profile
+CRS-4266: Voting file\(.*\) successfully replaced
+CRS-4529: Cluster Synchronization Services is online
+CRS-4530: Communications failure contacting Cluster Synchronization Services daemon
+CRS-4533: Event Manager is online
+CRS-4537: Cluster Ready Services is online
+CRS-4622: Oracle High Availability Services autostart is enabled.
+CRS-4638: Oracle High Availability Services is online
+CRS-4639: Could not contact Oracle High Availability Services
+CRS-4692: Cluster Ready Services is online in exclusive mode
+CRS-5702: Resource '.*' is already running on '.*'
+CRS-6016: Resource auto-start has completed for server \S+
+CRS-6017: Processing resource auto-start for servers: \S+
+CRS-6023: Starting Oracle Cluster Ready Services-managed resources
+CRS-6024: Completed start of Oracle Cluster Ready Services-managed resources
+CRS_LIMIT_CORE=\S+
+CRS_LIMIT_MEMLOCK=\S+
+CRS_LSNR_STACK=\S+
+CRS_NODEVIPS=\S+
+CRS_STORAGE_OPTION=\S+
+CSS_LEASEDURATION=\S+
+CVS_RSH = ssh
+Call \S+
+Change working directory to safe directory /u01/app/12.2.0/grid
+Check and delete older CHM/OS installation
+Check if /mnt is writable before create /mnt/oracle
+Check if the first node has been successfully configured or upgraded
+Check if the startup mechanism upstart is being used
+Check whether the backup disk group has been created
+Checking \S+ Status on all nodes \S+
+Checking for existence of /etc/oracle/ocr.loc
+Checking for stale GPnP wallet locks. \[.*\]
+Checking if \S+ \S+ \S+ \S+
+Checking if /u01/app/crsusr/crsdata/rws00fxu/onswallet exists.
+Checking if GPnP setup exists
+Checking if asm resource is online
+Checking if initial configuration has been performed
+Checking if mgmtdb and gns resources are online
+Checking parameters from paramfile \S+ to validate installer variables
+Checking the status of ohasd
+Checking to see if Oracle \S+ stack is already configured
+Class = \S+
+Cluster Health Monitor pin process list updated with \S+
+Cluster Health Monitor repository location updated with default
+Cluster class is \S+
+Cluster history record: Install~18.0.0.0.0~0~~~2017-08-28~09:10:18~#
+Cluster root certificate domain in \S+ created successfully.
+ClusterGUID is not available, hence not set in GPnP Profile
+Collecting nodeapps info \S+
+Command output:
+Command returns \S+
+Compilation failed in require at \(.*\) line \S+ \S+ line \S+
+Configured \S+ Home: /u01/app/12.2.0/grid
+Configured voting files:
+Configuring \S+ for fresh install \S+
+Configuring \S+ managed resources on \S+ database cluster node
+Configuring \S+ managed resources on first node \S+
+Configuring \S+ resources on first node
+Configuring \S+ via \S+
+Configuring \S+
+Copied existing orafile
+Copying /u01/app/crsusr/crsdata/rws00fxu/security/rootwallet/cwallet.sso to all the configured nodes \[.*\]...
+Copying file \S+ to \S+ in nodes \S+
+Copying file \S+ to /etc/init.d directory
+Create Net Listener '.*' as \S+ user
+Create the file \[.*\] for syncing \S+ locations list
+Created credentials for flex \S+
+Creating \S+ keys for user '.*', privgrp '.*'..
+Creating \S+ link ".*" pointing to \S+
+Creating \S+ resources and dependencies
+Creating CHM/OS config file /u01/app/12.2.0/grid/crf/admin/crfrws00fxu.ora
+Creating GPnP \S+ Wallet...
+Creating GPnP Profile Reader Wallet...
+Creating GPnP Root \S+
+Creating GPnP peer profile --->
+Creating backup \S+ .*
+Creating certificate for GPnP \S+ Wallet...
+Creating certificate request for GPnP \S+ Wallet...
+Creating cluster root wallet file...
+Creating local GPnP setup for clustered node...
+Creating ons wallet: /u01/app/crsusr/crsdata/rws00fxu/onswallet/ONS
+Creating or upgrading \S+ keys
+Creating or upgrading Oracle Local Registry \(.*\)
+Creating rootcert domain in \S+
+Creating voting files in \S+ diskgroup \S+
+Creating voting files
+Current \S+ location=
+Current \S+ mirror \S+
+Current Node: \S+
+Current node is: FirstNodeToConfig
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-YZi5qUDCRL,guid=fc611dfe3eab3448a3acae43000002bc
+DC_HOME=
+DHCP_flag=\S+
+DIRPREFIX=
+DISABLE_OPROCD=\S+
+DISPLAY = \S+
+Deleting older CHM/OS repository at default
+Detecting permissions for devices using udev rules.
+Domain rootcert was sucessfully created as \[.*\]
+Done setting permissions on file /etc/oracle/olr.loc
+EXTENDED_CLUSTER=\S+
+EXTENDED_CLUSTER_SITES=\S+
+EXTENDED_CLUSTER_SITE_GUIDS = \S+
+EXTERNAL_ORACLE=\S+
+EXTERNAL_ORACLE_BIN=\S+
+Enable \S+ to initialize \S+
+Enabled flex \S+ on local node
+Enabling Access for Non-root Users on \S+
+End Command output
+Executing '.*'
+Executing /bin/su crsusr -c ".*"
+Executing /etc/init.d/ohasd install
+Executing /u01/app/12.2.0/grid/bin/crsctl \S+ \S+ \S+ \S+ .* \S+ \S+ -init
+Executing /u01/app/12.2.0/grid/bin/crsctl \S+ category \S+ -init -attr ".*"
+Executing /u01/app/12.2.0/grid/bin/crsctl \S+ resource \S+ -attr ".*" -type \S+ -init -f
+Executing /u01/app/12.2.0/grid/bin/crsctl create scr crsusr
+Executing /u01/app/12.2.0/grid/bin/crsctl query css votedisk
+Executing /u01/app/12.2.0/grid/bin/crsctl replace votedisk '.*'
+Executing /u01/app/12.2.0/grid/bin/crsctl start crs -excl
+Executing /u01/app/12.2.0/grid/bin/ocrconfig -local -upgrade crsusr oinstall
+Executing /u01/app/12.2.0/grid/bin/ocrconfig -upgrade crsusr oinstall
+Executing as crsusr: /u01/app/12.2.0/grid/bin/asmca -silent -createDiskgroup -diskGroupName \S+ -diskList '.*' -redundancy \S+ \S+ \S+ -autolabel -attribute COMPATIBLE.RDBMS=11.2.0.0 -attribute \S+
+Executing as crsusr: /u01/app/12.2.0/grid/bin/asmca -silent -diskGroupName \S+ -diskList '.*' -redundancy \S+ -diskString '.*' -configureLocalASM -passwordFileLocation .DATA/orapwASM \S+ \S+ -attribute COMPATIBLE.RDBMS=11.2.0.0 -attribute \S+
+Executing clscfg
+Executing cmd: \S+ \S+
+Executing cmd: \S+ -silent -crshome /u01/app/12.2.0/grid
+Executing cmd: /bin/rpm \S+ \S+
+Executing cmd: /bin/su crsusr -c ".*"
+Executing cmd: /etc/init.d/ohasd install
+Executing cmd: /sbin/acfsutil cluster credential -s crsusr:oinstall
+Executing cmd: /sbin/acfsutil info fs ".*" -o mountpoint
+Executing cmd: /sbin/initctl list
+Executing cmd: /sbin/initctl start oracle-ohasd
+Executing cmd: /sbin/restorecon -iF /etc/init/oracle-ohasd.conf
+Executing cmd: /u01/app/12.2.0/grid/bin/acfsdriverstate \S+ -s
+Executing cmd: /u01/app/12.2.0/grid/bin/acfsdriverstate supported
+Executing cmd: /u01/app/12.2.0/grid/bin/acfsroot install -t2
+Executing cmd: /u01/app/12.2.0/grid/bin/afddriverstate supported
+Executing cmd: /u01/app/12.2.0/grid/bin/afdroot install -v
+Executing cmd: /u01/app/12.2.0/grid/bin/clscfg -install -o /u01/app/12.2.0/grid -g oinstall -h \S+ -y \S+ -p \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/clscfg -localadd -z \S+ -y \S+ -p \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/clsecho -p has -f clsrsc -m \S+ '.*' '.*' '.*'
+Executing cmd: /u01/app/12.2.0/grid/bin/clsecho -p has -f clsrsc -m \S+ '.*'
+Executing cmd: /u01/app/12.2.0/grid/bin/clsecho -p has -f clsrsc -m \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/cluutil -exec -keyexists -key version.history
+Executing cmd: /u01/app/12.2.0/grid/bin/cluutil -exec -ocrcreateandset -key version.history -value Install~18.0.0.0.0~0~~~2017-08-28~09:10:18~#
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ \S+ \S+ \S+ .* \S+ \S+ -init
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ \S+ \S+ -init
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ \S+ .*
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ category \S+ -init -attr ".*"
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ credmaint -path \S+ -local
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ credmaint -path \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ credmaint -path rootcert -local
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ credmaint -path rootcert
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl \S+ resource \S+ -attr ".*" -type \S+ -init -f
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl check \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl check resource \S+ -init
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl create scr crsusr
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl enable crs
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl get cluster class
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl get node role config
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -o crsusr -path \S+ -local
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -o crsusr -path \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -g oinstall -local
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -g oinstall
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -o crsusr -local
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -o crsusr
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -u group:r-- -local
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -u group:r--
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -u other:--- -local
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -u other:---
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -u user:rw- -local
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl setperm credmaint -path rootcert -u user:rw-
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl start crs \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl start crs -excl -cssonly
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl start has
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl start resource \S+ -init
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl stat res -w ".*" -attr ".*" -v
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl stop crs  -f
+Executing cmd: /u01/app/12.2.0/grid/bin/crsctl stop res \S+ -init
+Executing cmd: /u01/app/12.2.0/grid/bin/ocrcheck -config -details -debug
+Executing cmd: /u01/app/12.2.0/grid/bin/ocrcheck -debug
+Executing cmd: /u01/app/12.2.0/grid/bin/ocrconfig -backuploc \S+ -rscupg
+Executing cmd: /u01/app/12.2.0/grid/bin/ocrconfig -local -manualbackup
+Executing cmd: /u01/app/12.2.0/grid/bin/ocrconfig -local -upgrade crsusr oinstall
+Executing cmd: /u01/app/12.2.0/grid/bin/ocrconfig -upgrade crsusr oinstall
+Executing cmd: /u01/app/12.2.0/grid/bin/oifcfg setif -global ".*"/10.208.144.0:public ".*"/10.196.0.0:asm,cluster_interconnect ".*"/10.196.16.0:asm,cluster_interconnect
+Executing cmd: /u01/app/12.2.0/grid/bin/srvctl \S+ \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/srvctl \S+ rhpserver -diskgroup \S+ -storage /mnt/oracle/rhpimages -force  -noofnodes \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/srvctl \S+ scan
+Executing cmd: /u01/app/12.2.0/grid/bin/srvctl start nodeapps -n \S+
+Executing cmd: /u01/app/12.2.0/grid/bin/srvctl upgrade model -restype
+Executing cmd: /u01/app/12.2.0/grid/perl/bin/perl \S+
+Executing cmd: echo '.*' . bash /dev/stdin
+Executing cmd: pwdx \S+ >/dev/null 2>&1
+Executing crsctl replace votedisk '.*'
+Executing echo '.*' . bash /dev/stdin
+Executing pwdx \S+ >/dev/null 2>&1
+Executing the \[.*\] step with checkpoint \[.*\] \S+
+Executing the step \[.*\] to \S+ \S+ on the \S+ node
+Existing configuration setup found
+Exporting GPnP Root Certificate...
+FAIL
+FALSE
+Failed to mount all disk groups, error: \S+ could not write into trace file
+Failed to retrieve \S+ PWfile backup location from global chkptbecause the global chkpt does not exist
+First node operations have not been done, and local node is installer node.
+Fixing \S+ \s*\S+ script.
+Found \S+ configured voting files
+Found conflicts in /etc/rsyslog.conf \S+ local0.info			/var/log/oraasmaudit.log
+GCONF_LOCAL_LOCKS = \S+
+GIMR_CONFIG=\S+
+GIMR_CREDENTIALS=
+GNOME_DESKTOP_SESSION_ID = \S+
+GNOME_KEYRING_SOCKET = /tmp/keyring-m9IrJ6/socket
+GNS_ADDR_LIST=\S+
+GNS_ALLOW_NET_LIST=
+GNS_CONF=\S+
+GNS_CREDENTIALS=
+GNS_DENY_ITF_LIST=
+GNS_DENY_NET_LIST=
+GNS_DOMAIN_LIST=
+GNS_TYPE=\S+
+GPG_AGENT_INFO = /tmp/seahorse-CRX6pb/S.gpg-agent:6778:1;
+GPNP configuration required
+GPNPCONFIGDIR=\S+
+GPNPGCONFIGDIR=\S+
+GPNP_PA=
+GPnP Wallets ownership/permissions successfully set. \[.*\]
+GPnP Wallets successfully created.
+GPnP directories verified.
+GPnP host = \S+
+GPnP local setup successfully created
+GPnP peer profile create successfully completed.
+GPnP setup state: none
+GPnP wallet locks cleaned. \[.*\]
+GTK_IM_MODULE = \S+
+GTK_RC_FILES = /etc/gtk/gtkrc:/scratch/crsusr/.gtkrc-1.2-gnome2
+GUID value from Oracle Cluster GPnP local profile /u01/app/12.2.0/grid/gpnp/rws00fxu/profiles/peer/profile.xml: \S+
+G_BROKEN_FILENAMES = \S+
+Generating \S+ for site: \S+
+Getting file permissions for \S+
+Getting the configured node role for the local node
+Glob file list =
+Global \S+ profile: /u01/app/12.2.0/grid/gpnp/profiles/peer/profile.xml
+Global ckpt '.*' state: \S+
+Global ckpt '.*' state:
+Got \S+ release version: \S+
+HAIP is fatal on this \S+ linux
+HAIP is supported.
+HAS_GROUP=\S+
+HAS_USER=\S+
+HISTSIZE = \S+
+HISTTIMEFORMAT = \S+ %T crsusr
+HOME = /root
+HOST: \S+ \S+
+HOST=\S+
+HOSTNAME = \S+
+HUB_NODE_LIST=\S+
+HUB_NODE_VIPS=\S+
+HUB_SIZE=\S+
+History key \[.*\] doesn.*
+Host name = \S+
+ID=\S+
+IMSETTINGS_INTEGRATE_DESKTOP = yes
+IMSETTINGS_MODULE = none
+INFO: The \S+ Tool is not installed at /usr/lib/oracrf.
+INIT file: oracle-ohasd.conf
+INIT=\S+
+INITCTL=\S+
+INPUTRC = /etc/inputrc
+INSTALL_NODE=\S+
+INSTALL_TFA = \S+
+ISROLLING=\S+
+IT=\S+
+Initializing \S+ now..
+Install cvuqdisk rpm on Linux...
+Install node: \S+
+Installed Build Version: \S+ Build Date: \S+
+Installing \S+ \S+
+Installing \S+ on \S+
+Installing oratop extension..
+Instantiating scripts in \S+ home: /u01/app/12.2.0/grid
+Invoking \S+ asm, except for \S+ client cluster
+Invoking ".*" command
+Invoking ".*"
+Invoking asmcmd cp .DATA/orapwASM \S+
+Is \S+ Node: \S+
+Is First Node Ckpt Success: 0;
+Is Upgrade: ;
+It is non-extended cluster. Get node list from \S+ and site from cluster name.
+JAVA_HOME =
+JLIBDIR=\S+
+JREDIR=\S+
+KDEDIRS = /usr
+KDE_IS_PRELINKED = \S+
+Keys created in the \S+ successfully
+LANG = \S+
+LANG=\S+
+LANGUAGE_ID=\S+
+LC_ALL = \S+
+LC_MESSAGES = \S+
+LD_LIBRARY_PATH = /u01/app/12.2.0/grid/lib:
+LESSOPEN = ../usr/bin/lesspipe.sh
+LINE: \S+ 	 Device/File Name         : .DATA/rws00fx-cluster/OCRFILE/registry.255.953171227
+LISTENER_USERNAME=\S+
+LOADEDMODULES =
+LOCAL \S+ \S+
+LOG = \S+
+LOGNAME = crsusr
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:..tar=01;31:..tgz=01;31:..arj=01;31:..taz=01;31:..lzh=01;31:..lzma=01;31:..tlz=01;31:..txz=01;31:..zip=01;31:..z=01;31:..Z=01;31:..dz=01;31:..gz=01;31:..lz=01;31:..xz=01;31:..bz2=01;31:..tbz=01;31:..tbz2=01;31:..bz=01;31:..tz=01;31:..deb=01;31:..rpm=01;31:..jar=01;31:..rar=01;31:..ace=01;31:..zoo=01;31:..cpio=01;31:..7z=01;31:..rz=01;31:..jpg=01;35:..jpeg=01;35:..gif=01;35:..bmp=01;35:..pbm=01;35:..pgm=01;35:..ppm=01;35:..tga=01;35:..xbm=01;35:..xpm=01;35:..tif=01;35:..tiff=01;35:..png=01;35:..svg=01;35:..svgz=01;35:..mng=01;35:..pcx=01;35:..mov=01;35:..mpg=01;35:..mpeg=01;35:..m2v=01;35:..mkv=01;35:..ogm=01;35:..mp4=01;35:..m4v=01;35:..mp4v=01;35:..vob=01;35:..qt=01;35:..nuv=01;35:..wmv=01;35:..asf=01;35:..rm=01;35:..rmvb=01;35:..flc=01;35:..avi=01;35:..fli=01;35:..flv=01;35:..gl=01;35:..dl=01;35:..xcf=01;35:..xwd=01;35:..yuv=01;35:..cgm=01;35:..emf=01;35:..axv=01;35:..anx=01;35:..ogv=01;35:..ogx=01;35:..aac=01;36:..au=01;36:..flac=01;36:..mid=01;36:..midi=01;36:..mka=01;36:..mp3=01;36:..mpc=01;36:..ogg=01;36:..ra=01;36:..wav=01;36:..axa=01;36:..oga=01;36:..spx=01;36:..xspf=01;36:
+Listing the sub-dirs under \[.*\] \S+
+Local \S+ is already initialized
+Local \S+ profile: /u01/app/12.2.0/grid/gpnp/rws00fxu/profiles/peer/profile.xml
+Local Host: \S+ Local Site in lower case: \S+ Local \S+ \S+
+Local node is the first node, hence nothing to check
+Local node: \S+ is the first node.
+Located \S+ voting disk\(.*\).
+MAIL = /var/spool/mail/crsusr
+MGMT_DB=\S+
+MODULEPATH = /usr/share/Modules/modulefiles:/etc/modulefiles
+MODULESHOME = /usr/share/Modules
+MSGFILE=\S+
+Make sure that multiple sites do not share the same site \S+
+NAME=\S+
+NETWORK \S+ ".*"/10.208.144.0:public ".*"/10.196.0.0:asm,cluster_interconnect ".*"/10.196.16.0:asm,cluster_interconnect
+NETWORKS: ".*"/10.208.144.0:public ".*"/10.196.0.0:asm,cluster_interconnect ".*"/10.196.16.0:asm,cluster_interconnect
+NETWORKS=\S+
+NEW_HOST_NAME_LIST=
+NEW_NODEVIPS=\S+
+NEW_NODE_NAME_LIST=
+NEW_PRIVATE_NAME_LIST=
+NODE_NAME_LIST: \S+
+NODE_NAME_LIST=\S+
+NOT_EXISTS
+New line: \S+
+New package to install is /u01/app/12.2.0/grid/cv/rpm/cvuqdisk-1.0.10-1.rpm
+No need to create management \S+ directory
+No need to sync \S+ file
+Node '.*' configured role is '.*'
+Node VIPs: \S+
+Nodes to \S+ \S+ \S+
+OCR backup location is succesfully set to \S+
+OCR check: failed
+OCR is on \S+
+OCR keys are successfully populated
+OCR locations = \S+
+OCR locations: \S+
+OCRCONFIG=\S+
+OCRCONFIGDIR=\S+
+OCRID is not available, hence not set in GPnP Profile
+OCRID=
+OCRLOC=\S+
+OCR_LOCATION=\S+
+OCR_LOCATIONS=
+OCR_MIRROR_LOC3=
+OCR_MIRROR_LOC4=
+OCR_MIRROR_LOC5=
+OCR_MIRROR_LOCATION=
+ODA_CONFIG=
+ODMDIR=
+OHASD Resources are already configured
+OKA is not supported on this platform.
+OKA is not supported
+OKA-620: \S+ is not supported on this operating system version: '.*'
+OKA-9201: Not Supported
+OLASTGASPDIR=\S+
+OLDPWD = /u01/app/12.2.0/grid
+OLD_CRS_HOME=
+OLR initialization - successful
+OLR is already initialized
+OLR location = /u01/app/12.2.0/grid/cdata/rws00fxu.olr
+OLR successfully created or upgraded
+OLRCONFIG=\S+
+OLRCONFIGDIR=\S+
+OLRLOC=\S+
+OLR_DIRECTORY=\S+
+OLR_LOCATION=\S+
+ONS wallet \S+ \S+
+OPC_CLUSTER_TYPE=
+OPC_NAT_ADDRESS=
+OPROCDCHECKDIR=\S+
+OPROCDDIR=\S+
+OPROCDFATALDIR=\S+
+OPROCDSTOPDIR=\S+
+ORACLE_BASE = /u01/app/crsusr
+ORACLE_BASE is shared: \S+
+ORACLE_BASE=\S+
+ORACLE_HOME = /u01/app/12.2.0/grid
+ORACLE_HOME is shared: \S+
+ORACLE_HOME=\S+
+ORACLE_OWNER=\S+
+ORACLE_SID = \S+
+ORACLE_SID =
+ORA_ASM_GROUP=\S+
+ORA_CRS_HOME=\S+
+ORA_DBA_GROUP=\S+
+ORBIT_SOCKETDIR = /tmp/orbit-crsusr
+Old line: \S+
+Opening file /etc/oracle/ocr.loc
+Operation successful.
+Oracle \S+ \S+ = /u01/app/12.2.0/grid
+Oracle \S+ stack completely started and running
+Oracle \S+ stack has been shut down
+Oracle \S+ stack is already configured and will \S+ running under init \(.*\)
+Oracle \S+ stack is not configured yet
+Oracle Cluster Registry configuration is \S+
+Oracle Cluster Registry initialization completed
+Oracle Clusterware release patch level is \[.*\] and no patches have been applied on the local node.
+Oracle Clusterware release patch level is \[.*\]
+Oracle GPnP \S+ home = \S+
+Oracle GPnP home = /u01/app/12.2.0/grid/gpnp
+Oracle GPnP profiles parameters:
+Oracle GPnP wallets home = /u01/app/12.2.0/grid/gpnp/rws00fxu/wallets
+Oracle Grid Infrastructure is running from /u01/app/12.2.0/grid
+Oracle High Availability Services is online
+Oracle High Availability Services release version on the local node is \[.*\]
+Oracle cluster name = \S+
+Oracle clusterware configuration has started
+Output: \S+ diskgroup '.*' does not exist or is not mounted
+Output: copying .DATA/orapwASM -> \S+
+PATH = \S+
+PING_TARGETS=
+PRCC-1014 \S+ gns was already running
+PRCR-1004 \S+ Resource \S+ is already running
+PRCR-1079 \S+ Failed to start resource \S+
+PRIVATE_NAME_LIST=
+PRKF-1321 \S+ QoS Management Server is already enabled.
+PRKO-2331 \S+ \S+ daemon does not exist.
+PRKO-2421 \S+ Network resource is already started on node\(.*\): \S+
+PRKO-2439 \S+ \S+ does not exist.
+PROC-26: Error while accessing the physical storage Storage layer error \[.*\] \[.*\]
+PROT-602: Failed to retrieve data from the cluster registry
+PROT-709: 	 Device/File Name         : .DATA/rws00fx-cluster/OCRFILE/registry.255.953171227
+PWD = /u01/app/12.2.0/grid
+Package         File                 Line Calling   
+Parse the output for \S+ locations
+Perform initialization tasks before configuring \S+
+Performing few checks before running scripts
+Performing initial configuration for cluster
+Perhaps \S+ required shared library or dll isn.*
+Pick best local setup for home ".*" of cname=rws00fx-cluster, cguid=, prefhost=rws00fxu
+Pin process list is \S+
+Platform is little-endian
+Platform specific setup actions are done
+Pre-checks for running the rootcrs script passed.
+Print system environment variables:
+Processing \S+ and copying wrapper scripts
+Profile \S+ cname=rws00fx-cluster, \S+
+Profile ".*" signature is \S+ for wallet ".*"
+Profile signature is valid.
+Promoting local gpnp setup to cluster-wide. Nodes \S+
+Pushing local gpnpsetup to cluster nodes: \{.*\}
+QTDIR = /usr/lib64/qt-3.3
+QTINC = /usr/lib64/qt-3.3/include
+QTLIB = /usr/lib64/qt-3.3/lib
+QT_IM_MODULE = xim
+Querying for existing \S+ voting disks
+RCALLDIR=\S+ /etc/rc.d/rc1.d /etc/rc.d/rc2.d /etc/rc.d/rc3.d /etc/rc.d/rc4.d /etc/rc.d/rc5.d /etc/rc.d/rc6.d
+RCKDIR=\S+ /etc/rc.d/rc1.d /etc/rc.d/rc2.d /etc/rc.d/rc4.d /etc/rc.d/rc6.d
+RCSDIR=\S+ /etc/rc.d/rc5.d
+RC_KILL=\S+
+RC_KILL_OLD2=K19
+RC_KILL_OLD=\S+
+RC_START=\S+
+REUSEDG=\S+
+RHP_CONF=\S+
+RHP_PROVISIONED=
+RIM_NODE_LIST=
+ROOTCRS_CREATEASMCRED checkpoint has failed
+ROOTCRS_CREATEASMCRED state is \S+
+Reading '.*' from: \S+
+Ready to parse: ".*"/10.208.144.0:public,".*"/10.196.0.0:asm,".*"/10.196.0.0:cluster_interconnect,".*"/10.196.16.0:asm,".*"/10.196.16.0:cluster_interconnect
+Redirecting ASM/IOS/APX audit logs to \S+ failed
+Registering ohasd
+Registering resource type '.*'
+Removing ".*"
+Removing file \S+
+Removing old wallets/certificates, if any
+Reset the environment variable '.*' as: /u01/app/12.2.0/grid
+Resetting \S+ \S+ \S+
+Resolve \S+ in the command wrapper scripts.
+Resulting profile written to ".*".
+Retrieving \S+ \S+ disk location
+Retrieving \S+ location used by previous installations
+Return code: \S+
+Return value of start of \S+ with '.*': \S+
+Reuse Disk Group is set to \S+
+Running \S+ function
+Running /u01/app/12.2.0/grid/bin/acfsdriverstate \S+ -s
+Running Auto Setup for \S+ as user root...
+Running Inventory in All Nodes...
+Running as user crsusr: /u01/app/12.2.0/grid/bin/asmca -silent -createDiskgroup -diskGroupName \S+ -diskList '.*' -redundancy \S+ \S+ \S+ -autolabel -attribute COMPATIBLE.RDBMS=11.2.0.0 -attribute \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/asmca -silent -diskGroupName \S+ -diskList '.*' -redundancy \S+ -diskString '.*' -configureLocalASM -passwordFileLocation .DATA/orapwASM \S+ \S+ -attribute COMPATIBLE.RDBMS=11.2.0.0 -attribute \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/asmcmd \S+ ".*"
+Running as user crsusr: /u01/app/12.2.0/grid/bin/asmcmd --nocp cp .DATA/orapwASM \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/asmcmd lsdg --suppressheader \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/asmcmd mount -a
+Running as user crsusr: /u01/app/12.2.0/grid/bin/clsecho -p has -f clsrsc -m \S+ -l
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -global -oraclebase /u01/app/crsusr -chkckpt -name \S+ -status
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -global -oraclebase /u01/app/crsusr -chkckpt -name \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -global -oraclebase /u01/app/crsusr -writeckpt -name \S+ -pname \S+ -pvalue \S+ -nodelist \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -global -oraclebase /u01/app/crsusr -writeckpt -name \S+ -state \S+ -nodelist \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -oraclebase /u01/app/crsusr \S+ -name \S+ \S+ \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -oraclebase /u01/app/crsusr -chkckpt -name \S+ -status
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -oraclebase /u01/app/crsusr -chkckpt -name \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -oraclebase /u01/app/crsusr -writeckpt -name \S+ -pname \S+ -pvalue \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -ckpt -oraclebase /u01/app/crsusr -writeckpt -name \S+ -state \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/cluutil -copy -sourcefile \S+ -destfile \S+ -nodelistfile \S+ -oraclehome /u01/app/12.2.0/grid
+Running as user crsusr: /u01/app/12.2.0/grid/bin/crsctl create diskgroup \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/crskeytoolctl -genrootkey -local -guid \S+ -node \S+ -keep
+Running as user crsusr: /u01/app/12.2.0/grid/bin/crskeytoolctl -genrootkey -node \S+ -keep
+Running as user crsusr: /u01/app/12.2.0/grid/bin/crskeytoolctl -genrootkey -wallet -guid \S+ -node \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/gpnptool create -o=".*" -ovr -prf \S+ \S+ -prf_pa=".*" -hnet=gen -gen:hnet_nm=".*" -gen:net=net1 -net1:net_ip=".*" -net1:net_ada=".*" -net1:net_use=".*" -gen:net=net2 -net2:net_ip=".*" -net2:net_ada=".*" -net2:net_use=".*" -gen:net=net3 -net3:net_ip=".*" -net3:net_ada=".*" -net3:net_use=".*" -css=css -css:css_dis=".*" \S+ -asm=asm -asm:asm_dis=".*" -asm:asm_spf=".*" -asm:asm_m=".*" -asm:asm_ext=".*" -bc=bc -bc:bc_vip=".*"
+Running as user crsusr: /u01/app/12.2.0/grid/bin/gpnptool getpval -p=".*" -o=".*" \S+ \S+ \S+ \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/gpnptool getpval -p=".*" -o=".*" \S+ \S+ \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/gpnptool getpval -p=".*" -o=".*" \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/gpnptool sign -p=".*" -o=".*" -ovr -w=".*" -rmws
+Running as user crsusr: /u01/app/12.2.0/grid/bin/gpnptool verify -p=".*" -w=".*" -wu=peer
+Running as user crsusr: /u01/app/12.2.0/grid/bin/kfod op=credimport wrap=/u01/app/12.2.0/grid/gpnp/seed/asm/credentials.xml olr=TRUE force=TRUE
+Running as user crsusr: /u01/app/12.2.0/grid/bin/kfod op=credremote wrap=/u01/app/12.2.0/grid/gpnp/seed/asm/credentials.xml
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orabase
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki cert create -wallet ".*" -pwd \S+ -request ".*" -cert ".*" -validity \S+ -nologo
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki wallet \S+ -wallet ".*" \S+ -dn  ".*" -keysize \S+ \S+ -validity \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki wallet \S+ -wallet ".*" -pwd \S+ \S+ -cert ".*" -nologo
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki wallet \S+ -wallet ".*" -pwd \S+ \S+ -dn ".*" -keysize \S+ -validity \S+ -nologo
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki wallet \S+ -wallet ".*" -pwd \S+ -dn ".*" -keysize \S+ -nologo
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki wallet create -wallet ".*" \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki wallet create -wallet ".*" -pwd \S+ \S+ -nologo
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki wallet create -wallet ".*" -pwd \S+ -nologo
+Running as user crsusr: /u01/app/12.2.0/grid/bin/orapki wallet export -wallet ".*" -pwd \S+ -dn ".*" \S+ ".*" -nologo
+Running as user crsusr: /u01/app/12.2.0/grid/bin/qosctl -install
+Running as user crsusr: /u01/app/12.2.0/grid/bin/srvctl \S+ \S+ -p \S+ -s
+Running as user crsusr: /u01/app/12.2.0/grid/bin/srvctl \S+ \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/srvctl \S+ asm -flex -pwfile .DATA/orapwASM
+Running as user crsusr: /u01/app/12.2.0/grid/bin/srvctl \S+ listener -asmlistener -listener \S+ -subnet \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/srvctl \S+ listener -l \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/srvctl start \S+
+Running as user crsusr: /u01/app/12.2.0/grid/bin/srvctl start listener -l \S+ -n \S+
+Running as user crsusr: pwd
+Running srvctl config nodeapps to detect if nodeapps exist
+SCAN \S+ IPv4 \S+ \S+
+SCAN \S+ is enabled.
+SCAN \S+ is individually \S+ on nodes:
+SCAN \S+ is individually disabled on nodes:  
+SCAN \S+ scan1 is enabled
+SCAN \S+ scan1 is running on node \S+
+SCAN \S+ scan2 is enabled
+SCAN \S+ scan2 is running on node \S+
+SCAN name: \S+ Network: \S+
+SCAN_CREDENTIALS=
+SCAN_IPS=\S+
+SCAN_NAME=\S+
+SCAN_PORT=\S+
+SCAN_TYPE=\S+
+SCRBASE=\S+
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/6856,unix/unix:/tmp/.ICE-unix/6856
+SHELL = /bin/bash
+SHLVL = \S+
+SIHA=\S+
+SILENT = \S+
+SILENT=\S+
+SKIP_ADD_RHPS is set to =
+SO_EXT=\S+
+SQL.Plus: Release \S+ Development
+SRC \S+ \S+ \S+ \S+ \S+
+SRVCFGLOC=\S+
+SRVCONFIG=\S+
+SRVCONFIGDIR=\S+
+SSH_AGENT_PID = \S+
+SSH_ASKPASS = /usr/libexec/openssh/gnome-ssh-askpass
+SSH_AUTH_SOCK = /tmp/keyring-m9IrJ6/socket.ssh
+START
+STATE=\S+ on \S+
+STATE=\S+
+SUCCESS
+SUCC_REBOOT=\S+
+SUPERUSER=\S+
+SYSFONT = latarcyrheb-sun16
+SYSTEMCTL=\S+
+SYSTEMD_SYSTEM_DIR=\S+
+Save the \S+ password file location: .DATA/orapwASM
+Saved the existing Oracle Home in environment variable: /u01/app/12.2.0/grid
+Saving new setup in ".*"
+Saving old cluster-wide stage in ".*"
+Saving the configuration parameter file data
+Script diagsnap.pl instantiated successfully.
+Set \S+ client data  -clientdata /u01/app/crsusr/crsdata/rws00fxu/onswallet/ONS/cwallet.sso
+Set \S+ discovery address with the \S+ address
+Set \S+ to \S+
+Set \S+ to stop \S+ initializing \S+
+Set permission \S+ on sub directory '.*'
+Setting \S+ \S+ \S+
+Setting \S+ PWfile backup attribute in install stage...
+Setting \S+ PWfile backup location to the attribute in \S+ resouce failed...
+Setting \S+ locations in /etc/oracle/ocr.loc
+Setting \S+ permission in /etc/init.d directory
+Setting \S+ to default for main
+Setting \S+
+Setting the role for the local node '.*'
+Setting up \S+ Credential store.
+Site name for Cluster: \S+
+Site: \S+ \S+ \S+
+Skip \S+ as this is the source node.
+Skipping \S+ Remote Member Cluster setup.
+Skipping setting ownership & permissions on file /etc/inittab
+Skipping validation for \S+
+Staring \S+
+Start node listener '.*' with user name '.*'
+Start of resource ".*" Succeeded
+Start to check whether the '.*' and '.*' options are correctly supplied.
+Start to configure \S+ on the first node \S+
+Start to configure legacy/near \S+ on the first node \S+
+Started service '.*'
+Starting \S+ in exclusive mode
+Starting \S+ installation in receiver mode
+Starting \S+
+Startup level is \S+
+Stopping \S+ if it exists, so that it doesn.*
+Stopping \S+ which is running exclusive mode
+Storing cluster root certificate in \S+
+Subnet IPv4: 10.208.144.0/255.255.248.0/eth0, static
+Subnet IPv6:
+Succeeded in writing the checkpoint:'.*' with \S+
+Succeeded in writing the key pair \(.*\) to \S+
+Succeeded to \S+ \(.*\):.* for \S+
+Succeeded to get property value:VERSION=18.0.0.0.0
+Succesfully executed action: \S+ for resource \S+
+Success.
+Successful addition of voting disk 301b17ca30824f34bf23d8f63df7dcfb.
+Successfully accumulated necessary \S+ keys.
+Successfully backed up \S+ PWfile .DATA/orapwASM at \S+
+Successfully created \S+ resources for cluster and \S+
+Successfully created disk group resource
+Successfully created the backup disk group.
+Successfully executed '.*'
+Successfully executed srvctl \S+ cdp
+Successfully generated \S+ \S+ for site: \S+
+Successfully generated \S+ backup
+Successfully removed file: \S+
+Successfully replaced voting disk group with \S+
+Successfully set the role for the local node
+Successfully started node listener '.*'
+Successfully updated the history
+Successfully wrote the \S+ PWfile backup copy location to global checkpoint
+Summary of \S+ Installation:
+Sync file: /u01/app/12.2.0/grid/gpnp/seed/asm/ocrloc.conf
+Sync the \S+ locations list to other nodes
+TARGET=\S+
+TERM = xterm
+TFA \S+ \S+ \S+ \S+ \S+
+TFA \S+ \S+ \S+
+TFA Installation Log will \S+ written to File \S+ \S+
+TFA is successfully installed...
+TFA will scan the following Directories
+TFA-00022: \S+ is already running latest version. No need to patch.
+TRUE
+TYPE=\S+
+TZ = \S+
+TZ=\S+
+The \S+ executable file \S+ either does not exist or is not executable
+The \S+ for site \S+ is \S+
+The \S+ pwfile to \S+ copied for asmcmd cp is .DATA/orapwASM
+The '.*' is either in START/FAILED state
+The '.*' status is \S+
+The configuration parameter file \S+  is valid
+The configured node role for the local node is hub
+The current node.*
+The current working directory: /u01/app/12.2.0/grid
+The destination for asmcmd cp in install stage is \S+
+The directory ".*" does not exist
+The file \S+ has been successfully linked to the \S+ directories
+The levels for redirecting ASM/IOS/APX audit logs are already in use. Please edit the config file to make sure that local0-2 are available for use by Oracle
+The node:rws00fxu is the first node to configure
+The property \S+ for \S+ is there
+The return value of blocking start of \S+ \S+
+The return value of stop of \S+ \S+
+The setup file ".*" does not exist
+The site for node \S+ is: \S+
+This is \S+ Linux Upstart environment
+This is not \S+ \S+ \S+
+This is not \S+ environment.
+This is the first node to start
+Try to read \S+ mode from the global stage profile
+Try to read \S+ mode from the node-specific profile
+Trying to check if new \S+ stack is partially up
+Type '.*' \S+ successfully
+UPSTART_INIT_DIR=\S+
+USER = crsusr
+USER_IGNORED_PREREQ  is set to \S+
+USER_IGNORED_PREREQ=\S+
+USM driver install status is \S+
+Unexpectedly found /etc/oracleafd.conf. The file Will \S+ recreated.
+Updating cluster-wide stage gpnp configuration from node \S+
+Use \S+ name as the \S+ location
+Using \S+ \S+ /u01/app/12.2.0/grid/jdk/jre
+VERSION=\S+
+VNCDESKTOP = \S+ \(.*\)
+VNDR_CLUSTER=\S+
+VOTING_DISKS=
+VUD: control device permissions:
+Validating \S+ locations in /etc/oracle/ocr.loc
+Validating \S+
+Validating /etc/oracle/olr.loc file for \S+ location /u01/app/12.2.0/grid/cdata/rws00fxu.olr
+Validating for \S+ configuration
+Value \(.*\) is set for \S+
+Verifying \S+ wallet directories \S+
+Verifying current \S+ settings with user entered values
+Verifying if acfsrapps needs to \S+ setup
+Version Info returned is \S+ \[.*\]
+Version String passed is: \[.*\]
+Version match status is \S+
+WAS_ROOTMACRO_CALL_MADE = \S+
+WINDOWID = \S+
+Wallet dir is = /u01/app/crsusr/crsdata/rws00fxu/onswallet
+Writing checkpoint for \S+ \S+ \S+
+XAUTHORITY = \S+
+XDG_SESSION_COOKIE = 25734193eafd2227ca84b08d00000027-1503907887.42643-1560316515
+XFILESEARCHPATH = /usr/dt/app-defaults/%L/Dt
+XMODIFIERS = @im=none
+acfs is \S+
+acfs is not loaded
+acfs is supported
+acfsutil info fs: \S+ not an \S+ file system
+add \S+ \S+ \S+ \s*\S+ passed
+add '.*' \S+
+add asm listeners
+add cvu \S+ success
+add mgmt \S+ listener \S+ success
+add nodeapps -n \S+ -A ".*"   -clientdata /u01/app/crsusr/crsdata/rws00fxu/onswallet/ONS/cwallet.sso on node=rws00fxu \S+ passed
+add nodeapps for static \S+
+add scan listener \S+ success
+addfile=\S+
+argument value is
+asmcmd cp Return code: \S+
+asmcmd mount -a rc: \S+
+asmdisco=\S+
+asmspf=\S+
+at /u01/app/12.2.0/grid/lib/asmcmdbase.pm line \S+
+bash: /u01/app/12.2.0/grid/bin/cluutil: No such file or directory
+best gpnp directory in home ".*" is ".*"  new \S+ for cname=rws00fx-cluster, cguid=
+brw-rw-r-- \S+ root oinstall \S+ \S+ Aug \S+ \S+ /dev/ofsctl
+brwxrwx--- \S+ root oinstall \S+ \S+ Aug \S+ \S+ \S+
+check new crs stack
+check package versions new = \[.*\];old=\[.*\]
+checkOCR \S+
+checkpoint \S+ does not exist, or cluutil -ckpt -global -oraclebase /u01/app/crsusr -chkckpt -name \S+ failed
+checkpoint \S+ does not exist, or cluutil -ckpt -oraclebase /u01/app/crsusr -chkckpt -name \S+ failed
+checkpoint status of \S+ is \S+
+chk gpnp dir /u01/app/12.2.0/grid/gpnp/rws00fxu: \S+ \S+ \S+ \S+ \S+ \S+
+chk gpnp dir /u01/app/12.2.0/grid/gpnp/rws00fxu: \S+
+chk gpnphome /u01/app/12.2.0/grid/gpnp/rws00fxu: \S+ \(.*\)
+chk gpnphome /u01/app/12.2.0/grid/gpnp/rws00fxu: \S+ \S+ \S+ \S+ \S+ \S+
+chk gpnphome /u01/app/12.2.0/grid/gpnp/rws00fxu: \S+
+chk gpnphome /u01/app/12.2.0/grid/gpnp: \S+ \(.*\)
+chk gpnphome /u01/app/12.2.0/grid/gpnp: \S+ \S+ \S+ \S+ \S+ \S+
+ckpt: -ckpt -global -oraclebase /u01/app/crsusr -chkckpt -name \S+
+ckpt: -ckpt -oraclebase /u01/app/crsusr -chkckpt -name \S+
+clscfg: -install mode specified
+clscfg_clsprop_ocr_arg_p: -p \S+
+clscfg_clsprop_olr_arg_p: -p \S+
+clscfg_guid_arg_z:  -z \S+
+clscfg_node2site_arg_h: -h \S+
+clscfg_site2guid_arg_y: -y \S+
+clusterguid=\S+
+cluutil -ckpt -global -oraclebase /u01/app/crsusr -chkckpt -name \S+ returned with status \S+
+cluutil -ckpt -oraclebase /u01/app/crsusr -chkckpt -name \S+ returned with status \S+
+cluutil_trc_suff_pp=\S+
+cname=\S+
+control-alt-delete stop/waiting
+copy ".*" => ".*"
+copying \S+
+create diskgroup \S+ \S+ success
+creating \S+ \S+
+creating diagsnap.pl
+crscfg_trace=\S+
+crscfg_trace_file=\S+
+crskeytoolctl: Cluster root certificate stored in \S+
+crskeytoolctl: Cluster root wallet file generated successfully.
+cssdisco=\S+
+cssld=\S+
+cvuqdisk rpm installed successfully
+d7be2f6f48f77fa4bffbd67d09b7e8b3
+delete \S+ /u01/app/12.2.0/grid/crf/db/rws00fxu
+dest \s*\S+
+dest file \S+
+firstNodeConfig: 1;
+firstNodeUpgrade: ;
+gpnp dir candidates: init,profiles,.,..,manifest.txt,rws00fxu,wallets,seed
+gpnp setup checked: local valid. \S+ cluster-wide valid. \S+
+gpnp setup: \S+
+gpnptool output:
+gpnptool pars: -hnet=gen -gen:hnet_nm=".*" -gen:net=net1 -net1:net_ip=".*" -net1:net_ada=".*" -net1:net_use=".*" -gen:net=net2 -net2:net_ip=".*" -net2:net_ada=".*" -net2:net_use=".*" -gen:net=net3 -net3:net_ip=".*" -net3:net_ada=".*" -net3:net_use=".*"
+gpnptool: \S+
+gpnptool: run /u01/app/12.2.0/grid/bin/gpnptool create -o=".*" -ovr -prf \S+ \S+ -prf_pa=".*" -hnet=gen -gen:hnet_nm=".*" -gen:net=net1 -net1:net_ip=".*" -net1:net_ada=".*" -net1:net_use=".*" -gen:net=net2 -net2:net_ip=".*" -net2:net_ada=".*" -net2:net_use=".*" -gen:net=net3 -net3:net_ip=".*" -net3:net_ada=".*" -net3:net_use=".*" -css=css -css:css_dis=".*" \S+ -asm=asm -asm:asm_dis=".*" -asm:asm_spf=".*" -asm:asm_m=".*" -asm:asm_ext=".*" -bc=bc -bc:bc_vip=".*"
+gpnptool: run /u01/app/12.2.0/grid/bin/gpnptool getpval -p=".*" -o=".*" \S+ \S+ \S+ \S+
+gpnptool: run /u01/app/12.2.0/grid/bin/gpnptool getpval -p=".*" -o=".*" \S+ \S+ \S+
+gpnptool: run /u01/app/12.2.0/grid/bin/gpnptool getpval -p=".*" -o=".*" \S+
+gpnptool: run /u01/app/12.2.0/grid/bin/gpnptool sign -p=".*" -o=".*" -ovr -w=".*" -rmws
+gpnptool: run /u01/app/12.2.0/grid/bin/gpnptool verify -p=".*" -w=".*" -wu=peer
+host name from cfg is \S+
+http_proxy = http://www-proxy.us.oracle.com:80
+https_proxy = http://www-proxy.us.oracle.com:80
+idef=\S+
+iflist: .*
+init file = \S+
+init-system-dbus stop/waiting
+inside \S+
+install_driver\(.*\) failed: Can'.*'/u01/app/12.2.0/grid/perl/lib/site_perl/5.22.0/x86_64-linux-thread-multi/auto/DBD/Oracle/Oracle.so.* for module DBD::Oracle: libclntsh.so.12.1: cannot open shared object file: No such file or directory at \S+ line \S+ \S+ line \S+
+isACFSSupported: \S+
+isDHCP: \S+
+isOKASupported: \S+
+isOcrKeyExists: \S+ \S+ \[.*\]
+isSCANConfigured: \S+
+isSCANEnabled: \S+
+itab entries=cssd.evmd.crsd.ohasd
+kexec-disable stop/waiting
+kfod \S+ rc: \S+
+leftVersion=\S+ rightVersion=12.1.0.0.0
+loading... \S+
+local1.info			/var/log/oraiosaudit.log
+local2.info			/var/log/oraapxaudit.log
+myname entry is \S+
+netlst=\S+--3
+nodeapps do not exist
+nodes_to_add=\S+
+nodes_to_start=\S+
+nodevip=\S+
+ocrid=\S+
+ohasd already registered
+ohasd is already running
+ohasd is not already running.. will start it now
+ohasd is now registered
+ohasd is starting
+ohasd started successfully
+ok chk gpnp dir /u01/app/12.2.0/grid/gpnp/rws00fxu: \(.*\)
+old_nodevips=
+onswall dir = /u01/app/crsusr/crsdata/rws00fxu/onswallet
+orNodeConfig: ;
+orabase: Oracle Base configured for CRS_HOME\[.*\]: /u01/app/crsusr
+oracle-ohasd start/running, process \S+
+oracle-tfa start/running, process \S+
+oragroup = oinstall
+oraqosmserver: qosctl output is QoS Management users generated correctly.
+oraqosmserver: resource \S+
+osdfile=\S+
+output of startnodeapp after removing already started mesgs is
+package sles-release is not installed
+paloc=\S+
+parameters_valid=\S+
+paramfile=\S+
+paramsFileExpired: \S+
+pipe exit code: \S+
+platform_family=\S+
+plymouth-shutdown stop/waiting
+pp_srvctl_trc_suff=\S+
+prefdm stop/waiting
+quit-plymouth stop/waiting
+rc stop/waiting
+rc=\S+
+rcS stop/waiting
+rcS-emergency stop/waiting
+rcS-sulogin stop/waiting
+readahead stop/waiting
+readahead-collector stop/waiting
+readahead-disable-services stop/waiting
+resfiles are /u01/app/12.2.0/grid/gpnp/rws00fxu/wallets/root/ewallet.p12 /u01/app/12.2.0/grid/gpnp/rws00fxu/wallets/peer/cwallet.sso /u01/app/12.2.0/grid/gpnp/rws00fxu/wallets/prdr/cwallet.sso /u01/app/12.2.0/grid/gpnp/rws00fxu/wallets/pa/cwallet.sso /u01/app/12.2.0/grid/gpnp/rws00fxu/wallets/peer/cwallet.sso.lck /u01/app/12.2.0/grid/gpnp/rws00fxu/wallets/pa/cwallet.sso.lck /u01/app/12.2.0/grid/gpnp/rws00fxu/wallets/prdr/cwallet.sso.lck
+resfiles are /u01/app/12.2.0/grid/gpnp/wallets/root/ewallet.p12 /u01/app/12.2.0/grid/gpnp/wallets/peer/cwallet.sso /u01/app/12.2.0/grid/gpnp/wallets/prdr/cwallet.sso /u01/app/12.2.0/grid/gpnp/wallets/pa/cwallet.sso /u01/app/12.2.0/grid/gpnp/wallets/peer/cwallet.sso.lck /u01/app/12.2.0/grid/gpnp/wallets/pa/cwallet.sso.lck /u01/app/12.2.0/grid/gpnp/wallets/prdr/cwallet.sso.lck
+ret=\S+ localNode=rws00fxu; \S+
+rsyslog service is running
+running srvctl \S+ cvu
+rws00fxu     2017/08/28 \S+     /u01/app/12.2.0/grid/cdata/rws00fxu/backup_20170828_020950.olr     0      
+saving current owner/permisssios of  parent dir of /u01/app/12.2.0
+saving parent dir ACLs in \S+
+sbsFile=\S+ \S+
+serial stop/waiting
+set \S+
+set ownership on ".*" => \(.*\)
+set_up_acfsrapps = \S+ isFarASM\(.*\) =  FALSE
+setting profile permissions
+setup acfsremote = \S+
+sihaNodeConfig: ;
+sihaNodeUpgrade:
+sihaNodeUpgradeToOA: ;
+skipping sbsFile=/u01/app/12.2.0/grid/xag/sbs/windows
+source \S+
+source file \S+
+splash-manager stop/waiting
+srvctl \S+ ioserver \S+ success
+srvctl \S+ rhpserver -diskgroup \S+ -storage /mnt/oracle/rhpimages -force  -noofnodes \S+ succeeded
+srvctl start nodeapps -n \S+ \S+ passed
+srvctl upgrade model -restype  ... passed
+srvctl_trc_suff=\S+
+srvctl_trc_suff_pp=\S+
+stackStartLevel=\S+
+start \S+ \S+ \S+
+start scan listener \S+ success
+start-ttys stop/waiting
+substitute vars in sbs directory
+succeeded to write global ckpt '.*' with status '.*'
+trace \S+
+tty \(.*\) start/running, process \S+
+unlink /u01/app/12.2.0/grid/cdata/rws00fxu.olr
+upstart-0.6.5-13.el6_5.3.x86_64
+user = crsusr
+user_is_superuser=\S+
+version1 is \S+
+version2 is \S+
+write contents of pfile \S+ for \S+ succeeded
+writing \S+ to \S+
+xag_home=\S+ \S+ \S+

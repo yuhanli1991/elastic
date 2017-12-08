@@ -1,0 +1,1435 @@
+\(.*\) Starting \S+ daemon, version \S+ with uniqueness value \S+--0
+\(.*\)clsce_publish_internal \S+ \S+ failed with status = \S+ try = \S+--0
+\(.*\)clsce_subscribe \S+ successfully subscribed \S+ \S+--0
+\(.*\)clssnmlgetslot:No voting files available on node \S+--0
+\[.*\]clssnmInitNodeDB: no vendor clusterware, \S+ allowed--0
+... \S+ \S+ \S+ \S+ \S+ \S+--0
+ASSERT clssnm1.c \S+--0
+Allocated \S+ context--0
+Argument \S+ is: \S+--0
+Argument \S+ is:--0
+Argument count \(.*\) for this daemon is \S+--0
+Argument/Register \S+--0
+BigInit--0
+CALL \S+ call   ERROR \S+ no   CALLER: \S+--0
+COMPOSITE_RESOURCE_STATUS=\S+--0
+CURRENT_STATE=\S+--0
+Closing \S+--0
+Connect: Started \S+   completed \S+   Ready \S+   Fully Connected \s*\S* \s*\S*--0
+DERIVED_STATE=\S+--0
+Destroying \S+ context--0
+Discovery advancing to nxt string :AFD:.:--0
+Discovery with \S+--0
+Discovery with asmlib :ASM:AFD Library - Generic , version \S+ \(.*\): str \S+--0
+Discovery with str:/dev/asmdisk.,AFD:.:--0
+ERROR: .*--200
+ERROR: Empty pid name for proc \S+--0
+Error Stack:--0
+Error: obj \S+ blk \S+ name '.*' flags \S+ first \S+--0
+Event Subscriptions    Hub: \S+  Rim: \S+--0
+Execute glob on the string \S+--0
+FDiscovery\(.*\).720              covery\(.*\)             000000001 \S+ .--200
+Fetching \S+ disk \S+--0
+GM Diagnostics completed for mbrnum/grockname: 0/VT.ASM--0
+GM Diagnostics started for group \S+ member \S+ \S+ entries found--0
+GMP Status:  State \S+ incarnation \S+ holding incoming requests \S+--0
+Handle \S+ from lib :ASM:AFD Library - Generic , version \S+ \(.*\): for disk \S+--0
+Handle \S+ from lib :UFS:: for disk \S+--0
+INTERNAL_STATE=\S+--0
+Ignoring 0-byte file \S+--0
+Inited \S+ context: \S+--0
+Initialization not complete !Error!--100
+Initialization of \S+ fencing successfully completed \S+--101
+Initialization state \S+ \(.*\) not set--0
+Initialization successfully completed \S+--0
+Insufficient voting files available, !Error!--100
+KGZF: context successfully initialized, \S+ version \S+--0
+Kgzf_ini_begin: diskmon is disabled--0
+Lib :ASM:AFD Library - Generic , version \S+ \(.*\): closing handle \S+ for disk \S+--0
+Lib :UFS:: closing handle \S+ for disk \S+--0
+List of \S+ seen by sync source: \S+--0
+List of nodes that have ACKed my sync: \S+--0
+Listing unique IDs for \S+ voting files:--0
+Local node \S+ number \S+ state is \S+--0
+Master: \s*\S+  Commissioner: \s*\S*  Assign Start: \s*\S+  MaxMembers: \S+  Fence Types: \S+--0
+Mbrdata    Privdtsz: \S+  Privdtincarn: \S+ Pubdtsz: \S+ Pubdtincarn: \S+--0
+MinRank: \s*\S+  Killable: \s*\S+  Persistent: \s*\S+  Persist Data: \s*\S+  --0
+NMEVENT_RECONFIG \[.*\]\[.*\]\[.*\]\[.*\]--0
+NMEVENT_SUSPEND \[.*\]\[.*\]\[.*\]\[.*\]--0
+OSS discovery with \S+--0
+Opened \S+ for \S+--0
+Oracle Clusterware infrastructure error in \S+ \(.*\): Fatal signal \S+ has occurred in program ocssd thread \S+ nested signal count is \S+--0
+PID for the Process \[.*\], connkey \S+--0
+PREVIOUS_STATE=\S+--0
+PROFILE_OPERATION=\S+--0
+Queue length before \S+--0
+Queue length limited to \S+--0
+R10 \S+ \S+ \S+ \S+ \S+--0
+R13 \S+ \S+ \S+ \S+ \S+--0
+RAX \S+ \S+ \S+ \S+ \S+--0
+RCX \S+ \S+ \S+ \S+ \S+--0
+RDI \S+ \S+ \S+ \S+ \S+--0
+REASON=\S+--0
+RESOURCE_LOCATION=\S+--0
+RSP \S+ \S+ \S+--0
+Read header of \S+--0
+Repeat \S+ times--0
+Resolved \(.*\) to \S+--0
+SEQUENCE_NUMBER=\S+--0
+SKIP \S+--0
+STATE=\S+--0
+Starting \S+ daemon in \S+ mode with \S+ role of hub--0
+State \S+   Connect: started \S+   completed \S+ \s*\S*--0
+State: \S+  Detached: \S+  Rank: \s*\S+  Hostname: \S+  Attached to: \S+--0
+Status for active \S+ node \S+ number \S+--0
+Status for clientID \S+ pid\(.*\), \S+ endpt \S+ flags \S+ refcount \S+ aborted at \S+ fence is not progress   OK--0
+Status for node \S+ number \S+ uniqueness \S+ node \S+ \S+--0
+TARGET=\S+--0
+TARGET_STATE=\S+--0
+TOTAL_INSTANCE_COUNT=\S+--0
+UFS discovery with \S+--0
+Unsupported msg buf: '.*' \S+ msg \S+ '.*' \S+  product '.*' \S+ facility '.*'--0
+Warning: Voting disk: \S+ is Hard mounted--0
+bh:  dump of \S+ len \S+--0
+bh: ptr \S+ size \S+--0
+calling              call     entry                argument values in hex      --0
+checksum failed for \S+--0
+clone\(.*\).109          call     start_thread\(.*\) \s*\S* \S+ .--0
+clsCredCommonInit: Inited singleton credctx.--0
+clsCredDomClose: Credctx deleted \S+--0
+clsce_subscribe \S+ filter='.*'ora.gns'.*', \S+ \S+ \S+--0
+clsde_clsceevt_publish:  Clusterwide event--0
+clsde_evtdata_destroy: pdata \[.*\], subtype \[.*\] mod \[.*\], time \[.*\], loc \[.*\], comment \[.*\]--0
+clsde_evtdata_init: evtdata \[.*\], subtype \[.*\], mod \[.*\], time \[.*\], loc \[.*\], comment \[.*\]--0
+clsde_evtdata_init: mod \[.*\], comment \[.*\]--0
+clsfClientDiscover: Error \S+ Init failure.--0
+clsfClientDiscover: Error code:15001. File Attr failure.--0
+clsfSyncIO: IOfailure--0
+clsfaCheck:Info:fencestate:1 \S+ \S+--0
+clsfaCheck:Info:fencestate:2 \S+ \S+--0
+clsfaCreateCtx: Allocated \S+ context--0
+clsfaFreeHandle:Info: \S+--0
+clsgpnp_Init: \[.*\] '.*' in effect as GPnP home base.--0
+clsgpnp_Init: \[.*\] GPnP \S+ \S+ \S+ comp \S+ depcomp \S+ tlsrc:init, \S+ \S+ \S+ \S+ \S+--0
+clsgpnp_Term: \[.*\] GPnP \S+--0
+clsgpnp_getCachedProfileEx: \[.*\] Result: \(.*\) \S+ \(.*\)Can.* get offline GPnP service profile: local gpnpd is up and running. Use getProfile instead.--0
+clsgpnp_getCachedProfileEx: \[.*\] Result: \(.*\) \S+ \(.*\)Failed to get offline GPnP service profile.--0
+clsgpnp_profileCallUrlInt: \[.*\] Result: \(.*\) \S+ Successful get-profile \S+ to remote ".*" disco ".*"--0
+clsgpnp_profileCallUrlInt: \[.*\] get-profile call to url ".*" disco ".*" \[.*\]--0
+clsgpnpkwf_initwfloc: \[.*\] Using \S+ Wallet Location \S+ \S+--0
+clsgpnpkwf_initwfloc: \[.*\] Wallet readable. Path: \S+--0
+clsgpnpm_newWiredMsg: \[.*\] \(.*\)Msg-reply has soap fault \S+ \(.*\) \[.*\]--0
+clsns_AListLookupWithAddresses:\(.*\):connection to name servers \S+ failed - returning error \S+--100
+clsns_AListLookupWithAddresses:\(.*\):wait of \S+ milliseconds timed out. Now: \S+ Deadline: \S+ Total wait: \S+ milliseconds. \S+ milliseconds limit exceeded: \S+ clskec:has:gipc:16 \S+ args\[.*\]--0
+clsns_AListLookupWithAddresses:wait of \S+ milliseconds timed out. Now: \S+ Deadline: \S+ \S+ clskec:has:gipc:16 \S+ args\[.*\]--0
+clsns_DNSSD_FindServersByRole:\(.*\):Name: ".*" domain ".*" # of instances: \S+ user alist rv: \S+ \(.*\) Flags: ".*" ".*" ".*" ".*" \(.*\): \S+ clskec:has:CLSNS:41 \S+ args\[.*\]\[.*\]\[.*\]\[.*\]--0
+clsns_DNSSD_FindServersByRole:\(.*\):Name: ".*" domain: ".*" timeout: \S+ milliseconds rv: \S+ \(.*\) Count: \S+ Return count: \S+ Flags: ".*" ".*" ".*" ".*" \(.*\)--0
+clsns_DNSSD_ResolveInst:\(.*\):Answer \S+ of \S+ resolution of instance: ".*" service: ".*" domain: ".*" timeout: \S+ ms failed: \S+ \(.*\) - returning \S+ \(.*\) Flags: ".*" ".*" ".*" ".*" \(.*\): \S+ clskec:has:CLSNS:41 \S+ args\[.*\]\[.*\]\[.*\]\[.*\]--0
+clsns_DNSSD_Simple_Delete:\(.*\):Instance ".*" does not exist Flags: ".*" \(.*\): \S+ clskec:has:CLSNS:7 \S+ args\[.*\]\[.*\]\[.*\]\[.*\]
+clsns_GetNX:\(.*\):lookup of ".*" failed with error \S+ Flags: ".*" ".*" ".*" ".*" \(.*\)--100
+clsns_GetNX:\(.*\):return value: \S+--0
+clsns_GetNX_PickAnswer:\(.*\):record type: \S+ name: ".*" doesn.*--0
+clsns_Send:#0 sending \S+ bytes from \S+ to \S+--0
+clsns_Send:send succeeded.--0
+clsns_SetTraceLevel:trace level set to \S+--0
+clsnsgFindInstance:\(.*\):query to find \S+ using service name ".*" failed.--100
+clsnsg_DNSSD_Get_Domain:\(.*\):retrieval of \S+ subdomain failed.: \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].--100
+clsnsg_DNSSD_Simple_Advertise:\(.*\):Advertisement of service ".*" failed. Flags: ".*" ".*" \(.*\) Properties: HOSTQUAL=".*", VERSION=".*": \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].--0
+clsnsg_DNSSD_Simple_Advertise:\(.*\):Advertisement of service ".*" failed. Flags: ".*" ".*" \(.*\) Properties: HOSTQUAL=".*", VERSION=".*": \S+ clskec:has:CLSGN:70 \S+ args\[.*\]--0
+clsnsg_DNSSD_Simple_Delete:\(.*\):deletion of \S+ \S+ ".*" failed because it does not exist Flags: ".*" \(.*\): \S+ clskec:has:CLSU:910 \S+ args\[.*\]\[.*\]\[.*\].* record for service: ".*" does not exist.
+clsnsg_DNSSD_Simple_Delete:deletion of \S+ \S+ ".*" failed. Flags: ".*" \(.*\): \S+ \S+ \S+ args\[.*\]\[.*\]\[.*\]\[.*\]
+clssbcaContext: Context\(.*\), cookie\(.*\), node\(.*\)--0
+clssbca_groupstat_CB: \S+ group \(.*\) event--0
+clssbca_groupstat_CB: Unknown \S+ group event--0
+clssbca_groupstat_CB: group\(.*\), event\(.*\), incinf\(.*\)--0
+clssbca_groupstat_CB: group\(.*\), event\(.*\),--0
+clssbca_groupstat_attrchg: \S+ group \(.*\) event node \S+ incarn \S+--0
+clssbca_groupstat_rcfg: \S+ group \(.*\) event node \S+ incarn \S+ attrinc \S+ \S+ state \S+--0
+clssbca_registercmpl_CB: request\(.*\) complete, status\(.*\), handle\(.*\), member\(.*\), attribute incarn\(.*\)--0
+clssbca_unregistercmpl_CB: request\(.*\) complete, status\(.*\)--0
+clssbca_updatestatuscmpl_CB: request\(.*\) complete, status\(.*\)--0
+clssbcmAddProtocol: handle\(.*\) created, pipe\(.*\)--0
+clssbcmAddProtocol: handle pointer\(.*\), pipe\(.*\), name\(.*\), handler\(.*\), cookie\(.*\), flags\(.*\)--0
+clssbcmCloseListenEndp:Freeing bcmpoint \(.*\)--0
+clssbcmCloseListenEndp:Freeing pipe\(.*\)--0
+clssbcmCloseListenEndp:address\(.*\), gipcendp\(.*\), bcmpoint \(.*\),cookie \(.*\)--0
+clssbcmContext: context\(.*\) created--0
+clssbcmContext: context pointer\(.*\), flags\(.*\)--0
+clssbcmInitialize: flags\(.*\)--0
+clssbcmNewEvent: event\(.*\), name\(.*\), value\(.*\)--0
+clssbcmPipe: pipe\(.*\) created, context\(.*\)--0
+clssbcmPipe: pipe pointer\(.*\), context\(.*\), flags\(.*\)--0
+clssbcmRemoveProtocol: handle\(.*\), flags\(.*\)--0
+clssbcmSetGIPCTraceLevel: context\(.*\), trace\(.*\)--0
+clssbcm_AttachPipe: endpoint\(.*\), pipe\(.*\)--0
+clssbcm_FindHandle: pipe\(.*\), name\(.*\), handle\(.*\)--0
+clssbcm_GetEndpoint: name\(.*\)--0
+clssbcm_GetEndpoint:listening gipcendp\(.*\), cookie \(.*\), bcmpoint\(.*\)--0
+clssbcm_NewProtocol: Handle\(.*\) created for protocol\(.*\)--0
+clssbcm_NewWorkThread: Spawn status\(.*\)--0
+clssbcm_ProcessControlMessage: pipe\(.*\), type\(.*\), size\(.*\)--0
+clssbcm_SetCmpl: pipe\(.*\), callback\(.*\), client cookie\(.*\)--0
+clssbcm_SetCookie: Setting handle\(.*\) with cookie\(.*\), old cookie\(.*\)--0
+clssbcm_SetGlobal: global\(.*\)--0
+clssbcm_check_work: Associated gipcobj\(.*\) with container\(.*\), rc\(.*\)--0
+clssbcm_gipc_connect: Sent initial message to connecting endp\(.*\)--0
+clssbcm_gipc_connect: gipcendp\(.*\) connected, cookie type\(.*\), context\(.*\)--0
+clssbcm_gipc_disconnect: gipcendp\(.*\) disconnected, cookie type\(.*\), context\(.*\)--0
+clssbcm_gipc_disconnect: gipcendp\(.*\) disconnected. deleting base cookie\(.*\)--0
+clssbcm_open_shared: Formed endpoint\(.*\) for protocol\(.*\) on pipe\(.*\)--0
+clssbcm_worker: Spawned with thread\(.*\)--0
+clssbcm_worker: gipcendp\(.*\) accepted, base gipcendp\(.*\)cookie type\(.*\), context\(.*\)--0
+clssbnmConnDestroy: Destroying connection object \(.*\) for host \S+ nodeId \S+ ; refcount remaining on the node object is \S+--0
+clssbnmConnDestroy: Destroying connection object \(.*\) for host \S+--0
+clssbnmFenceSage: Fenced node \S+ number \S+ with \S+ handle \S+--0
+clssbnmInitBCNMCommon: Initialialization complete for comm ctx\(.*\)--0
+clssbnmMbrDestroy \S+ Destroying node object \S+ host \S+ nodeId \S+--0
+clssbnm_connobj_pong: Sent \S+ pong msg to node \S+ number \S+ handle \(.*\)--0
+clssbnm_connobj_quiesce: Removing connection object \(.*\) for host \S+ nodeId \S+--0
+clssbnmcAttach: Hub node \S+ \S+ is attached to hub \S+ with number \S+ node \S+ \S+ The alarm was not started for local connection--0
+clssbnmcAttaching: Attach initiated with hub \S+ \S+--0
+clssbnmcBCCMHandler: Got Connect event on \S+ state is starting--0
+clssbnmcBCCMHandler: Received \S+ disconnect event for hdl \S+--0
+clssbnmcBCCMHandler: Sent data--0
+clssbnmcConnect: Sent connect msg--0
+clssbnmcDisconnectConn: disconnecting connection with hdl \S+--0
+clssbnmcRegisterProtocol: Registered \S+ protocol \S+ at BCNMCfor pipe \S+--0
+clssbnmcRemoved: the termination failed at the server--0
+clssbnmcTerminate: Terminating--0
+clssbnmcThread: Thread Spawned--0
+clssbnmsBCCMHandler: Received \S+ disconnect event from bccm for hdl \S+ with hostname \S+--0
+clssbnmsBCCMHandler: recvd \S+ connect event--0
+clssbnmsCleanupOrphanedRims: Starting Grace period
+clssbnmsClientConnect: Connected with host \S+ hostlen \S+ local \S+ status \S+--0
+clssbnmsClientConnect: Received \S+ connect from \S+ bounced node attempting to remove this node, name \(.*\), num\(.*\), state \(.*\)--0
+clssbnmsClientConnect: Received \S+ connect from an existing cluster member nodeId \S+  with status \S+--0
+clssbnmsClientConnect: Received \S+ connect from node \S+--0
+clssbnmsDisconnectConn: Disconnecting pipe \S+ connection with node \S+ hostname \S+--0
+clssbnmsDisconnectConn: Starting Grace period--0
+clssbnmsDisconnectConn: The mbr nodeId \S+  is already \S+--0
+clssbnmsIssueExiting: Issuing \S+ request for exiting state for node \S+ inc \S+ state \S+ inc \S+
+clssbnmsIssuePurgatory: Cannot issue \S+ request for purgatory state for node \S+ because its state is \S+
+clssbnmsIssuePurgatory: Issuing \S+ request for purgatory state for node \S+ inc \S+ state 3attr inc \S+--0
+clssbnmsJoinCmpl: alarm was not started for local connection--0
+clssbnmsJoinCmpl: mbr \S+ nodeId \S+ registered in \S+ attrinc \S+--0
+clssbnmsMain: Processing msgs--0
+clssbnmsMbrTerminate: Terminating node \S+ nodeId \S+--0
+clssbnmsMbrTimed: alarm for node \S+ nodeId \S+ started for grace period, attrinc \S+--0
+clssbnmsProcessBCAEvent: exiting state change returned with status \S+--0
+clssbnmsProcessBCAEventAttr: Got Attached event for Mbr \(.*\) nodeId \S+  clearing anchordead flag
+clssbnmsProcessBCAEventAttr: Hub changed from old \S+ to new \S+--0
+clssbnmsProcessBCAEventAttr: Mbr \(.*\) nodeId \S+  attrinc \S+--0
+clssbnmsProcessBCAEventAttr: Rim node \S+ with nodeId \S+  is in Exiting state. Issuing \S+ fence--0
+clssbnmsProcessBCAEventAttr: State changed from \S+ to \S+--0
+clssbnmsProcessBCAEventAttr:Sending change event to BCGMfor node \S+ inc \S+ state \S+--0
+clssbnmsProcessBCAEventattr: attr event mbr\(.*\) incarn \S+ hubnum \S+ state \S+ attr inc \S+--0
+clssbnmsProcessNodeExitEvnt: exit event mbr\(.*\)--0
+clssbnmsProcessNodeExitEvnt: node \S+ \S+ with nodeId \S+  removed by master--0
+clssbnmsProcessNodeJoinEvnt: join event node\(.*\) hubinc\(.*\)--0
+clssbnmsProcessNodeJoinEvnt: join event node\(.*\) node num\(.*\) inc\(.*\) attrinc\(.*\)--0
+clssbnmsProcessNodeJoinEvnt: mbr \S+ nodeId \S+ registered in \S+ attrinc \S+--0
+clssbnmsProxyReg: join is on hold for host \S+--0
+clssbnmsProxyReg: join msg sent for host \S+--0
+clssbnmsPurgatory: Successfully changed the state to purgatory for nodenodeId \S+  status \S+--0
+clssbnmsRegisterProtocol: Registered \S+ protocol \S+ at BCNMSfor pipe \S+--0
+clssbnmsRenew: renew msg sent for host \S+ attr inc \S+--0
+clssbnmsSendGNSRefresh: requesting to refresh gns entries to nodenodeId \S+--0
+clssbnmsServerPong: conn\(.*\), ping timestamp\(.*\)--0
+clssbnmsTermCmpl: Member nodeId \S+  terminated successfully--0
+clssbnmsThread: Spawned--0
+clssbnmsUnregister: mbr nodeId \S+ unregistered--0
+clssbnms_ClientConnCheck_CB: Rimhub miscount \S+ reached Disconnecting connection with hdl \S+ with node 100,hostname \S+ \S+ \S+ \S+ \S+ \S+ \S+--0
+clssbnms_MemberGraceTimeCheck_CB: node \S+ \S+ restarted or connect back successfully
+clssgmAddFenceAlarm: adding alarm for reqid \S+ node \S+ mbr \S+ inc \S+ timeout \S+--0
+clssgmAddGrockMemCmpl: \S+ grock \S+ num \S+--0
+clssgmAddGrockMemCmpl: Failed for clientID \S+ rc -10--0
+clssgmAddGrockMemCmpl: Member \S+ of grock \S+ exists on node \S+--0
+clssgmAddGrockMemCmpl: sending response, status \S+ for memberID \S+ to clientID \S+ msg sequence \S+--0
+clssgmAddMember: New \S+ for grock \S+ grockID \S+--0
+clssgmAddMember: granted memberID \S+ \(.*\) clientID \S+ grock \S+ \(.*\)--0
+clssgmAddMember: grock\(.*\) memberNo\(.*\) already assigned--0
+clssgmAddMember: member \S+ exists on node \S+--0
+clssgmAddMember: memberID \S+ \(.*\) clientID \S+ \S+ to grock \S+ \(.*\)--0
+clssgmAddMember: queued memberID \S+ \(.*\) clientID \S+ grock \S+ \(.*\)--0
+clssgmAddNodeGrpMember: Observer BCNG\(.*\), oldNG\(.*\) \S+ for clientID \S+--0
+clssgmBroadcastGrockRcfgCmpl: RPC\(.*\) tag\(.*\) of grock\(.*\) received all acks, grock update sequence\(.*\)--0
+clssgmBroadcastGrockRcfgCmpl: released mapping reference, grock \S+ type \S+--0
+clssgmBroadcastLastGrockRcfg: Outstanding \S+ not cleaned up before attempting to broadcast another one for grock\(.*\), rpctag\(.*\)--0
+clssgmBroadcastMap: clssgmpeersend node\(.*\) failed - \S+--0
+clssgmCMReconfig: \S+ master node for incarnation \S+ is node \S+ number \S+ with birth incarnation \S+ the old master is \S+ and new master is \S+--0
+clssgmCMReconfig: reconfiguration successful, incarnation \S+ with \S+ nodes, local node number \S+ master node \S+ number \S+ shutdown flag \S+--101
+clssgmCMReconfig:GMCRequest thread acked master transition state--0
+clssgmCRSDCleanUpState: Received notification from \S+ proc\(.*\) that it has cleaned up--0
+clssgmCRSDCleanUpState: Resetting of \S+ cleaned up state requested by proc\(.*\)--0
+clssgmChangeGrockMember: Sending member change type \S+ to \S+ for grock \S+ memberID \S+--0
+clssgmChangeMasterNode: requeued \S+ RPCs--0
+clssgmChangeMemCmpl: rpc \S+ ret \S+ memberID \S+ clientID \S+--0
+clssgmCheckFenceCompleted: found fence req with reqid \S+ for node \S+--0
+clssgmCheckGrpAttrCompat: grock\(.*\), ID\(.*\), attributes checked\(.*\)--0
+clssgmCheckLocalFence: Node fence completed--0
+clssgmCleanFuture: discarded \S+ future msgs for \S+--0
+clssgmCleanupBroadcastRPC: Completing RPC\(.*\), id\(.*\)--0
+clssgmCleanupGrocks: cleaning up grock \S+ type \S+--0
+clssgmCleanupOrphanMembers: Orphaned memberID \S+ in group \S+ with clientID \S+ member node birth incarnation \S+ node birth incarnation \S+ \S+ node grp incarnation \S+ death incarnation \S+--0
+clssgmClientConnectMsg: Connect from con\(.*\) proc\(.*\) pid\(.*\) version \S+ clientID \S+ msg flags \S+ properties: \S+--0
+clssgmClientConnectMsg: proc\(.*\) is not killableduring patching/outage--0
+clssgmClientShutdown: \S+ shutdown completed.--0
+clssgmClientShutdown: sending shutdown, \S+ \S+--0
+clssgmClientShutdown: total iocapables \S+--0
+clssgmClientShutdown: waited \S+ seconds on \S+ \S+ capable clients--0
+clssgmCommonAddMember: global grock \S+ member\(.*\) node\(.*\) flags \S+--0
+clssgmCommonChangeMember: \S+ grock \S+ member \S+ flags \S+ broadcast \S+--0
+clssgmCommonChangeMember: deadmbr found grock\(.*\), memberID \S+ nodenum \S+--0
+clssgmCommonChangeMember: dereg member \(.*\) \(.*\)--0
+clssgmCommonChangeMember: duplicate mbrchange for \S+ found for grock\(.*\), memberID \S+ nodenum \S+--0
+clssgmConfig: type\(.*\)--0
+clssgmConnectToNode\(.*\): terminating connect to node\(.*\) due to state change\(.*\)--0
+clssgmConnectToNode: node \S+  - \S+ - size \S+ - softver \S+ activersion \S+--0
+clssgmCopyinMemberInfo: \S+ grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: \S+ grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: CLSN.AQPROC.db1.MASTER, grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: CLSN.AQPROC.db1.MASTER, grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: CLSN.RLB.db1.MASTER, grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: CLSN.RLB.db1.MASTER, grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGDB1db1.us.oracle.com, grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGDB1db1.us.oracle.com, grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGDB1db1XDB, grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGDB1db1XDB, grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGTESTDBorclpdb, grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGTESTDBorclpdb, grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGTESTDBtestdb, grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGTESTDBtestdb, grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGTESTDBtestdbXDB, grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: IGTESTDBtestdbXDB, grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: grock\(.*\) syncs to updateseq\(.*\), lastUpdt\(.*\)--0
+clssgmCopyinMemberInfo: grock \S+ memberID \S+ created with, clientID \S+ flags\(.*\), state\(.*\)--0
+clssgmCopyinMemberInfo: mgmtdbpub, grockID \S+ incarnation \S+ grp priv data \S+ members \S+--0
+clssgmCopyinMemberInfo: mgmtdbpub, grockId \S+ grp priv data \S+ members \S+--0
+clssgmCopyoutMemberInfo\(.*\): packed memberNo\(.*\) grock\(.*\) nodeNum\(.*\) privateDataSize\(.*\) publicDataSize\(.*\) \S+ \S+ \S+ dereg \S+ orphan \S+--0
+clssgmCopyoutMemberInfo: \S+ id \S+ gin \S+ grp priv data \S+ members \S+ incarnation \S+ updateseq\(.*\), msgsize \S+--0
+clssgmCopyoutMemberInfo: \S+ id \S+ members \S+ updateseq\(.*\), opseq \S+ msgsize \S+--0
+clssgmCopyoutMemberInfo: IGTESTDBorclpdb, id \S+ gin \S+ grp priv data \S+ members \S+ incarnation \S+ updateseq\(.*\), msgsize \S+
+clssgmCopyoutMemberInfo: IGTESTDBorclpdb, id \S+ members \S+ updateseq\(.*\), opseq \S+ msgsize \S+
+clssgmCopyoutMemberInfo: IGTESTDBtestdb, id \S+ gin \S+ grp priv data \S+ members \S+ incarnation \S+ updateseq\(.*\), msgsize \S+--0
+clssgmCopyoutMemberInfo: IGTESTDBtestdb, id \S+ members \S+ updateseq\(.*\), opseq \S+ msgsize \S+--0
+clssgmCopyoutMemberInfo: IGTESTDBtestdbXDB, id \S+ gin \S+ grp priv data \S+ members \S+ incarnation \S+ updateseq\(.*\), msgsize \S+--0
+clssgmCopyoutMemberInfo: IGTESTDBtestdbXDB, id \S+ members \S+ updateseq\(.*\), opseq \S+ msgsize \S+--0
+clssgmCopyoutMemberInfo: mgmtdbpub, id \S+ gin \S+ grp priv data \S+ members \S+ incarnation \S+ updateseq\(.*\), msgsize \S+--0
+clssgmCopyoutMemberInfo: mgmtdbpub, id \S+ members \S+ updateseq\(.*\), opseq \S+ msgsize \S+--0
+clssgmCreateGblGrock: Created grock \S+ \(.*\), type \S+ \S+ \S+ \S+ \S+ opseq \S+--0
+clssgmCreateGblGrock: Replaced observer entry for grock\(.*\), GID\(.*\), old entry\(.*\), new entry\(.*\), clientID \S+
+clssgmCreateGrockCmpl: rpc \S+ ret \S+ for clientID \S+--0
+clssgmCreateGrockCmpl: sending response, status \S+ for memberID \S+ to clientID \S+--0
+clssgmCreateGroup: Sending create group grpname \S+ to \S+ for clientID \S+--0
+clssgmCreateGroup: global grock \S+ proc \S+ with flags \S+--0
+clssgmCtrlProcessWork: Continuing the shutdown steps--0
+clssgmCtrlProcessWork: Protocol update msg--0
+clssgmCtrlProcessWork: Received \S+ \S+ event--0
+clssgmDeadProc: Avoid removing for Special Client  Left but Membership stays clientID \S+--0
+clssgmDeadProc: Removing clientID \S+ \(.*\), with \S+ endpt \(.*\)--0
+clssgmDeathChkThread: Spawned--0
+clssgmDelMemCmpl: rpc \S+ ret \S+ clientID \S+ memberID \S+--0
+clssgmDeleteGrock: Deleting \(.*\) grock \S+  ID \S+ \S+ \S+--0
+clssgmDestroyMember: member \(.*\) memberID \S+--0
+clssgmDiscEndpcl: gipcDestroy \S+--0
+clssgmDiscEndppl: \(.*\) already destroyed
+clssgmDiscEndppl: gipcDestroy \S+--0
+clssgmDisconnectNodes: Closing connection \S+ for node \S+ number \S+ in incarnation \S+ state flags \S+ conn state flags \S+--0
+clssgmDispatchCMXMSG: Queued message type \S+ \S+ generation \S+ from node \S+ with msg incarnation \S+ for future processing--0
+clssgmDispatchCMXMSG: Queueing message type \S+ msg incarnation \S+ from node \S+ for later processing during peer listener incarnation \S+ global incarnation \S+--0
+clssgmDoClntLsnrWork: Main doing client listener work--0
+clssgmDoFuture: Processing messages from \S+ prior incarnation for node \S+ number \S+--0
+clssgmEstablishConnections: \(.*\) connected, incarn\(.*\)--0
+clssgmEstablishConnections: \S+ nodes in cluster incarn \S+--0
+clssgmEstablishConnections: Sending \S+ message to all nodes for incarnation \S+--0
+clssgmEstablishConnections: node \S+ \S+ has not sent \S+ \S+ msg in incarnation \S+--0
+clssgmExecuteClientRequest: \S+ recvd from proc \S+ \(.*\)--0
+clssgmExecuteClientRequest: \S+ request from client \(.*\)--0
+clssgmExitGrock: client \(.*\), clientID \S+ grock \S+ memberID \S+--0
+clssgmFenceCheck: could not find fence request  id \S+ Considered completed--0
+clssgmFenceCheck: fence reqid \S+ still in progress--0
+clssgmFenceCheck: request from clientID \S+--0
+clssgmFenceClient: Initiating fence type\(.*\) for clientID \S+ \(.*\), memberID \S+ group\(.*\)--0
+clssgmFenceClient: Initiating fence type\(.*\) for clientID \S+ \(.*\), same-group share of memberID \S+ group\(.*\)--0
+clssgmFenceComplete: Death fence, operation\(.*\), completed\(.*\),--0
+clssgmFenceComplete: fence request \S+ type \S+ completed due to the fact that \S+ is in meltdown--0
+clssgmFenceComplete: fence request for node \S+  completed--0
+clssgmFenceComplete: fence request for node \S+  still in progres--0
+clssgmFenceCompletion: removing crossgroup share \S+--0
+clssgmFenceCompletionMember: fence type\(.*\) completed for group\(.*\), member\(.*\), death required \S+--0
+clssgmFenceInfo: created cookie for member \S+ in grock \S+--0
+clssgmFenceInfo: request from clientID \S+--0
+clssgmFenceMember: \S+ grock\(.*\), member\(.*\), type\(.*\), cookie\(.*\)--0
+clssgmFenceObj: fencing client \(.*\) clientID \S+ fence type  1--0
+clssgmFenceObj: fencing member \(.*\) memberID \S+ grock \S+ fence type \S+--0
+clssgmGIDIndexDestroy: Deleting \S+ Index for grock \S+ \S+ \S+ instantiation \S+--0
+clssgmGIDIndexFormat: Creating \S+ Index in \S+ \S+ Grock \S+ for grock \S+ with \S+ \S+ instantiation \S+--0
+clssgmGIDIndexFormat: Creating \S+ Index in Grock by \S+ for grock \S+ with \S+ \S+ instantiation \S+--0
+clssgmGMCDeleteGrockMember: Deleting member \(.*\) in global grock \S+ with memberID \S+--0
+clssgmGMCGblCreateGrock: Created grock \S+ \(.*\), \S+ \S+ type \S+ \S+ \S+ at creation time--0
+clssgmGMCGblDestroyGrock: Destroying global grock \S+ \S+ \S+--0
+clssgmGMCGblDestroyMember: Destroying member in grock \S+ with memberID \S+--0
+clssgmGMCGblDestroyMember: Member \S+ is the target of \S+ fence request--0
+clssgmGMCInitCtx: \S+ context init done--0
+clssgmGMCLclCreateGrock: Created grock \S+ \S+ \S+ \S+ \S+--0
+clssgmGMCLclDestroyGrock: Destroying local grock \S+ \S+ \S+--0
+clssgmGMCLclDestroyMember: Destroying member in grock \S+ with memberID \S+--0
+clssgmGMCLclDestroyMember: Member \S+ is the target of \S+ kill operation--0
+clssgmGMCRemoveMember: grock \S+ \(.*\), member \(.*\), memberID \S+ node number \S+ state \S+ member count \S+--0
+clssgmGMCRequestThread: \S+ Master \S+ \S+ \S+ request processing--0
+clssgmGMCRequestThread: Main thread \S+ worker threads--0
+clssgmGMCRequestThread: Starting--0
+clssgmGMPInitCtx: \S+ context init done--0
+clssgmGenSetGrockAttr: grock \S+ attribute \S+ type \S+ length \S+ value \(.*\)--0
+clssgmGetDefreqQPtr: grock \S+ type \S+ thrdnum \S+--0
+clssgmGetPendingFenceReqCount: Pending fence request in the queue is total \S+ effective \S+--0
+clssgmGetReqByID: could not find fenceReq for reqid \S+ node \S+--0
+clssgmGetReqByID: found fenceReq \S+ reqid \S+ node \S+--0
+clssgmGrantLocks: Granted lock \S+ type \S+ to memberID \S+ clientID \S+--0
+clssgmGrockOpTagData: Invalid commission transition, grock\(.*\), commissioner\(.*\), requester\(.*\)--0
+clssgmGrockOpTagData: Request to commission member\(.*\) using key\(.*\) for grock\(.*\)--0
+clssgmGrockOpTagProcess: Cannot create/find member\(.*\) on node\(.*\)--0
+clssgmGrockOpTagProcess: Operation\(.*\) unsuccessful grock\(.*\)--0
+clssgmGrockOptagJoin: clssgmCommonAddMember failed, member\(.*\) on node\(.*\)--0
+clssgmGrockUpdate: done with grock \S+ opseq \S+ opseq \S+--0
+clssgmGrockUpdateDone: cannot find \S+ matching tag\(.*\)--0
+clssgmGroupAttrPrint: Attributes for group \S+ \S+ \S+--0
+clssgmGroupData: Sending data request for data type \S+ of grock \S+ to \S+ for clientID \S+--0
+clssgmGroupState: requested group state of unknown group \S+--0
+clssgmGrpDataCmpl: rpc \S+ ret \S+ grock \S+ clientID \S+--0
+clssgmGrpDataUpdt: Sending group property \S+ change request for data type \S+ from member \S+ clientID \S+ property size \S+--0
+clssgmHandleDBDone: Grock \S+ complete from master \S+ for incarn \S+--0
+clssgmHandleDataInvalid: no grock for grock \S+ member \S+--0
+clssgmHandleDeleteUpdate: released mapping reference, grock \S+ type \S+--0
+clssgmHandleExadataFenceNodeCmpl: request for node \S+  completed--0
+clssgmHandleFenceTimeout: killing node \S+ at incarnation \S+--0
+clssgmHandleGrockRcfgMaster: from node \S+ \S+ grock \S+ \S+ tag \S+ updateseq \S+ operation sequence \S+ status \S+ send response \S+--0
+clssgmHandleGrockRcfgUpdate: from node \S+ \S+ grock\(.*\), msgtype \S+ \S+ tag \S+ updateseq \S+ operation sequence \S+ status \S+ sendresp \S+--0
+clssgmHandleGrockUpdate\(.*\): grock \S+ grockId \S+ \S+ \S+ memberCount \S+ type \S+--0
+clssgmHandleMasterCreate: Processed request from node \S+ number \S+ operation sequence \S+--0
+clssgmHandleMasterGrpData: Op tag processing failed with status -6 for request from \S+ number \S+ for grock \S+ from member number \S+--0
+clssgmHandleMasterGrpData: Processed request from node \S+ number \S+ for grock \S+ from member number \S+ operation sequence \S+--0
+clssgmHandleMasterMemberExit: Processed request from node \S+ number \S+ for grock \S+ member number \S+ operation sequence \S+--0
+clssgmHandleMemberChange: Processed request from node \S+ number \S+ for grock \S+ member number \S+ operation sequence \S+--0
+clssgmInitialRecv: connected in incarnation \S+ to node \S+ number \S+ birth incarnation \S+ and properties \S+--0
+clssgmInitialRecv: conns done \(.*\)--0
+clssgmInternalGroupFillKey: returning key with grock index key\(.*\) \(.*\) mbrmemberID \S+--0
+clssgmJoinGrock:\S+ \S+ opening for business--0
+clssgmJoinGrock: \S+ grock \S+ clientID \S+ \(.*\) with endp \S+ requested num \S+ evflags \S+ grpflags \S+ mbrflags \S+ lockflags \S+--0
+clssgmJoinGrock: Show disconnect flag set for clientID \S+ proc \S+--0
+clssgmJoinGrock: Show disconnect flag set for clientID \S+--0
+clssgmJoinGrock: Special blocking client flag set for clientID \S+--0
+clssgmKillAllClients: Adding pid \S+ to the kill request--0
+clssgmMaintenance: type\(.*\) size\(.*\) from proc \S+ received--0
+clssgmMasterCMSync: Synchronizing group/lock status, getting last updates from other nodes--0
+clssgmMasterCMSync: Synchronizing group/lock status, not getting last updates from other nodes--0
+clssgmMasterCMSync: processing grock\(.*\) type\(.*\)--0
+clssgmMasterDBSync: Finished \S+ Complete\(.*\)--0
+clssgmMasterSendDBDone: group/lock status synchronization complete for incarnation \S+--0
+clssgmMbrDataUpdt: Processing member data change type \S+ size \S+ for group \S+ memberID \S+--0
+clssgmMbrDataUpdt: Sending member data change to \S+ for group \S+ memberID \S+--0
+clssgmMemberAttrPrint: Attributes for memberID \S+ attrinc \S+--0
+clssgmMemberPublicInfo: group \S+ member \S+ not found--0
+clssgmMemberPublicInfo: group \S+ not found--0
+clssgmNewInternalClient: Internal client\(.*\) created, clientID \S+ unique\(.*\)--0
+clssgmOptagProcessGrockCreate: grock \S+ from node \S+ number \S+ with \S+ attributes having size \S+--0
+clssgmPeerDeactivate: node \S+ \(.*\), death \S+ state \S+ connstate \S+--0
+clssgmPeerListener: \S+ \(.*\) with msg tag \S+ sent to master \S+
+clssgmPeerListener: In exclusive mode, \S+ is active despite non-success gipc return value, gipcrc\(.*\)--0
+clssgmPeerListener: Spawned for node--0
+clssgmPeerListener: connected to \S+ of \S+--0
+clssgmPeerListener: connects done \(.*\)--0
+clssgmPeerListener: gipc addr \S+--0
+clssgmPeerListener: listening on \s*\S*--0
+clssgmPeerListener: physical hostname \S+ privname \S+--0
+clssgmPeerListener: terminating at incarn\(.*\)--0
+clssgmPeerWorkerThread: thrdname GMPLstnrWorkerThread, num \S+ wrkthrdnum \S+ \S+ \S+ \S+--0
+clssgmPeerWorkerThread: thrdname GMPLstnrWorkerThread, num \S+ wrkthrdnum \S+ \S+ \S+--0
+clssgmPeerWorkerThread: thrdname GMPLstnrWorkerThread, num \S+ wrkthrdnum \S+--0
+clssgmPrintFenceStatus: \S+ fencing for \S+ \S+ \S+ \S+ Completed--0
+clssgmPrintFenceStatus: \S+ fencing for Share \S+ type \S+ clientID \S+ Pid \S+ Not Completed--0
+clssgmPrintFenceStatus: \S+ fencing for memberID \S+ \S+ <null> Completed--0
+clssgmPrintFenceStatus: \S+ fencing for memberID \S+ \S+ <null> Not Completed--0
+clssgmProcFenceASM: Fencing target\(.*\), type\(.*\), handle\(.*\)--0
+clssgmProcFenceASM: clsfaFence of handle\(.*\) complete--0
+clssgmProcFenceDeath: Fencing target\(.*\), type\(.*\)--0
+clssgmProcFenceReq: incarnation \S+ of node \S+ is gone, current incarnation is \S+--0
+clssgmProcFenceReq: remote fence request, redirected to node \S+ reqid \S+--0
+clssgmProcessAllGrocks: Not processing deferred requests for grock \S+ due to pending acks--0
+clssgmProcessFenceClient: Client clientID \S+ with pid\(.*\), proc\(.*\), client\(.*\)--0
+clssgmProcessFenceMembership: Scheduled \S+ pid\(.*\), entry\(.*\)--0
+clssgmProcessFenceMembership: member\(.*\), memberID \S+--0
+clssgmProcessGrockRequestQueue: Failure with status \S+ processing request type \S+ from node \S+ \S+ \S+--0
+clssgmProcessGrockRequestQueue: Not waiting for an \S+ for the broadcast as the local node is the only node in the cluster. Continue processing: grock \S+ queue \(.*\)--0
+clssgmProcessGrockRequestQueue: Processing for grock \S+ queue \(.*\)--0
+clssgmProcessGrockRequestQueue: Processing orphan exits for grock \S+ queue \(.*\). Normal requests to \S+ processed later
+clssgmQueueFenceForCheck: \(.*\) Death check for object type \S+ pid \S+--0
+clssgmQueueFenceForCheck: \(.*\) Filter Drive check for type \S+ \(.*\), fence request .*--0
+clssgmQueueGrockRequest: queued msg from node \S+ number \S+ for operation \S+ \S+ generation \S+ \S+--0
+clssgmRPC: RPC\(.*\) to node\(.*\) not sent due to impending local \S+ shutdown--0
+clssgmRPC: failed to send \S+ to node\(.*\), rpcret\(.*\), master\(.*\), DBInfo\(.*\), masterRPC\(.*\),unsentRPC\(.*\), queuing \S+ to unsent queue--0
+clssgmRPC: rpc \S+ \(.*\) tag\(.*\) sent to node \S+--0
+clssgmRPCBroadcast: \S+ tag \S+ grock \S+ \S+ last update sequence \S+ status\(.*\), sendcount\(.*\), filtered by specific properties: \S+--0
+clssgmRPCBroadcast: \S+ tag \S+ grock \S+ \S+ last update sequence \S+ status\(.*\), sendcount\(.*\), filtered by specific properties:--0
+clssgmRPCDone: rpc \S+ \(.*\) state \S+ flags \S+--0
+clssgmReconfigThread:  Completed reconfiguration for incarnation \S+ successfully--0
+clssgmReconfigThread:  Setting initial active version for \S+ to \S+--0
+clssgmReconfigThread:  started for reconfig \(.*\) with \S+ active version \S+ and global active version \S+--0
+clssgmRegisterShared: \S+ grock \S+ member \S+ share type \S+ for clientID \S+ \(.*\)--0
+clssgmRemoveMember: deadmbr found grock\(.*\), memberID \S+ nodenum \S+--0
+clssgmRemoveMember: grock \S+ \(.*\), member \(.*\), memberID \S+ node number \S+ state \S+ member count \S+--0
+clssgmRemoveMember: grock \S+ deathcnt \S+--0
+clssgmRemoveMember: grock ASMCred:racusr \(.*\), member \(.*\), memberID \S+ node number \S+ state \S+ member count \S+--0
+clssgmRemoveMember: grock ASMCred:racusr, deathcnt \S+--0
+clssgmRemoveMember: grock IGTESTDBorclpdb \(.*\), member \(.*\), memberID \S+ node number \S+ state \S+ member count \S+--0
+clssgmRemoveMember: grock IGTESTDBorclpdb, deathcnt \S+--0
+clssgmRemoveMember: grock IGTESTDBtestdb \(.*\), member \(.*\), memberID \S+ node number \S+ state \S+ member count \S+--0
+clssgmRemoveMember: grock IGTESTDBtestdb, deathcnt \S+--0
+clssgmRemoveMember: grock IGTESTDBtestdbXDB \(.*\), member \(.*\), memberID \S+ node number \S+ state \S+ member count \S+--0
+clssgmRemoveMember: grock IGTESTDBtestdbXDB, deathcnt \S+--0
+clssgmRemoveMember: grock mgmtdbpub \(.*\), member \(.*\), memberID \S+ node number \S+ state \S+ member count \S+--0
+clssgmRemoveMember: grock mgmtdbpub, deathcnt \S+--0
+clssgmResetGrock: grock\(.*\) \S+--0
+clssgmResumeAllGrocks: Issue \S+--0
+clssgmResumeAllGrocks: done--0
+clssgmSendClient: Send failed rc \S+ con \(.*\), client \(.*\), proc \(.*\)--0
+clssgmSendClientAbort:send \S+ failed for client \(.*\)--0
+clssgmSendDeleteUpdate: Defer delete attempt for grock\(.*\), delete-state\(.*\), updateseq\(.*\), until not waiting for acks of previous update--0
+clssgmSendDeleteUpdate: Delete update sent for \S+--0
+clssgmSendDeleteUpdate: Processing grock \S+ \S+ \S+ updateseq \S+--0
+clssgmSendDeleteUpdate: released mapping reference, grock \S+ type \S+--0
+clssgmSendEventsToClients: groupName\(.*\) count\(.*\) master\(.*\) event\(.*\), incarn \S+ mbrc \S+ to clientID \S+ events \S+--0
+clssgmSendEventsToMbrs: Group \S+ member count \S+ event master \S+ event type \S+ event incarn \S+ event member count \S+ pids \S+ \S+ \S+  --0
+clssgmSendEventsToMbrs: Group \S+ member count \S+ event master \S+ event type \S+ event incarn \S+ event member count \S+ pids \S+ \S+  --0
+clssgmSendEventsToMbrs: Group \S+ member count \S+ event master \S+ event type \S+ event incarn \S+ event member count \S+ pids \S+  --0
+clssgmSendEventsToMbrs: Group mgmtdbpub, member count \S+ event master \S+ event type \S+ event incarn \S+ event member count \S+ pids \S+ \S+ \S+ \S+  --0
+clssgmSendEventsToMbrs: Group mgmtdbpub, member count \S+ event master \S+ event type \S+ event incarn \S+ event member count \S+ pids \S+ \S+ \S+  --0
+clssgmSendEventsToMbrs: Group mgmtdbpub, member count \S+ event master \S+ event type \S+ event incarn \S+ event member count \S+ pids \S+ \S+  --0
+clssgmSendEventsToMbrs: Group mgmtdbpub, member count \S+ event master \S+ event type \S+ event incarn \S+ event member count \S+ pids \S+  --0
+clssgmSendEventsToMbrs: Group mgmtdbpub, member count \S+ event master \S+ event type \S+ event incarn \S+ event member count \S+ pids \S+--0
+clssgmSendEventsToMbrs: Lock \S+ grant type \S+ granted count \S+ member count \S+ exclusive waiter count \S+ event type \S+ pids \S+  --0
+clssgmSendInternalClient: client clientID \S+ unique\(.*\) has new \S+ class mail--0
+clssgmSendInternalClient: client clientID \S+ unique\(.*\) skipped, handle\(.*\)--0
+clssgmSendShutdown: \S+ capable clients connected \S+ pending in fence queue \S+--0
+clssgmSendShutdown: Aborting client \(.*\) clientID \S+ proc \(.*\), iocapables \S+--0
+clssgmSendShutdown: I/O capable clientID \S+ proc \(.*\), pid \(.*\), iocapables \S+ client \(.*\)--0
+clssgmSendShutdown: Sent to clientID \S+ proc \(.*\), pid \(.*\), client \(.*\)--0
+clssgmSetFenceType: \S+ group \S+ fencing type \S+ \S+ by member \S+--0
+clssgmSetGrockPersistence: Setting grock \S+ \S+ \S+ persistent--0
+clssgmSetMemberAttr: Sending Group Property change request from member \S+--0
+clssgmSetMemberAttr:grock \S+ memnum \S+ attrtype \S+ len \S+ value \(.*\)--0
+clssgmSetMemberRank: Changing rank from \S+ to \S+ for memberID \S+ grock \S+ with minrank \S+ and master \S+--0
+clssgmSetMinrank:grock \S+  curminrank \S+  newminrank = \S+--0
+clssgmSetVersions: properties common to all peers: \S+--0
+clssgmStartNMMon:  completed node cleanup--100
+clssgmStartNMMon: node \S+ active, birth \S+--0
+clssgmStartNMMon: node \S+ failed, birth \(.*\) \(.*\)--0
+clssgmStartShutDown: \S+ \S+ \S+ for Flex--0
+clssgmStartShutdown:waited \S+ msecs for graceful shutdown--0
+clssgmSuspendAllGrocks: Issue \S+--0
+clssgmSuspendAllGrocks: done--0
+clssgmTermMember: Terminating memberID \S+ \(.*\) in grock \S+--0
+clssgmTermShare: \(.*\) \S+ group \S+ memberID \S+ sharing type \S+ member \S+--0
+clssgmTestSetLastGrockUpdate: grock \S+ \S+ \S+ msg with updatesequence \S+ accepted, grock updatesequence \S+ .* ignoreseq\(.*\)--0
+clssgmThreadRecovery:recovering clntlsnr mutex--0
+clssgmUnregNodeGroup: Unregistering clientID \S+--0
+clssgmUnregisterPrimary: Unregistering member\(.*\) \(.*\) in \S+ grock\(.*\)--0
+clssgmUnregisterShared: Cross group member share client \S+ \(.*\), group \S+ member \S+--0
+clssgmUnregisterShared: Same group share client \S+ \(.*\), grp \S+ member \S+--0
+clssgmUpdateGrpData: Attribute update for grock\(.*\)--0
+clssgmUpdateGrpData: Member-group attribute update for grock\(.*\), member\(.*\), attributes updated\(.*\)--0
+clssgmUpdateGrpData: grock\(.*\), \S+ data\(.*\), incarn\(.*\)--0
+clssgmUpdateGrpData: grock\(.*\), commissioner\(.*\)--0
+clssgm_select_master: Changing master for grock \S+ from memberID \S+ to memberID \S+ clientID \S+--0
+clssgm_select_master: Changing master for grock \S+ from memberID \S+ to undefined, based on \S+ group minrank of \S+--0
+clssgm_select_master: Changing master for grock IGTESTDBtestdb from memberID \S+ to memberID \S+ clientID \S+
+clssgm_select_master: Changing master for grock IGTESTDBtestdb from memberID \S+ to undefined, based on \S+ group minrank of \S+
+clssgm_select_master: Changing master for grock IGTESTDBtestdbXDB from memberID \S+ to memberID \S+ clientID \S+
+clssgm_select_master: Changing master for grock IGTESTDBtestdbXDB from memberID \S+ to undefined, based on \S+ group minrank of \S+
+clssgm_select_master: Changing master for grock mgmtdbpub from memberID \S+ to memberID \S+ clientID \S+--0
+clssgm_select_master: Changing master for grock mgmtdbpub from memberID \S+ to undefined, based on \S+ group minrank of \S+--0
+clssgm_select_master: Changing master for grock ocrlocal from memberID \S+ to memberID \S+ clientID \S+--0
+clssgm_select_master: Changing master for grock ocrlocal from memberID \S+ to undefined, based on \S+ group minrank of \S+--0
+clssgmcBCCMHandler: Received \S+ connect event on BCGM\(.*\)--0
+clssgmcClientDestroy: \(.*\) clientID \S+ cleaned up con \(.*\), joinstate \S+--0
+clssgmcClientDestroy: client \S+ fenced--0
+clssgmcConnect: Sent \S+ connect req to node \S+--0
+clssgmcGMCShutdownCompletion: Ack received--0
+clssgmcGMCShutdownCompletion: Completing shutdown--0
+clssgmcGMCShutdownCompletion: Shutdown Cleanup will now wait for ack--0
+clssgmcProcDestroy: cleaning up proc\(.*\) clientID \S+ con\(.*\) skgpid \S+ ospid\(.*\) with \S+ clients--0
+clssgmcProcDestroy: cleaning up proc\(.*\) clientID \S+ con\(.*\) skgpid  ospid\(.*\) with \S+ clients--0
+clssgmcReAddObs: No obs registered for grock \S+--0
+clssgmcRegisterProtocol: Registered \S+ protocol \S+ at GMCfor pipe \S+--0
+clssgmcShareCreate: \(.*\) Cross group member share, by group \S+ memberID \S+ clientID \S+ with target group \S+ memberID \S+--0
+clssgmcShareCreate: \(.*\) Same group share, by clientID \S+ with target group \S+ memberID \S+--0
+clssgmcShareDestroy: \(.*\) Cross group member share, by group \S+ memberID \S+ with target group \S+ memberID \S+--0
+clssgmcShareDestroy: \(.*\) Same group share, by clientID \S+ with target group \S+ memberID \S+--0
+clssgmceventsubClientAdd: name\(.*\), type\(.*\), client subscription\(.*\), current map \(.*\)--0
+clssgmceventsubClientRemove: name\(.*\), type\(.*\), client subscription\(.*\), found\(.*\)--0
+clssgmceventsub_construct: eventsub\(.*\), gmc\(.*\), name\(.*\)--0
+clssgmceventsubentry_destruct: deinitializing entry\(.*\), directory\(.*\), name\(.*\), type\(.*\), clients\(.*\), mutex\(.*\)--0
+clssgmclSendGIPC: gipcSend failure - \S+--0
+clssgmclientOpenEndp: listening on clsc://\(.*\)--0
+clssgmclienteventhndlr: \(.*\) No proc found for clientID \S+ endpt \S+--0
+clssgmclientlsnr: Spawned--0
+clssgmclientlsnr: The event hdlr is client--0
+clssgmclientlsnr: listening on clsc://\(.*\)--0
+clssgmcpChangeResp: sending status -12 to clientID \S+ for memberID \S+ cookie \S+--0
+clssgmcpChangeResp: sending status -12 to clientID \S+ for memberID \S+--0
+clssgmcpCompReq: Completing request \S+ with operation status \S+ msg size \S+--0
+clssgmcpConfigResp: Completing request type \S+ with operation status \S+ msg size \S+--0
+clssgmcpConnectAck: Received \S+ connect ack--0
+clssgmcpCreateGblGrpMember: Creating member in grock \S+ memberID \S+ requested number \S+ clientID \S+--0
+clssgmcpDataDoneAck: Routing table successfully updated--0
+clssgmcpDataUpdtCmpl: Status \S+ mbr data updt memberID \S+ from clientID \S+--0
+clssgmcpGroupDataResp: Completed request with sequence number\(.*\) for clientID \S+--0
+clssgmcpGroupDataResp: sending type \S+ size \S+ status \S+ to clientID \S+--0
+clssgmcpGrpCreateResp: Response with status \S+ for clientID \S+--0
+clssgmcpGrpCreateResp: Response with status \S+ msglen \S+--0
+clssgmcpInitiateFence: local fence finished with status -18--0
+clssgmcpJoinResp: Response with status -10 for clientID \S+--0
+clssgmcpMbrDeleteResp: Status \S+ deleting memberID \S+ from clientID \S+--0
+clssgmcpNodeListResp: Completing request type \S+ with operation status \S+ msg size \S+ vectsize \S+--0
+clssgmcpSendGMPEvent2Client: Sending event type \S+ for grock \S+ \S+ member count \S+ incarnation \S+ master \S+ operation sequence \S+ to clientID \S+--0
+clssgmeventhndlr: Disconnecting endp \S+ ninf \S+--0
+clssgmfBldCookie: no cookie created for member\(.*\) memberID \S+--0
+clssgmfFenceReqCreate: \S+ client clientID \S+ for notification--0
+clssgmfInitLocalFence: Member level fence for local groupmemberID \S+ fence type \S+--0
+clssgmfInitLocalFence: No member nor shares for memberID \S+ found for fence request from clientID \S+
+clssgmfInitLocalFence: node incarnation\(.*\) is \S+ current node has incarnation\(.*\)--0
+clssgmfInitLocalFence: the instantiation of member \S+ \S+ does not match \S+--0
+clssgminclient_ResponseIs: Member\(.*\) attribute set with incarnation\(.*\)--0
+clssgminclient_ResponseIs: Member\(.*\) exited group--0
+clssgminclmsg_ResponseIs: Joined group\(.*\)--0
+clssgmpDispatchWrkToWrkthrd: \S+ \S+ grock \S+ type \S+ \S+ \s*\S* \S+ \S+--0
+clssgmpExecuteRequestMsg: dropping delete update--0
+clssgmpExecuteRequestMsg: update message\(.*\) with incarnation\(.*\) from node\(.*\) received before \S+ message dropped--0
+clssgmpHandleFenceReq: Received fence request from node \S+ number \S+ for clientID \S+ request does not kill primary--0
+clssgmpProcessBCNMEvent: Change event received. Leaf \S+ inc \S+ joined--0
+clssgmpProcessBCNMEvent: Clearing local flag, active on other hub node--0
+clssgmpProcessBCNMEvent: Ignoring update for hub--0
+clssgmpProcessBCNMEvent: Initializing the \S+ node context for node \S+ number \S+ \S+ incarnation \S+ new incarnation \S+--0
+clssgmpProcessBCNMEvent: Leaf \S+ inc \S+ lost. Sending rimlost event--0
+clssgmpProcessBCNMEvent: Performing cleanup for rim node \S+ number \S+ death incarnation \S+ birth incarnation \S+ birth incarnation valid \S+--0
+clssgmpProcessBCNMEvent: Received an attach for node number \S+ incarnation \S+--0
+clssgmpProcessBCNMEvent:Sending rimfound
+clssgmpProcessRequestMsg: Received \S+ from node \S+ number \S+ for incarnation \S+ peer listener incarnation \S+ global incarnation \S+--0
+clssgmpRegisterProtocol: Registered \S+ protocol \S+ at GMPfor pipe \S+--0
+clssgmpSendCleanupEventToGMC: Finding RIMs attached to this node--0
+clssgmpSendLeafEvent: memberID \S+ of grock \S+ \S+ state \S+
+clssgmpSendMsgToGMC: Cannot send it to \S+ hub node--0
+clssgmpSetConfig: Sending response with status \S+ to \S+ for clientID \S+--0
+clssgmpSetSyncstateAndWaitForAck: \S+ all ack for syncstate \S+--0
+clssgmpTagValidateProcessing: Queuing request \S+ for grock \S+  from node \S+ number \S+ because we are in \S+ holding pattern until \S+ reconfig completes--0
+clssgmpTagValidateProcessing: Queuing request \S+ for grock \S+ because deferred requests were found--0
+clssgmpTagValidateProcessing: Queuing request type \S+ for grock \S+ \S+ \S+ from node \S+ number \S+ because acks for the previous operation, \S+ generation \S+ are still outstanding from node \S+ number \S+--0
+clssgmpcBCCMHandler: Received \S+ connect event on BCGM\(.*\)--0
+clssgmpcChangeMember: Processing member \S+ for memberID \S+--0
+clssgmpcConnect: Got \S+ connect msg from node \S+--0
+clssgmpcConnect: Initializing the context for node \S+ number \S+ incarnation \S+--0
+clssgmpcDeleteMember: Processing memberID \S+ from clientID \S+--0
+clssgmpcFenceEscalate: Ignoring escalation to node kill, member \s*\S* group \S+ not found
+clssgmpcFenceEscalate: Processing node kill escalation request from clientID \S+ to remove member number \S+--0
+clssgmpcFenceEscalate: no grock id found with id \S+
+clssgmpcFenceReq: Sending fence request type \S+ level \S+ to node \S+ memberID \S+ clientID \S+
+clssgmpcFenceResponse: Processing response to fence request from clientID \S+--0
+clssgmpcFormatGrpDataResp: grock \S+ grkmbrcnt \S+ HTmbrcnt \S+--0
+clssgmpcGMCReqWorkerThread: An event should not have been received in state \S+--0
+clssgmpcGMCReqWorkerThread: processing msg \(.*\) type \S+ msg size \S+ payload \(.*\) size \S+ sequence \S+ for clientID \S+--0
+clssgmpcGMCReqWorkerThread: thrdname GMCReqWorkerThread, num \S+ wrkthrdnum \S+ spawned--0
+clssgmpcGMCShutdownComplete: \S+ completed its shutdown--0
+clssgmpcGMPShutdownComplete: \S+ has finished its shutdown--0
+clssgmpcGMPShutdownComplete: GMCreq worker threads suspended--0
+clssgmpcGrpPropUpdate: Processing update type \S+ for memberID \S+--0
+clssgmpcJoinCmpl:Sending rimlost for grock \S+--0
+clssgmpcJoinGrock: Processing join request\(.*\) for grock\(.*\), member number\(.*\), from clientID \S+ msgseq\(.*\) with \S+ group attributes and \S+ member attributes--0
+clssgmpcMemberData: dead/dereg mbr, group \S+ member \S+ state \S+--0
+clssgmpcMemberData: grock \S+ not found--0
+clssgmpcMemberData: member \S+ in grock \S+ not found--0
+clssgmpcMemberDataUpdt: grockName \S+ memberID \S+ datatype \S+ datasize \S+--0
+clssgmpcNameReq: No member found for req type \S+ for node number \S+ from clientID \S+--0
+clssgmpcNumberReq: Could not find node number for node \S+ from clientID \S+--0
+clssgmpcReqSetWtStateAndWaitForAck<SCAL>: Received all acks for transition \S+ to \S+--0
+clssgmpcSendAllEventSeq: Sent opseq \S+ for grock \S+--0
+clssgmpcSendFenceReq: Sending fence request to node \S+ number \S+ for clientID \S+--0
+clssgmpcSendHubFound:Sending \S+ for grock \S+
+clssgmpcSendHubFound:selected gid
+clssgmpcSendHubShutdown: Hub Shutdown sent to rim node \S+ number \S+--0
+clssgmpcSendLocalFenceReq: Sending \S+ fence rquest to node \S+ number \S+ for clientID \S+--0
+clssgmpcShutDownStarted: Waiting for \S+ rims to switch to another node--0
+clssgmpcSubscribe: Grock observer for \(.*\) type\(.*\) does not exist yet for subscription request of map\(.*\) from \(.*\)--0
+clssgmpcSubscribe: Observer\(.*\) for grock\(.*\) type\(.*\), current subscription\(.*\), new\(.*\), \(.*\)--0
+clssgmpcSubscribe: Received subscription request for grock\(.*\), type\(.*\), subscription\(.*\) from\(.*\)--0
+clssgmpcSubscribe: Sent opseq \S+ for grock \S+--0
+clssgmpcWakeUpGMCReqWrkThrds: Workerthread \S+ posted--0
+clssgmpeersend: Local node is terminating, send aborted for node \S+ number \S+--0
+clssgmpeersend: send failed type \S+ node \S+ unreachable, flags \S+ quiesced \S+--0
+clssgmrSelectOrphanedHubRcfgMbrs: Bypassing--0
+clssgmsCreateMember: Created memberID \S+ in group \S+ with event subscriptions \S+ flags \S+ for clientID \S+--0
+clssgmsFillMemberAttributes Global attrib: index \S+ type\(.*\), size\(.*\), offset\(.*\),--0
+clssgmsGrockObsDestroy: \(.*\) Destroying observer of grock \S+ \S+ in \S+ Grock Obs by \S+ for clientID \S+--0
+clssgnsCheckGNSConfigured: \S+ connection error, re-subscribing for \S+ resource events.--0
+clssgnsCheckGNSConfigured: \S+ wait\(.*\)  returned \S+ clskerror: , evtres \S+--0
+clssgnsCheckGNSConfigured: \S+ wait\(.*\)  returned \S+ clskerror: clsce: \S+ \(.*\)  Could not connect to the Event Manager daemon, evtres \S+--0
+clssgnsCrsGetAttr: \S+ \S+--0
+clssgnsCrsQuery: \S+ is not ready. Cannot query \S+ resource state.--0
+clssgnsCrsQuery: \S+ query resource type ".*" succeded--0
+clssgnsCrsQuery: Querying \S+ for resource type ".*".--0
+clssgnsGNSEvtHandler: clsce evt res \S+ \(.*\)--0
+clssgnsGNSProfileEvtHandler: \S+ got \S+ \S+ evt, data:--0
+clssgnsGNSProfileEvtHandler: \S+ is offline. GNS-bound functionality inop.--0
+clssgnsGNSStateEvtHandler: \S+ got \S+ \S+ evt, data:--0
+clssgnsGetGNSResState2: \S+ is \S+ configured. GNS-bound functionality inop.--0
+clssgnsGetGNSResState: \S+ configured; current state: \s*\S* state attr:
+clssgnsMainThrd: Processing publish request \(.*\), endpoint \S+--0
+clssgnsMainThrd: Processing remove request \(.*\)--0
+clssgnsPublishHubEndpt: Publishing host name \S+ and qualifier \S+--0
+clssgnsPublishServer: \S+ \S+ publishing done--0
+clssgnsPublishServer: Publish of instance \S+ in service \S+ with hostname \S+ properties \S+ in \S+ was successful--0
+clssgnsPublishServer: Publish of instance CSSHub1 in service \S+ with hostname \S+ properties HOSTQUAL=rwsba-cluster in \S+ failed with error: GNS_SERV_FIND_FAIL\(.*\)--0
+clssgnsPublishServer: Publishing instance \S+ in service \S+ with hostname \S+ properties \S+ in \S+--0
+clssgnsRemoveServer: Removal of instance \S+ in service \S+ \(.*\) in \S+ failed with error: .*
+clssgnsRemoveServer: Removal of instance \S+ in service \S+ \S+ was successful \(.*\)--0
+clssgnsRemoveServer: Removal of instance CSSHub2 in service \S+ \(.*\) in \S+ failed with error: GNS_SERV_FIND_FAIL\(.*\)
+clssgnsRemoveServer: Removal of instance CSSHub2 in service \S+ \S+ was successful \(.*\)
+clssgnsRemoveServer: Removing instance \S+ from \S+ fully qualified name \S+ \S+--0
+clssgnsSubscribeGNSEvents: subscribe \S+ .\(.*\),.*.NAME='.*'  failed with ret \S+ clskerror: clsce: \S+ \(.*\)  Could not connect to the Event Manager daemon--0
+clssgnsSubscribeGNSEvents: subscribe \S+ .\(.*\),.*.NAME='.*'  failed with ret \S+ clskerror: clsce: \S+ \(.*\)  Internal error--0
+clssnkInit: \S+ generic layer initializing.--0
+clssnmBldSendUpdate: stale member on disk, nodename \S+ nodenum \S+ \S+ unique \S+ syncSeqNo \S+--0
+clssnmBldSendUpdate: syncSeqNo\(.*\)--0
+clssnmBldSendUpdate: using msg version \S+--0
+clssnmCINUpdateComplete: \S+ \S+ update completed, config state \S+--0
+clssnmChangeState: oldstate \S+ newstate \S+ \S+ \S+--0
+clssnmCheckDskInfo: \S+ cohort: \S+--0
+clssnmCheckDskInfo: Checking disk info...--0
+clssnmCheckDskInfo: My cohort: \S+
+clssnmCheckDskInfo: diskTimeout set to \(.*\)ms--0
+clssnmCheckForNetworkFailure: Entered--0
+clssnmCheckForNetworkFailure: expiring \S+  evicted \S+ evicting node \S+ this node \S+--0
+clssnmCheckForNetworkFailure: skipping \S+ defined \S+--0
+clssnmCheckForVfFailure: no voting file found--0
+clssnmCheckKillStatus: Node \S+ \S+ down, LATS\(.*\),timeout\(.*\)
+clssnmCheckKillStatus: Node \S+ \S+ down, due to observed lack of DHBs, current time\(.*\), LATS\(.*\) last \S+ read time\(.*\), last packet recv time\(.*\)
+clssnmCheckKillStatus: Node \S+ \S+ down, due to successful termination
+clssnmCheckQuorum\(.*\)  call     clssscAssert\(.*\) \s*\S+ . \S+ .--0
+clssnmCheckSplit: Node \S+ \S+ is alive, \S+ \(.*\) more than disk timeout of \S+ after the last \S+ \(.*\)--0
+clssnmCheckSplit: Node \S+ \S+ removed--0
+clssnmCheckSplit: nodenum \S+ \S+ \S+ \S+ \S+--0
+clssnmCheckVFStatus \S+ No Majority for site \S+ configured VFs \S+  Acessible VFs \S+ Min needed \S+--0
+clssnmCheckVFStatus: configured Sites = \S+ Incative sites = \S+ Mininum Sites required = \S+--0
+clssnmClusterListener: Spawned--0
+clssnmCompareNodeWeights: Best map is same as the cohort map of the current node--0
+clssnmCompareNodeWeights: count\(.*\), low\(.*\), bestcount\(.*\), best_low\(.*\), \S+ pebbles\(.*\) goldstars\(.*\) pubnw\(.*\) flexasm\(.*\)best_weight: pebbles\(.*\) goldstars\(.*\)pubnw\(.*\) flexasm\(.*\)--0
+clssnmCompareNodeWeights: count\(.*\), low\(.*\), bestcount\(.*\), best_low\(.*\),--0
+clssnmCompleteConfigChange: \S+ voting file \S+ is online--0
+clssnmCompleteConfigChange: Committed configuration change for \S+ \S+--0
+clssnmCompleteConfigChange: Completed configuration change reconfig for \S+ \S+ with status \S+--0
+clssnmCompleteConnProtocol: Connect ack from node \S+ \(.*\) ninf endp .* probendp .* endp \S+--0
+clssnmCompleteConnProtocol: Connection from known node \S+ \S+ node unique \S+ msg unique \S+--0
+clssnmCompleteConnProtocol: Incoming connect from node \S+ \(.*\) ninf endp \(.*\), probendp .* endp \S+--0
+clssnmCompleteConnProtocol: node \S+ \S+ found connect con \(.*\) and probe con \(.*\), closing connect con--0
+clssnmCompleteConnProtocol: node \S+ \S+ uniqueness \S+ msg uniqueness \S+ endp \S+ probendp \S+ endp \S+--0
+clssnmCompleteGMReq: Completed request type \S+ with status \S+--0
+clssnmCompleteInitV  call     clssnmCompleteVFDis \s*\S+ \S+ \S+--0
+clssnmCompleteInitVFDiscovery: Completing initial voting file discovery--0
+clssnmCompleteRmtDiscoveryReq: Completing voting file discovery  requested by node \S+ number \S+--0
+clssnmCompleteVFDis  call     clssnmCheckQuorum\(.*\) \s*\S+ \S+--0
+clssnmCompleteVFDiscovery: Committed configuration for \S+ \S+--0
+clssnmCompleteVFDiscovery: Completing voting file discovery--0
+clssnmConnComplete: node \S+ softver \S+--0
+clssnmConnProcessProbe: probe from node \S+ \S+--0
+clssnmConnSetNames: hostname \S+ privname \S+ con \S+--0
+clssnmDeactivateNode: node \S+ \(.*\) left cluster--0
+clssnmDeactivateNode: node \S+ state \S+--0
+clssnmDiscEndp: gipcDestroy \S+--0
+clssnmDiscHelper: \S+ node\(.*\) connection failed, endp \(.*\), probe\(.*\), ninf->endp .*--0
+clssnmDiscHelper: connected to node \S+ .* ninfendp \(.*\), state \(.*\)--0
+clssnmDiscHelper: node \S+ clean up, endp \(.*\), init state \S+ cur state \S+--0
+clssnmDiscHelper: probcon exists--0
+clssnmDoSyncUpdate.*--0
+clssnmDoSyncUpdate: Initiating sync \S+--0
+clssnmDoSyncUpdate: Starting cluster reconfig with incarnation \S+--0
+clssnmDoSyncUpdate: Sync \S+ complete!--0
+clssnmDoSyncUpdate: Terminating node \S+ \S+ misstime\(.*\) state\(.*\)--0
+clssnmDoSyncUpdate: Wait for \S+ vote ack\(.*\)--0
+clssnmDoSyncUpdate: local disk timeout set to \S+ ms, remote disk timeout set to \S+--0
+clssnmDoSyncUpdate: new values for local disk timeout and remote disk timeout will take effect when the sync is completed.--0
+clssnmDoSyncUpdate: node\(.*\) is transitioning from joining state to active state--0
+clssnmDoSyncUpdate: waiting to update states on disk--0
+clssnmFindBestMap: Using base map\(.*\) of node\(.*\) count\(.*\), low\(.*\), bestcount\(.*\), best_low\(.*\), \S+ \(.*\) goldstars \(.*\) flags \(.*\) SpoolVersion \(.*\)best_weightpebbles \(.*\) goldstars \(.*\) flags \(.*\) SpoolVersion \(.*\)--0
+clssnmFindVF: Duplicate voting file found in the queue of previously \S+ disks queued\(.*\), found\(.*\), is not corrupted--0
+clssnmFindVF: found \S+ by vdin in the \S+ queue--0
+clssnmGMRequestNMAction: No voting disks, completing the request--0
+clssnmGetNodeNumber: \S+--0
+clssnmHBInfo: disk timeout = \S+--0
+clssnmHBInfo: index = \S+ diff ms = \S+ last check ms = \S+--0
+clssnmHandleAck: Received ack type \S+ from node \S+ number \S+ with seq \S+ for sync \S+ waiting for \S+ acks--0
+clssnmHandleAck: node \S+ number \S+ sent ack type \S+ for wrong reconfig; ack is for reconfig \S+ and we are on reconfig \S+--0
+clssnmHandleAck: node \S+ number \S+ unexpected \S+ type \S+ expecting \S+ \(.*\)--0
+clssnmHandleCCM: Accepting configuration change to \S+ \S+--0
+clssnmHandleCCMAck: Node \S+ \S+ Accepts configuration change to \S+ \S+--0
+clssnmHandleJoin: node \S+ \S+ state \S+ ninfendp \S+--0
+clssnmHandleJoin: node \S+ number \S+ ignoring join during reconfig--0
+clssnmHandleManualShut: Manual shutdown of node nodename \S+ nodenum \S+--0
+clssnmHandleMeltdownStatus: node \S+ number \S+ has experienced \S+ failure in thread number \S+ and is shutting down--0
+clssnmHandleStatus: node\(.*\) \S+--0
+clssnmHandleSync: Acknowledging sync\(.*\), src\(.*\) packetseq\(.*\), locked-localweight pebbles \(.*\) goldstars \(.*\) flags \(.*\) SpoolVersion \(.*\)weightstamp \S+--0
+clssnmHandleSync: Committed the node weights with stamp \(.*\) and copied committed node weights from nmctx to NodeDB--0
+clssnmHandleSync: Node \S+ number \S+ is \S+ fence capable--0
+clssnmHandleSync: initleader\(.*\), newleader\(.*\)--0
+clssnmHandleSync: local disk timeout set to \S+ ms, remote disk timeout set to \S+--0
+clssnmHandleSync: syncLeader node \S+ number \S+ set to \S+
+clssnmHandleUpdate: \S+ \S+ \(.*\) \S+ \S+ \S+ \S+ \S+--0
+clssnmHandleUpdate: SYNC\(.*\) from node\(.*\) completed--0
+clssnmHandleUpdate: Using new configuration to \S+ \S+ unique \S+--0
+clssnmHandleUpdate: common properties are \S+--0
+clssnmHandleUpdate: local disk timeout set to \S+ ms, remote disk timeout set to \S+--0
+clssnmHandleUpdate: setting initial cluster incarnation to \S+--0
+clssnmHandleUpdate: sync\[.*\] src\[.*\], msgvers \S+ icin \S+--0
+clssnmHandleVFDiscover: Processing voting file discovery  requested by node \S+ number \S+--0
+clssnmHandleVFDiscoverAck: Copying lease blocks to new voting files--0
+clssnmInitDummyConfig: Rimhub misscount \S+--0
+clssnmInitNodeDB: Initializing with \S+ id \S+--0
+clssnmInitNodeDB: failure \S+ reading node kill--0
+clssnmInitialMsg: node \S+ \S+ endp \(.*\)--0
+clssnmIsNodeAive: Node not alive state \S+--0
+clssnmLeaseReadCmpl:status \S+--0
+clssnmLeaseUpdateCmpl:status \S+--0
+clssnmLocalJoinEvent: Node \S+ number \S+ is in an existing cluster with disk state \S+--0
+clssnmLocalJoinEvent: Node \S+ number \S+ was shut down--0
+clssnmLocalJoinEvent: Starting initial cluster reconfig--0
+clssnmLocalJoinEvent: begin on node\(.*\), waittime \S+--0
+clssnmLocalJoinEvent: node \S+ number \S+ inactive but connected--0
+clssnmLocalJoinEvent: scanning \S+ nodes--0
+clssnmLocalJoinEvent: set curtime \(.*\) for my node--0
+clssnmLocalJoinEvent: takeover aborted due to cluster member node found on disk--0
+clssnmMarkNodeForRemoval: node \S+ \S+ marked for removal--0
+clssnmNeedConfReq: No configuration to change--0
+clssnmNodeWeightIs: Uncommitted Weight updated\(.*\) Server pool version not updated here pebbles \(.*\) goldstars \(.*\) flags \(.*\) SpoolVersion \(.*\)--0
+clssnmNotifyReq: type \(.*\)--0
+clssnmOpenGIPCEndp: listening on \S+--0
+clssnmOpenGIPCEndp: opening cluster listener on \S+--0
+clssnmPollingThread: Removal started for node \S+ \(.*\), flags \S+ state \S+ wt4c \S+--0
+clssnmPollingThread: Spawned, poll interval \S+--0
+clssnmPollingThread: local diskTimeout set to \S+ ms, remote disk timeout set to \S+ impending reconfig status\(.*\)--0
+clssnmPollingThread: node \S+ \(.*\) at \S+ heartbeat fatal, removal in \S+ \S+--0
+clssnmPollingThread: node \S+ \(.*\) is impending reconfig, flag \S+ misstime \S+--0
+clssnmPollingThread: signaling reconfig for config change--0
+clssnmPollingThread: state\(.*\) clusterState\(.*\) exit--0
+clssnmQueueClientEvent:  Sending Event\(.*\), type \S+ incarn \S+--0
+clssnmQueueClientEvent: Node\[.*\] state = \S+ birth = \S+ unique = \S+--0
+clssnmRcfgMgrThread  call     clssnmDoSyncUpdate.*--0
+clssnmRcfgMgrThread: Local Join--0
+clssnmRcfgMgrThread: Reconfig in progress...--0
+clssnmRcfgMgrThread: Spawned--0
+clssnmRcfgMgrThread: initial lastleader\(.*\) unique\(.*\)--0
+clssnmRcfgMgrThread: unique\(.*\), lastleader\(.*\), currentleader\(.*\)--0
+clssnmReadDiscoveryProfile: voting file discovery string\(.*\)--0
+clssnmReadNodeInfo: \S+ endp for node \S+ \(.*\) - \S+--0
+clssnmReadNodeInfo: \S+ node \S+ \(.*\) to cluster, lease uniqueness \S+--0
+clssnmReadNodeInfo: dynamic endp \S+ \S+ len \S+ ver \S+--0
+clssnmReadWallet: OpenWallet: \S+ The cluster wallet to \S+ operated on does not exist., returned \S+--0
+clssnmRemove: Node \S+ \S+ has been shutdown manually--0
+clssnmRemove: Start--0
+clssnmRemoveNodeInTerm: node \S+ \S+ terminated. Removing from its own member and connected bitmaps--0
+clssnmRemoveNodeInTerm: node \S+  terminated. Removing from its own member and connected bitmaps--0
+clssnmRetryConnections: Probing node \S+ \(.*\), probendp\(.*\)--0
+clssnmSendAck: node \S+ \S+ syncSeqNo\(.*\) type\(.*\)--0
+clssnmSendCCM: Initiating configuration change to \S+ \S+--0
+clssnmSendConnAck: connected to node \S+ \S+ con \(.*\), state \S+--0
+clssnmSendDiscoverAck: Discovery complete, notifying requestor node \S+--0
+clssnmSendManualShut: Notifying all nodes that this node has been manually shut down--0
+clssnmSendMeltdownStatus: node \S+ number \S+ has experienced \S+ failure in thread number \S+ and is shutting down--0
+clssnmSendRemoteDisc: Sending remote disconnected message to \S+ number \S+--0
+clssnmSendShutdown: Send to node \S+ failed
+clssnmSendShutdown: Sending shutdown to node \S+ number \S+ with kill time \S+ and reason clssnmKillReasonEvicted
+clssnmSendSync: syncSeqNo\(.*\), indicating \S+ fence initialization \S+--0
+clssnmSendSync: syncSeqNo\(.*\)--0
+clssnmSendVFDiscover: Sending discover voting files request--0
+clssnmSendingThread: Connection pending for node \S+ number \S+ flags \S+--0
+clssnmSendingThread: Spawned--0
+clssnmSendingThread: sending \S+ msg to all nodes--0
+clssnmSendingThread: sent \S+ \S+ msgs to all nodes--0
+clssnmSendingThread: state\(.*\) clusterState\(.*\) exit--0
+clssnmSetCohort: Using check map \S+ of node \S+ count \S+ low \S+--0
+clssnmSetFirstIncarn: Incarnation set to \S+--0
+clssnmSetFirstIncarn: Node \S+ incarnation \S+--0
+clssnmSetGipcTraceLvl: Setting \S+ trace lvl to \S+--0
+clssnmSetMinMaxVersion: \S+ product/protocol \(.*\)--0
+clssnmSetMinMaxVersion: properties common to all nodes: \S+--0
+clssnmSetMinMaxVersion:node1  product/protocol \(.*\)--0
+clssnmSetMinMaxVersion:node2  product/protocol \(.*\)--0
+clssnmSetMinMaxVersion:node3  product/protocol \(.*\)--0
+clssnmSetMinMaxVersion:node4  product/protocol \(.*\)--0
+clssnmSetNodeProperties: properties node \S+ \S+--0
+clssnmSetParamsFromConfig: remote \S+ \S+ local \S+ \S+ \S+ \S+ misstime \S+ reboottime \S+ impending misstime \S+ voting file reopen delay \S+--0
+clssnmSetupAckWait: Ack message type \(.*\)--0
+clssnmSetupAckWait: node \S+ number \S+ is \S+ with state \S+--0
+clssnmSetupCookie: clssnmReadWallet fails - Node not configured for NodeKill--0
+clssnmSetupReadLease: status \S+--0
+clssnmStartCINUpdate: Starting \S+ update for type \S+--0
+clssnmStartConfigChange: profile sequence \S+--0
+clssnmStartNMMon: Received \S+ fault event--0
+clssnmStartPendingConfigChange: Initiating configuration change reconfig for \S+ \S+--0
+clssnmStartPendingConfigChange: New configuration request for \S+ \S+--0
+clssnmStoreInfoForPatching:uniquness \S+ birthincar \S+ in \S+--0
+clssnmStoreVfPathForPatching: VF.*--0
+clssnmUpdateNodeState: node \S+ number \S+ current state \S+ proposed state \S+ current unique \S+ proposed unique \S+ prevConuni \S+ birth \S+--0
+clssnmVFMajority: In site \S+ \S+ Insufficient voting files found, found \S+ of \S+ configured, needed \S+ vf.*--0
+clssnmValidateSyncMsg: Received additional sync from master \S+ number \S+ for the same reconfig--0
+clssnmWaitForAcks: Ack message type\(.*\), ackCount\(.*\)--0
+clssnmWaitForAcks: ceding ownership of reconfig to node \S+ syncNo \S+--0
+clssnmWaitForAcks: done, syncseq\(.*\), msg type\(.*\)--0
+clssnmWaitForAcks: node\(.*\) is expiring, msg type\(.*\)--0
+clssnmWaitOnEviction: Node kill could not beperformed. Admin or connection validation failed
+clssnmWaitOnEviction: node\(.*\) exceeded graceful shutdown period, IPMI-kill allowed if configured
+clssnmWaitOnEvictions: Start--0
+clssnmWaitOnEvictions: node \S+ undead \S+ \S+ fence handle \S+ kill reqest id \S+ last \S+ \(.*\)
+clssnm_skgxnmon: Compatible vendor clusterware not in use--0
+clssnmcCedeSync: Ceding reconfig \S+ to lower numbered node \S+ number \S+ as its \S+ fence ready and also in the maximal list of members--0
+clssnmcChangeRMN: For reconfiguration \S+ keeping node \S+ number \S+ and dropping node \S+ number \S+ Let the RMN.*--0
+clssnmcChangeRMN: For reconfiguration \S+ leaving node \S+ number \S+ and joining node \S+ number \S+--0
+clssnmconnect: connecting to addr \S+--0
+clssnmconnect: connecting to node\(.*\), endp\(.*\), flags \S+--0
+clssnmeventhndlr: \S+ node\(.*\), endp\(.*\) sending InitialMsg, \S+--0
+clssnmeventhndlr: Disconnecting endp \S+ ninf \S+--0
+clssnmeventhndlr: gipcAssociate endp \S+ in container \S+ type of conn gipcha--0
+clssnmeventhndlr: gipcDestroy endp \S+ cookie \S+--0
+clssnmlFindLease: \S+ owns the lease for slot \S+ in file \S+--0
+clssnmlGetLease:Node already has \S+ valid lease \S+--0
+clssnmlGetLease:Node does not have \S+ valid lease going for lease acquistion--0
+clssnml_acqlease: failed to get \S+ lease slot--0
+clssnmlalloccx:phyname \S+--0
+clssnmlfmtlease: uniqueness \S+ gipc addr \S+--0
+clssnmlgetfileslot: \S+ owns the lease for slot \S+ in file AFD:OCRDG1--0
+clssnmlgetslot: \S+ slots, all valid--0
+clssnmlgetslot:lease acquisition for node \S+ \S+ completed in \S+ msecs--0
+clssnmlpickslot:failed to read hint--0
+clssnmrCLSFAFenceStatus: Fence complete for node\(.*\)--0
+clssnmrCLSFAFenceStatus: Fence in progres for node\(.*\)
+clssnmrCheckKillStatus: node\(.*\), name\(.*\), IOServer fencing complete
+clssnmrCheckNodeWeight: Server pool version not consistent--0
+clssnmrCheckNodeWeight: node\(.*\) has weight stamp\(.*\) pebbles \(.*\) goldstars \(.*\) flags \(.*\) SpoolVersion \(.*\)--0
+clssnmrCheckNodeWeight: stamp\(.*\), completed\(.*\)--0
+clssnmrCheckSplit: Waiting for node weights, stamp\(.*\)--0
+clssnmrFenceCLSFA: clsfaFence request issued for node\(.*\), name\(.*\), fence type\(.*\), handle\(.*\)--0
+clssnmrFenceSage: Fenced node \S+ number \S+ with \S+ handle \S+--0
+clssnmsendmsg: not connected to node \S+
+clssnmvConfigureVFs: Changing state for vdisk \S+ \S+ configured--0
+clssnmvCopyCFG: cinhdrsize = \S+ , nmcfg size = \S+--0
+clssnmvDDiscThread.*--0
+clssnmvDDiscThread: clsfDiscover\(.*\) failed--0
+clssnmvDDiscThread: using discovery string \S+ for initial discovery--0
+clssnmvDDiscThread: using discovery string  for initial discovery--0
+clssnmvDDiscThread: using discovery string .YUHANDATA/RWS00FXVXV/VOTINGFILE/vfile.260.949547403 for voting file \S+--0
+clssnmvDDiscThread: using discovery string .YUHANDATA/RWS00FXWXX/VOTINGFILE/vfile.258.949542759 for initial discovery--0
+clssnmvDDiscThread: using discovery string .YUHANDATA/RWS00FXWXX/VOTINGFILE/vfile.258.949542759 for voting file \S+--0
+clssnmvDDiscThread: using discovery string /dev/asmdisk.,AFD:. for initial discovery--0
+clssnmvDDiscThread: using discovery string /dev/asmdisk.,AFD:. for voting file \S+--0
+clssnmvDDiscThread: using discovery string /dev/asmdisk/3par.,AFD:. for initial discovery--0
+clssnmvDDiscThread: using discovery string /dev/asmdisk/3par.,AFD:. for voting file \S+--0
+clssnmvDDiscThread: using discovery string /dev/xv.,AFD:. for initial discovery--0
+clssnmvDDiscThread: using discovery string /dev/xv.,AFD:. for voting file \S+--0
+clssnmvDHBValidateNCopy: node \S+ \S+ has \S+ disk \S+ but no network \S+ \S+ has rcfg \S+ wrtcnt, \S+ \S+ \S+ lastSeqNo \S+ uniqueness \S+ timestamp \S+--0
+clssnmvDHBValidateNCopy: node \S+ \S+ has restarted, clearing manual shutdown status--0
+clssnmvDHBValidateNcopy: Copying unique \S+ to node structure for node \S+ number \S+ previous unique value was \S+--0
+clssnmvDHBValidateNcopy: Saving \S+ uniqueness for node\(.*\), latestInfo\(.*\), readInfo\(.*\), nodeInfoDHB\(.*\)--0
+clssnmvDHBValidateNcopy: Setting \S+ valid due to second \S+ seen on disk\(.*\) for node\(.*\) nodeStatus \S+--0
+clssnmvDHBValidateNcopy: Setting \S+ valid due to uniqueness change for node\(.*\), nodeInfoDHB\(.*\), readInfo\(.*\)--0
+clssnmvDeconfigureVFs: Changing state for vdisk \S+ \S+ deconfigured--0
+clssnmvDiskAvailabilityChange: voting file \S+ now \S+--0
+clssnmvDiskCheck\(.*\).  call     clssscExit\(.*\) \s*\S* \S+--0
+clssnmvDiskCheck: \(.*\) No I/O completed after \S+ maximum time, \S+ ms, will \S+ considered unusable in \S+ ms--0
+clssnmvDiskCheck: \S+ No Majority for site \S+ configured VFs \S+  Acessible VFs \S+ Min needed \S+--0
+clssnmvDiskCheck: DiskPingThread not started for \S+--0
+clssnmvDiskCheck: Request to check pending VFs but no Pending Configuration--0
+clssnmvDiskCheck:: configured Sites = \S+ Incative sites = \S+ Mininum Sites required = \S+--0
+clssnmvDiskCreate: Cluster guid \S+ found in voting disk \S+ does not match with the cluster guid \S+ obtained from the GPnP profile--0
+clssnmvDiskCreate: Cluster guid  found in voting disk \S+ does not match with the cluster guid \S+ obtained from the GPnP profile--0
+clssnmvDiskCreate: Found \S+ duplicate voting file \S+ in the discovery queue which appears to \S+ the same physical device as the newly discovered disk \S+ The resolved disk is \S+--0
+clssnmvDiskCreate: Found \S+ duplicate voting file with same file name and \S+ as the newly discovered disk \S+ Rejecting the newly discovered disk.--0
+clssnmvDiskCreate: name \S+ blocksz \S+--0
+clssnmvDiskCreate: siteid during discovery = \S+--0
+clssnmvDiskCreate: siteid during discovery =--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->ccin:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->curkill:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->curlimbo:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->curstatus:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->initkill:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->pcin:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->toc:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->volinfo:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk->vop:  dump of \S+ len \S+--0
+clssnmvDiskCreate:destroy_vdisk->vdisk:  dump of \S+ len \S+--0
+clssnmvDiskDestroy: removing the voting disk \S+--0
+clssnmvDiskEvict: \S+ Kill block write, file AFD:OCRDG1
+clssnmvDiskEvict: Kill block write, file AFD:OCRDG1 flags \S+ kill block unique \S+ stamp \S+
+clssnmvDiskKillCheck: not evicted, file \S+ flags \S+ kill block unique \S+ my unique \S+--0
+clssnmvDiskOpen: \S+ format the kill block of voting disk \S+--0
+clssnmvDiskOpen: Opening \S+--0
+clssnmvDiskPing: Writing with status \S+ timestamp \S+--0
+clssnmvDiskPingMoni  call     clssnmvDiskCheck\(.*\) \s*\S* . \S+--0
+clssnmvDiskPingThread: spawned for disk \S+--0
+clssnmvDiskStateChange: state from \S+ to \S+ disk \S+--0
+clssnmvDiskVerify: Successful discovery for disk \S+ \S+ \S+ \S+ \S+ Pending \S+ \S+ Committed \S+ \S+--0
+clssnmvDiskVerify: Successful discovery of \S+ disks--0
+clssnmvDiskVerify: discovered \S+ potential voting file--0
+clssnmvFindConfiguredVFs: Changing state for vdisk \S+ \S+ deconfig because it is \S+ dup--0
+clssnmvFindConfiguredVFs: Changing state for vdisk \S+ \S+ pending config--0
+clssnmvFindConfiguredVFs: Changing state for vdisk \S+ /dev/asmdisk/diskb1to deconfig because it is \S+ dup
+clssnmvFindConfiguredVFs: Changing state for vdisk \S+ AFD:OCRDG1to pending config
+clssnmvFindInitialConfigs: No voting files found--0
+clssnmvInit: Failed to acquire lease--0
+clssnmvKillBlockThread: spawned for disk \S+ initial sleep interval \(.*\)ms--0
+clssnmvReadDskHeartbeat: Reading DHBs to get the latest info for node\(.*\), LATSvalid\(.*\), nodeInfoDHB uniqueness\(.*\)--0
+clssnmvReadDskHeartbeat: manual shutdown of nodename \S+ nodenum \S+ epoch \S+ msec \S+--0
+clssnmvStatusBlkInit: myinfo nodename \S+ uniqueness \S+--0
+clssnmvVerifyCommittedConfigVFs \S+ No Majority for site \S+ configured VFs \S+  Acessible VFs \S+ Min needed \S+--0
+clssnmvVerifyCommittedConfigVFs: Insufficient voting files found, found \S+ of \S+ configured, needed \S+ voting files--0
+clssnmvVerifyCommittedConfigVFs: configured Sites = \S+ Incative sites = \S+ Mininum Sites required = \S+--0
+clssnmvVoteDiskValidation: Failed to perform \S+ on toc block for AFD:GIDG3--0
+clssnmvVoteDiskValidation: Voting disk\(.*\) cluster \S+ mismatch--0
+clssnmvWorkerThread: disk \S+ not valid--0
+clssnmvWorkerThread: spawned for disk \S+--0
+clssnmvleaseexpired: lease expired for node \S+ expirytime \S+ currenttime \S+ duration \S+ expiryflag \S+ LATSvalid \S+--0
+clssnmvleaseexpired: lease valid for node \S+ expirytime \S+ currenttime \S+ duration \S+--0
+clssscAlarmThread: Thread Spawned--0
+clssscAllocatePipes: Allocated \S+ pipe \(.*\)--0
+clssscAssert\(.*\).262   call     clssscExit\(.*\) \s*\S+ \S+--0
+clssscBQAdd: Status on entry \S+ on exit \S+--0
+clssscBQInitialize: Initialized \S+ Work queue--0
+clssscCLSFAThread: Transfer control to clsfaEntry--0
+clssscCLSFAThread: clsfa thread \S+--0
+clssscCheckProtocolDone: Pipe \(.*\) is active--0
+clssscCleanupPipe: Pipe \S+ being cleaned up--0
+clssscClientBCCMHandler: Received \S+ connect event on ctrl, \S+ pipe \S+--0
+clssscClientBCCMHandler: Received \S+ connect event on ctrl--0
+clssscClientBCCMHandler: initiating resync because main pipe \S+ got disconnected--0
+clssscCompareSwapEventValue: changed CmInfo State  val \S+ from \S+ changes \S+--0
+clssscCompareSwapEventValue: changed NMReconfigInProgress  val \S+ from \S+ changes \S+--0
+clssscConnect: endp \S+ - cookie \S+ - addr \S+--0
+clssscConnectCallback: Accepted connection for \S+ pipe \(.*\), \S+ pipe \(.*\)--0
+clssscDisconnectPipe: Disconnecting \S+ pipe \S+ \S+ pipe \S+--0
+clssscExit\(.*\).1167    call     kgdsdst\(.*\) \s*\S+ \S+--0
+clssscExit\(.*\).1202    call     kgdsdst\(.*\)            7F6A45398288 \S+--0
+clssscExit: \S+ aborting from thread \S+--0
+clssscExit: \S+ cleanup \S+ \S+--0
+clssscExit: \S+ cleanup failed with \S+--0
+clssscExit: Initializing \S+ for cleanup--0
+clssscExit: Issuing local node fence--0
+clssscExit: Sending filesystem sync to agent--0
+clssscExit: Starting \S+ cleanup--0
+clssscExit: abort already set \S+--0
+clssscExit: closing monitor listening endpoint--0
+clssscFenceClsfa: clsfaFence rc \S+ hdl \S+--0
+clssscFenceSage: Fenced node \S+ number \S+ with \S+ handle \S+--0
+clssscGPNPInit: \S+ \S+ \S+--0
+clssscGetParameterOLR: \S+ fetch for parameter auth rep \(.*\) failed with rc \S+--0
+clssscGetParameterOLR: \S+ fetch for parameter node number hint \(.*\) failed with rc \S+--0
+clssscGetParameterProfile: buffer passed for parameter \S+ discovery \(.*\) is too short, required \S+ passed \S+--0
+clssscGetParameterProfile: profile fetch failed for parameter ocrid \(.*\) with return code CLSGPNP_NOT_FOUND\(.*\)--0
+clssscHUBControl: \S+ \S+ publishing--0
+clssscHUBControl: Thread Spawned--0
+clssscHUBControl: opening remote endpoint--0
+clssscIncrementEventValue: ReadyPeers  val \S+ changes \S+--0
+clssscInitGlobalCTX: \S+ \S+ \S+ for Flex--0
+clssscInitGlobalCTX: \S+ down \S+--0
+clssscInitGlobalCTX: Core file size limit extended--0
+clssscInitGlobalCTX: Environment is production--0
+clssscInitGlobalCTX: not in \S+ container--0
+clssscModifyEnvironment: unable to update wallet for \S+--0
+clssscModifyWalletIP: Running as user crsusr--0
+clssscMonitorThreadDelay: Started--0
+clssscMonitorThreads \S+ disk I/O is hanging for \S+ msecs--0
+clssscMonitorThreads: Requesting stand by agent to dump proc info--0
+clssscMonitorThreads: Triggering stack dump for \S+ hang--0
+clssscPipeConnect: Initiated \S+ connections--0
+clssscPipeConnect: Initiated connect to node with connection string \S+ pipe\(.*\)--0
+clssscPipeConnect: Number of nodes \S+--0
+clssscPipeListen: Listening on \S+ pipe\(.*\)--0
+clssscSAGEInitFenceCompl: Completing kgzf fence initialization--0
+clssscSAGEInitFenceCompl: kgzf fence initialization successfully completed in non-EXADATA--0
+clssscSAGFenceInit: kgzf fence initialization starting with \S+ \S+ icin \S+ node number \S+ uniqueness \S+--0
+clssscSAGFenceInit: kgzf fence initialization successfully started--0
+clssscSKGPInit: Initialized \S+ objects for pid\(.*\)--0
+clssscSelect: conn complete ctx \S+ endp \S+--0
+clssscSelect: gipcwait returned with status gipcretPosted \(.*\)--0
+clssscSendProtoStateDone: Updated proto\(.*\) \S+ to Done state for pipe \S+ Done count \S+ total expected \S+--0
+clssscServerBCCMHandler: Connect on \S+ pipe \S+ Total pipe count is \S+--0
+clssscServerBCCMHandler: Pipe count after disconnect is \S+--0
+clssscServerBCCMHandler: Received \S+ disconnect event on ctrl for \S+ pipe \S+--0
+clssscServerPipeCnt: Pipe count is \S+ local \S+--0
+clssscSetDebugLevel: Module\(.*\) not found--0
+clssscSetDebugLevel: Setting loglevel of module\(.*\) to \S+--0
+clssscSetHostQual: physical hostname \S+ privname \S+--0
+clssscStartActivityThread: Waiting for \S+--0
+clssscUpdateEventBitValue: \S+  val \S+ changes \S+--0
+clssscUpdateEventValue: \S+ \S+  val \S+ changes \S+--0
+clssscUpdateEventValue: \S+  val \S+ changes \S+--0
+clssscUpdateEventValue: Client listener incarn  val \S+ changes \S+--0
+clssscUpdateEventValue: Reconfig Event  val \S+ changes \S+--0
+clssscUpdateInitState: Set state to \S+ based on prior state of \S+ and requested change of \S+--0
+clssscUpdateProtoState: Protocol \S+ state changed from \S+ \(.*\) to \S+ \(.*\) for \S+ pipe \S+--0
+clssscWaitChangeEventValue: ev\(.*\) changed to \S+ from \S+--0
+clssscWaitOnEventValue: after \S+ \S+  val \S+ eval \S+ waited \S+ with cvtimewait status \S+--0
+clssscWaitOnEventValue: after \S+  val \S+ eval \S+ waited \S+ with cvtimewait status \S+--0
+clssscWaitOnInitState: Waiting on requested state \S+ current state \S+ timeout \S+--0
+clssscWaitOnInitState: returning \S+ requested state \S+ current state \S+--0
+clsssc_CLSFAInit_CB: System not ready for \S+ initialization--0
+clsssc_CLSFAInit_CB: clsfa fencing is ready--0
+clssscagAgLsnr: agent listener exiting--0
+clssscagOpenAgentEndp: listening on \S+ \(.*\)--0
+clssscagProcAgReq: \S+ completed shutdown--0
+clssscagProcAgReq: Notifying agents that there are  no \S+ capable clients--0
+clssscagProcAgReq: Sending \S+ skgp info to the agent/s \S+--0
+clssscagProcAgReq: Sending dump request to agent \S+--0
+clssscagProcAgReq: Sending initdata--0
+clssscagProcAgReq: Sending response that \S+ is shutting down reason \S+--0
+clssscagProcAgReq: Sending response that fence initialization is complete--0
+clssscagProcAgReq: agent \S+ becoming fatal--0
+clssscagProcAgReq: agent \S+ ready to receive \S+--0
+clssscagProcAgReq: got \S+ successful connection--0
+clssscagProcAgReq: profile not yet initialized--0
+clssscagProcAgReq: shutdown \S+ requested by the agent--0
+clssscagProcessInitialMsg: Handshake successful with agent \S+--0
+clssscagProcessInitialMsg: connection from agent \S+ endp \S+ - agents joined \S+--0
+clssscagProcessInitialMsg: notify agent \S+ that it is active--0
+clssscagSelect: disconnection of agent \S+ endp \S+--0
+clssscagSelect: endpoint\(.*\) authenticated with user\(.*\)--0
+clssscagSelect: notify agent \S+ that it is active--0
+clssscagSendMsgToStandby: <Active.Connected>  Agent: <0,1> Monitor: <2,1>--0
+clssscagSendNLSToAgent: Sending msg id \S+ size \S+ product \S+ facility \S+ to agent--0
+clssscagStartAgLsnr: Failed to get auth location from \S+ constructing manually--0
+clssscagStartAgLsnr: auth location '.*'--0
+clssscctx->comctx->gctx:  dump of \S+ len \S+--0
+clssscctx->comctx:  dump of \S+ len \S+--0
+clssscctx->gmctx:  dump of \S+ len \S+--0
+clssscctx->scls:  dump of \S+ len \S+--0
+clssscctx:  dump of \S+ len \S+--0
+clsssclsnrsetup: endp \S+ for .*--0
+clssscmain: \(.*\) clssnmvInit completed for node \S+ number \S+ in cluster \S+--0
+clssscmain: \S+ \S+ \S+ for Flex--0
+clssscmain: \S+ is \S+--0
+clssscmain: Cluster \S+ is \S+--0
+clssscmain: last used node number \S+--0
+clssscmain: starttype \S+--0
+clssscpidentry_construct: entry\(.*\) initialized\(.*\), context\(.*\), name\(.*\), pid\(.*\)--0
+clssscpidentry_destruct: Deinitializing entry\(.*\), context\(.*\), name\(.*\), pid\(.*\)--0
+clssscqueue_init: queue\(.*\), max\(.*\)--0
+clssscthrdmain\(.*\).24  call     clssnmRcfgMgrThread \s*\S* \S+ .--0
+clssscthrdmain\(.*\).24  call     clssnmvDDiscThread.*--0
+clssscthrdmain\(.*\).24  call     clssnmvDiskPingMoni \s*\S+ \S+ .--0
+clssscthrdmain: \S+ thread \S+--0
+clssscthrdmain: Starting thread \S+ \S+ \S+--0
+clssscthrdmain: Starting thread \S+--0
+clssscthrdmain: Starting thread Reconfig Thread--0
+clssscthrdmain: Terminating thread \S+ Peer Lsnr--0
+clssscthrdmain: Terminating thread \S+--0
+clssscthrdmain: Terminating thread Reconfig Thread--0
+clsssinit: initialized context: \(.*\) svc flags \S+ flags \S+--0
+clsssterm: terminating context \(.*\)--0
+clsswdInitCtx: Initialized--0
+clsswtStartWrkthrds: Workerthread \S+ thrdnum \S+ spawn success--0
+clsu_load_ENV_levels: Module = \S+ LogLevel = \S+--0
+clsugetconf1 \S+ Configuration type \S+ \(.*\).--0
+clsvactversion:\S+ Retrieving Active Version from local storage.--0
+covery\(.*\).331 \s*\S+ . \S+ .--0
+defined by frame pointers \S+  and \S+--0
+gipcAssociateF \[.*\]: started with cont \S+ obj \S+ flags \S+
+gipcBufferAllocateF: allocated new buffer \S+ \[.*\] \{.*\}
+gipcConnectSyncF \[.*\]: EXCEPTION\[.*\]  failed sync connect endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, flags \S+--0
+gipcContainerFree: destroying cont \S+ \[.*\] \{.*\}--0
+gipcDestroyF \[.*\]: started with obj \S+ flags \S+--0
+gipcDestroyPtrF \[.*\]: started with obj \S+ flags \S+--0
+gipcDissociateF \[.*\]: EXCEPTION\[.*\]  failed to dissociate obj \S+ \[.*\] \{.*\}, flags \S+--0
+gipcDissociateF \[.*\]: EXCEPTION\[.*\]  failed to dissociate obj \S+ flags \S+--0
+gipcDissociateF \[.*\]: started with obj \S+ flags \S+--0
+gipcEndpointAddReadyReference: adding reference endp \S+ ref \S+
+gipcEndpointCheckFlush: Flush complete, endp \S+--0
+gipcEndpointCheckFlush: Flush starting, numSend \S+ endp \S+--0
+gipcEndpointDelReadyReference: removing reference endp \S+ ref .*
+gipcEndpointDuplicateF: duplicate endp \S+ created from parent endp \S+ \[.*\] \{.*\}
+gipcEndpointFree: destroying the listen endp \S+ endpId \S+--0
+gipcEndpointFree: skipping cleanup cnt \S+ obj \S+--0
+gipcEndpointFree: skipping destory until removed from \S+ list endp \S+ \[.*\] \{.*\}--0
+gipcEndpointMoveReadyReference: moving ref endp \S+ ref \S+ oldRef \(.*\), trigger \S+ childTrigger \S+--0
+gipcEndpointProcess: disconnect prior to accept completion endp \S+ \[.*\] \{.*\}, newEndp \S+ \[.*\] \{.*\}--0
+gipcEndpointProcessCompletions: \[.*\]  Retiring internal req \S+ \[.*\] \{.*\}--0
+gipcEndpointTriggerReadyF \[.*\]: trigger reference endp \S+ ref .*--0
+gipcGetAttributeNativeF \[.*\]: EXCEPTION\[.*\]  failure for obj \S+ name '.*', val \S+ len \S+ flags \S+
+gipcGetAttributeNativeF \[.*\]: started with obj \S+ name '.*', val \S+ len \S+ olen \(.*\), flags \S+--0
+gipcGetAttributeStringF \[.*\]: EXCEPTION\[.*\]  failure for obj \S+ name '.*', val \S+ len \S+ flags \S+--0
+gipcGetAttributeStringF \[.*\]: started with obj \S+ name '.*', val \S+ len \S+ olen .* flags \S+--0
+gipcInternalAddress: created new addr \S+ \[.*\] \{.*\}
+gipcInternalConnectSync: failed sync request, ret gipcretConnectionRefused \(.*\)--0
+gipcInternalDestroy: start destroy for obj \S+ \[.*\] \{.*\}--0
+gipcInternalDestroy: start destroy for obj \S+ \{.*\}--0
+gipcInternalDissociate: obj \S+ \[.*\] \{.*\} not associated with any container, ret gipcretFail \(.*\)--0
+gipcInternalResolve: resolved addr \S+ \[.*\] \{.*\}
+gipcInternalSend: connection not valid for send operation endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)--0
+gipcInternalSendSync: failed sync request, ret \S+ \(.*\)--0
+gipcInternalWaitEpoll \[.*\]: \[.*\]  \[.*\] \s*\S+ \{.*\}--0
+gipcInternalWaitEpoll \[.*\]: \[.*\]  Completing \S+ reqs for obj \S+ \[.*\] \{.*\}--0
+gipcLockDestroyF: freeing up lock \S+ \{.*\}--0
+gipcObjectCheckF \[.*\]: object \S+ is dying, ret gipcretInvalidObject \(.*\)--0
+gipcObjectLookupF \[.*\]: search found no matching oid \S+ ret gipcretKeyNotFound \(.*\), ret gipcretInvalidObject \(.*\)--0
+gipcObjectRelease: final free of obj \S+ oid \S+--0
+gipcObjectRelease: removed obj \S+ oid \S+ from object table--0
+gipcPostF \[.*\]: EXCEPTION\[.*\]  failed to post obj \S+ flags \S+--3
+gipcPostF \[.*\]: started with obj \S+ flags \S+--0
+gipcReleaseBufferF \[.*\]: started with buf \S+ flags \S+
+gipcRequestAllocateAcceptF: allocated new request for endp \S+ req \S+ \[.*\] \{.*\}
+gipcRequestAllocateAcceptLinkF: allocated new request for endp \S+ req \S+ \[.*\] \{.*\}
+gipcRequestAllocateRecvF: allocated new request for endp \S+ req \S+ \[.*\] \{.*\}
+gipcRequestAllocateSendF: allocated new request for endp \S+ req \S+ \[.*\] \{.*\}--0
+gipcRequestMarkDeadF \[.*\]: marking request \S+ req \S+ \[.*\] \{.*\}--0
+gipcRequestMarkDoneF \[.*\]: marking request done req \S+ \[.*\] \{.*\}--0
+gipcRequestMarkPendingF \[.*\]: marking request pending req \S+ \[.*\] \{.*\}--0
+gipcRequestMarkReadyF \[.*\]: marking request ready req \S+ \[.*\] \{.*\}--0
+gipcRequestSaveInfo: \[.*\]  Completed  req \S+ \[.*\] \{.*\}--0
+gipcResolveF \[.*\]: started with addr \S+ flags \S+
+gipcSendF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ cookie \S+ flags \S+--0
+gipcSendF \[.*\]: started with endp \S+ addr \(.*\), buf \S+ len \S+ cookie \S+ flags \S+--0
+gipcSendSyncF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ \[.*\] \{.*\}, buf \S+ len \S+ flags \S+--0
+gipcSendSyncF \[.*\]: EXCEPTION\[.*\]  failed to send on endp \S+ \[.*\] \{.*\}, addr \S+ buf \S+ len \S+ flags \S+--3
+gipcSetAttributeNativeF \[.*\]: started with obj \S+ name '.*', val \S+ len \S+ flags \S+--0
+gipcSetAttributeStringF \[.*\]: started with obj \S+ name '.*', val '.*', len \S+ flags \S+
+gipcWaitF \[.*\]: EXCEPTION\[.*\]  failed to wait on obj \S+ \[.*\] \{.*\}, reqList \S+ nreq \S+ creq \S+ timeout \S+ flags \S+--0
+gipcWaitF \[.*\]: EXCEPTION\[.*\]  failed to wait on obj \S+ \[.*\] \{.*\}, reqList \S+ nreq \S+ creq \S+ timeout \S+ ms, flags \S+--0
+gipcWaitF \[.*\]: started with obj \S+ reqList \S+ nreq \S+ creq \S+ timeout \S+ flags \S+--0
+gipcWaitF: error in wait, ret gipcretPosted \(.*\)--0
+gipcWaitFinishWait: finished as primary waiter ctx \S+ \[.*\] \{.*\}--0
+gipcWaitNextEndpoint: forcing retrigger of rendp \S+
+gipcWaitStartWait: starting as primary waiter ctx \S+ \[.*\] \{.*\}--0
+gipchaDaemonCheckCSS: \S+ is \S+ for business to \S+--0
+gipchaDaemonCreateResolveResponse: creating resolveResponse for \S+ \S+ \S+ \S+--0
+gipchaDaemonProcessClientReq: processing req \S+ type \S+ \(.*\)--0
+gipchaDaemonProcessDaemonUpdate: daemon on node ".*" restarted, sent monitor message                  for host \S+ \S+ hanme: \S+
+gipchaDaemonProcessDaemonUpdate: node ".*" rebooted, update the same to client thread--0
+gipchaDaemonProcessDaemonUpdate: processed daemon update msg for host \S+--0
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host \S+ haname \S+--0
+gipchaDaemonProcessFailTransientInfs: failed transient interfaces \(.*\) for host \S+ haname--0
+gipchaDaemonProcessHAInvalidate: completed ha name invalidate for node \S+ \{.*\}--0
+gipchaDaemonProcessHAInvalidate: completed ha name invalidate for node \S+--0
+gipchaDaemonProcessHAInvalidate: daemon on node ".*" restarted, sent monitor message for host \S+ \S+ hanme: \S+--0
+gipchaDaemonProcessHAInvalidate: dropping invalidate, .* haName '.*', hctx \S+ \[.*\] \{.*\}--0
+gipchaDaemonProcessInfUpdate: clearing restart flag of node \s*\S+--0
+gipchaDaemonProcessInfUpdate: completed interface update host '.*', haName '.*', hctx \S+ \[.*\] \{.*\}--0
+gipchaDaemonProcessInfUpdate: ip \S+ subnet \S+ mask \S+ state \S+ inc \S+ flags \S+--0
+gipchaDaemonProcessInfUpdate: pickup \S+ for remote interface \[.*\]--0
+gipchaDaemonProcessLookupNameAck: clearing restart flag of node  rws1270362
+gipchaDaemonProcessMarkInfAsTransient: marked all the local inf as \S+--0
+gipchaDaemonProcessNodeIncarnationUpdate: node ".*" rebooted, update the same to client thread recv Incarnation \S+ exp Incarnation \S+
+gipchaDaemonProcessNodeIncarnationUpdate: processing nodeIncarnationUpd for node \S+ nodeIncarnation \S+--0
+gipchaDaemonProcessNodeInfoAck: \S+ nodeInfoAck for node \S+ nodeType \S+--0
+gipchaDaemonProcessRecv: EXCEPTION\[.*\]  exception processing requset type \S+ hctx \S+ \[.*\] \{.*\}--0
+gipchaDaemonProcessRecv: dropping unrecognized daemon request \S+ hctx \S+ \[.*\] \{.*\}, ret gipcretFail \(.*\)--0
+gipchaDaemonThread: starting daemon thread hctx \S+ \[.*\] \{.*\}--0
+gipchaDaemonWork: DaemonThread heart beat, time interval since last heartBeat \S+ \S+--0
+gipchaGetClusterMode: .* Cluster mode--0
+gipchaInterfaceDisable: disabling interface \S+ \{.*\}--0
+gipchaInterfaceDisableF \[.*\]: disabling interface \S+ \{.*\}--0
+gipchaInterfaceFail: marking interface failing \S+ \{.*\}--0
+gipchaInterfaceFailF \[.*\]: failing interface \S+ \{.*\}--0
+gipchaInterfaceReset: resetting interface \S+ \{.*\}--0
+gipchaInternalReadGpnp: No \S+ network info configured in \S+ profile, using defaults, ret gipcretFail \(.*\)--5
+gipchaInternalReadGpnp: configuring bootstrap communications using:  broadcast and multicast--0
+gipchaInternalReadGpnp: configuring default \S+ \S+ \S+--0
+gipchaInternalReadGpnp: mcast address\[.*\] .*--0
+gipchaInternalRegister: \S+ \S+ \S+ \S+--0
+gipchaInternalRegister: \S+ flag \S+--0
+gipchaInternalRegister: Initializing \S+ \S+ global flags \S+--0
+gipchaLowerCallback: EXCEPTION\[.*\]  error while processing req \S+ \{.*\}, hctx \S+ \[.*\] \{.*\}--0
+gipchaLowerCleanInterfaces: forcing interface purge due to loss of all comms node \S+ \{.*\}--0
+gipchaLowerCleanInterfaces: performing cleanup of disabled interface \S+ \{.*\}--0
+gipchaLowerInternalSend: failed to initiate send on interface \S+ \{.*\}, hctx \S+ \[.*\] \{.*\}--0
+gipchaLowerInternalSend: increasing the \S+ trace level for stream \S+ \{.*\}  hdr \S+ \{.*\}--0
+gipchaLowerInternalSend: send msg \S+ \{.*\} , stream \S+ \{.*\}  inf \S+ \{.*\}--0
+gipchaLowerMsgCompleteF \[.*\]: retiring completed hdr \S+ \{.*\} , ret \S+ \(.*\)--0
+gipchaLowerMsgCompleteF: msg type \S+ cookie .* flag \S+--0
+gipchaLowerProcessAcks: \S+ finished for node \S+ \{.*\}--0
+gipchaLowerProcessDigestAlgUpd: \S+ \S+ algo \S+ \(.*\), algoLen \S+ for node \S+ \{.*\}--0
+gipchaLowerProcessMsgAck: processed \S+ for seq \S+ ack \S+ min \S+ node \S+ \{.*\}--0
+gipchaLowerProcessMsgDigestAlgUpd: processing \S+ \S+ \S+ msg \S+ \{.*\}  from node \S+ \{.*\}--0
+gipchaLowerProcessMsgDigestReq: processing \S+ \S+ msg \S+ \{.*\}  from node \S+ \{.*\}--0
+gipchaLowerProcessMsgEstablish: \S+ is switched \S+ for node \S+--0
+gipchaLowerProcessMsgEstablish: dropping establish from another cluster, peer '.*', host '.*', haName '.*', msg \S+ '.*', hctx \S+ '.*', hctx \S+ \[.*\] \{.*\}, hdr \S+ \{.*\}--0
+gipchaLowerProcessMsgEstablish: processed \S+ from host '.*', haName '.*',hctx \S+ \[.*\] \{.*\}, node \S+ hdr \S+ \{.*\}--0
+gipchaLowerProcessMsgSend: processing SEND->RECV msg \S+ \{.*\}  from stream \S+ \{.*\}--0
+gipchaLowerProcessNode: connection to node idle for \S+ ms, node \S+ \{.*\}--0
+gipchaLowerProcessPendingQ: \S+ now \S+ lmsg->startTime \S+ lmsg->maxTime \S+ lmsg \S+ \S+ \{.*\}--0
+gipchaLowerProcessPendingQ: advancing sequence to seq \S+ node \S+ \{.*\}--0
+gipchaLowerProcessStream: skipping new \S+ because no work outstanding stream \S+ \{.*\}--0
+gipchaLowerProcessWaitQ: triggering deffered startup of msg \S+ \{.*\} , haStream \S+ \{.*\}--0
+gipchaLowerRecv: Added new stream \S+ \{.*\}  to node \S+ \{.*\}--0
+gipchaLowerRecv: bootstrap mode dropping from node .* hdr \S+ \{.*\}--0
+gipchaLowerRecv: recv hdr \S+ \{.*\}  stream \(.*\) node \(.*\)--0
+gipchaLowerRecv: recv hdr \S+ \{.*\}  stream \S+ \{.*\}  node \S+--0
+gipchaLowerRecv: starting recv from '.*' of \S+ \{.*\}--0
+gipchaLowerSend2: No fragment required, flag \S+ cookie .* type \S+--0
+gipchaLowerSend: deffering startup of hdr \S+ \{.*\} , node \S+ \{.*\}, stream \S+ .*--0
+gipchaLowerSendDigestAlgUpd: sending \S+ \S+ to node '.*'--0
+gipchaLowerSendDigestAlgoReq: sending \S+ \S+ to node '.*'--0
+gipchaLowerSendEstablish: sending establish message for node '.*'--0
+gipchaLowerTranslateEstablishMsg11202ToLocal: tranlated \S+ Establish msg \S+ \{.*\} to local \S+ \{.*\}--0
+gipchaLowerTranslateToLocal: failed to convert into local version hdrType \S+ msgFormat \(.*\) \(.*\) nodeType \(.*\) \(.*\), ret gipcretFail \(.*\)--0
+gipchaNodeAddInterface: adding interface information for inf \S+ \{.*\}--0
+gipchaNodeAddInterfaceF \[.*\]: adding interface info \S+ \{.*\}--0
+gipchaNodeAddInterfaceF: recovered \S+ inf \S+ \{.*\}--0
+gipchaNodeCreate: adding new node \S+ \{.*\}--0
+gipchaNodeDelete: performing final delete of node \S+ \{.*\}--0
+gipchaNodeMarkInfAsTransientF \[.*\]: marking infs of node \S+ \{.*\} as \S+--0
+gipchaUpperAccept: completed accept endp \S+ \[.*\] \{.*\}--0
+gipchaUpperCallbackConnAck: completed CONNECT:ACK ret gipcretSuccess, hendp \S+ \[.*\] \{.*\}--0
+gipchaUpperCallbackDisconnect: completed \S+ ret gipcretSuccess \(.*\), umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ hendp \S+ \[.*\] \{.*\}--0
+gipchaUpperCallbackSend: completed upper msg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ haMsg \S+ \{.*\} hendp \S+ \[.*\] \{.*\} ret \S+--0
+gipchaUpperConnect: initiated connect for umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ endp \S+ \[.*\] \{.*\} node \S+ \{.*\}--0
+gipchaUpperDisconnect: initiated discconnect umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ endp \S+ \[.*\] \{.*\}--0
+gipchaUpperProcessAccept: completed new hastream \S+ \{.*\}  for hendp \S+ \[.*\] \{.*\}--0
+gipchaUpperProcessConnectAck: \S+ completed umsg \S+ \{.*\}, msg \S+ \{.*\} dataLen \S+ hendp \S+ \[.*\] \{.*\} node \S+ \{.*\}--0
+gipchaUpperProcessConnectAck: received connectAck for closed/destroyed endpoint hendp \S+ \[.*\] \{.*\} msg \S+ \{.*\}--0
+gipchaUpperProcessDisconnect: EXCEPTION\[.*\]  error during \S+ processing for node \S+ \{.*\}--0
+gipchaUpperProcessDisconnect: dropping Disconnect to unknown msg \S+ \{.*\}, node \S+ \{.*\}, ret gipcretFail \(.*\)--0
+gipchaUpperProcessDisconnect: processing \S+ for hendp \S+ \[.*\] \{.*\}--0
+gipchaUpperProcessNodeDeath: destroying the failed node interface \S+ \{.*\}--0
+gipchaUpperProcessRecv: EXCEPTION\[.*\]  error during \S+ processing for node \S+ \{.*\}, msg \S+ \{.*\}--0
+gipchaUpperProcessRecv: dropping recv for unknown endpoint msg \S+ \{.*\}, hctx \S+ \[.*\] \{.*\}, ret gipcretFail \(.*\)--0
+gipchaWorkerAttachInterface: Interface attached inf \S+ \{.*\}--0
+gipchaWorkerCheckNetwork: processed \S+ msgs dropMsgCount \S+ loop starttime \S+ endtime \S+--0
+gipchaWorkerCleanInterface: performing cleanup of disabled interface \S+ \{.*\}--0
+gipchaWorkerCreateInterface: created \S+ interface for node '.*', haName '.*', inf '.*' inf \S+--0
+gipchaWorkerCreateInterface: created local bootstrap \S+ interface for node '.*', haName '.*', inf '.*' inf \S+--5
+gipchaWorkerCreateInterface: created local interface for node '.*', haName '.*', inf '.*' inf \S+--0
+gipchaWorkerProcessClientConnect: starting resolve from connect for \S+ \S+ \S+--0
+gipchaWorkerThread: starting worker thread hctx \S+ \[.*\] \{.*\}--0
+gipchaWorkerWork: workerThread heart beat, time interval since last heartBeat \S+ loopCount \S+ sendCount \S+ recvCount \S+ postCount \S+ sendCmplCount \S+ recvCmplCount \S+--0
+gipclibGetClusterGuid: retrieved cluster guid \S+--0
+gipclibGetProcessGPID: ospid \S+ timestamp \S+--0
+gipclibMapSearch: gipcMapSearch\(.*\) -> gipcMapGetNodeAddr\(.*\) failed: ret:gipcretKeyNotFound \(.*\), \S+ \S+ \S+ \S+--0
+gipclibSetTraceLevel: \S+ set level to \S+--0
+gipcmodGipcCallback: EXCEPTION\[.*\]  failed during request completion for req \(.*\), endp \S+--100
+gipcmodGipcCallbackAccept: \[.*\]  Accept ready for req \S+ \[.*\] \{.*\}
+gipcmodGipcCallbackDisconnect: \[.*\]  Disconnect forced for endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcCallbackEndpClosed: \[.*\]  Endpoint close for endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcCallbackRecv: \[.*\]  Recv ready for req \S+ \[.*\] \{.*\}
+gipcmodGipcCallbackSend: \[.*\]  Send callback triggered with ret gipcretTimeout \(.*\), endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcCallbackSend: \[.*\]  Send ready for req \S+ \[.*\] \{.*\}--0
+gipcmodGipcCompleteAccLink: \[.*\]  Completed accept link for req \S+ \[.*\] \{.*\}
+gipcmodGipcCompleteAccept: \[.*\] completed accept on endp \S+ \[.*\] \{.*\}
+gipcmodGipcCompleteConnect: \[.*\] completed connect on endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcCompleteRecv: \[.*\]  Completed recv for req \S+ \[.*\] \{.*\}
+gipcmodGipcCompleteSend: \[.*\]  Completed send for req \S+ \[.*\] \{.*\}--0
+gipcmodGipcDisconnect: \[.*\]  Issued endpoint close for endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcDisconnect: \[.*\] disconnect issued on endp \S+ \[.*\] \{.*\}--0
+gipcmodGipcPrepareEndpoint: Prepared endp \S+ \[.*\] \{.*\}, req \S+ \[.*\] \{.*\}
+gipcmodGipcResolve: resolved name '.*' to haName '.*', addr \S+ \[.*\] \{.*\}
+gipcmodGipcSend: \[.*\]  Send request started for endp \S+ \[.*\] \{.*\}, req \S+ \[.*\] \{.*\}--0
+gipcmodGipcSend: cannot send on failed endp \S+ \[.*\] \{.*\}, ret \S+ \(.*\)--0
+gipcmodHeadCompleteAccLink: completed accept link on endp \S+ \[.*\] \{.*\}
+gipcmodHeadCompleteAccept: completed accept on endp \S+ \[.*\] \{.*\}
+gipcmodHeadCompleteSend: completed send req \S+ \[.*\] \{.*\}, cookie req->cookie \S+--0
+gipcmodHeadDisconnect: disconnect issued on endp \S+ \[.*\] \{.*\}--0
+gipcmodMuxCallbackRecv: EXCEPTION\[.*\]  error during recv on endp \S+--0
+gipcmodMuxCallbackRecv: internal receive request failed req \S+ \[.*\] \{.*\}, ret gipcretConnectionFailed \(.*\)--0
+gipcmodMuxDisconnectMsg: EXCEPTION\[.*\]  breaking connection due to failed disconnect msg endp \S+ \[.*\] \{.*\}--0
+gipcmodMuxTransferRecv: connection closed due to client request endp \S+ ret gipcretConnectionLost \(.*\)--0
+gipcmodNetworkAttrEndpUserData: failed to read osd id for endp \S+ \[.*\] \{.*\}--0
+gipcmodNetworkAttrEndpUserData: slos dep \S+  Socket operation on non-socket \(.*\)--0
+gipcmodNetworkAttrEndpUserData: slos info:  sid \S+ failed to retrieve creds--0
+gipcmodNetworkAttrEndpUserData: slos loc \S+  SO_PEERCRED--0
+gipcmodNetworkAttrEndpUserData: slos op  :  sgipcnDSAttrEndpUserData--0
+gipcmodNetworkProcessConnect: \[.*\]  failed connect attempt endp \S+ \[.*\] \{.*\}, req \S+ \[.*\] \{.*\}--0
+gipcmodNetworkProcessConnect: slos dep \S+  No route to host \(.*\)--0
+gipcmodNetworkProcessConnect: slos info:  addr '.*'--0
+gipcmodNetworkProcessConnect: slos loc \S+  connect--0
+gipcmodNetworkProcessConnect: slos op  :  sgipcnTcpConnect--0
+gipcmodNetworkProcessSend: \[.*\]  failed send attempt endp \S+ \[.*\] \{.*\}, req \S+ \[.*\] \{.*\}--0
+gipcmodNetworkProcessSend: slos dep \S+  Invalid argument \(.*\)--0
+gipcmodNetworkProcessSend: slos info:  addr '.*', len \S+ buf \S+ cookie \S+--0
+gipcmodNetworkProcessSend: slos loc \S+  address not--0
+gipcmodNetworkProcessSend: slos op  :  sgipcnValidateSocket--0
+gipcmodNetworkRecv: connection no longer valid on endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)--0
+gipcmodNetworkSend: connection no longer valid on endp \S+ \[.*\] \{.*\}, ret gipcretConnectionLost \(.*\)--0
+gipcmodPacketCallback: \[.*\]  started for req \S+ \[.*\] \{.*\}, cookie \S+--0
+gipcmodPacketCompleteRequest: \[.*\]  started for req \S+ \[.*\] \{.*\}--0
+gipcmodPacketCompleteSend: \[.*\]  Completed send req \S+ \[.*\] \{.*\}--0
+gipcmodPacketDisconnect: \[.*\] disconnect issued on endp \S+ \[.*\] \{.*\}--0
+gipcmodTlsAuthInit: cipher suite set--0
+gipcmodTlsAuthInit: created connection context--0
+gipcmodTlsAuthInit: credentails set--0
+gipcmodTlsAuthInit: endpoint \S+ \[.*\] \{.*\}, auth state: gipcmodTlsAuthStateInit \(.*\)
+gipcmodTlsAuthInit: found persona--0
+gipcmodTlsAuthInit: got the wallet into memory--0
+gipcmodTlsAuthInit: tls context initialized successfully--0
+gipcmodTlsAuthReady: \S+ Auth completed Successfully--0
+gipcmodTlsAuthReady: endpoint \S+ \[.*\] \{.*\}, auth state: gipcmodTlsAuthStateDone \(.*\)
+gipcmodTlsAuthStart: \S+ \S+ \S+ \S+--0
+gipcmodTlsAuthStart: \S+ \S+
+gipcmodTlsAuthStart: \S+--0
+gipcmodTlsAuthStart: Peer is anonymous--0
+gipcmodTlsAuthStart: certificate chain:--0
+gipcmodTlsAuthStart: endpoint \S+ \[.*\] \{.*\}, auth state: \S+ \(.*\)
+gipcmodTlsAuthStart: name:CN=71162ced73b95f92ffa1253a7753dcf0,O=Oracle Clusterware,UID=21014754,--0
+gipcmodTlsAuthStart: negotiated \S+ \S+ \S+ \S+--0
+gipcmodTlsAuthStart: negotiated \S+ \S+ \S+--0
+gipcmodTlsAuthStart: negotiated symmetric key \S+ \S+--0
+gipcmodTlsAuthStart: nzos_Handshake\(.*\) completed successfully--0
+gipcmodTlsAuthStart: ssl_Handshake\(.*\) failed with nzosErr \S+ \S+ ret gipcretTlsErr \(.*\)--100
+gipcmodTlsCompleteAccLink: \[.*\] completed acceptLink on endp \S+ \[.*\] \{.*\}
+gipcmodTlsCompleteAccept: \[.*\] completed accept on endp \S+ \[.*\] \{.*\}
+gipcmodTlsCompleteRequest: \[.*\]  stared for req \S+ \[.*\] \{.*\}--0
+gipcmodTlsCompleteSend: \[.*\] completed send on endp \S+ \[.*\] \{.*\}--0
+gipcmodTlsCompleteSend: complete parent send req \S+ \[.*\] \{.*\}--0
+gipcmodTlsDisconnect: \[.*\] disconnect issued on endp \S+ \[.*\] \{.*\}--0
+gipcmodTlsGetWalletObjFromBuffer: using wallet buffer--0
+gipcmodTlsGetWalletObjFromCred: found base dom: \S+--0
+gipcmodTlsGetWalletObjFromCred: found one certificate--0
+gipcmodTlsGetWalletObjFromCred: initialized Olr clsCred--0
+gipcmodTlsGetWalletObjFromCred: using rootCredDomName: \S+ \S+--0
+gipcmodTlsLogErr: \[.*\], \S+ failed to \S+ operation on handshake with \S+ \[.*\]--100
+gipcmodTlsReadCallback: \S+ \S+ \S+ \S+ \S+ \S+ \S+
+gipcmodTlsReadCallback: \S+ \S+ \S+ \S+ \S+
+gipcmodTlsReadCallback: no requests available on endp \S+ \[.*\] \{.*\}
+gipcmodTlsSend: \S+ \S+ \S+ \S+ \S+ \[.*\] \{.*\}--0
+gipcmodTlsSetAuthFlags: nzcred auth flags, feature: \S+ \S+--0
+gipcmodTlsWriteCallback: \S+ \S+--0
+gipcmodTlsWriteCallback: failed to write \S+ data--0
+group \S+ member \S+ clientID \S+ pid \S+--0
+hub size           99  active version \S+--0
+ipmi_ipv4 = \(.*\)--0
+kgfenceCheckIOS: \S+ \S+ \S+ \S+--0
+kgfenceCreateCtx \S+ kgfctx = \S+--0
+kgfenceIssueIOS: \S+ \S+ \S+ \S+--0
+kgfkrq \(.*\) of status \S+ dump:--0
+kgzf_fini1: completed. kgzf layer has quit.--0
+kgzf_fini: called--0
+kgzf_gen_node_reid2: generated reid \S+ \S+--0
+location             type     point                \(.*\)     --0
+long I/O timeout \s*\S*    short I/O timeout \s*\S*--0
+main::clsgnGetClusterType: \(.*\) failed to get cluster type \S+ clskec:has:CLSGN:52 \S+ args\[.*\]\[.*\].* Cluster Ready Services on the local node is not running Messaging error \[.*\] \[.*\].--0
+main::clsgnctrConnectToInstance: \(.*\) all server connections failed. - re-signalling \S+ \S+ clskec:has:CLSGN:81 \S+ args\[.*\]--0
+main::clsgnctrCreateReceivePacket: connection version: \S+ \(.*\)--0
+main::clsgnctrGetGNSInstanceUsingCLSNS: \(.*\) \S+ address retrieval failed with error - throwing \S+ \S+ clskec:has:CLSNS:41 \S+ args\[.*\]\[.*\]\[.*\]\[.*\]--0
+main::clsgnctrGetInfo:active version: \S+ protocol\(.*\) supported: ".*"--0
+main::clsgnctrGetProtocol_Version:got connection version: \S+ \(.*\) from \S+ instance.--0
+main::clsgnctrInitialize:active version ".*" \(.*\) using connection version \S+ \(.*\)--0
+main::clsgnctrSendCommand:Sending command from \S+ to--0
+main::clsgngipcCheckRequestStatus: \(.*\) request \S+ type: gipcreqtypeConnect \(.*\) endpoint: ".*" \(.*\) address: ".*" \(.*\) peer: ".*" cookie: \S+ buffer: \S+ status: \S+ \(.*\) only one request - throwing \S+ \(.*\).--0
+main::clsgnocrInitialize: \(.*\) initialization of \S+ at level \S+ failed with \S+ error \S+ \(.*\) - throwing \S+--0
+memberID \S+ group \S+ refcount \S+ state \S+ granted \S+ fence is not in progress  OK--0
+misscount \s*\S*    reboot latency \s*\S*--0
+osdctx->majik=OSD2PORTIF--0
+printing \S+ \S+ \s*\S* \S+ sec--0
+rim hub timeout \s*\S*    grace period \s*\S*--0
+running stat on \S+--0
+setup                  : \S+ sec--0
+stack unwind           : \S+ sec--0
+start_thread\(.*\).209   call     clssscthrdmain\(.*\) \s*\S* \S+ .--0
+symbol translation     : \S+ sec--0
+torThread\(.*\).238 \s*\S* \S+--0
+total                  : \S+ sec--0
+u_set_comp_error: comptype '.*' \S+ error '.*'--0
+value for key \S+ is \S+--0
+voting file \S+ \S+--0

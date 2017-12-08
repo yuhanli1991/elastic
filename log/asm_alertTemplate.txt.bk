@@ -1,0 +1,860 @@
+AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
+AFDLIB \S+ Failed @ \S+ err=-5 \S+ \S+ \S+
+ALTER \S+ \S+ event='.*' SCOPE=SPFILE;
+ALTER \S+ \S+ event='.*',.* \[.*\] disk highest'.*'trace \[.*\] disk highest'.*'15199 trace name context forever, level 0x4000707.*
+ALTER \S+ \S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\).'.*'.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
+ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
+ARB0 started with \S+ \S+ \S+
+ARBA started with \S+ \S+ \S+
+ASM \S+ ./
+ASM Health Checker found \S+ new failures
+ASM instance
+ASMB started with \S+ \S+ \S+
+ASMCA ./
+ASMCMD ./ALTER \S+ \S+ \S+ \S+ '.*' = '.*'
+ASMCMD ./ALTER \S+ \S+ \S+  
+ASMCMD ./ALTER \S+ \S+ \S+
+ASMCMD ./alter diskgroup /.ASMCMD./ ".*" drop file '.*'
+ATTRIBUTE .*
+Abort recovery for domain \S+ flags \S+
+Additional information: \S+
+All grantable enqueues granted
+Archiving is disabled
+Attached to domain \S+ \(.*\)
+Autodiscovered Loopback ips: \S+
+Autotune of undo retention is turned on.
+Available system pagesizes:
+BKDG
+Begin lmon rcfg omni enqueue reconfig \S+
+Binary of new process does not match binary which started instance
+CDB instance recovery on pdb \S+ needs to \S+ aborted \(.*\)
+CELL communication is configured to use \S+ interface\(.*\):
+CKPT started with \S+ \S+ \S+
+CLI notifier \S+ \S+
+CLMN started with \S+ \S+ \S+
+CRS_CD_00_NSHC01CELADM08 \(.*\)
+CRS_CD_02_NSHC01CELADM08 \(.*\)
+CRS_CD_02_NSHC01CELADM09 \(.*\)
+CSDG
+Cause - .*
+Cell: \S+ could not \S+ opened during discovery
+Client address: \(.*\)
+Cluster Communication is configured to use IPs from: GPnP
+Cluster Synchronization Service is shutting down
+Communication channels reestablished
+Communications reconfiguration: \S+ \S+ by ospid \S+
+Could not connect to other instances in the cluster during startup. Hence, \S+ is terminating the instance. Please check the \S+ trace file for details. Also, please check the network logs of this instance along with clusterwide network health for problems and then re-start this instance.
+Creating new log segment:
+DATA_0001 \(.*\)
+DATA_0002 \(.*\)
+DATA
+DATT
+DBW0 started with \S+ \S+ \S+
+DBDG
+DIA0 started with \S+ \S+ \S+
+DIAG started with \S+ \S+ \S+
+DISK '.*' \S+ \S+
+DSKM started with \S+ \S+ \S+
+Dead instances \(.*\) \S+
+Decreasing priority of \S+ \S+
+Direct \S+ channel id \[.*\] path \[.*\] to filer \[.*\] via local \[.*\] is \S+  
+Dirty Detach Reconfiguration complete \(.*\)
+Dirty detach reconfiguration started \(.*\)
+Diskgroup with \S+
+Dump of system resources acquired for \S+ \S+ \S+ \(.*\)
+Dumping current patch information
+Dumping diagnostic data in directory=\[.*\], requested by \(.*\), summary=\[.*\].
+Dwn-cvts replayed, VALBLKs dubious
+ERROR: .*
+ERROR: \S+ \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
+ERROR: \S+ \S+ \S+ \S+ \S+  SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
+ERROR: \S+ \S+ \S+ \S+ \S+  SITE siteq  DISK '.*' \S+ \S+
+ERROR: \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
+ERROR: \S+ \S+ \S+ \S+  QUORUM \S+ '.*' \S+ \S+
+ERROR: \S+ \S+ \S+ \S+  SITE siteb  DISK '.*' \S+ \S+
+ERROR: \S+ \S+ csdg \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ ted1  SIZE \S+
+ERROR: \S+ \S+ tst \S+ \S+  DISK '.*' \S+ \S+
+ERROR: \S+ failed to obtain \S+ global quorum of supporting sites in group \S+ \(.*\)
+ERROR: \S+ in \S+ recovery for diskgroup \S+ \(.*\)
+ERROR: \S+ terminating the instance due to storage split in grp \S+
+ERROR: \S+ thrown in \S+ for group number \S+
+ERROR: Could not \S+ \S+ for grp \S+ Force dismounting the disk group.
+ERROR: Failed to cleanup the \S+ stale FDs
+ERROR: No disks with \S+ found on disk group \S+
+ERROR: Shared memory area is accessible to instance startup process
+ERROR: Unable to get logical block size for spfile '.*'.
+ERROR: alter diskgroup \S+ \S+ disk '.*' force
+ERROR: alter diskgroup \S+ \S+ site \S+ disk '.*' force
+ERROR: alter diskgroup \S+ \S+
+ERROR: alter diskgroup \S+ online disk .*
+ERROR: alter diskgroup \S+ online disk '.*' force
+ERROR: alter diskgroup \S+ rebalance
+ERROR: alter diskgroup data \S+ site sitea disk '.*'
+ERROR: alter diskgroup data \S+ site siteb disk '.*' force
+ERROR: alter diskgroup data \S+ site siteb disk '.*'
+ERROR: alter diskgroup data online disk .*
+ERROR: alter diskgroup data online disk '.*' force
+ERROR: alter diskgroup sudg rebalance
+ERROR: alter diskgroup vfdg \S+ disk '.*' name \S+ force
+ERROR: alter diskgroup vfdg \S+ site siteb disk '.*' name ted04 force
+ERROR: alter diskgroup vfdg \S+ site siteb disk '.*' name ted04
+ERROR: alter diskgroup vfdg online disk '.*'
+ERROR: disk \S+ \(.*\) in group \S+ \(.*\) cannot \S+ offlined because all disks \[.*\] with mirrored data would \S+ offline.
+ERROR: disk 0\(.*\) in group .* cannot \S+ offlined because the disk group has external redundancy.
+ERROR: diskgroup \S+ was not \S+
+ERROR: group \S+ \(.*\): could not validate disk \S+
+ERROR: no read quorum in group: required \S+ found \S+ disks
+ERROR: too many offline disks in \S+ \(.*\)
+ERROR: updating header of disk \S+ with voting file information
+EXDG0527
+End lmon rcfg omni enqueue reconfig \S+
+Error \S+ Cluster Synchronization Service is shutting down
+Error \S+ unexpected return code \S+ from the Cluster Synchronization \S+
+Error: Shutdown in progress. Error: \S+
+Error: received an \S+ event from the Cluster Synchronization Service
+Errors in file \S+  \(.*\):
+Errors in file \S+
+Evicting instance \S+ from cluster
+Exadata Auto Mgmt: \S+ \S+ Disk ./
+Exadata cell: \S+ is no longer accessible. I/O errors to disks on this might get suppressed
+Exadata error:'.*'
+Exception \[.*\] \[.*\] \[.*\] \[.*\]
+Expected per process system memlock \(.*\) limit to lock
+Expecting \S+ \S+ instances to leave the cluster.
+FGDG
+Fatal \S+ connect error \S+ connecting to:
+Fatal \S+ connect error \S+
+Fix write in gcs resources
+Following system state dump requests \(.*\) will \S+ processed:
+GCR0\[.*\]: \S+ \S+ process is not making progress for \S+ secs
+GCR0\[.*\]: \S+ process is not making progress for \S+ secs, trying to restart it
+GCR0\[.*\]: \S+ process succesfully killed
+GEN0 started with \S+ \S+ \S+
+GEN1 started with \S+ \S+ \S+
+GMON \(.*\): terminating the instance due to error \S+
+GMON checking disk modes for group \S+ at \S+ for pid \S+ osid \S+
+GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
+GMON dumping for group \S+
+GMON dumping for group - Done
+GMON querying group \S+ at \S+ for pid \S+ osid \S+
+GMON started with \S+ \S+ \S+
+GMON updating disk modes for group \S+ at \S+ for pid \S+ osid \S+
+GMON updating for reconfiguration, group \S+ at \S+ for pid \S+ osid \S+
+GMON updating group \S+ at \S+ for pid \S+ osid \S+
+Global Resource Directory frozen
+Global Resource Directory partially frozen for dirty detach
+High Throughput Write functionality enabled
+IMR has experienced some problems and can.*
+IMR has experienced some problems during thread mount, \(.*\)
+IMR0 \(.*\) waits for event '.*' for \S+ secs.
+INFRA
+IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
+IP: \S+ Subnet: \S+
+IPC Send timeout detected. Sender: ospid \S+ \[.*\]
+IPC Send timeout to \S+ inc \S+ for msg type \S+ from opid \S+
+IPC Send timeout: Terminating pid \S+ osid \S+
+IPC Vendor \S+ proto \S+
+Incident details in: \S+
+Increasing priority of \S+ \S+
+Initial number of \S+ is \S+
+Instance Critical Process \(.*\) died unexpectedly
+Instance shutdown cancelled
+Instance shutdown complete \(.*\)
+Instance terminated by \S+ pid = \S+
+KSIPC \S+ \S+
+KSIPC Available Transports: \S+
+KSIPC Loopback \S+ addresses\(.*\):
+KSIPC: Client: \S+ Transport: \S+
+KSXP: \S+ \S+ \S+
+KSXP: setting socket save mode to \S+
+KSXPPING: \S+ selected for Ping
+LCK0 \(.*\) received unexpected status \(.*\) from the Cluster Synchronization Service.
+LCK0 started with \S+ \S+ \S+
+LCK1 started with \S+ \S+ \S+
+LGWR \(.*\) waits for event '.*' for \S+ secs.
+LGWR started with \S+ \S+ \S+
+LICENSE_MAX_SESSION = \S+
+LICENSE_MAX_USERS = \S+
+LICENSE_SESSIONS_WARNING = \S+
+LMD0 \(.*\) has detected no messaging activity from instance \S+
+LMD0 \(.*\): terminating the instance due to error \S+
+LMD0 started with \S+ \S+ \S+
+LMHB \(.*\): terminating the instance due to error \S+
+LMHB started with \S+ \S+ \S+
+LMON \(.*\) drops the \S+ request from \S+ \(.*\) because \S+ is in progress and inst \S+ is marked bad.
+LMON \(.*\): terminating the instance
+LMON received an instance eviction notification from instance \S+
+LMON started with \S+ \S+ \S+
+LMS \S+ \S+ \S+ shadows cancelled, \S+ closed, \S+ Xw survived, skipped \S+
+LMS0 \(.*\) has detected no messaging activity from instance \S+
+LMS0 started with \S+ \S+ \S+ at elevated \(.*\) priority
+LREG started with \S+ \S+ \S+
+License high water mark = \S+
+Linux-x86_64 Error: \S+ Input/output error
+Linux-x86_64 Error: \S+ No such file or directory
+List of instances \(.*\) \S+
+Load Monitor used for high load check
+Loopback ip: \S+
+MARK started with \S+ \S+ \S+
+MEMORY_TARGET defaulting to \S+
+MGMT
+MMAN started with \S+ \S+ \S+
+MMNL started with \S+ \S+ \S+
+MMON started with \S+ \S+ \S+
+Machine:	x86_64
+Master broadcasted resource hash value bitmaps
+My inst \S+ .*
+NOTE: .*
+NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
+NOTE: \S+ \S+ \S+ \S+ for \S+ \S+ \(.*\)
+NOTE: \S+ \S+ \S+ copy \S+ relocating from \S+ to \S+ at \S+ \S+
+NOTE: \S+ \S+ \S+ found on disk \S+ au \S+ fcn \S+ datfmt \S+
+NOTE: \S+ about to begin recovery lock claims for diskgroup \S+ \(.*\)
+NOTE: \S+ attempting to mount thread \S+ for diskgroup \S+ \(.*\)
+NOTE: \S+ clearing idle groups before exit
+NOTE: \S+ client \S+ disconnected unexpectedly.
+NOTE: \S+ closing thread \S+ of diskgroup \S+ \(.*\) at \S+ \S+
+NOTE: \S+ detected lock domain \S+ invalid at system inc \S+ \S+ \S+
+NOTE: \S+ did \S+ \S+ recovery for group \S+ \(.*\)
+NOTE: \S+ did instance recovery for group \S+ domain \S+
+NOTE: \S+ doing \S+ dismount of group \S+ \(.*\) thread \S+
+NOTE: \S+ expansion required for disk group \S+
+NOTE: \S+ fcn on disk \S+ synced at fcn \S+
+NOTE: \S+ found thread \S+ closed at \S+ \S+ lock \S+ \S+ \S+
+NOTE: \S+ has subscribed
+NOTE: \S+ heartbeating for grp \S+ \(.*\)
+NOTE: \S+ not being messaged to dismount
+NOTE: \S+ on disk \S+ \(.*\) relocated at fcn \S+ \S+ \S+ -> \S+ \S+
+NOTE: \S+ opened thread \S+ \(.*\) at fcn \S+ \S+ \S+ lock \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: \S+ process exiting due to \S+ instance shutdown \(.*\)
+NOTE: \S+ process exiting due to lack of \S+ file activity for \S+ seconds
+NOTE: \S+ process exiting, either shutdown is in progress or foreground connected to \S+ was killed.
+NOTE: \S+ recovery sucessfully read \S+ from one mirror side
+NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
+NOTE: \S+ released recovery enqueue for thread \S+ group \S+ \(.*\)
+NOTE: \S+ requested to fence client \S+ id \S+ \S+
+NOTE: \S+ skipping disk \S+ \(.*\)
+NOTE: \S+ skipping lock domain \(.*\) validation because diskgroup being dismounted
+NOTE: \S+ starting instance recovery of group \S+ domain \S+ inc \S+ \(.*\) at \S+ \S+
+NOTE: \S+ successfully validated lock domain \S+ inc \S+ \(.*\)
+NOTE: \S+ successfully wrote to at least one mirror side
+NOTE: \S+ sync \S+ last written \S+ \S+
+NOTE: \S+ update grp = \S+ completed successfully
+NOTE: \S+ validation of lock domain \S+ failed \(.*\)
+NOTE: \S+ waiting for thread \S+ recovery enqueue
+NOTE: \S+ will attempt offline of disk \S+ - no header
+NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
+NOTE: 03/23/16 \S+ \S+ copy \S+ relocating from \S+ to \S+ at \S+ \S+
+NOTE: Active use of \S+ in group \S+
+NOTE: Adding disk \S+ \(.*\) to grp \S+ \(.*\) \(.*\)
+NOTE: Advanced to new \S+ format for group \S+
+NOTE: Advancing \S+ compatibility to \S+ for grp \S+
+NOTE: Assigning number \(.*\) to disk \(.*\)
+NOTE: Attempting voting file \S+ \S+ diskgroup \S+
+NOTE: Cleaning up fence pending client id \S+ \[.*\] \(.*\) \[.*\]
+NOTE: Cluster configuration type = \S+ \[.*\]
+NOTE: Created Used Space Directory for \S+ threads
+NOTE: Created Virtual Allocation Locator \(.*\) and Table \(.*\) directories for group \S+ \(.*\)
+NOTE: Creating voting files in diskgroup: \S+
+NOTE: Deferred communication with \S+ instance
+NOTE: Deleting voting files in diskgroup \S+
+NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
+NOTE: Diskgroup used for \S+ \S+ \S+
+NOTE: Diskgroup used for \S+ \S+
+NOTE: Diskgroups listed in \S+ are
+NOTE: Erasing header on \S+
+NOTE: Extended the Used Space Directory to thread \S+
+NOTE: Failed voting file relocation on diskgroup \S+
+NOTE: Flex client \S+ \S+ osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: Flex client id \S+ \[.*\] attempting to \S+
+NOTE: Found \S+ for disk \S+
+NOTE: GroupBlock outside rolling migration privileged region
+NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
+NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
+NOTE: No voting file found on diskgroup \S+
+NOTE: PatchLevel of this instance \S+
+NOTE: Physical metadata for diskgroup \S+ \(.*\) was replicated.
+NOTE: Proactively cleaning up \S+ client \S+ with orphan ownerid \S+ \S+ elapsed
+NOTE: Refresh completed on diskgroup \S+ \S+ \S+ \S+ .*
+NOTE: Shutting down \S+ background process
+NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: Starting expel slave for group \S+ \(.*\)
+NOTE: Submit AFDLIB:AFD_KEYS\(.*\)
+NOTE: Successful voting file relocation on diskgroup \S+
+NOTE: Suppressing further \S+ \S+ errors on \S+ \S+
+NOTE: Termination of \S+ session succeeded for \[.*\] due to instance shutdown
+NOTE: The rdbms compatibility of group \S+ is \S+
+NOTE: This instance is the master for audit cleanup
+NOTE: Trace records dumped in trace file \S+
+NOTE: Using GPnP to retrieve the \S+ password file location in exclusive mode
+NOTE: Volume support  enabled
+NOTE: Voting File refresh pending for group \S+ \(.*\)
+NOTE: Voting file relocation is required in diskgroup \S+
+NOTE: aborting instance recovery of domain \S+ due to diskgroup dismount
+NOTE: advancing ckpt for group \S+ \(.*\) \S+ \S+ domain inc# \S+
+NOTE: allocating \S+ \(.*\) on grp \S+ disk \S+
+NOTE: allocating \S+ on grp \S+ disk \S+
+NOTE: already refreshed membership for group 1/0x8e10855f \(.*\)
+NOTE: assigning \S+ to group \S+ \(.*\) to compute estimates
+NOTE: assigning \S+ to group \S+ \(.*\) with \S+ parallel I/O
+NOTE: attached to recovery domain \S+
+NOTE: blocked Flex client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
+NOTE: cache began mount \(.*\) of group \S+ \S+
+NOTE: cache closing disk \S+ of grp \S+ .*
+NOTE: cache closing disk \S+ of grp \S+ \(.*\) \S+
+NOTE: cache creating group \S+ \(.*\)
+NOTE: cache deleting context for group \S+ \S+
+NOTE: cache dismounted group \S+ \(.*\)
+NOTE: cache dismounting \(.*\) group \S+ \(.*\)
+NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
+NOTE: cache initiating offline of disk \S+ group \S+
+NOTE: cache is mounting group \S+ created on \S+ \S+
+NOTE: cache mounting \(.*\) \S+ redundancy group \S+ \(.*\)
+NOTE: cache mounting group \S+ \(.*\) succeeded
+NOTE: cache opening disk \S+ of grp \S+ \S+ \S+
+NOTE: cache recovered group \S+ to fcn \S+
+NOTE: cache registered group \S+ \S+
+NOTE: check client alert log.
+NOTE: checking \S+ for grp \S+ done.
+NOTE: checking \S+ grp = \S+
+NOTE: cleaned up \S+ client \S+ connection state \(.*\)
+NOTE: cleaned up \S+ client \S+ connection state
+NOTE: cleaning stale remote ownerid \S+ for client \S+ \(.*\)
+NOTE: cleaning up empty system-created directory '.*'
+NOTE: client \S+ .*
+NOTE: client \S+ fence duration: \S+ seconds
+NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: client \S+ is exiting
+NOTE: client \S+ mounted group \S+ \(.*\)
+NOTE: client \S+ no longer has group \S+ \(.*\) mounted
+NOTE: client \S+ should failover
+NOTE: client \[.*\] completed disk validation \(.*\)
+NOTE: client \[.*\] declared \S+ additional pending writes
+NOTE: client EXDB05271:EXDB0527:nshc01a-dsc deregistered
+NOTE: client EXDB05271:EXDB0527:nshc01a-dsc id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
+NOTE: closing \S+ for group: \S+
+NOTE: completed disk validation for \S+ \(.*\)
+NOTE: completed online of disk group \S+ disks
+NOTE: crash recovery of group \S+ will recover \S+ \S+ \S+ \S+ \S+
+NOTE: dbwr not being msg.*
+NOTE: deferred map free for map id \S+
+NOTE: detached from domain \S+
+NOTE: detected orphaned client id \S+
+NOTE: discarding redo for group \S+ disk \S+
+NOTE: disk \S+ \(.*\) in group \S+ \(.*\) is locally offline for writes
+NOTE: disk \S+ had \S+ error
+NOTE: disk validation pending for \S+ \S+ in group \S+ \(.*\)
+NOTE: diskgroup must now \S+ re-mounted prior to first use
+NOTE: diskgroup resource \S+ is \S+
+NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
+NOTE: erasing header \(.*\) on grp \S+ disk \S+
+NOTE: erasing header on grp \S+ disk \S+
+NOTE: failed resync of disk group \S+ disks
+NOTE: force \S+ map free for map id \S+
+NOTE: found stale ownerid \S+ for client \S+
+NOTE: get diskgroups to mount for database '.*'
+NOTE: group \S+ \(.*\) high disk header ckpt advanced to fcn \S+
+NOTE: group \S+ \S+ \S+ location: disks \S+ \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: group \S+ \S+ \S+ location: disks \S+ \S+ \S+
+NOTE: group \S+ \S+ not updated.
+NOTE: group \S+ \S+ updated.
+NOTE: group \S+ initial \S+ location: disks \S+ \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: group \S+ initial \S+ location: disks \S+ \S+ \S+
+NOTE: group \S+ initial \S+ location: disks \S+ \S+
+NOTE: group \S+ initial \S+ location: disks \S+
+NOTE: group \S+ updated \S+ location: disks \S+ \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: group \S+ updated \S+ location: disks \S+ \S+ \S+ \S+ \S+ \S+
+NOTE: group \S+ updated \S+ location: disks \S+ \S+ \S+ \S+ \S+
+NOTE: group \S+ updated \S+ location: disks \S+ \S+ \S+ \S+
+NOTE: group \S+ updated \S+ location: disks \S+ \S+ \S+
+NOTE: group \S+ updated \S+ location: disks \S+ \S+
+NOTE: grp \S+ disk \S+ expelled from the \S+
+NOTE: halting all I/Os to diskgroup \S+ \(.*\)
+NOTE: header on disk \S+ advanced to format #2 using fcn \S+
+NOTE: initial disk modes for disk \S+ \(.*\) in group \S+ \(.*\) is not completely online: modes \S+ lflags \S+
+NOTE: initializing header \(.*\) on grp \S+ disk \S+
+NOTE: initializing header on grp \S+ disk \S+
+NOTE: initiating \S+ startup
+NOTE: initiating \S+ update: grp \S+ \(.*\), dsk = \S+ mask = \S+ op = \S+ mandatory
+NOTE: initiating \S+ update: grp = \S+
+NOTE: initiating client \[.*\] discovery for group \S+ \(.*\)
+NOTE: initiating dirty detach from lock domain \S+
+NOTE: initiating resync of disk group \S+ disks
+NOTE: instance recovery of group \S+ will recover \S+ \S+ \S+ \S+ \S+
+NOTE: membership refresh pending for group \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+ \(.*\)
+NOTE: messaging \S+ to quiesce pins Unix process pid: \S+ image: \S+
+NOTE: ospid \S+ initiating cluster wide offline of disk \S+ in group \S+
+NOTE: ospid \S+ initiating cluster wide offline of disks \S+ and \S+ in group \S+
+NOTE: process \S+ \(.*\) initiating offline of disk \S+ \(.*\) with mask \S+ in group \S+ \(.*\) \S+ client assisting
+NOTE: rebalance interrupted for group \S+ \(.*\)
+NOTE: recovering disk \S+ in diskgroup \S+ \(.*\) after \S+ failed disk online
+NOTE: redo buffer size is \S+ blocks \(.*\)
+NOTE: registered owner id \S+ for \S+ \(.*\)
+NOTE: registered owner id \S+ for \S+
+NOTE: registering \S+ \[.*\] for client \S+ \S+ ospid \S+
+NOTE: released resources held for \S+ \S+
+NOTE: released resources held for client id \S+ \(.*\)
+NOTE: relocating client \S+ \(.*\) to its local instance; Message from node \S+ - \S+ Instance \S+ is \S+
+NOTE: relocating client \S+ \(.*\) to local instance; \S+ Instance \S+ up message from node \S+
+NOTE: relocating client \S+ \(.*\)
+NOTE: remote asm mode is \S+ \(.*\)
+NOTE: removing stale \S+ \S+ for client \S+ \(.*\)
+NOTE: reopening \S+ disks for group \S+
+NOTE: repairing extent \S+ of file \S+ group \S+
+NOTE: requesting \S+ \S+ \S+ for \S+
+NOTE: reset timers for disk: \S+
+NOTE: running client discovery for group \S+ \(.*\)
+NOTE: set version \S+ for asmCompat \S+ for group \S+
+NOTE: setting \S+ start \S+ for group \S+ thread \S+ to \S+
+NOTE: skipping rediscovery for group \S+ \(.*\) on local instance.
+NOTE: starting \S+ \S+
+NOTE: starting rebalance of group \S+ \(.*\) at power \S+
+NOTE: stopping process \S+
+NOTE: successfully wrote at least one mirror side for diskgroup \S+
+NOTE: timeout \(.*\) expired for orphan ownerid \S+ for client \S+ \S+ elapsed
+NOTE: umbilicus traces dumped to \S+
+NOTE: unable to offline disks after getting write error for diskgroup \S+
+NOTE: unable to write any mirror side for diskgroup \S+
+NOTE: updated gpnp profile \S+ \S+ to \S+
+NOTE: updated gpnp profile \S+ \S+ to
+NOTE: updating disk modes to \S+ from \S+ for disk \S+ \(.*\) in group \S+ \(.*\): lflags \S+    
+NOTE: volume resource \S+ is \S+
+NOTE: voting file allocation \(.*\) on grp \S+ disk \S+
+NOTE: voting file allocation on grp \S+ disk \S+
+NOTE: voting file deletion \(.*\) on grp \S+ disk \S+
+NOTE: voting file deletion on grp \S+ disk \S+
+NOTE: waiting for instance recovery of group \S+
+NOTE: will remove stale ownerid \S+ for client .* \(.*\)
+NOTE: write to disk \S+ succeeded
+NOTE:Waiting for all pending writes to complete before de-registering: grpnum \S+
+NUMA system with \S+ nodes detected
+Nested reconfiguration detected.
+Network Resource Management enabled for Process \S+ \(.*\) for Exadata I/O
+New Low - High Load Threshold Range = \[.*\]
+New instances \(.*\) \S+
+No Cluster Synchronization Service reconfig event in \S+ seconds
+No label in disk \S+
+No patches have been applied
+Node \S+
+Non-local Process blocks cleaned out
+Number of processor \S+ in the system is \S+
+OCRDG
+ORA-00445: background process ".*" did not start after \S+ seconds
+ORA-00453: backgroud process '.*' is \S+
+ORA-00481: \S+ process terminated with error
+ORA-00493: \S+ process terminated with error
+ORA-00600: internal error code, arguments: \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\], \[.*\]
+ORA-00604: error occurred at recursive \S+ level \S+
+ORA-03113: \S+ on communication channel
+ORA-06512: at ".*", line \S+
+ORA-06512: at line \S+
+ORA-07274: spdcr: access error, access to oracle denied.
+ORA-07445: exception encountered: core dump \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-1092 \S+ opitsk aborting process
+ORA-15001: diskgroup ".*" does not exist or is not mounted
+ORA-15013: diskgroup ".*" is already mounted
+ORA-15017: diskgroup ".*" cannot \S+ mounted
+ORA-15018: diskgroup cannot \S+ created
+ORA-15020: discovered duplicate \S+ disk ".*"
+ORA-15027: active use of diskgroup ".*" precludes its dismount
+ORA-15028: \S+ file '.*' not dropped; currently being accessed
+ORA-15029: disk '.*' is already mounted by this instance
+ORA-15031: disk specification '.*' matches no disks
+ORA-15032: not all alterations performed
+ORA-15033: disk '.*' belongs to diskgroup ".*"
+ORA-15040: diskgroup is incomplete
+ORA-15041: diskgroup ".*" space exhausted
+ORA-15042: \S+ disk ".*" is missing from group number ".*"
+ORA-15054: disk ".*" does not exist in diskgroup ".*"
+ORA-15062: \S+ disk is globally closed
+ORA-15063: \S+ discovered an insufficient number of disks for diskgroup ".*"
+ORA-15066: offlining disk ".*" in group ".*" may result in \S+ data loss
+ORA-15067: command or option incompatible with diskgroup redundancy
+ORA-15075: disk \S+ is not visible on instance number \S+
+ORA-15078: \S+ diskgroup was forcibly dismounted
+ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
+ORA-15080: synchronous I/O operation failed to write block \S+ of disk \S+ in disk group \S+
+ORA-15081: failed to submit an I/O operation to \S+ disk
+ORA-15090: handle \S+ is not \S+ valid descriptor
+ORA-15130: diskgroup ".*" is being dismounted
+ORA-15133: instance recovery required for diskgroup \S+
+ORA-15173: entry '.*' does not exist in directory '.*'
+ORA-15186: \S+ error \S+
+ORA-15186: \S+ error function = \[.*\],  error = .*
+ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
+ORA-15186: \S+ error function = \[.*\],  err
+ORA-15268: internal Oracle file \S+ already exists.
+ORA-15277: disk \S+ is \S+ quorum disk
+ORA-15283: \S+ operation requires compatible.rdbms of \S+ or higher
+ORA-15291: \S+ could not \S+ disk ".*" to disk group ".*"
+ORA-15315: Write errors in disk group \S+ could lead to inconsistent \S+ metadata.
+ORA-15326: specified input \S+ is \S+ not an \S+ file
+ORA-15344: client \S+ not found
+ORA-15416: \S+ disk \S+ in disk group \S+ is offline.
+ORA-17502: \S+ Failed to create file \S+
+ORA-17503: \S+ Failed to open file .DATA/orapwasm
+ORA-27061: waiting for \S+
+ORA-27061: waiting for async I/Os failed
+ORA-27072: File I/O error
+ORA-29701 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29701: unable to connect to Cluster Synchronization Service
+ORA-29702 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29702: error occurred in Cluster Group Service operation
+ORA-29709 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29709: Communication failure with Cluster Synchronization Services
+ORA-29710 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29710: Current operation aborted by Cluster Synchronization Services
+ORA-29746 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-29746: Cluster Synchronization Service is being shut down.
+ORA-488 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-493 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORA-56841: Master Diskmon cannot connect to \S+ \S+
+ORA-56864: Master Diskmon ".*" operation cannot complete because of \S+ \S+ network error
+ORA-59001: Disk '.*' must \S+ online before disk '.*'.
+ORA-59703: Inconsistent site information in disk '.*'
+ORA-59706: The specified allocation unit size '.*' is less than the minimum required for extended disk groups.
+ORA-59709: No site identified for the disk \S+
+ORA-59709: No site identified for the disk
+ORA-59710: site information mismatch between disk group \S+ and disk /dev/asmdisk/3par108
+ORA-59711: The site identified by \S+ '.*' does not exist.
+ORA-59716: dropping all disks of the quorum site is not allowed
+ORA-7274 \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\] \[.*\]
+ORACLE_BASE from environment = \S+
+ORACLE_BASE value has been saved for future startups
+ORACLE_HOME: \s*\S+
+OS Pid: \S+ executed alter system set events '.*'
+OS ping to instance \S+ has \S+
+Oracle Bequeath \S+ Protocol Adapter for Linux: Version \S+ - Production
+Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
+Oracle instance running with \S+ Oracle Direct \S+ \S+ Library Version \S+
+PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\(.*\)
+PING started with \S+ \S+ \S+
+PMAN started with \S+ \S+ \S+
+PMON \(.*\): terminating the instance due to \S+ error \S+
+PMON \(.*\): terminating the instance due to error \S+
+PMON started with \S+ \S+ \S+
+PSP0 started with \S+ \S+ \S+
+PXMN started with \S+ \S+ \S+
+Per process system memlock \(.*\) limit = \S+
+Performing system state dump.
+Please check instance \S+ alert and \S+ trace files for detail.
+Please check the \S+ log file for more \S+
+Please refer at \S+ trace file for details.
+Please refer to \S+ in \S+ note #1274318.1
+Please see \S+ and oraping trace files for details.
+Post \S+ to start 1st pass \S+
+Process \S+ died, see its trace file
+Process \S+
+Process termination requested for pid \S+ \[.*\], \[.*\] \[.*\]
+Processes \S+ and \S+ may \S+ blocked while \S+ performs thread mount.
+RBAL \(.*\): terminating the instance due to \S+ error \S+
+RBAL \(.*\): terminating the instance due to error \S+
+RBAL started with \S+ \S+ \S+
+REBALANCE \S+
+RECOMMENDATION:
+Read failed for disk \S+ errno \S+
+Reason for not supporting certain system pagesizes:
+Received an instance abort message from instance \S+
+Received detach msg from inst \S+ for dom \S+
+Received dirty detach msg from inst \S+ for dom \S+
+Receiver: inst \S+ binc \S+ ospid \S+
+Reconfiguration \S+ \(.*\)
+Release:	2.6.39-400.245.1.el6uek.x86_64
+Release:	2.6.39-400.246.1.el6uek.x86_64
+Release:	2.6.39-400.248.3.el6uek.x86_64
+Release:	2.6.39-400.277.1.el6uek.x86_64
+Remote instance kill is issued with system inc \S+
+Remote instance kill map \(.*\) \S+ \S+ \S+
+Remote instance kill map \(.*\) \S+ \S+
+Restarting \S+ background process \S+
+SHARED \S+ \S+ \(.*\) into memory: \S+
+SHUTDOWN: waiting for detached processes '.*' to terminate.
+SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
+SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SITE siteQ  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
+SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
+SITE sitea  FAILGROUP fg1  DISK '.*' \S+ disk1  SIZE \S+
+SITE sitea  FAILGROUP fg2  DISK '.*' \S+ \S+
+SITE sitea  FAILGROUP fg2  DISK '.*' \S+ disk2  SIZE \S+
+SITE sitea  FAILGROUP fg3  DISK '.*' \S+ \S+
+SITE sitea  FAILGROUP fg3  DISK '.*' \S+ disk3  SIZE \S+
+SITE siteb  DISK '.*' \S+ \S+
+SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SITE siteb  FAILGROUP \S+  DISK '.*' \S+ \S+
+SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
+SITE siteq  QUORUM  FAILGROUP ted7  DISK '.*' \S+ ted7  SIZE \S+
+SMON started with \S+ \S+ \S+
+SQL> \S+ \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP ted1  DISK '.*' \S+ ted1  SIZE \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE siteq  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ diskq  SIZE \S+
+SQL> \S+ \S+ \S+ \S+ \S+  SITE siteq  QUORUM  FAILGROUP Qfg1  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+  DISK .* \S+ \S+
+SQL> \S+ \S+ \S+ \S+  QUORUM \S+ '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+  SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+  SITE sitea  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SQL> \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
+SQL> \S+ \S+ \S+ \S+  SITE siteb  DISK '.*' \S+ \S+
+SQL> \S+ \S+ tstdg \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SQL> alter diskgroup \S+ \S+ directory '.*'
+SQL> alter diskgroup \S+ \S+ site \S+ disk '.*' force
+SQL> alter diskgroup \S+ \S+
+SQL> alter diskgroup \S+ online disk .*
+SQL> alter diskgroup \S+ online disk \S+ force
+SQL> alter diskgroup \S+ online disk \S+
+SQL> alter diskgroup \S+ online disk '.*' force
+SQL> alter diskgroup \S+ online quorum disk \S+
+SQL> alter diskgroup data \S+ site sitea disk '.*' force
+SQL> alter diskgroup data \S+ site sitea disk '.*'
+SQL> alter diskgroup data \S+ site siteb disk '.*' force
+SQL> alter diskgroup data \S+ site siteb disk '.*'
+SQL> alter diskgroup data dismount
+SQL> alter diskgroup data online disk '.*' force
+SQL> alter diskgroup sudg rebalance
+SQL> alter diskgroup vfdg \S+ disk '.*' name \S+ force
+SQL> alter diskgroup vfdg \S+ site siteb disk '.*' name ted04 force
+SQL> alter diskgroup vfdg \S+ site siteb disk '.*' name ted04
+SQL> alter diskgroup vfdg online disk '.*'
+SQL> alter diskgroup vfdg online quorum disk '.*'
+SQL> alter diskgroup vfdg rebalance
+SQL> create diskgroup tmpdg external redundancy disk '.*' attribute '.*'='.*','.*'='.*','.*'='.*'
+SQL> drop diskgroup \S+ including contents
+SU1 \(.*\)
+SU2 \(.*\)
+SUCCESS: \S+ \S+ \S+ \S+ \S+  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE \S+  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP ted1  DISK '.*' \S+ ted1  SIZE \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE siteq  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE siteq  QUORUM  FAILGROUP \S+  DISK '.*' \S+ diskq  SIZE \S+
+SUCCESS: \S+ \S+ \S+ \S+ \S+  SITE siteq  QUORUM  FAILGROUP Qfg1  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+  DISK .* \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+  QUORUM \S+ '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+  SITE \S+  FAILGROUP \S+  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+  SITE sitea  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SUCCESS: \S+ \S+ test \S+ \S+  DISK '.*' \S+ \S+
+SUCCESS: \S+ \S+ tstdg \S+ \S+  SITE sitea  FAILGROUP \S+  DISK '.*' \S+ \S+  SIZE \S+
+SUCCESS: \S+ enlarged for group \S+ \(.*\)
+SUCCESS: ASM-initiated \S+ \S+ of group \S+
+SUCCESS: Advanced compatible.rdbms to \S+ for grp \S+
+SUCCESS: Exadata diskgroup \S+ was mounted
+SUCCESS: PST-initiated drop disk in group .*
+SUCCESS: alter diskgroup \S+ \S+ \S+ '.*'
+SUCCESS: alter diskgroup \S+ \S+
+SUCCESS: alter diskgroup \S+ online disk \S+ force
+SUCCESS: alter diskgroup \S+ online disk \S+
+SUCCESS: alter diskgroup \S+ online quorum disk \S+
+SUCCESS: alter diskgroup data \S+ site sitea disk '.*' force
+SUCCESS: alter diskgroup data \S+ site sitea disk '.*'
+SUCCESS: alter diskgroup data dismount
+SUCCESS: alter diskgroup sudg online disk \S+
+SUCCESS: alter diskgroup vfdg online quorum disk '.*'
+SUCCESS: alter diskgroup vfdg rebalance
+SUCCESS: create diskgroup tmpdg external redundancy disk '.*' attribute '.*'='.*','.*'='.*','.*'='.*'
+SUCCESS: diskgroup \S+ was \S+
+SUCCESS: drop diskgroup \S+ including contents
+SUCCESS: extent \S+ of file \S+ group \S+ - all online mirror sides found readable, no repair required
+SUCCESS: grp \S+ disk \S+ emptied
+SUCCESS: grp \S+ disk \S+ going offline
+SUCCESS: rebalance completed for group \S+ \(.*\)
+SUCCESS: refreshed membership for \S+ \(.*\)
+SUDG
+SYS auditing is enabled
+SZAUD: Cluster class retrieved from \S+ is \[.*\]. thus skipping setting audit syslog level
+SZAUD: Failed to initialized \S+ \[.*\] \[.*\]
+Scan count \S+
+Scanned disk \S+
+See Note \S+ at My Oracle Support for error and packaging details.
+Session \S+ \S+ Serial number: \S+
+Set master node info
+Shared memory segment for instance monitoring created
+Shutting down archive processes
+Shutting down instance \(.*\) \(.*\)
+Shutting down instance: further logons disabled
+Starting \S+ instance \(.*\) \(.*\)
+Starting background process \S+
+Stopping background process \S+
+Storage:	Exadata
+Submitted all \S+ remote-cache requests
+Submitted all remote-enqueue requests
+Supported system pagesize\(.*\):
+Suppressed nested communications reconfiguration: \S+ \S+
+System State dumped to trace file \S+
+System name:	Linux
+System parameters with non-default values:
+System state dump requested by \(.*\), summary=\[.*\].
+TCP/IP \S+ Protocol Adapter for Linux: Version \S+ - Production
+TED1 \(.*\)
+TED2 \(.*\)
+TED3 \(.*\)
+TED4 \(.*\)
+TED5 \(.*\)
+TED6 \(.*\)
+TED7 \(.*\)
+TEST_0001 \(.*\)
+TEST
+TMP1
+TMP2
+TMPDG
+TNS for Linux: Version \S+ - Production
+TNS-00515: Connect failed because target host or object does not exist
+TNS-12535: TNS:operation timed out
+TNS-12545: Connect failed because target host or object does not exist
+The instance eviction \S+ is \S+
+The instance eviction map is \S+ \S+
+There are no devices to discover.
+Time: \S+ \S+
+Tns error struct:
+Tracing not turned on.
+USER \(.*\): terminating the instance due to \S+ error \S+
+USER \(.*\): terminating the instance due to error \S+
+USER \(.*\): terminating the instance
+Unexpected return code \(.*\) from the Cluster Synchronization Service \(.*\)
+Use \S+ or Support Workbench to package the incident.
+Using \S+ parameter default value as \S+
+Using default \S+ of \S+ \S+
+Using parameter settings in client-side pfile \S+ on machine \S+
+Using parameter settings in client-side pfile
+Using parameter settings in server-side \S+ \S+
+VERSION \S+
+VFDG
+VKTM reset to run at normal priority
+VKTM running at \(.*\) precision
+VKTM running at \(.*\)millisec precision with \S+ quantum \(.*\)ms
+VKTM started with \S+ \S+ \S+ at elevated \(.*\) priority
+Version \S+
+Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
+WARNING: \(.*\) disk offline and rejecting I/O
+WARNING: \S+ \S+ addresses should not \S+ used on \S+ engineered systems.
+WARNING: \S+ disk \S+ not found \(.*\)
+WARNING: \S+ does not support ipclw. Switching to skgxp
+WARNING: \S+ failed to obtain \S+ quorum of supporting disks in group \S+ site \S+
+WARNING: \S+ failed to write \S+ quorum of target disks in group \S+ site \S+ \(.*\)
+WARNING: \S+ found an alien heartbeat on disk \S+ \(.*\)
+WARNING: \S+ has insufficient disks to maintain consensus for group \S+ site \S+ Minimum required is \S+ updating \S+ \S+ copies from \S+ total of \S+
+WARNING: \S+ signaled when performing \S+ block repair for \S+ \S+ \S+
+WARNING: \S+ unable to close thread \S+ group \S+ \(.*\) due to disconnected client\(.*\) from previous incarnation of \S+ cluster
+WARNING: Background operations delayed until \S+ \S+ because \S+ was not stopped cleanly and there could \S+ disconnected client\(.*\)
+WARNING: Disk \S+ \(.*\) in group \S+ will \S+ dropped in: \(.*\) secs on \S+ inst \S+
+WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
+WARNING: Disk Group \S+ containing spfile for this instance is not mounted
+WARNING: Found \S+ stale FDs on foreground processes
+WARNING: Hbeat \S+ to \S+ disk \S+ in group \S+ failed. \[.*\]
+WARNING: Offline of disk \S+ \(.*\) in group \S+ and mode \S+ failed on \S+ inst \S+
+WARNING: Oracle executable binary mismatch detected.
+WARNING: PST-initiated drop of \S+ disk\(.*\) in group .*
+WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
+WARNING: Site \S+ will \S+ quarantined
+WARNING: Started Drop Disk Timeout for Disk \S+ \(.*\) in group \S+ with \S+ value \S+
+WARNING: Waited \S+ secs for write \S+ to \S+ disk \S+ in group \S+
+WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
+WARNING: block repair initiating disk offline
+WARNING: client \[.*\] cleanup delayed; waited \S+ pid \S+ mbr \S+
+WARNING: client \[.*\] not responsive for 217s; state=0x1. killing pid \S+
+WARNING: could not find \S+ disk
+WARNING: could not find any \S+ disk in grp \S+
+WARNING: dirty detached from lock domain \S+
+WARNING: failed to copy file \S+ extent \S+ disk \S+ au \S+ offset \S+ status \S+
+WARNING: failed to find state to reconnect client \S+ id \S+ \S+ after \S+ secs
+WARNING: failed to get diskgroup list for database '.*'
+WARNING: failed to online diskgroup resource \S+ \(.*\)
+WARNING: failed to read mirror side \S+ of virtual extent \S+ logical extent \S+ of file \S+ in group \[.*\] from disk \S+  allocation unit \S+ reason error; if possible, will try another mirror side
+WARNING: failed to update diskgroup resource \S+ \(.*\)
+WARNING: failed to write mirror side \S+ of virtual extent \S+ logical extent \S+ of file \S+ in group \S+ on disk \S+ allocation unit \S+
+WARNING: found another non-responsive disk \S+ \(.*\) that will \S+ offlined
+WARNING: giving up on client id \S+ \[.*\] which has not reconnected for \S+ seconds \(.*\) \[.*\]
+WARNING: group \S+ file \S+ vxn \S+ block \S+ write I/O failed
+WARNING: grp \S+ all disks in quorum site siteq being dropped.
+WARNING: grp \S+ disk \S+ still has contents \(.*\)
+WARNING: inbound connection timed out \(.*\)
+WARNING: offline disk number \S+ has references \(.*\)
+WARNING: promoting mount of diskgroup \S+ to force.
+WARNING: rejecting addition of disk number \S+ to group \S+
+WARNING: using default parameter settings without any parameter file
+Waiting for instances to leave: \S+ \S+
+Waiting for instances to leave: \S+
+Warning: \S+ processes are still attach to shmid \S+
+Warning: Oraping detected connectivity issues.
+XDMG started with \S+ \S+ \S+
+XDWK started with \S+ \S+ \S+
+afdb_getdiscstr: \S+
+afdb_scandisk: \S+
+afdt_check_syntax: \S+
+afdt_errorsLEM: \S+
+afdt_libinit: \S+
+allocate domain \S+ valid . \S+
+alter diskgroup \S+ online disk \S+
+an eviction is expected due environment issues
+asm agent .//. \{.*\} .//. \S+
+asm agent .//. \{.*\} ./
+asm agent call crs .//. \{.*\} ./
+asm_diskgroups           = ".*"
+asm_power_limit          = \S+
+cluster interconnect \S+ version: Oracle \S+ \(.*\)
+dead instance detected - domain \S+ invalid = \S+
+detach from dom \S+ sending detach message to inst \S+
+dirty detach - domain \S+ invalid = \S+
+disk: \S+ \S+ \S+ file number: \S+ extent: \S+
+domain \S+ valid = \S+ according to instance \S+
+event                    = ".*"
+force
+freeing rdom \S+
+in grp \S+
+incarnation:\S+ \S+ result:'.*'
+instance \S+ validates domain \S+
+instance_number obtained from \S+ = \S+ checking for the existence of node \S+
+issue alter system set ".*" = true to disable these messages
+kjbdomatt send to inst \S+
+kjbdomdet send to inst \S+
+kjidomenacan initialized to \S+
+ksxp_exafusion_enabled_dcf: \S+
+large_pool_size          = \S+
+lmon registered with \S+ - instance number \S+ \(.*\)
+node \S+ does not exist. \S+ = \S+
+nowait
+ns \S+ err code: \S+
+nt \S+ err code: \S+
+opiodr aborting process unknown ospid \(.*\) as \S+ result of \S+
+ossnet_fail_defcon: Giving up on Cell \S+ as retry limit \(.*\) reached.
+path:\S+
+path:AFD:DATA1
+path:AFD:DATA2
+path:AFD:DATA3
+path:AFD:OCRDG2
+path:AFD:OCRDG3
+path:AFD:SU1
+path:AFD:SU2
+path:AFD:SU5
+path:AFD:SU6
+path:AFD:TMP11
+path:Unknown disk
+path:o/192.168.40.239/CRS_CD_00_nshc01celadm08
+path:o/192.168.40.239/CRS_CD_02_nshc01celadm08
+prior to instance startup operation.
+remote_login_passwordfile= ".*"
+requested by \(.*\), summary=\[.*\]
+running stat on \S+
+slave \S+ \(.*\)
+start recovery: pdb \S+ passed in flags \S+ \(.*\)
+subsys:\S+ \S+ \S+ \S+ \S+
+subsys:OSS \S+ \S+ \S+ osderr2:0x0
+subsys:System \S+ \S+ \S+ osderr2:0x0
+to lock 100% of \S+ \S+ \S+ \(.*\) pages into physical memory
+validate pdb \S+ flags \S+ valid \S+ pdb flags \S+
+validated domain \S+ flags = \S+

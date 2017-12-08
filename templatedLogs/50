@@ -35,8 +35,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 Using parameter settings in server-side \S+ \S+
 System parameters with non-default values:
@@ -152,7 +150,6 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 Diskgroup with \S+
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
@@ -184,7 +181,6 @@ NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
 NOTE: Instance updated \S+ to \S+ for grp \S+ \(.*\).
-SUCCESS: diskgroup \S+ was \S+
 ORACLE_BASE value has been saved for future startups
 asm agent call crs .//. \{.*\} ./
 NOTE: diskgroup resource \S+ is \S+
@@ -200,12 +196,9 @@ NOTE: \S+ registering with \S+ instance as Standard client \S+ \(.*\) \(.*\)
 NOTE: Standard client \S+ registered, osid \S+ mbr \S+ asmb \S+ \(.*\)
 NOTE: \S+ \(.*\) connected to \S+ instance \S+ osid: \S+ \(.*\)
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 KSXPPING: \S+ selected for Ping
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -239,7 +232,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 Reconfiguration \S+ \(.*\)
 List of instances \(.*\) \S+
 New instances \(.*\) \S+
@@ -273,7 +265,6 @@ End lmon rcfg omni enqueue reconfig \S+
 Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: enlarging \S+ to \S+ threads for group \S+ \(.*\)
-SUCCESS: \S+ enlarged for group \S+ \(.*\)
 NOTE: detected orphaned client id \S+
 NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
 NOTE: detected orphaned client id \S+
@@ -327,14 +318,9 @@ Fix write in gcs resources
 Reconfiguration \S+ \(.*\)
 NOTE: waiting for instance recovery of group \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 ERROR: no read quorum in group: required \S+ found \S+ disks
 WARNING: could not find \S+ disk
@@ -343,7 +329,6 @@ ERROR: \S+ terminating the instance due to storage split in grp \S+
 Errors in file \S+
 ORA-15186: \S+ error function = \[.*\],  error = \[.*\],  mesg = \[.*\]
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -352,18 +337,12 @@ NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
 Errors in file \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 WARNING: Write Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 incarnation:\S+ \S+ result:'.*'
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 NOTE: unable to write any mirror side for diskgroup \S+
 Errors in file \S+
@@ -376,12 +355,9 @@ WARNING: failed to read mirror side \S+ of virtual extent \S+ logical extent \S+
 NOTE: checking \S+ grp = \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 NOTE: Suppressing further \S+ \S+ errors on \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -395,7 +371,6 @@ System State dumped to trace file \S+
 Dumping diagnostic data in directory=\[.*\], requested by \(.*\), summary=\[.*\].
 ORA-1092 \S+ opitsk aborting process
 Instance terminated by \S+ pid = \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 ERROR: Unable to get logical block size for spfile '.*'.
 MEMORY_TARGET defaulting to \S+
 WARNING: \S+ does not support ipclw. Switching to skgxp
@@ -433,8 +408,6 @@ Oracle Database \S+ Enterprise Edition Release \S+ - 64bit \S+
 ORACLE_HOME: \s*\S+
 System name:	Linux
 Node \S+
-Release:	2.6.39-400.245.1.el6uek.x86_64
-Version:	#1 \S+ \S+ \S+ \S+ \S+ \S+ \S+
 Machine:	x86_64
 WARNING: using default parameter settings without any parameter file
 NOTE: remote asm mode is \S+ \(.*\)
@@ -546,19 +519,15 @@ NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so
 ORACLE_BASE from environment = \S+
 asm agent call crs .//. \{.*\} ./
 NOTE: Diskgroup used for \S+ \S+ \S+
-DATA
 NOTE: Diskgroup used for \S+ \S+
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -572,7 +541,6 @@ NOTE: \S+ not being messaged to dismount
 NOTE: cache dismounted group \S+ \(.*\)
 NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
 NOTE: cache deleting context for group \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
@@ -594,20 +562,15 @@ asm agent call crs .//. \{.*\} ./
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
 NOTE: detected orphaned client id \S+
-ALTER \S+ \S+ listener_networks='.*','.*',.* \(.*\)..* SCOPE=MEMORY SID='.*';
-ALTER \S+ \S+ local_listener='.*' SCOPE=MEMORY SID='.*';
 asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -621,7 +584,6 @@ NOTE: \S+ not being messaged to dismount
 NOTE: cache dismounted group \S+ \(.*\)
 NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
 NOTE: cache deleting context for group \S+ \S+
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 ASM Health Checker found \S+ new failures
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
@@ -647,14 +609,11 @@ asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -668,7 +627,6 @@ NOTE: cache dismounted group \S+ \(.*\)
 NOTE: cache ending mount \(.*\) of group \S+ \S+ \S+
 NOTE: cache deleting context for group \S+ \S+
 ERROR: no read quorum in group: required \S+ found \S+ disks
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 ASM Health Checker found \S+ new failures
 GMON dismounting group \S+ at \S+ for pid \S+ osid \S+
 NOTE: Disk \S+ in \S+ \S+ \S+ \S+ \S+
@@ -691,14 +649,11 @@ asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -729,7 +684,6 @@ Additional information: \S+
 ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in disk group
 ORA-15186: \S+ error \S+
 asm agent .//. \{.*\} ./
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 ASM Health Checker found \S+ new failures
 KSXPPING: \S+ selected for Ping
 asm agent .//. \{.*\} .//. \S+
@@ -739,14 +693,11 @@ asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -777,20 +728,16 @@ ORA-15080: synchronous I/O operation failed to read block \S+ of disk \S+ in dis
 ORA-15186: \S+ error \S+
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 asm agent .//. \{.*\} ./
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 ASM Health Checker found \S+ new failures
 asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -828,14 +775,11 @@ asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -873,14 +817,11 @@ asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -915,14 +856,11 @@ asm agent .//. \{.*\} ./
 NOTE: cache registered group \S+ \S+
 NOTE: cache began mount \(.*\) of group \S+ \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:\S+
 incarnation:\S+ \S+ result:'.*'
 subsys:System \S+ \S+ \S+ osderr2:0x0
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 Errors in file \S+
 WARNING: Read Failed. \S+ \S+ \S+ \S+ \S+
-path:AFD:DATA3
 incarnation:\S+ \S+ result:'.*'
 subsys:\S+ \S+ \S+ \S+ \S+
 IO elapsed time: \S+ usec Time waited on I/O: \S+ usec
@@ -954,7 +892,6 @@ ORA-15186: \S+ error \S+
 WARNING: Disk Group \S+ containing \S+ \S+ is not mounted
 asm agent .//. \{.*\} ./
 NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
-AFDLIB \S+ Failed @ \S+ \S+ \S+ err=-5 \S+ \S+ \S+
 NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
 NOTE: client \S+ id \S+ has reconnected to \S+ inst \S+ \(.*\), or has been fenced
 NOTE: \[.*\] \S+ \S+ file \S+ osid \S+
